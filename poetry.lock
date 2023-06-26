@@ -289,13 +289,13 @@ files = [
 
 [[package]]
 name = "rdfdf"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "rdfdf-0.1.0-py3-none-any.whl", hash = "sha256:ca99cdc36c5808a28f006eff3acf629e97934caa1d24c3735160993a59b426f7"},
-    {file = "rdfdf-0.1.0.tar.gz", hash = "sha256:7593a10fcd8d003b874cb95cb082db235227429ae07f2f527e8edf9f3c059479"},
+    {file = "rdfdf-0.1.1-py3-none-any.whl", hash = "sha256:259faee158a894957637814cf37df30bb463742fe6e00936947af3859aaf61a5"},
+    {file = "rdfdf-0.1.1.tar.gz", hash = "sha256:73b86662a83fab7b65456fab5e3fca596eebdb178874388a5d61f3c2c107db58"},
 ]
 
 [package.dependencies]
@@ -366,4 +366,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "9e9e7931d92443c943d9f9f25e855838a67ae73991dd7649053d1d323047067a"
+content-hash = "d748156306cc8c7e1175e6baa6084f73e07f75a9fab5edc7b3328f062569abe4"
