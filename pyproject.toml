@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cortab"
+version = "0.1.0"
+description = ""
+authors = ["Lukas Plank <lupl@tuta.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rdfdf = "^0.1.0"
+pandas = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
