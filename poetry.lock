@@ -289,13 +289,13 @@ files = [
 
 [[package]]
 name = "rdfdf"
-version = "0.1.1"
+version = "0.1.3"
 description = ""
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "rdfdf-0.1.1-py3-none-any.whl", hash = "sha256:259faee158a894957637814cf37df30bb463742fe6e00936947af3859aaf61a5"},
-    {file = "rdfdf-0.1.1.tar.gz", hash = "sha256:73b86662a83fab7b65456fab5e3fca596eebdb178874388a5d61f3c2c107db58"},
+    {file = "rdfdf-0.1.3-py3-none-any.whl", hash = "sha256:857a650dc1fca45d250b2da9ca24e7e6ae79b38b1a2739336cce312fb206d4e5"},
+    {file = "rdfdf-0.1.3.tar.gz", hash = "sha256:8895af1fe94f864d181768006ee89610946730cceb71219c350889587c6c0713"},
 ]
 
 [package.dependencies]
@@ -342,6 +342,17 @@ testing = ["build[virtualenv]", "filelock (>=3.4.0)", "flake8-2020", "ini2toml[l
 testing-integration = ["build[virtualenv]", "filelock (>=3.4.0)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "pytest", "pytest-enabler", "pytest-xdist", "tomli", "virtualenv (>=13.0.0)", "wheel"]
 
 [[package]]
+name = "shortuuid"
+version = "1.0.11"
+description = "A generator library for concise, unambiguous and URL-safe UUIDs."
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "shortuuid-1.0.11-py3-none-any.whl", hash = "sha256:27ea8f28b1bd0bf8f15057a3ece57275d2059d2b0bb02854f02189962c13b6aa"},
+    {file = "shortuuid-1.0.11.tar.gz", hash = "sha256:fc75f2615914815a8e4cb1501b3a513745cb66ef0fd5fc6fb9f8c3fa3481f789"},
+]
+
+[[package]]
 name = "six"
 version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
@@ -366,4 +377,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "d748156306cc8c7e1175e6baa6084f73e07f75a9fab5edc7b3328f062569abe4"
+content-hash = "2f9fc16ad46c7dd07b5a8fae20ba58ea58b653d110473f128012444763e6e67f"
