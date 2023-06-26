@@ -1,7 +1,8 @@
 """Script for corpusTable to RDF transformations."""
 
 import pandas as pd
-from rdfdf import DFGraphConverter
+# from rdfdf import DFGraphConverter
+from rdfdf.rdfdf import DFGraphConverter
 
 from rules import rules
 from table_partitions import (
