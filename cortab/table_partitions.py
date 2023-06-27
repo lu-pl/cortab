@@ -18,3 +18,7 @@ greekdracor_partition = corpus_table.loc[
 fredracor_partition = corpus_table.loc[
     corpus_table["corpusAcronym"] == "FreDraCor"
 ]
+
+dramawebben_partition = corpus_table.loc[
+    corpus_table["corpusAcronym"] == "DramaWebben"
+]
