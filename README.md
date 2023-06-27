@@ -14,4 +14,5 @@ pip install .
 
 ## Usage
 
+Run `convert.py`.
 
