@@ -15,9 +15,9 @@ from table_partitions import (
 )
 
 dfgraph = DFGraphConverter(
-    dataframe=corpus_table,
+    # dataframe=corpus_table,
     # dataframe=rem_partition,
-    # dataframe=dramawebben_partition,
+    dataframe=dramawebben_partition,
     subject_column="corpusAcronym",
     column_rules=rules
 )
