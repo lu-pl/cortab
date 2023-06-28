@@ -70,7 +70,7 @@ def convert_cli(column: str, rows: Iterable[Any], format="ttl"):
     This is a convenience CLI that allows to swiftly test corpusTable conversions;
     Table partitions are create by specifying a column and one or more rows.
 
-    E.g. "dfconvert_cli --column 'id' --rows 14 16" creates a partition
+    E.g. "python dfconvert-cli.py --column 'id' --rows 14 16" creates a partition
     comprised of row 14 and 16 of the 'id' column.
     """
     table_partition = corpus_table[column].isin(list(rows))
