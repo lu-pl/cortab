@@ -77,11 +77,18 @@ def convert_cli(column: str, rows: tuple[Any], format="ttl"):
     comprised of row 14 and 16 of the 'id' column.
     """
 
-    # kludgy handling of integers/strings
-    rows = map(lambda x: int(x) if x.isdigit else x, rows)
+    def _rows():
+        """String/integer handling kludge."""
+        for value in rows:
+            try:
+                value = int(value)
+            except ValueError:
+                pass
+
+            yield value
 
     table_partition = corpus_table[
-        corpus_table[column].isin(list(rows))
+        corpus_table[column].isin(list(_rows()))
     ]
 
     dfconversion = DFGraphConverter(
