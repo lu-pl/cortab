@@ -25,4 +25,4 @@ python dfconvert-cli.py --column 'id' --rows 14 16
 
 creates a partition comprised of row 14 and 16 of the 'id' column (i.e. "SweDraCor" and "ReM") and runs the rdfdf conversion on that partition.
 
-Also a `--format` flag is supported; default value is "ttl", supplied values gets passed to the `format` parameter of `rdflib.Graph.serialize`.
+Also a `--format` flag is supported, default value is "ttl".
