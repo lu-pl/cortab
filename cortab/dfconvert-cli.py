@@ -5,7 +5,7 @@ from typing import Any
 
 import click
 
-from convert import dfconversion
+from dfconvert import dfconversion
 from table_partitions import corpus_table
 
 
