@@ -76,7 +76,8 @@ def convert_cli(column: str, rows: Iterable[Any], format="ttl"):
     table_partition = corpus_table[column].isin(list(rows))
     dfconversion.dataframe = table_partition
 
-    click.echo(dfconversion.serialize(format=format))
+    graph = dfconversion.to_graph()
+    click.echo(graph.serialize(format=format))
 
 
 if __name__ == "__main__":
