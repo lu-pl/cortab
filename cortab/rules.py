@@ -109,7 +109,8 @@ def link_rule() -> Graph:
     """Rule for corpusLink field."""
 
     base_ns = __store__["base_ns"]
-    link = URIRef(__object__)
+    link_uri = URIRef(__object__)
+    link_literal = Literal(__object__, datatype=XSD.anyURI)
     descevent_uri = __store__["descevent"]
     descevent_timespan_uri = clst[f"timespan/{uuid()}"]
     vera = clst["person/vera-charvat"]
@@ -118,20 +119,20 @@ def link_rule() -> Graph:
         (
             base_ns["corpus"],
             crm["P1_is_identified_by"],
-            link
+            link_uri
          ),
         (
-            link,
+            link_uri,
             RDF.type,
             crm["E42_Identifier"]
         ),
         (
-            link,
+            link_uri,
             crm["P2_has_type"],
             base_ns["type/link_type/project-website"]
         ),
         (
-            link,
+            link_uri,
             RDF.value,
             Literal(f"Link to the {__store__['literal_name']} website.")
         )
@@ -146,7 +147,7 @@ def link_rule() -> Graph:
         (
             descevent_uri,
             crm["P16_used_specific_object"],
-            link
+            link_literal
         ),
         (
             descevent_uri,
