@@ -1,0 +1,100 @@
+@prefix ns1: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rem.clscor.io/entity/attrassign/EZqSAYG4ScSWn5gxL6L8SY> a ns1:E13_Attribute_Assignment ;
+    ns1:P134_continued <https://rem.clscor.io/entity/descevent/ZG2EcTWBjDSoAUaTDmBphe> ;
+    ns1:P140_assigned_attribute_to <https://rem.clscor.io/entity/protodoc/N6ahXy8reJtKTm2KhGhpoH> ;
+    ns1:P141_assigned <https://rem.clscor.io/entity/language/TtzH5E9ti2ZnawBVcKZKXK> ;
+    ns1:P177_assigned_property_of_type ns1:P72_has_Language ;
+    ns1:P2_has_type <https://core.clscor.io/entity/uncertain> .
+
+<https://rem.clscor.io/entity/attrassign/LVRd7GWySyqQCoD2rZyxjJ> a ns1:E13_Attibute_Assignment ;
+    ns1:P134_continued <https://rem.clscor.io/entity/descevent/ZG2EcTWBjDSoAUaTDmBphe> ;
+    ns1:P140_assigned_attribute_to <https://rem.clscor.io/entity/corpus> ;
+    ns1:P141_assigned <https://rem.clscor.io/entity/dim/mHbQKg36aFWjRF2rjwThRL> .
+
+<https://swedracor.clscor.io/entity/attrassign/6jbFXNWLSJWgJ53g7paHiY> a ns1:E13_Attribute_Assignment ;
+    ns1:P134_continued <https://swedracor.clscor.io/entity/descevent/3aEkvqubtdtfBiUhhwJSz2> ;
+    ns1:P140_assigned_attribute_to <https://swedracor.clscor.io/entity/protodoc/DznizjBNPNdEmskVWPJmHW> ;
+    ns1:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/sv> ;
+    ns1:P177_assigned_property_of_type ns1:P72_has_Language ;
+    ns1:P2_has_type <https://core.clscor.io/entity/uncertain> .
+
+<https://swedracor.clscor.io/entity/attrassign/ieYo5mZqtg6b9AGRGUTzQH> a ns1:E13_Attibute_Assignment ;
+    ns1:P134_continued <https://swedracor.clscor.io/entity/descevent/3aEkvqubtdtfBiUhhwJSz2> ;
+    ns1:P140_assigned_attribute_to <https://swedracor.clscor.io/entity/corpus> ;
+    ns1:P141_assigned <https://swedracor.clscor.io/entity/dim/faSHmoefM6UhjRv8AqzZqD> .
+
+<https://core.clscor.io/entity/timespan/TgiL5Na7YX4Ffw54cQNWHB> a ns1:E52_Time-Span ;
+    ns1:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    ns1:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/k3cRCFs4GpsAgNkpwXuFhq> a ns1:E52_Time-Span ;
+    ns1:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    ns1:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://doi.org/10.34644/laudatio-dev-xCS3CnMB7CArCQ9C3LRB> a ns1:E42_Identifier ;
+    ns1:P2_has_type <https://rem.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Reference corpus Middle High German website." .
+
+<https://dracor.org/swe> a ns1:E42_Identifier ;
+    ns1:P2_has_type <https://swedracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Swedish Drama Corpus website." .
+
+<https://rem.clscor.io/entity/appellation/3ba2G4JrnkpCFN6RsjLpoC> a ns1:E41_Appellation ;
+    ns1:P2_has_type <https://rem.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "ReM" .
+
+<https://rem.clscor.io/entity/appellation/aMdVzLpfjC6mtHtW4xUh8j> a ns1:E41_Appellation ;
+    ns1:P2_has_type <https://rem.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Reference corpus Middle High German" .
+
+<https://rem.clscor.io/entity/corpus> a <https://clscor.io/ontologies/CRMcls/X1_Corpus> ;
+    ns1:P1_is_identified_by <https://doi.org/10.34644/laudatio-dev-xCS3CnMB7CArCQ9C3LRB>,
+        <https://rem.clscor.io/entity/appellation/3ba2G4JrnkpCFN6RsjLpoC>,
+        <https://rem.clscor.io/entity/appellation/aMdVzLpfjC6mtHtW4xUh8j> .
+
+<https://rem.clscor.io/entity/dim/mHbQKg36aFWjRF2rjwThRL> a ns1:E54_Dimension ;
+    ns1:P90_has_value 396 ;
+    ns1:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://rem.clscor.io/entity/language/TtzH5E9ti2ZnawBVcKZKXK> a ns1:E56_Language ;
+    rdfs:label "Diachronic German" .
+
+<https://swedracor.clscor.io/entity/appellation/5gLRwg3jagKQyUJEeqkQrw> a ns1:E41_Appellation ;
+    ns1:P2_has_type <https://swedracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Swedish Drama Corpus" .
+
+<https://swedracor.clscor.io/entity/appellation/GyCNBXdPPY5ik54VwMZMNV> a ns1:E41_Appellation ;
+    ns1:P2_has_type <https://swedracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "SweDraCor" .
+
+<https://swedracor.clscor.io/entity/corpus> a <https://clscor.io/ontologies/CRMcls/X1_Corpus> ;
+    ns1:P1_is_identified_by <https://dracor.org/swe>,
+        <https://swedracor.clscor.io/entity/appellation/5gLRwg3jagKQyUJEeqkQrw>,
+        <https://swedracor.clscor.io/entity/appellation/GyCNBXdPPY5ik54VwMZMNV> .
+
+<https://swedracor.clscor.io/entity/dim/faSHmoefM6UhjRv8AqzZqD> a ns1:E54_Dimension ;
+    ns1:P90_has_value 68 ;
+    ns1:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/sv> a ns1:E56_Language ;
+    rdfs:label "Swedish" .
+
+<https://core.clscor.io/entity/person/vera-charvat> a ns1:E39_Actor .
+
+<https://core.clscor.io/entity/type/dimension_type/texts> a ns1:E58_Measurement_Unit .
+
+<https://rem.clscor.io/entity/descevent/ZG2EcTWBjDSoAUaTDmBphe> a <https://clscor.io/ontologies/CRMcls/X9_Corpus_Description> ;
+    ns1:P14_carried_out_by <https://core.clscor.io/entity/person/vera-charvat> ;
+    ns1:P16_used_specific_object "https://doi.org/10.34644/laudatio-dev-xCS3CnMB7CArCQ9C3LRB"^^xsd:anyURI ;
+    ns1:P4_has_time-span <https://core.clscor.io/entity/timespan/k3cRCFs4GpsAgNkpwXuFhq> .
+
+<https://swedracor.clscor.io/entity/descevent/3aEkvqubtdtfBiUhhwJSz2> a <https://clscor.io/ontologies/CRMcls/X9_Corpus_Description> ;
+    ns1:P14_carried_out_by <https://core.clscor.io/entity/person/vera-charvat> ;
+    ns1:P16_used_specific_object "https://dracor.org/swe"^^xsd:anyURI ;
+    ns1:P4_has_time-span <https://core.clscor.io/entity/timespan/TgiL5Na7YX4Ffw54cQNWHB> .
+
+
