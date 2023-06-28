@@ -15,8 +15,7 @@ clst = Namespace("https://core.clscor.io/entity/")
 
 
 def name_rule() -> Graph:
-    """Rule for corpusName field + corpus identifier/descevent"""
-
+    """Rule for corpusName field + corpus identifier/descevent."""
     base_ns = Namespace(f"https://{__subject__.lower()}.clscor.io/entity/")
     name_appellation = base_ns[f"appellation/{uuid()}"]
     literal_name = Literal(__object__.strip())
@@ -51,7 +50,7 @@ def name_rule() -> Graph:
         ),
         (
             name_appellation,
-            crm["crm:P2_has_type"],
+            crm["P2_has_type"],
             full_title
         ),
         (
@@ -116,9 +115,10 @@ def link_rule() -> Graph:
     vera = clst["person/vera-charvat"]
 
     link_triples = [
-        (base_ns["corpus"],
-         crm["P1_is_identified_by"],
-         link
+        (
+            base_ns["corpus"],
+            crm["P1_is_identified_by"],
+            link
          ),
         (
             link,
@@ -205,7 +205,7 @@ def language_rule() -> Graph:
     __store__["langs"] = {}
 
     # language triples
-    def generate_lang_uris():
+    def generate_lang_uris() -> Graph:
         """Generate languages triples."""
         for language_value in language_values:
             language_value = language_value.strip() # todo: properly sanitize
@@ -268,7 +268,7 @@ def language_rule() -> Graph:
     return graph
 
 
-def textcount_rule():
+def textcount_rule() -> Graph:
     "Rule for corpusTextCount field."
     # base_ns = __store__["base_ns"]
     base_ns = Namespace(f"https://{__subject__.lower()}.clscor.io/entity/")
@@ -328,7 +328,7 @@ def textcount_rule():
     return graph
 
 
-def wordcount_rule():
+def wordcount_rule() -> Graph:
     "Rule for corpusWordCount field."
     # base_ns = __store__["base_ns"]
     base_ns = Namespace(f"https://{__subject__.lower()}.clscor.io/entity/")
@@ -388,13 +388,14 @@ def wordcount_rule():
 
     return graph
 
+
 rules = {
     "corpusName": name_rule,
     "corpusAcronym": acronym_rule,
     "corpusLink": link_rule,
-    # "corpusLanguage": language_rule,
-    # "corpusTextCount": textcount_rule,
-    "corpusWordCount": wordcount_rule,
+    "corpusLanguage": language_rule,
+    "corpusTextCount": textcount_rule,
+    # "corpusWordCount": wordcount_rule,
 
     # "corpusTimespan": timespan_rule,
     # "corpusFormat": format_rule,

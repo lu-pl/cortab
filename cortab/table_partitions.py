@@ -22,3 +22,6 @@ fredracor_partition = corpus_table.loc[
 dramawebben_partition = corpus_table.loc[
     corpus_table["corpusAcronym"] == "DramaWebben"
 ]
+
+condition = corpus_table["id"].isin([14, 16])
+test_partition = corpus_table[condition]
