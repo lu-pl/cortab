@@ -1,6 +1,6 @@
 # CorTab
 
-CorTab - Script for corpusTable to RDF transformation.
+CorTab - Script for corpusTable to RDF conversions.
 
 ## Setup
 
