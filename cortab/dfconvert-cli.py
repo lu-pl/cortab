@@ -5,8 +5,10 @@ from typing import Any
 
 import click
 
-from dfconvert import dfconversion
 from table_partitions import corpus_table
+from rdfdf.rdfdf import DFGraphConverter
+
+from rules import rules
 
 
 # https://stackoverflow.com/a/48394004/6455731
@@ -60,11 +62,12 @@ class OptionEatAll(click.Option):
               type=str)
 @click.option("-r", "--rows",
               required=True,
+              type=tuple,
               cls=OptionEatAll)
 @click.option("-f", "--format",
               default="ttl",
               show_default=True)
-def convert_cli(column: str, rows: Iterable[Any], format="ttl"):
+def convert_cli(column: str, rows: tuple[Any], format="ttl"):
     """Generate a corpusTable partition to run rdfdf rules on.
 
     This is a convenience CLI that allows to swiftly test corpusTable conversions;
@@ -73,8 +76,19 @@ def convert_cli(column: str, rows: Iterable[Any], format="ttl"):
     E.g. "python dfconvert-cli.py --column 'id' --rows 14 16" creates a partition
     comprised of row 14 and 16 of the 'id' column.
     """
-    table_partition = corpus_table[column].isin(list(rows))
-    dfconversion.dataframe = table_partition
+
+    # kludgy handling of integers/strings
+    rows = map(lambda x: int(x) if x.isdigit else x, rows)
+
+    table_partition = corpus_table[
+        corpus_table[column].isin(list(rows))
+    ]
+
+    dfconversion = DFGraphConverter(
+        dataframe=table_partition,
+        subject_column="corpusAcronym",
+        column_rules=rules
+    )
 
     graph = dfconversion.to_graph()
     click.echo(graph.serialize(format=format))

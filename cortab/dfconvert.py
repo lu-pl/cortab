@@ -14,15 +14,16 @@ from table_partitions import (
     dramawebben_partition,
 )
 
+test_partition = corpus_table[corpus_table["id"].isin([14, 16])]
 
 dfconversion = DFGraphConverter(
-    dataframe=greekdracor_partition,
+    dataframe=test_partition,
     subject_column="corpusAcronym",
     column_rules=rules,
 )
 
-# graph = dfconversion.to_graph()
-# print(graph.serialize())
+graph = dfconversion.to_graph()
+print(graph.serialize())
 
 if __name__ == "__main__":
     graph = dfconversion.to_graph()
