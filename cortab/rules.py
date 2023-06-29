@@ -1,5 +1,8 @@
 """rdfdf rules for corpusTable transformations."""
 
+import functools
+import math
+
 from collections.abc import Iterable, MutableMapping
 
 import langcodes
@@ -327,14 +330,17 @@ def textcount_rule() -> Graph:
 
 
 def wordcount_rule() -> Graph:
-    "Rule for corpusWordCount field."
+    """Rule for corpusWordCount field."""
+
+    if math.isnan(__object__):
+        return None
+
     # base_ns = __store__["base_ns"]
     base_ns = Namespace(f"https://{__subject__.lower()}.clscor.io/entity/")
 
     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
     corpus_uri = base_ns["corpus"]
     dimension_uri = base_ns[f"dim/{uuid()}"]
-
 
     triples = [
         (
@@ -389,11 +395,11 @@ def wordcount_rule() -> Graph:
 
 rules = {
     "corpusName": name_rule,
-    # "corpusAcronym": acronym_rule,
-    # "corpusLink": link_rule,
-    # "corpusLanguage": language_rule,
-    # "corpusTextCount": textcount_rule,
-    # "corpusWordCount": wordcount_rule,
+    "corpusAcronym": acronym_rule,
+    "corpusLink": link_rule,
+    "corpusLanguage": language_rule,
+    "corpusTextCount": textcount_rule,
+    "corpusWordCount": wordcount_rule,
 
     # "corpusTimespan": timespan_rule,
     # "corpusFormat": format_rule,
