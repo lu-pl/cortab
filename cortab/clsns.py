@@ -7,11 +7,17 @@ from rdflib.namespace import NamespaceManager
 from rdflib._type_checking import _NamespaceSetString
 
 
+# namespaces
+crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
+crmcls = Namespace("https://clscor.io/ontologies/CRMcls/")
+clst = Namespace("https://core.clscor.io/entity/")
+
+# namespace mappings
 _NAMESPACE_PREFIXES_CLSINFRA: MutableMapping[str, Namespace] = {
-    "crm": Namespace("http://www.cidoc-crm.org/cidoc-crm/"),
-    "crmcls": Namespace("https://clscor.io/ontologies/CRMcls/"),
-    "clst": Namespace("https://core.clscor.io/entity/")
-    }
+    "crm": crm,
+    "crmcls": crmcls,
+    "clst": clst
+}
 
 
 class CLSInfraNamespaceManager(NamespaceManager):

@@ -8,10 +8,7 @@ from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, XSD
 from shortuuid import uuid
 
-# namespaces
-crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
-crmcls = Namespace("https://clscor.io/ontologies/CRMcls/")
-clst = Namespace("https://core.clscor.io/entity/")
+from clsns import crm, crmcls, clst
 
 
 def name_rule() -> Graph:
