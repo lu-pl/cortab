@@ -1,10 +1,10 @@
 """Script for corpusTable to RDF transformations."""
 
-import pandas as pd
 from rdfdf.rdfdf import DFGraphConverter
 from rdflib import Graph
 
 from rules import rules
+from clsns import CLSInfraNamespaceManager
 
 from table_partitions import (
     corpus_table,
@@ -14,12 +14,14 @@ from table_partitions import (
     dramawebben_partition,
 )
 
-test_partition = corpus_table[corpus_table["id"].isin([14, 16])]
+nsgraph = Graph()
+clsnm = CLSInfraNamespaceManager(nsgraph)
 
 dfconversion = DFGraphConverter(
-    dataframe=test_partition,
+    dataframe=rem_partition,
     subject_column="corpusAcronym",
     column_rules=rules,
+    graph=nsgraph
 )
 
 graph = dfconversion.to_graph()

@@ -5,9 +5,11 @@ from typing import Any
 
 import click
 
-from table_partitions import corpus_table
 from rdfdf.rdfdf import DFGraphConverter
+from rdflib import Graph
 
+from clsns import CLSInfraNamespaceManager
+from table_partitions import corpus_table
 from rules import rules
 
 
@@ -91,10 +93,14 @@ def convert_cli(column: str, rows: tuple[Any], format="ttl"):
         corpus_table[column].isin(list(_rows()))
     ]
 
+    nsgraph = Graph()
+    clsnm = CLSInfraNamespaceManager(nsgraph)
+
     dfconversion = DFGraphConverter(
         dataframe=table_partition,
         subject_column="corpusAcronym",
-        column_rules=rules
+        column_rules=rules,
+        graph=nsgraph
     )
 
     graph = dfconversion.to_graph()
