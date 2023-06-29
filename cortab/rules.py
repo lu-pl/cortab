@@ -392,10 +392,10 @@ def wordcount_rule() -> Graph:
 
 rules = {
     "corpusName": name_rule,
-    "corpusAcronym": acronym_rule,
-    "corpusLink": link_rule,
-    "corpusLanguage": language_rule,
-    "corpusTextCount": textcount_rule,
+    # "corpusAcronym": acronym_rule,
+    # "corpusLink": link_rule,
+    # "corpusLanguage": language_rule,
+    # "corpusTextCount": textcount_rule,
     # "corpusWordCount": wordcount_rule,
 
     # "corpusTimespan": timespan_rule,
