@@ -1,0 +1,24 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .	
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+#evalType vocabulary
+#define all skos:Concepts first
+
+<https://core.clscor.io/entity/type/eval_type/uncertain> a skos:Concept ; 
+	skos:prefLabel "uncertain"@en . 
+
+<https://core.clscor.io/entity/type/eval_type/certain> a skos:Concept ; 
+	skos:prefLabel "certain"@en .  
+
+#define skos:conceptScheme
+
+<https://core.clscor.io/entity/type/eval_type/> a skos:ConceptScheme .
+
+#add skos:Concepts to skos:ConceptScheme
+
+<https://core.clscor.io/entity/type/eval_type/> skos:hasTopConcept
+	<https://core.clscor.io/entity/type/eval_type/uncertain> ,
+	<https://core.clscor.io/entity/type/eval_type/certain> .

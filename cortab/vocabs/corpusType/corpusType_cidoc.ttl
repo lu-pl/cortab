@@ -1,0 +1,54 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+#corpusType vocabulary
+
+<https://clscor.io/entity/type/corpusType/monolingual> a crm:E55_Type ; 
+	rdfs:label "monolingual"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+
+<https://clscor.io/entity/type/corpusType/comparable> a crm:E55_Type ; 
+	rdfs:label "comparable"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+<https://clscor.io/entity/type/corpusType/parallel> a crm:E55_Type ; 
+	rdfs:label "parallel"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+
+<https://clscor.io/entity/type/corpusType/written> a crm:E55_Type ; 
+	rdfs:label "written"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+
+<https://clscor.io/entity/type/corpusType/spoken> a crm:E55_Type ; 
+	rdfs:label "spoken"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+<https://clscor.io/entity/type/corpusType/internet_language> a crm:E55_Type ; 
+	rdfs:label "internet_language"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+<https://clscor.io/entity/type/corpusType/synchronic> a crm:E55_Type ; 
+	rdfs:label "synchronic"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+<https://clscor.io/entity/type/corpusType/diachronic> a crm:E55_Type ; 
+	rdfs:label "diachronic"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+<https://clscor.io/entity/type/corpusType/general> a crm:E55_Type ; 
+	rdfs:label "general"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+<https://clscor.io/entity/type/corpusType/specialized> a crm:E55_Type ; 
+	rdfs:label "specialized"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+
+<https://clscor.io/entity/type/corpusType/reference> a crm:E55_Type ; 
+	rdfs:label "reference"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+
+<https://clscor.io/entity/type/corpusType/representative> a crm:E55_Type ; 
+	rdfs:label "representative"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .

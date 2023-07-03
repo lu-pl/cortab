@@ -1,0 +1,30 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .	
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+#literaryGenre vocabulary
+#define all skos:Concepts first
+
+<https://core.clscor.io/entity/type/literaryGenre/epic> a skos:Concept ; 
+	skos:prefLabel "epic"@en ,
+	skos:altLabel "prose"@en . 
+	
+<https://core.clscor.io/entity/type/literaryGenre/lyric> a skos:Concept ; 
+	skos:prefLabel "lyric"@en ,
+	skos:altLabel "poetry"@en . 
+
+<https://core.clscor.io/entity/type/literaryGenre/drama> a skos:Concept ; 
+	skos:prefLabel "drama"@en .  
+
+#define skos:conceptScheme	
+	
+<https://core.clscor.io/entity/type/literaryGenre> a skos:ConceptScheme .
+
+#add skos:Concepts to skos:ConceptScheme
+
+<https://core.clscor.io/entity/type/literaryGenre> skos:hasTopConcept
+	<https://core.clscor.io/entity/type/literaryGenre/epic> , 
+	<https://core.clscor.io/entity/type/literaryGenre/lyric> , 
+	<https://core.clscor.io/entity/type/literaryGenre/drama> . 

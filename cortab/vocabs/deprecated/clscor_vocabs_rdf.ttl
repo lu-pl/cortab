@@ -1,0 +1,86 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+#corpusType
+
+<https://clscor.io/entity/type/corpusType/monolingual> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+
+<https://clscor.io/entity/type/corpusType/comparable> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+<https://clscor.io/entity/type/corpusType/parallel> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+
+<https://clscor.io/entity/type/corpusType/written> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+
+<https://clscor.io/entity/type/corpusType/spoken> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+<https://clscor.io/entity/type/corpusType/internet_language> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+<https://clscor.io/entity/type/corpusType/synchronic> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+<https://clscor.io/entity/type/corpusType/diachronic> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+<https://clscor.io/entity/type/corpusType/general> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+<https://clscor.io/entity/type/corpusType/specialized> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+
+<https://clscor.io/entity/type/corpusType/reference> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+
+<https://clscor.io/entity/type/corpusType/representative> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/corpusType> .
+	
+
+#literaryGenre
+
+<https://clscor.io/entity/type/literaryGenre/prose> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/literaryGenre> .
+
+<https://clscor.io/entity/type/literaryGenre/poetry> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/literaryGenre> .
+	
+<https://clscor.io/entity/type/literaryGenre/drama> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/literaryGenre> .
+
+	
+#appellationType
+
+<https://clscor.io/entity/type/appellationType/fullTitle> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/appellationType> .
+	
+<https://clscor.io/entity/type/appellationType/acronym> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/appellationType> .
+
+
+#linkType
+
+<https://clscor.io/entity/type/linkType/project-website> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/linkType> .
+	
+<https://clscor.io/entity/type/linkType/info-website> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/linkType> .
+	
+<https://clscor.io/entity/type/linkType/review> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/linkType> .
+	
+<https://clscor.io/entity/type/linkType/exploration-ui> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/linkType> .
+	
+<https://clscor.io/entity/type/linkType/data-repository> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/linkType> .
+	
+<https://clscor.io/entity/type/linkType/api> a crm:E55_Type ; 
+	crm:P2_hasType <https://clscor.io/entity/type/linkType> .
+
+

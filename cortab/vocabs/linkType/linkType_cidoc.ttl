@@ -1,0 +1,30 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+#linkType vocabulary
+
+<https://clscor.io/entity/type/linkType/project-website> a crm:E55_Type ; 
+	rdfs:label "project-website"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/linkType> .
+	
+<https://clscor.io/entity/type/linkType/info-website> a crm:E55_Type ; 
+	rdfs:label "info-website"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/linkType> .
+	
+<https://clscor.io/entity/type/linkType/review> a crm:E55_Type ; 
+	rdfs:label "review"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/linkType> .
+	
+<https://clscor.io/entity/type/linkType/exploration-ui> a crm:E55_Type ; 
+	rdfs:label "exploration-ui"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/linkType> .
+	
+<https://clscor.io/entity/type/linkType/data-repository> a crm:E55_Type ; 
+	rdfs:label "data-repository"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/linkType> .
+	
+<https://clscor.io/entity/type/linkType/api> a crm:E55_Type ; 
+	rdfs:label "api"@en ;
+	crm:P2_hasType <https://clscor.io/entity/type/linkType> .

@@ -1,0 +1,36 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+#features "vocabulary" / list of features
+
+<https://core.clscor.io/entity/feature/pos> a crmcls:X3_Feature ; 
+    rdfs:label “part of speech”@en . 
+	
+<https://core.clscor.io/entity/feature/ner> a crmcls:X3_Feature ; 
+    rdfs:label “named entity recognition”@en . 
+	
+<https://core.clscor.io/entity/feature/tokenization> a crmcls:X3_Feature ; 
+    rdfs:label “tokenization”@en .
+	
+<https://core.clscor.io/entity/feature/lemmatization> a crmcls:X3_Feature ; 
+    rdfs:label “lemmatization”@en .
+	
+<https://core.clscor.io/entity/feature/stemming> a crmcls:X3_Feature ; 
+    rdfs:label “stemming”@en .
+	
+<https://core.clscor.io/entity/feature/morphological_segmentation> a crmcls:X3_Feature ; 
+    rdfs:label “morphological_segmentation”@en .
+	
+<https://core.clscor.io/entity/feature/relationship_extraction> a crmcls:X3_Feature ; 
+    rdfs:label “relationship_extraction”@en .
+	
+<https://core.clscor.io/entity/feature/semantic_parsing> a crmcls:X3_Feature ; 
+    rdfs:label “semantic_parsing”@en .
+	
+<https://core.clscor.io/entity/feature/semantic_role_labelling> a crmcls:X3_Feature ; 
+    rdfs:label “semantic_role_labelling”@en .
+	
+<https://core.clscor.io/entity/feature/topic_segmentation> a crmcls:X3_Feature ; 
+    rdfs:label “topic_segmentation”@en .

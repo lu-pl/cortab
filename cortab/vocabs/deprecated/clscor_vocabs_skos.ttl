@@ -1,0 +1,140 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+#corpusType
+
+<https://clscor.io/entity/type/corpusType/monolingual> a skos:Concept ;
+	skos:prefLabel "monolingual"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/monolingual> .
+
+<https://clscor.io/entity/type/corpusType/comparable> a skos:Concept ;
+	skos:prefLabel "comparable"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/comparable> .
+
+<https://clscor.io/entity/type/corpusType/parallel> a skos:Concept ;
+	skos:prefLabel "parallel"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/parallel> .
+
+<https://clscor.io/entity/type/corpusType/written> a skos:Concept ;
+	skos:prefLabel "written"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/written> .
+
+<https://clscor.io/entity/type/corpusType/spoken> a skos:Concept ;
+	skos:prefLabel "spoken"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/spoken> .
+
+<https://clscor.io/entity/type/corpusType/internet_language> a skos:Concept ;
+	skos:prefLabel "internet_language"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/internet_language> .
+	
+<https://clscor.io/entity/type/corpusType/synchronic> a skos:Concept ;
+	skos:prefLabel "synchronic"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/synchronic> .
+
+<https://clscor.io/entity/type/corpusType/diachronic> a skos:Concept ;
+	skos:prefLabel "diachronic"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/diachronic> .
+
+<https://clscor.io/entity/type/corpusType/general> a skos:Concept ;
+	skos:prefLabel "general"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/general> .	
+
+<https://clscor.io/entity/type/corpusType/specialized> a skos:Concept ;
+	skos:prefLabel "specialized"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/specialized> .	
+
+<https://clscor.io/entity/type/corpusType/reference> a skos:Concept ;
+	skos:prefLabel "reference"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/reference> .	
+
+<https://clscor.io/entity/type/corpusType/reference> a skos:Concept ;
+	skos:prefLabel "reference"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/reference> .	
+
+<https://clscor.io/entity/type/corpusType/representative> a skos:Concept ;
+	skos:prefLabel "representative"@en .
+<https://clscor.io/type/corpusType> a skos:ConceptScheme; 
+	skos:hasTopConcept <https://clscor.io/entity/type/corpusType/representative> .		
+
+#literaryGenre
+
+<https://clscor.io/type/literaryGenre/prose> a skos:Concept ; 
+	skos:prefLabel "prose"@en.  
+<https://clscor.io/type/literaryGenre> a skos:ConceptScheme ; 
+	skos:hasTopConcept <https://clscor.io/type/literaryGenre/prose> . 
+
+<https://clscor.io/type/literaryGenre/poetry> a skos:Concept ; 
+	skos:prefLabel "poetry"@en.  
+<https://clscor.io/type/literaryGenre> a skos:ConceptScheme ; 
+	skos:hasTopConcept <https://clscor.io/type/literaryGenre/poetry> . 
+	
+<https://clscor.io/type/literaryGenre/poem> a skos:Concept ; 
+	skos:prefLabel "poem"@en.  
+<https://clscor.io/type/literaryGenre> a skos:ConceptScheme ; 
+	skos:hasTopConcept <https://clscor.io/type/literaryGenre/poem> . 
+
+#appellationType
+
+<https://clscor.io/entity/type/appellationType/fullTitle> a skos:Concept ; 
+	skos:prefLabel "fullTitle"@en.  
+<https://clscor.io/type/appellationType> a skos:ConceptScheme ; 
+	skos:hasTopConcept <https://clscor.io/entity/type/appellationType/fullTitle> .
+
+<https://clscor.io/entity/type/appellationType/acronym> a skos:Concept ; 
+	skos:prefLabel "acronym"@en.  
+<https://clscor.io/type/appellationType> a skos:ConceptScheme ; 
+	skos:hasTopConcept <https://clscor.io/entity/type/appellationType/acronym> .	
+
+
+#linkType
+
+<https://clscor.io/entity/type/linkType/project-website> a skos:Concept ; 
+	skos:prefLabel "project-website"@en.  
+<https://clscor.io/entity/type/linkType> a skos:ConceptScheme ; 
+	skos:hasTopConcept <https://clscor.io/entity/type/linkType/project-website> .
+
+<https://clscor.io/entity/type/linkType/info-website> a skos:Concept ; 
+	skos:prefLabel "info-website"@en.  
+<https://clscor.io/entity/type/linkType> a skos:ConceptScheme ; 
+	skos:hasTopConcept <https://clscor.io/entity/type/linkType/info-website> .
+
+<https://clscor.io/entity/type/linkType/review> a skos:Concept ; 
+	skos:prefLabel "review"@en.  
+<https://clscor.io/entity/type/linkType> a skos:ConceptScheme ; 
+	skos:hasTopConcept <https://clscor.io/entity/type/linkType/review> .
+
+<https://clscor.io/entity/type/linkType/exploration-ui> a skos:Concept ; 
+	skos:prefLabel "exploration-ui"@en.  
+<https://clscor.io/entity/type/linkType> a skos:ConceptScheme ; 
+	skos:hasTopConcept <https://clscor.io/entity/type/linkType/exploration-ui> .
+
+<https://clscor.io/entity/type/linkType/data-repository> a skos:Concept ; 
+	skos:prefLabel "data-repository"@en.  
+<https://clscor.io/entity/type/linkType> a skos:ConceptScheme ; 
+	skos:hasTopConcept <https://clscor.io/entity/type/linkType/data-repository> .	
+	
+<https://clscor.io/entity/type/linkType/api> a skos:Concept ; 
+	skos:prefLabel "api"@en.  
+<https://clscor.io/entity/type/linkType> a skos:ConceptScheme ; 
+	skos:hasTopConcept <https://clscor.io/entity/type/linkType/api> .
+
+
+	
+
+
+
+
