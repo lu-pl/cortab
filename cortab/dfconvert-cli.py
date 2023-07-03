@@ -15,6 +15,10 @@ from rules import rules
 
 # https://stackoverflow.com/a/48394004/6455731
 class OptionEatAll(click.Option):
+    """Allows for multiple click option.
+
+    See https://stackoverflow.com/a/48394004/6455731.
+    """
 
     def __init__(self, *args, **kwargs):
         self.save_other_options = kwargs.pop('save_other_options', True)
