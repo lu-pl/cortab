@@ -74,13 +74,14 @@ class OptionEatAll(click.Option):
               default="ttl",
               show_default=True)
 def convert_cli(column: str, rows: tuple[Any], format="ttl"):
-    """Generate a corpusTable partition to run rdfdf rules on.
+    """Generate a corpusTable partition and run rdfdf rules on that partition.
 
     This is a convenience CLI that allows to swiftly test corpusTable conversions;
-    Table partitions are create by specifying a column and one or more rows.
+    Table partitions are created by specifying a column and one or more rows.
 
-    E.g. "python dfconvert-cli.py --column 'id' --rows 14 16" creates a partition
-    comprised of row 14 and 16 of the 'id' column.
+    E.g. "python dfconvert-cli.py --column 'id' --rows 14 16"
+    creates a partition comprised of row 14 and 16 of the 'id' column
+    and runs rules according to rules.py on that partition.
     """
 
     def _rows():
