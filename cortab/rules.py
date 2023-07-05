@@ -1,37 +1,36 @@
 """rdfdf rules for corpusTable transformations."""
 
-import functools
-import math
-
-from collections.abc import Iterable, MutableMapping
-
 import langcodes
+import toolz
 
 from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, XSD, OWL, SKOS
 from shortuuid import uuid
 
 from clsns import crm, crmcls, clst
+from helpers.cortab_utils import skip_nan
 
+# graph imports
 from lodkit import importer
 from vocabs.corpusType import corpusType_skos
 from vocabs.literaryGenre import literaryGenre_skos
+from vocabs.formats import formats_crmcls
 
 
-def name_rule() -> Graph:
+def name_rule(subject_field, object_field, store) -> Graph:
     """Rule for corpusName field conversion.
 
     Also basic setup for corpus identifier/descevent/protodoc.
     """
-    base_ns = Namespace(f"https://{__subject__.lower()}.clscor.io/entity/")
+    base_ns = Namespace(f"https://{subject_field.lower()}.clscor.io/entity/")
     name_appellation = base_ns[f"appellation/{uuid()}"]
-    literal_name = Literal(__object__.strip())
+    literal_name = Literal(object_field.strip())
     full_title = base_ns["type/appellation_type/full_title"]
-    protodoc_uri =  base_ns[f"protodoc/{uuid()}"]
+    protodoc_uri = base_ns[f"protodoc/{uuid()}"]
 
     descevent_uri = base_ns[f"descevent/{uuid()}"]
 
-    __store__.update(
+    store.update(
         {
             "base_ns": base_ns,
             "literal_name": literal_name,
@@ -83,11 +82,11 @@ def name_rule() -> Graph:
     return graph
 
 
-def acronym_rule() -> Graph:
+def acronym_rule(subject_field, object_field, store) -> Graph:
     """Rule for corpusAcronym field conversion."""
-
-    base_ns = __store__["base_ns"]
+    base_ns = store["base_ns"]
     acronym_appellation = base_ns[f"appellation/{uuid()}"]
+    store["acronym_appellation"] = acronym_appellation
 
     triples = [
         (
@@ -108,7 +107,7 @@ def acronym_rule() -> Graph:
         (
             acronym_appellation,
             RDF.value,
-            Literal(__object__.strip())
+            Literal(object_field)
         )
     ]
 
@@ -119,17 +118,30 @@ def acronym_rule() -> Graph:
 
     return graph
 
+def acronym_comment_rule(subject_field, object_field, store):
+    """Rule for corpusAcronym_comments."""
+    acronym_appellation = store["acronym_appellation"]
 
-def link_rule() -> Graph:
+    graph = Graph()
+
+    graph.add((
+        acronym_appellation,
+        RDFS.comment,
+        Literal(object_field)
+    ))
+
+    return graph
+
+
+def link_rule(subject_field, object_field, store) -> Graph:
     """Rule for corpusLink field conversion."""
-
-    base_ns = __store__["base_ns"]
-    link_uri = URIRef(__object__)
-    link_literal = Literal(__object__, datatype=XSD.anyURI)
-    descevent_uri = __store__["descevent"]
+    base_ns = store["base_ns"]
+    link_uri = URIRef(object_field)
+    link_literal = Literal(object_field.strip(), datatype=XSD.anyURI)
+    descevent_uri = store["descevent"]
     descevent_timespan_uri = clst[f"timespan/{uuid()}"]
-    __store__["descevent_timespan_uri"] = descevent_timespan_uri
-    protodoc_uri = __store__["protodoc_uri"]
+    store["descevent_timespan_uri"] = descevent_timespan_uri
+    protodoc_uri = store["protodoc_uri"]
 
     # persons
     vera = clst["person/vera-charvat"]
@@ -155,7 +167,7 @@ def link_rule() -> Graph:
         (
             link_uri,
             RDF.value,
-            Literal(f"Link to the {__store__['literal_name']} website.")
+            Literal(f"Link to the {store['literal_name']} website.")
         )
     ]
 
@@ -236,20 +248,19 @@ def link_rule() -> Graph:
     return graph
 
 
-def language_rule() -> Graph:
+def language_rule(subject_field, object_field, store) -> Graph:
     """Rule for corpusLanguage field conversion."""
-    language_values = map(str.strip, __object__.split(","))
+    language_values = map(str.strip, object_field.split(","))
 
-    # base_ns = __store__["base_ns"]
-    base_ns = Namespace(f"https://{__subject__.lower()}.clscor.io/entity/")
+    base_ns = store["base_ns"]
 
     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
-    descevent_uri = __store__["descevent"]
-    protodoc_uri = __store__["protodoc_uri"]
+    descevent_uri = store["descevent"]
+    protodoc_uri = store["protodoc_uri"]
 
     iso_language_ns = Namespace("https://vocabs.acdh.oeaw.ac.at/iso6391/")
 
-    __store__["langs"] = {}
+    store["langs"] = {}
 
     # language triples
     def generate_lang_uris() -> Graph:
@@ -258,7 +269,7 @@ def language_rule() -> Graph:
             language_value = language_value.strip() # todo: properly sanitize
 
             try:
-                lang_uri = __store__["langs"][language_value]
+                lang_uri = store["langs"][language_value]
             except KeyError:
                 try:
                     _lang_iso = langcodes.find(language_value).to_tag()
@@ -269,7 +280,7 @@ def language_rule() -> Graph:
             lang_uri = URIRef(_lang_uri)
 
             # store the language uri and yield language triples
-            __store__["langs"][language_value] = lang_uri
+            store["langs"][language_value] = lang_uri
 
             yield from [
                 (lang_uri, RDF.type, crm["E56_Language"]),
@@ -315,13 +326,12 @@ def language_rule() -> Graph:
     return graph
 
 
-def textcount_rule() -> Graph:
-    "Rule for corpusTextCount field conversion."
-    base_ns = __store__["base_ns"]
+def textcount_rule(subject_field, object_field, store) -> Graph:
+    """Rule for corpusTextCount field conversion."""
+    base_ns = store["base_ns"]
 
     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
     dimension_uri = base_ns[f"dim/{uuid()}"]
-
 
     triples = [
         (
@@ -332,7 +342,7 @@ def textcount_rule() -> Graph:
         (
             attrassign_uri,
             crm["P134_continued"],
-            __store__["descevent"]
+            store["descevent"]
         ),
         (
             attrassign_uri,
@@ -357,7 +367,7 @@ def textcount_rule() -> Graph:
         (
             dimension_uri,
             crm["P90_has_value"],
-            Literal(f"{int(__object__)}", datatype=XSD.integer)
+            Literal(f"{int(object_field)}", datatype=XSD.integer)
         ),
         (
             dimension_uri,
@@ -379,15 +389,9 @@ def textcount_rule() -> Graph:
     return graph
 
 
-def wordcount_rule() -> Graph:
+def wordcount_rule(subject_field, object_field, store) -> Graph:
     """Rule for corpusWordCount field conversion."""
-
-    # TODO: make this a decorator
-    if math.isnan(__object__):
-        return None
-
-    # base_ns = __store__["base_ns"]
-    base_ns = Namespace(f"https://{__subject__.lower()}.clscor.io/entity/")
+    base_ns = store["base_ns"]
 
     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
     corpus_uri = base_ns["corpus"]
@@ -402,7 +406,7 @@ def wordcount_rule() -> Graph:
         (
             attrassign_uri,
             crm["P134_continued"],
-            __store__["descevent"]
+            store["descevent"]
         ),
         (
             attrassign_uri,
@@ -422,7 +426,7 @@ def wordcount_rule() -> Graph:
         (
             dimension_uri,
             crm["P90_has_value"],
-            Literal(f"{int(__object__)}", datatype=XSD.integer)
+            Literal(f"{int(object_field)}", datatype=XSD.integer)
         ),
         (
             dimension_uri,
@@ -443,18 +447,19 @@ def wordcount_rule() -> Graph:
 
     return graph
 
-def timespan_rule():
+
+def timespan_rule(subject_field, object_field, store):
     """Rule for corpusTimespan field conversion."""
-    base_ns = __store__["base_ns"]
+    base_ns = store["base_ns"]
     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
-    descevent_uri = __store__["descevent"]
-    descevent_timespan_uri = __store__["descevent_timespan_uri"]
+    descevent_uri = store["descevent"]
+    descevent_timespan_uri = store["descevent_timespan_uri"]
 
     triples = [
         (
             attrassign_uri,
             RDF.type,
-            crm["E13_Attribute_assignment"]
+            crm["E13_Attribute_Assignment"]
         ),
         (
             attrassign_uri,
@@ -485,6 +490,11 @@ def timespan_rule():
             descevent_timespan_uri,
             RDF.type,
             crm["E52_Time-Span"]
+        ),
+        (
+            descevent_timespan_uri,
+            RDFS.label,
+            Literal(object_field)
         )
     ]
 
@@ -496,18 +506,33 @@ def timespan_rule():
     return graph
 
 
-## TODO: logic for actual formats (not just TEI, see corpusTable)
-def format_rule():
+def format_rule(subject_field, object_field, store):
     """Rule for corpusFormat field conversion."""
-    base_ns = __store__["base_ns"]
+    base_ns = store["base_ns"]
     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
-    descevent_uri  = __store__["descevent"]
-    protodoc_uri = __store__["protodoc_uri"]
+    descevent_uri  = store["descevent"]
+    protodoc_uri = store["protodoc_uri"]
     tei_type_uri = clst["type/format/tei"]
-    # divergent from SweDracor example
-    tei_standard_uri = URIRef("https://vocabs.sshopencloud.eu/vocabularies/standard/tei")
+
+    format_values = map(str.strip, object_field.split(","))
+
+    def format_triples():
+        for format_value in format_values:
+            format_value_uri = next(
+                formats_crmcls.subjects(
+                    RDFS.label,
+                    Literal(format_value, lang="en")
+                )
+            )
+
+            yield (
+                attrassign_uri,
+                crm["P141_assigned"],
+                format_value_uri
+            )
 
     triples = [
+        *format_triples(),
         (
             attrassign_uri,
             RDF.type,
@@ -530,29 +555,8 @@ def format_rule():
         ),
         (
             attrassign_uri,
-            crm["P141_assigned"],
-            tei_type_uri
-        ),
-        (
-            attrassign_uri,
             crm["P2_has_type"],
             clst["type/eval_type/uncertain"]
-        ),
-        # general TODO: bulk-convert types/vocabs
-        (
-            tei_type_uri,
-            RDF.type,
-            crmcls["X7_Format"]
-        ),
-        (
-            tei_type_uri,
-            RDFS.label,
-            Literal("TEI", lang="en")
-        ),
-        (
-            tei_type_uri,
-            OWL.sameAs,
-            tei_standard_uri
         )
     ]
 
@@ -567,9 +571,9 @@ def format_rule():
 ## unclear mapping
 # def annotation_rule():
 #     """Rule for corpusAnnotation field."""
-#     base_ns = __store__["base_ns"]
+#     base_ns = store["base_ns"]
 #     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
-#     protodoc_uri = __store__["protodoc_uri"]
+#     protodoc_uri = store["protodoc_uri"]
 
 #     triples = [
 #         (
@@ -602,16 +606,16 @@ def format_rule():
 #     return graph
 
 
-def type_rule():
+def type_rule(subject_field, object_field, store):
     """Rule for corpusType/corpusType_consolidatedVocab field conversion."""
-    base_ns = __store__["base_ns"]
+    base_ns = store["base_ns"]
     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
-    descevent_uri = __store__["descevent"]
+    descevent_uri = store["descevent"]
 
     corpus_type_uri = next(
         corpusType_skos.subjects(
             SKOS.prefLabel,
-            Literal(__object__, lang="en")
+            Literal(object_field, lang="en")
         )
     )
 
@@ -656,15 +660,15 @@ def type_rule():
     return graph
 
 
-def genre_rule():
+def genre_rule(subject_field, object_field, store):
     """Rule for corpusLiteraryGenre field conversion."""
-    base_ns = __store__["base_ns"]
+    base_ns = store["base_ns"]
     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
-    descevent_uri = __store__["descevent"]
+    descevent_uri = store["descevent"]
 
     def genre_triples():
         """Lookup genre URIs in vocabs and yield P141 statement."""
-        for genre in __object__.split(", "):
+        for genre in object_field.split(", "):
             genre = genre.strip()
 
             corpus_genre_uri = next(
@@ -717,10 +721,10 @@ def genre_rule():
     return graph
 
 
-def api_rule():
+def api_rule(subject_field, object_field, store):
     """Rule for corpusAPI field conversion."""
-    base_ns = __store__["base_ns"]
-    api_uri = URIRef(__object__)
+    base_ns = store["base_ns"]
+    api_uri = URIRef(object_field.strip())
 
     triples = [
         (
@@ -741,7 +745,7 @@ def api_rule():
         (
             api_uri,
             RDF.value,
-            Literal(f"API for the {__store__['literal_name']} website.")
+            Literal(f"API for the {store['literal_name']} website.")
         )
     ]
 
@@ -753,63 +757,65 @@ def api_rule():
     return graph
 
 
-def licence_rule():
-    """Rule for corpusLicence field conversion."""
-    base_ns = __store__["base_ns"]
-    attrassign_uri = base_ns[f"attrassign/{uuid()}"]
-    descevent_uri = __store__["descevent"]
-    protodoc_uri = __store__["protodoc_uri"]
-    licence_uri = URIRef(__object__.strip())
+## TODO
+# @skip_nan
+# def licence_rule(subject_field, object_field, store):
+#     """Rule for corpusLicence field conversion."""
+#     base_ns = store["base_ns"]
+#     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
+#     descevent_uri = store["descevent"]
+#     protodoc_uri = store["protodoc_uri"]
+#     licence_uri = URIRef(object_field.strip())
 
-    triples = [
-        (
-            attrassign_uri,
-            RDF.type,
-            crm["E13_Attribute_Assignment"]
-        ),
-        (
-            attrassign_uri,
-            crm["P134_continued"],
-            descevent_uri
-        ),
-        (
-            attrassign_uri,
-            crm["P140_assigned_attribute_to"],
-            protodoc_uri
-        ),
-        (
-            attrassign_uri,
-            crm["P177_assigned_property_of_type"],
-            crm["Z7_license_type"]
-        ),
-        (
-            attrassign_uri,
-            crm["P141_assigned"],
-            licence_uri
-        ),
-        (
-            attrassign_uri,
-            crm["P2_has_type"],
-            clst["type/eval_type/uncertain"]
-        )
-    ]
+#     triples = [
+#         (
+#             attrassign_uri,
+#             RDF.type,
+#             crm["E13_Attribute_Assignment"]
+#         ),
+#         (
+#             attrassign_uri,
+#             crm["P134_continued"],
+#             descevent_uri
+#         ),
+#         (
+#             attrassign_uri,
+#             crm["P140_assigned_attribute_to"],
+#             protodoc_uri
+#         ),
+#         (
+#             attrassign_uri,
+#             crm["P177_assigned_property_of_type"],
+#             crm["Z7_license_type"]
+#         ),
+#         (
+#             attrassign_uri,
+#             crm["P141_assigned"],
+#             licence_uri
+#         ),
+#         (
+#             attrassign_uri,
+#             crm["P2_has_type"],
+#             clst["type/eval_type/uncertain"]
+#         )
+#     ]
 
-    graph = Graph()
+#     graph = Graph()
 
-    for triple in triples:
-        graph.add(triple)
+#     for triple in triples:
+#         graph.add(triple)
 
-    return graph
+#     return graph
 
 
-def addlink_rule():
+def addlink_rule(subject_field, object_field, store):
     """Rule for additionalLink field conversion."""
-    base_ns = __store__["base_ns"]
+    base_ns = store["base_ns"]
     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
-    addlink_uri = URIRef(__object__.strip())
+    addlink_uri = URIRef(object_field.strip())
 
-    descevent_uri = __store__["descevent"]
-    protodoc_uri = __store__["protodoc_uri"]
+    descevent_uri = store["descevent"]
+    protodoc_uri = store["protodoc_uri"]
 
 
     triples = [
@@ -831,7 +837,7 @@ def addlink_rule():
         (
             addlink_uri,
             RDF.value,
-            Literal(f"Additional link for the {__store__['literal_name']} resource.")
+            Literal(f"Additional link for the {store['literal_name']} resource.")
         )
     ]
 
@@ -843,10 +849,11 @@ def addlink_rule():
     return graph
 
 
-def addinfo_rule():
+def addinfo_rule(subject_field, object_field, store):
     """Rule for corpusInfo field conversion."""
-    base_ns = __store__["base_ns"]
-    info = Literal(__object__.strip())
+    base_ns = store["base_ns"]
+    # info = Literal(object_field.strip())
+    info = Literal(object_field)
 
     triples = [
         (
@@ -864,16 +871,16 @@ def addinfo_rule():
     return graph
 
 
-rules = {
+_rules = {
     "corpusName": name_rule,
     "corpusAcronym": acronym_rule,
+    "corpusAcronym_comments": acronym_comment_rule,
     "corpusLink": link_rule,
     "corpusLanguage": language_rule,
     "corpusTextCount": textcount_rule,
     "corpusWordCount": wordcount_rule,
     "corpusTimespan": timespan_rule,
     "corpusFormat/Schema": format_rule,
-    # TODO:
     # "corpusAnnotation": annotation_rule,
     # corpusType
     "corpusType_consolidatedVocab": type_rule,
@@ -881,8 +888,10 @@ rules = {
     "corpusLiteraryGenre_consolidatedVocab": genre_rule,
     "corpusAPI": api_rule,
     # corpusLicence
-    "corpusLicence_consolidatedVocab": licence_rule,
+    # "corpusLicence_consolidatedVocab": licence_rule,
     "additionalLink": addlink_rule,
     # additionalInfo
     "additionalInfo / commentary": addinfo_rule,
 }
+
+rules = toolz.dicttoolz.valmap(skip_nan, _rules)
