@@ -2,102 +2,103 @@
 @prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl> .
 
 #formats "vocabulary" / list of formats
 
-<https://core.clscor.io/entity/type/format/alto-xml> a crmcls:X7_Format ; 
-	rdfs:label "Alto XML"@en ; 
-	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashxml> . 
-	
-<https://core.clscor.io/entity/type/format/annis> a crmcls:X7_Format ; 
-	rdfs:label "ANNIS"@en ; 
-	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashxml> . 
-	
-<https://core.clscor.io/entity/type/format/cora-xml> a crmcls:X7_Format ; 
-	rdfs:label "CorA XML"@en ; 
-	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashxml> . 
-	
-<https://core.clscor.io/entity/type/format/csv> a crmcls:X7_Format ; 
-	rdfs:label "CSV"@en ; 
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashcsv> . 
+<https://core.clscor.io/entity/type/format/alto-xml> a crmcls:X7_Format ;
+	rdfs:label "Alto XML"@en ;
+	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashxml> .
 
-<https://core.clscor.io/entity/type/format/doc> a crmcls:X7_Format ; 
-	rdfs:label "DOC"@en ; 
-	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashmsword> . 
+<https://core.clscor.io/entity/type/format/annis> a crmcls:X7_Format ;
+	rdfs:label "ANNIS"@en ;
+	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashxml> .
 
-<https://core.clscor.io/entity/type/format/docx> a crmcls:X7_Format ; 
-	rdfs:label "DOCX"@en ; 
-	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashmsword> . 
+<https://core.clscor.io/entity/type/format/cora-xml> a crmcls:X7_Format ;
+	rdfs:label "CorA XML"@en ;
+	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashxml> .
 
-<https://core.clscor.io/entity/type/format/elan> a crmcls:X7_Format ; 
+<https://core.clscor.io/entity/type/format/csv> a crmcls:X7_Format ;
+	rdfs:label "CSV"@en ;
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashcsv> .
+
+<https://core.clscor.io/entity/type/format/doc> a crmcls:X7_Format ;
+	rdfs:label "DOC"@en ;
+	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashmsword> .
+
+<https://core.clscor.io/entity/type/format/docx> a crmcls:X7_Format ;
+	rdfs:label "DOCX"@en ;
+	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashmsword> .
+
+<https://core.clscor.io/entity/type/format/elan> a crmcls:X7_Format ;
 	rdfs:label "ELAN"@en .
 
-<https://core.clscor.io/entity/type/format/epub> a crmcls:X7_Format ; 
-	rdfs:label "EPUB"@en ; 
-	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashepubpluszip> . 
+<https://core.clscor.io/entity/type/format/epub> a crmcls:X7_Format ;
+	rdfs:label "EPUB"@en ;
+	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashepubpluszip> .
 
-<https://core.clscor.io/entity/type/format/html> a crmcls:X7_Format ; 
-	rdfs:label "HTML"@en ; 
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashhtml> . 
-	
-<https://core.clscor.io/entity/type/format/jpeg> a crmcls:X7_Format ; 
-	rdfs:label "JPEG"@en ; 
+<https://core.clscor.io/entity/type/format/html> a crmcls:X7_Format ;
+	rdfs:label "HTML"@en ;
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashhtml> .
+
+<https://core.clscor.io/entity/type/format/jpeg> a crmcls:X7_Format ;
+	rdfs:label "JPEG"@en ;
 	skos:altLabel "JPG"@en ;
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/jpeg> . 
-	
-<https://core.clscor.io/entity/type/format/json> a crmcls:X7_Format ; 
-	rdfs:label "JSON"@en ; 
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashjson> . 
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/jpeg> .
 
-<https://core.clscor.io/entity/type/format/latex> a crmcls:X7_Format ; 
-	rdfs:label "LaTeX"@en ; 
-	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashvnd.latex-z> . 	
-	
-<https://core.clscor.io/entity/type/format/marc21> a crmcls:X7_Format ; 
-	rdfs:label "MARC21"@en ; 
+<https://core.clscor.io/entity/type/format/json> a crmcls:X7_Format ;
+	rdfs:label "JSON"@en ;
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashjson> .
+
+<https://core.clscor.io/entity/type/format/latex> a crmcls:X7_Format ;
+	rdfs:label "LaTeX"@en ;
+	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashvnd.latex-z> .
+
+<https://core.clscor.io/entity/type/format/marc21> a crmcls:X7_Format ;
+	rdfs:label "MARC21"@en ;
 	skos:broaderMatch <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashmarc> .
-	
-<https://core.clscor.io/entity/type/format/mobi> a crmcls:X7_Format ; 
-	rdfs:label "MOBI"@en ; 
+
+<https://core.clscor.io/entity/type/format/mobi> a crmcls:X7_Format ;
+	rdfs:label "MOBI"@en ;
 	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashvnd.amazon.mobi8-ebook> .
 
-<https://core.clscor.io/entity/type/format/pdf> a crmcls:X7_Format ; 
-	rdfs:label "PDF"@en ; 
+<https://core.clscor.io/entity/type/format/pdf> a crmcls:X7_Format ;
+	rdfs:label "PDF"@en ;
 	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashpdf> .
 
-<https://core.clscor.io/entity/type/format/sgml> a crmcls:X7_Format ; 
-	rdfs:label "SGML"@en ; 
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashsgml> .	
+<https://core.clscor.io/entity/type/format/sgml> a crmcls:X7_Format ;
+	rdfs:label "SGML"@en ;
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashsgml> .
 
-<https://core.clscor.io/entity/type/format/tei-p4> a crmcls:X7_Format ; 
-	rdfs:label "TEI P4"@en ; 
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashteiplusxml> .		
-	
-<https://core.clscor.io/entity/type/format/tei-p5> a crmcls:X7_Format ; 
-	rdfs:label "TEI P5"@en ; 
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashteiplusxml> .	
+<https://core.clscor.io/entity/type/format/tei-p4> a crmcls:X7_Format ;
+	rdfs:label "TEI P4"@en ;
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashteiplusxml> .
 
-<https://core.clscor.io/entity/type/format/tei> a crmcls:X7_Format ; 
-	rdfs:label "TEI"@en ; 
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashteiplusxml> . 
-	
-<https://core.clscor.io/entity/type/format/txt> a crmcls:X7_Format ; 
-	rdfs:label "TXT"@en ; 
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/plain> . 
-	
-<https://core.clscor.io/entity/type/format/xml> a crmcls:X7_Format ; 
-	rdfs:label "XML"@en ; 
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashxml> . 
-	
-<https://core.clscor.io/entity/type/format/xml-rdf> a crmcls:X7_Format ; 
-	rdfs:label "XML RDF"@en ; 
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashrdfplusxml> . 
-	
-<https://core.clscor.io/entity/type/format/xsl-fo> a crmcls:X7_Format ; 
-	rdfs:label "XSL FO"@en ; 
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashxml> . 
-	
-<https://core.clscor.io/entity/type/format/zip> a crmcls:X7_Format ; 
-	rdfs:label "ZIP"@en ; 
-	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashzip> . 	
-	
+<https://core.clscor.io/entity/type/format/tei-p5> a crmcls:X7_Format ;
+	rdfs:label "TEI P5"@en ;
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashteiplusxml> .
+
+<https://core.clscor.io/entity/type/format/tei> a crmcls:X7_Format ;
+	rdfs:label "TEI"@en ;
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashteiplusxml> .
+
+<https://core.clscor.io/entity/type/format/txt> a crmcls:X7_Format ;
+	rdfs:label "TXT"@en ;
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/plain> .
+
+<https://core.clscor.io/entity/type/format/xml> a crmcls:X7_Format ;
+	rdfs:label "XML"@en ;
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashxml> .
+
+<https://core.clscor.io/entity/type/format/xml-rdf> a crmcls:X7_Format ;
+	rdfs:label "XML RDF"@en ;
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashrdfplusxml> .
+
+<https://core.clscor.io/entity/type/format/xsl-fo> a crmcls:X7_Format ;
+	rdfs:label "XSL FO"@en ;
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/textslashxml> .
+
+<https://core.clscor.io/entity/type/format/zip> a crmcls:X7_Format ;
+	rdfs:label "ZIP"@en ;
+	owl:sameAs <https://vocabs.sshopencloud.eu/vocabularies/media-type/applicationslashzip> .
