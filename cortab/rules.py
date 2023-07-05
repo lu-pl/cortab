@@ -118,17 +118,20 @@ def acronym_rule(subject_field, object_field, store) -> Graph:
 
     return graph
 
+
 def acronym_comment_rule(subject_field, object_field, store):
     """Rule for corpusAcronym_comments."""
     acronym_appellation = store["acronym_appellation"]
 
     graph = Graph()
 
-    graph.add((
-        acronym_appellation,
-        RDFS.comment,
-        Literal(object_field)
-    ))
+    graph.add(
+        (
+            acronym_appellation,
+            RDFS.comment,
+            Literal(object_field)
+        )
+    )
 
     return graph
 
@@ -757,55 +760,53 @@ def api_rule(subject_field, object_field, store):
     return graph
 
 
-## TODO
-# @skip_nan
-# def licence_rule(subject_field, object_field, store):
-#     """Rule for corpusLicence field conversion."""
-#     base_ns = store["base_ns"]
-#     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
-#     descevent_uri = store["descevent"]
-#     protodoc_uri = store["protodoc_uri"]
-#     licence_uri = URIRef(object_field.strip())
+def licence_rule(subject_field, object_field, store):
+    """Rule for corpusLicence field conversion."""
+    base_ns = store["base_ns"]
+    attrassign_uri = base_ns[f"attrassign/{uuid()}"]
+    descevent_uri = store["descevent"]
+    protodoc_uri = store["protodoc_uri"]
+    licence_uri = URIRef(object_field.strip())
 
-#     triples = [
-#         (
-#             attrassign_uri,
-#             RDF.type,
-#             crm["E13_Attribute_Assignment"]
-#         ),
-#         (
-#             attrassign_uri,
-#             crm["P134_continued"],
-#             descevent_uri
-#         ),
-#         (
-#             attrassign_uri,
-#             crm["P140_assigned_attribute_to"],
-#             protodoc_uri
-#         ),
-#         (
-#             attrassign_uri,
-#             crm["P177_assigned_property_of_type"],
-#             crm["Z7_license_type"]
-#         ),
-#         (
-#             attrassign_uri,
-#             crm["P141_assigned"],
-#             licence_uri
-#         ),
-#         (
-#             attrassign_uri,
-#             crm["P2_has_type"],
-#             clst["type/eval_type/uncertain"]
-#         )
-#     ]
+    triples = [
+        (
+            attrassign_uri,
+            RDF.type,
+            crm["E13_Attribute_Assignment"]
+        ),
+        (
+            attrassign_uri,
+            crm["P134_continued"],
+            descevent_uri
+        ),
+        (
+            attrassign_uri,
+            crm["P140_assigned_attribute_to"],
+            protodoc_uri
+        ),
+        (
+            attrassign_uri,
+            crm["P177_assigned_property_of_type"],
+            crm["Z7_license_type"]
+        ),
+        (
+            attrassign_uri,
+            crm["P141_assigned"],
+            licence_uri
+        ),
+        (
+            attrassign_uri,
+            crm["P2_has_type"],
+            clst["type/eval_type/uncertain"]
+        )
+    ]
 
-#     graph = Graph()
+    graph = Graph()
 
-#     for triple in triples:
-#         graph.add(triple)
+    for triple in triples:
+        graph.add(triple)
 
-#     return graph
+    return graph
 
 
 def addlink_rule(subject_field, object_field, store):
@@ -888,7 +889,7 @@ _rules = {
     "corpusLiteraryGenre_consolidatedVocab": genre_rule,
     "corpusAPI": api_rule,
     # corpusLicence
-    # "corpusLicence_consolidatedVocab": licence_rule,
+    "corpusLicence_link": licence_rule,
     "additionalLink": addlink_rule,
     # additionalInfo
     "additionalInfo / commentary": addinfo_rule,
