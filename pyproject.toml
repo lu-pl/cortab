@@ -8,11 +8,12 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pandas = "^2.0.2"
-rdfdf = "^0.1.3"
 shortuuid = "^1.0.11"
 langcodes = "^3.3.0"
 click = "^8.1.3"
 lodkit = "^0.1.0"
+rdfdf = "^0.1.5"
+toolz = "^0.12.0"
 
 
 [build-system]

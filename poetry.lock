@@ -607,13 +607,13 @@ files = [
 
 [[package]]
 name = "rdfdf"
-version = "0.1.4"
+version = "0.1.6"
 description = ""
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "rdfdf-0.1.4-py3-none-any.whl", hash = "sha256:cc8f569123543f2f7900062640ba2464419f6ba8a95c9692b8187d3315d69b78"},
-    {file = "rdfdf-0.1.4.tar.gz", hash = "sha256:95e6844d2541351352f6964589f98d8ff79e4bdbf5ce8a1f8a6f7ca8246268fd"},
+    {file = "rdfdf-0.1.6-py3-none-any.whl", hash = "sha256:c47a65d3ee2839a2adb133fc35d75fb7afd8ea3583277de4613393a8bc8a140d"},
+    {file = "rdfdf-0.1.6.tar.gz", hash = "sha256:05d79f1260eda7af1770bb8dade9dc2a5e6506b2db4271cd36881e0826614812"},
 ]
 
 [package.dependencies]
@@ -645,24 +645,24 @@ networkx = ["networkx (>=2.0.0,<3.0.0)"]
 
 [[package]]
 name = "reasonable"
-version = "0.2.3"
+version = "0.2.6"
 description = "An OWL 2 RL reasoner with reasonable performance"
 optional = false
 python-versions = "*"
 files = [
-    {file = "reasonable-0.2.3-cp37-abi3-macosx_10_7_x86_64.whl", hash = "sha256:043ce962c61a7a5b32366ee625ce5f4eb4aafe9a88c883c94bf24d1098b7171b"},
-    {file = "reasonable-0.2.3-cp37-abi3-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl", hash = "sha256:ee34471c44d78748f3d9ff6e824de436472f03e3fe767e29bbed55b99d2de2c4"},
-    {file = "reasonable-0.2.3-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:61aafad38d79ff854eabcfc1653f077d352c67a062e6c74c49b35473204687df"},
-    {file = "reasonable-0.2.3-cp37-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:04ee9dc9743e3912cc762676a4112f94f8e33711a84cf8ae46ec005ffa866771"},
-    {file = "reasonable-0.2.3-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:1a889e0255d148a16b283b4582342ca0839845241ea0ad478e6a815887db80cb"},
-    {file = "reasonable-0.2.3-cp37-abi3-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:d04f4b5f02f7904249923f294d4ba8aeed87c64ff0a9eaa23e2508a2a8277f22"},
-    {file = "reasonable-0.2.3-cp37-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:67511cb3cf6a4a16581e9981e35b8470958a4644844cf735de5a286d63eacebd"},
-    {file = "reasonable-0.2.3-cp37-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:7aa8e5dc799ba041714768dab0a2e247f1ddb1bb75ee9e45f919e19cf7e9966b"},
-    {file = "reasonable-0.2.3-cp37-abi3-musllinux_1_2_i686.whl", hash = "sha256:ca909cb0ef49fe0b93a0ded0c690524ca70cfd83066a6ba5e3a0c0fee84a03d7"},
-    {file = "reasonable-0.2.3-cp37-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:ab16643df6e5ea33edf8c524dc742f414d6e8598018b8ebec5d39d159e145fca"},
-    {file = "reasonable-0.2.3-cp37-abi3-win32.whl", hash = "sha256:dc34e7df1f497807a6da2026f0dcc35f6fce0d29a6e24cd8e1c5ac324b690d01"},
-    {file = "reasonable-0.2.3-cp37-abi3-win_amd64.whl", hash = "sha256:8caab4f95ed555dde7016533cf27cd928c9477831bd259f4a20f9d20a339d756"},
-    {file = "reasonable-0.2.3.tar.gz", hash = "sha256:8b4d9b2277445369883954e9e103dad6de05b31f5e7fa68f9f3ac1ba5f5c61ee"},
+    {file = "reasonable-0.2.6-cp37-abi3-macosx_10_7_x86_64.whl", hash = "sha256:4aa6bf17159b96e42821cf7af6738d95330dbc4a88e09834378a28df3333c483"},
+    {file = "reasonable-0.2.6-cp37-abi3-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl", hash = "sha256:f06bfde7d128f3fff653f042634f8c4e68ded0a6150e3fa398e288d993bffbd4"},
+    {file = "reasonable-0.2.6-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:76b9f9279ca06cec734ae1d46494ec1ef9a003e528ca2029856e61ed6d6221c9"},
+    {file = "reasonable-0.2.6-cp37-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:6efa7596329e0b45421b7dd10d5806021850f1e294c41371b601ac611bfbe42b"},
+    {file = "reasonable-0.2.6-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5e6b5aea2bbf4cadcf26a8e256d76670f37848707849a9590f94d2aa1a9c2392"},
+    {file = "reasonable-0.2.6-cp37-abi3-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:f0d9c8a15404cf3e385ee74db6fb06a7f8d04511cd5b69313162fb4068053b06"},
+    {file = "reasonable-0.2.6-cp37-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:53d8d7789f47ff777930448af82b24db081af4fe84e6a1bfd5448de74bb807a6"},
+    {file = "reasonable-0.2.6-cp37-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:a32e66baa6a9d95186a042cab5cb5f250e7764b79da3721ef516726a9a947580"},
+    {file = "reasonable-0.2.6-cp37-abi3-musllinux_1_2_i686.whl", hash = "sha256:995ae5061cb31a38452d68e63dc6a301658e0bb0ef4e4efb98918927c7a73fb7"},
+    {file = "reasonable-0.2.6-cp37-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:e6d066a68672c53d9d28c670839664e860a9f070c007c1318f91800b074710d4"},
+    {file = "reasonable-0.2.6-cp37-abi3-win32.whl", hash = "sha256:6a4260330d62705eb4ea49926cd007b7a9278a9cf6548079a9ea53a6f277a15d"},
+    {file = "reasonable-0.2.6-cp37-abi3-win_amd64.whl", hash = "sha256:02332c2100748106be7580059d6e0a2769022fd687175594fe65ac8935cc32b6"},
+    {file = "reasonable-0.2.6.tar.gz", hash = "sha256:5d26aeb8b6c3f566aa2ef11c308b2208ec7669a30e9113728f243024c6276205"},
 ]
 
 [[package]]
@@ -725,6 +725,17 @@ files = [
 ]
 
 [[package]]
+name = "toolz"
+version = "0.12.0"
+description = "List processing tools and functional utilities"
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "toolz-0.12.0-py3-none-any.whl", hash = "sha256:2059bd4148deb1884bb0eb770a3cde70e7f954cfbbdc2285f1f2de01fd21eb6f"},
+    {file = "toolz-0.12.0.tar.gz", hash = "sha256:88c570861c440ee3f2f6037c4654613228ff40c93a6c25e0eba70d17282c6194"},
+]
+
+[[package]]
 name = "tzdata"
 version = "2023.3"
 description = "Provider of IANA time zone data"
@@ -771,4 +782,4 @@ test = ["websockets"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "b2fde3bd32ba72c736f10e7198e70a38dd82e6540f1063976dd32315f60d76f6"
+content-hash = "abae472b441af04f3c6456eb808a8dae2c049b83524a901204f092d75bd5526c"
