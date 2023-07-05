@@ -3,8 +3,10 @@
 import langcodes
 import toolz
 
+from collections.abc import Generator
+
 from rdflib import Graph, Namespace, URIRef, Literal
-from rdflib.namespace import RDF, RDFS, XSD, OWL, SKOS
+from rdflib.namespace import RDF, RDFS, XSD, SKOS
 from shortuuid import uuid
 
 from clsns import crm, crmcls, clst
@@ -15,6 +17,10 @@ from lodkit import importer
 from vocabs.corpusType import corpusType_skos
 from vocabs.literaryGenre import literaryGenre_skos
 from vocabs.formats import formats_crmcls
+
+
+_TripleObject = URIRef | Literal
+_Triple = tuple[URIRef, URIRef, _TripleObject]
 
 
 def name_rule(subject_field, object_field, store) -> Graph:
@@ -266,8 +272,8 @@ def language_rule(subject_field, object_field, store) -> Graph:
     store["langs"] = {}
 
     # language triples
-    def generate_lang_uris() -> Graph:
-        """Generate languages triples."""
+    def generate_lang_uris() -> Generator[_Triple, None, None]:
+        """Generate language triples."""
         for language_value in language_values:
             language_value = language_value.strip() # todo: properly sanitize
 
@@ -814,10 +820,6 @@ def addlink_rule(subject_field, object_field, store):
     base_ns = store["base_ns"]
     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
     addlink_uri = URIRef(object_field.strip())
-
-    descevent_uri = store["descevent"]
-    protodoc_uri = store["protodoc_uri"]
-
 
     triples = [
         (
