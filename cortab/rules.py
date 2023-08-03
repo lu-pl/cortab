@@ -817,36 +817,41 @@ def licence_rule(subject_field, object_field, store):
 
 def addlink_rule(subject_field, object_field, store):
     """Rule for additionalLink field conversion."""
-    base_ns = store["base_ns"]
-    attrassign_uri = base_ns[f"attrassign/{uuid()}"]
-    addlink_uri = URIRef(object_field.strip())
 
-    triples = [
-        (
-            attrassign_uri,
-            crm["P1_is_identified_by"],
-            addlink_uri
-        ),
-        (
-            addlink_uri,
-            RDF.type,
-            crm["E42_Identifier"]
-        ),
-        (
-            addlink_uri,
-            crm["P2_has_type"],
-            clst["type/link_type/data-repository"]
-        ),
-        (
-            addlink_uri,
-            RDF.value,
-            Literal(f"Additional link for the {store['literal_name']} resource.")
-        )
-    ]
+    def addlink_triples():
+        """..."""
+        for addlink in map(str.strip, object_field.split(",")):
+            base_ns = store["base_ns"]
+            attrassign_uri = base_ns[f"attrassign/{uuid()}"]
+            addlink_uri = URIRef(addlink)
+
+            yield from [
+                (
+                    attrassign_uri,
+                    crm["P1_is_identified_by"],
+                    addlink_uri
+                ),
+                (
+                    addlink_uri,
+                    RDF.type,
+                    crm["E42_Identifier"]
+                ),
+                (
+                    addlink_uri,
+                    crm["P2_has_type"],
+                    clst["type/link_type/data-repository"]
+                ),
+                (
+                    addlink_uri,
+                    RDF.value,
+                    Literal(
+                        f"Additional link for the {store['literal_name']} resource.")
+                )
+            ]
 
     graph = Graph()
 
-    for triple in triples:
+    for triple in addlink_triples():
         graph.add(triple)
 
     return graph
@@ -891,7 +896,7 @@ _rules = {
     "corpusLiteraryGenre_consolidatedVocab": genre_rule,
     "corpusAPI": api_rule,
     # corpusLicence
-    "corpusLicence_link": licence_rule,
+    # "corpusLicence_link": licence_rule,
     "additionalLink": addlink_rule,
     # additionalInfo
     "additionalInfo / commentary": addinfo_rule,
