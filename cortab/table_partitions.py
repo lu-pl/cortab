@@ -3,8 +3,9 @@
 import pathlib
 import pandas as pd
 
-_corpus_table_path = pathlib.Path(__file__).parent / "corpusTable_prep.xlsx"
-corpus_table = pd.read_excel(_corpus_table_path, engine="openpyxl")
+# _corpus_table_path = pathlib.Path(__file__).parent / "corpusTable_prep.xlsx"
+_corpus_table_path = pathlib.Path(__file__).parent / "corpusTable.csv"
+corpus_table = pd.read_csv(_corpus_table_path)
 
 # partitions
 rem_partition = corpus_table.loc[
