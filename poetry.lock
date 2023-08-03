@@ -263,13 +263,13 @@ marisa-trie = ">=0.7.7,<0.8.0"
 
 [[package]]
 name = "lodkit"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 optional = false
 python-versions = ">=3.11,<4.0"
 files = [
-    {file = "lodkit-0.1.0-py3-none-any.whl", hash = "sha256:2afc9ecb94bf576bd58a7b85ffcce352367d36e4a3b92b35038e7fd87c4beea7"},
-    {file = "lodkit-0.1.0.tar.gz", hash = "sha256:a62f3eb59003c90ec8c82b3a7f49eddf49f61aa45958915a40cba8f54b270d61"},
+    {file = "lodkit-0.1.1-py3-none-any.whl", hash = "sha256:1fd4d18805a70a83eb0e93b13f68463ddd78149540e30d4c0db6d6a0d9b45faa"},
+    {file = "lodkit-0.1.1.tar.gz", hash = "sha256:edacfdc0b3241bf0bed7193aa23d7c617fddbc5de8e3e5fd467b4e969928d647"},
 ]
 
 [package.dependencies]
@@ -782,4 +782,4 @@ test = ["websockets"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "abae472b441af04f3c6456eb808a8dae2c049b83524a901204f092d75bd5526c"
+content-hash = "f3bd5ae1397fb2ebe50e8d35ecdb186ad5054225a0aa7d3571631abfce24e508"
