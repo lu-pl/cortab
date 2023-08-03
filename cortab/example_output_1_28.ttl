@@ -1,0 +1,2194 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://1000novel.clscor.io/entity/attrassign/6MdQpKWrQu9GTK5M2wTrDH> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://1000novel.clscor.io/entity/descevent/Bd9a9j3bhTsMEZ6kAAAywt> ;
+    crm:P140_assigned_attribute_to <https://1000novel.clscor.io/entity/protodoc/C2ZdHhf9FMjm6zCoKvioRk> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/pl> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://1000novel.clscor.io/entity/attrassign/FZKYJsn86ZLuJwWHk9hapx> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://1000novel.clscor.io/entity/descevent/Bd9a9j3bhTsMEZ6kAAAywt> ;
+    crm:P140_assigned_attribute_to <https://1000novel.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/specialized> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://1000novel.clscor.io/entity/attrassign/LvNkgqrCTBPsJoxH2a4RLT> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://1000novel.clscor.io/entity/descevent/Bd9a9j3bhTsMEZ6kAAAywt> ;
+    crm:P140_assigned_attribute_to <https://1000novel.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/epic> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://1000novel.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://1000novel.clscor.io/entity/attrassign/RY994PJf46JWErSJbT4GXW> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://1000novel.clscor.io/entity/descevent/Bd9a9j3bhTsMEZ6kAAAywt> ;
+    crm:P140_assigned_attribute_to <https://1000novel.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://1000novel.clscor.io/entity/dim/LmHigdbtMwCg6uYSaNjKZn> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://1000novel.clscor.io/entity/attrassign/Y9AHQPv9AociT7GCCXBgsJ> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://1000novel.clscor.io/entity/descevent/Bd9a9j3bhTsMEZ6kAAAywt> ;
+    crm:P140_assigned_attribute_to <https://1000novel.clscor.io/entity/protodoc/C2ZdHhf9FMjm6zCoKvioRk> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/txt> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://alsdracor.clscor.io/entity/attrassign/6wpcpRy5h7cAa7urT6hnX5> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://alsdracor.clscor.io/entity/descevent/5cguWxAAADAKnEQoUTZ8bv> ;
+    crm:P140_assigned_attribute_to <https://alsdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://alsdracor.clscor.io/entity/dim/eiT5jjgmdBGUo7hUvMQvMo> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://alsdracor.clscor.io/entity/attrassign/8mVESKCX4FYar28FninL7q> crm:P1_is_identified_by <https://github.com/dracor-org/alsdracor> .
+
+<https://alsdracor.clscor.io/entity/attrassign/MVStJtMHUtd89hFyVzGiPQ> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://alsdracor.clscor.io/entity/descevent/5cguWxAAADAKnEQoUTZ8bv> ;
+    crm:P140_assigned_attribute_to <https://alsdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/timespan/AsbZwSn8zGjNjeSw7WCXjB> ;
+    crm:P177_assigned_property_of_type crm:P4_has_time-span ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://alsdracor.clscor.io/entity/attrassign/PnFgtpMwWPJz4sNFJ92aXM> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://alsdracor.clscor.io/entity/descevent/5cguWxAAADAKnEQoUTZ8bv> ;
+    crm:P140_assigned_attribute_to <https://alsdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://alsdracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://alsdracor.clscor.io/entity/attrassign/RbkawsY5QGvnU2jqpCe8YA> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://alsdracor.clscor.io/entity/descevent/5cguWxAAADAKnEQoUTZ8bv> ;
+    crm:P140_assigned_attribute_to <https://alsdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://alsdracor.clscor.io/entity/attrassign/U2fSQrWGMtMbCgKohc2UJv> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://alsdracor.clscor.io/entity/descevent/5cguWxAAADAKnEQoUTZ8bv> ;
+    crm:P140_assigned_attribute_to <https://alsdracor.clscor.io/entity/protodoc/77yzBcMqg6YgCXDAyfwhHw> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://alsdracor.clscor.io/entity/attrassign/bHmMteezc95TJt6FziDpcH> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://alsdracor.clscor.io/entity/descevent/5cguWxAAADAKnEQoUTZ8bv> ;
+    crm:P140_assigned_attribute_to <https://alsdracor.clscor.io/entity/protodoc/77yzBcMqg6YgCXDAyfwhHw> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/gsw> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://anemoskala.clscor.io/entity/attrassign/3Y6L3bkQFmN8GhUE2NjTiT> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://anemoskala.clscor.io/entity/descevent/cKX7EgwGaMqdjvCt5BLdJE> ;
+    crm:P140_assigned_attribute_to <https://anemoskala.clscor.io/entity/protodoc/LqbBwGg9M2LoioFXfod9WZ> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei>,
+        <https://core.clscor.io/entity/type/format/txt> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://anemoskala.clscor.io/entity/attrassign/MES6vKri55qcet3AE5EnpK> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://anemoskala.clscor.io/entity/descevent/cKX7EgwGaMqdjvCt5BLdJE> ;
+    crm:P140_assigned_attribute_to <https://anemoskala.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/timespan/Dpohir9PFLo4opn8Atr3Ej> ;
+    crm:P177_assigned_property_of_type crm:P4_has_time-span ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://anemoskala.clscor.io/entity/attrassign/YBdZZGqDRQDyZLtRr985Mz> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://anemoskala.clscor.io/entity/descevent/cKX7EgwGaMqdjvCt5BLdJE> ;
+    crm:P140_assigned_attribute_to <https://anemoskala.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/lyric> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://anemoskala.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://anemoskala.clscor.io/entity/attrassign/dH5rPVuM8Zaa9p7J2gQjmJ> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://anemoskala.clscor.io/entity/descevent/cKX7EgwGaMqdjvCt5BLdJE> ;
+    crm:P140_assigned_attribute_to <https://anemoskala.clscor.io/entity/protodoc/LqbBwGg9M2LoioFXfod9WZ> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/el> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://anemoskala.clscor.io/entity/attrassign/h2iPkTV2mE8EMXdLxsFdNw> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://anemoskala.clscor.io/entity/descevent/cKX7EgwGaMqdjvCt5BLdJE> ;
+    crm:P140_assigned_attribute_to <https://anemoskala.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://annotlit.clscor.io/entity/attrassign/X8WDAnFALxJHBuuPuEaoTS> crm:P1_is_identified_by <http://www.annotating-literature.org/annotations/> .
+
+<https://annotlit.clscor.io/entity/attrassign/XKZtPkeS6c4kmPE9eWwuAn> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://annotlit.clscor.io/entity/descevent/C2pwJRuiHzm2U5NRiEW7ZM> ;
+    crm:P140_assigned_attribute_to <https://annotlit.clscor.io/entity/protodoc/d7AimQEavN5XaVGfLcr9Fe> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/en> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://annotlit.clscor.io/entity/attrassign/df4yao6ztntTeAGa6AyvUd> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://annotlit.clscor.io/entity/descevent/C2pwJRuiHzm2U5NRiEW7ZM> ;
+    crm:P140_assigned_attribute_to <https://annotlit.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/epic>,
+        <https://core.clscor.io/entity/type/literaryGenre/lyric> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://annotlit.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://annotlit.clscor.io/entity/attrassign/iVoEDGyEMDULtVyziAzxQn> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://annotlit.clscor.io/entity/descevent/C2pwJRuiHzm2U5NRiEW7ZM> ;
+    crm:P140_assigned_attribute_to <https://annotlit.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://bashdracor.clscor.io/entity/attrassign/5HFmHJXdFAZ53E4JHHgyro> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://bashdracor.clscor.io/entity/descevent/XTyx6uvr53DC7BXRiZ2Dxs> ;
+    crm:P140_assigned_attribute_to <https://bashdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://bashdracor.clscor.io/entity/dim/WpPNuhPGztWEkc6khB5Moj> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://bashdracor.clscor.io/entity/attrassign/PSWdDNxb4Ve2MSuwabTDTL> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://bashdracor.clscor.io/entity/descevent/XTyx6uvr53DC7BXRiZ2Dxs> ;
+    crm:P140_assigned_attribute_to <https://bashdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://bashdracor.clscor.io/entity/attrassign/ShZwwaYM8M7w8eDPJLqKxS> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://bashdracor.clscor.io/entity/descevent/XTyx6uvr53DC7BXRiZ2Dxs> ;
+    crm:P140_assigned_attribute_to <https://bashdracor.clscor.io/entity/protodoc/abLLgwNbVdMH4rhRiqqdfV> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/ba> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://bashdracor.clscor.io/entity/attrassign/iHcx5dqtSVQYLpK3qhWbhH> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://bashdracor.clscor.io/entity/descevent/XTyx6uvr53DC7BXRiZ2Dxs> ;
+    crm:P140_assigned_attribute_to <https://bashdracor.clscor.io/entity/protodoc/abLLgwNbVdMH4rhRiqqdfV> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://bashdracor.clscor.io/entity/attrassign/kTEk2t8CiR3R2rBHt6dwYh> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://bashdracor.clscor.io/entity/descevent/XTyx6uvr53DC7BXRiZ2Dxs> ;
+    crm:P140_assigned_attribute_to <https://bashdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://bashdracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://caldracor.clscor.io/entity/attrassign/7cMfPdTvqCmuBkcf9bsK8c> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://caldracor.clscor.io/entity/descevent/GQoaQWhQkbZiWNxL9xpaUc> ;
+    crm:P140_assigned_attribute_to <https://caldracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://caldracor.clscor.io/entity/attrassign/8UbsmZBMTgMzYL8NxaRZn2> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://caldracor.clscor.io/entity/descevent/GQoaQWhQkbZiWNxL9xpaUc> ;
+    crm:P140_assigned_attribute_to <https://caldracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://caldracor.clscor.io/entity/dim/NzfyfDwhPgXJWf2Je7DMpC> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://caldracor.clscor.io/entity/attrassign/THDY5UzhvZu4SW4dKWtfMj> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://caldracor.clscor.io/entity/descevent/GQoaQWhQkbZiWNxL9xpaUc> ;
+    crm:P140_assigned_attribute_to <https://caldracor.clscor.io/entity/protodoc/F7nuEfmRkjg29X5rYW2j8n> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://caldracor.clscor.io/entity/attrassign/UZzdcHkgKL7VT8yWmzLr5F> crm:P1_is_identified_by <https://github.com/dracor-org/caldracor> .
+
+<https://caldracor.clscor.io/entity/attrassign/YYcdk6XhBfhwpvnXG6Gi7F> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://caldracor.clscor.io/entity/descevent/GQoaQWhQkbZiWNxL9xpaUc> ;
+    crm:P140_assigned_attribute_to <https://caldracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://caldracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://caldracor.clscor.io/entity/attrassign/kkvf63CEC9vX3VPFSPG9sT> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://caldracor.clscor.io/entity/descevent/GQoaQWhQkbZiWNxL9xpaUc> ;
+    crm:P140_assigned_attribute_to <https://caldracor.clscor.io/entity/protodoc/F7nuEfmRkjg29X5rYW2j8n> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/es> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://cligs.clscor.io/entity/attrassign/CYrvtqvNmFt5HHWSNor87t> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://cligs.clscor.io/entity/descevent/PPRM6baKsw4aG2ALHXQaBg> ;
+    crm:P140_assigned_attribute_to <https://cligs.clscor.io/entity/protodoc/Dv6qhZMorxQSCitzPT6aXu> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/es>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/fr> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://cligs.clscor.io/entity/attrassign/DK8FXV37iXVkUPkDSEUvRg> crm:P1_is_identified_by <https://github.com/cligs/toolbox> .
+
+<https://cligs.clscor.io/entity/attrassign/QvmJwt6kyqsYuTgYmYK5Yb> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://cligs.clscor.io/entity/descevent/PPRM6baKsw4aG2ALHXQaBg> ;
+    crm:P140_assigned_attribute_to <https://cligs.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/specialized> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://cligs.clscor.io/entity/attrassign/enCn29wpSFEgJvqiFcBWTF> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://cligs.clscor.io/entity/descevent/PPRM6baKsw4aG2ALHXQaBg> ;
+    crm:P140_assigned_attribute_to <https://cligs.clscor.io/entity/protodoc/Dv6qhZMorxQSCitzPT6aXu> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://diager.clscor.io/entity/attrassign/67sBHJ5gDY7bQ855iyWYRA> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://diager.clscor.io/entity/descevent/NZaQ6gY9oyjgg8ydTCwYZ6> ;
+    crm:P140_assigned_attribute_to <https://diager.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/reference> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://diager.clscor.io/entity/attrassign/GZxFLwcWc6JkTE477ZTzgN> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://diager.clscor.io/entity/descevent/NZaQ6gY9oyjgg8ydTCwYZ6> ;
+    crm:P140_assigned_attribute_to <https://diager.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/epic>,
+        <https://core.clscor.io/entity/type/literaryGenre/lyric> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://diager.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://diager.clscor.io/entity/attrassign/QKSQ2pb7T8DpVYfg6tyqvP> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://diager.clscor.io/entity/descevent/NZaQ6gY9oyjgg8ydTCwYZ6> ;
+    crm:P140_assigned_attribute_to <https://diager.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/timespan/YJyK2bCk64fTRVXH4jvhCA> ;
+    crm:P177_assigned_property_of_type crm:P4_has_time-span ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://diager.clscor.io/entity/attrassign/T5xU9MRJTnMC3xQUgkxGvk> crm:P1_is_identified_by <http://www.deutschdiachrondigital.de/> .
+
+<https://diager.clscor.io/entity/attrassign/TTJA3S9tuy5KHGrbRwUNVn> a crm:E13_Attribute_assignment ;
+    crm:P134_continued <https://diager.clscor.io/entity/descevent/NZaQ6gY9oyjgg8ydTCwYZ6> ;
+    crm:P140_assigned_attribute_to <https://diager.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://diager.clscor.io/entity/dim/GKHioxDfNrFGduHc6As8Hu> .
+
+<https://diager.clscor.io/entity/attrassign/eypE6GC8Sb2tNcPjWdWMKf> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://diager.clscor.io/entity/descevent/NZaQ6gY9oyjgg8ydTCwYZ6> ;
+    crm:P140_assigned_attribute_to <https://diager.clscor.io/entity/protodoc/3LtBeAURRnnaogtCd8otjo> ;
+    crm:P141_assigned <https://diager.clscor.io/entity/language/VGZAi9SNGa7dTM4yB2cVSV> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://diager.clscor.io/entity/attrassign/iz4eUAUhztHq6rfhMvkfwU> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://diager.clscor.io/entity/descevent/NZaQ6gY9oyjgg8ydTCwYZ6> ;
+    crm:P140_assigned_attribute_to <https://diager.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://diager.clscor.io/entity/dim/2x8ZHAseP6BBJ94gLSXWKY> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://diager.clscor.io/entity/attrassign/mj6PWG4TyK9wcNAWCUvceG> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://diager.clscor.io/entity/descevent/NZaQ6gY9oyjgg8ydTCwYZ6> ;
+    crm:P140_assigned_attribute_to <https://diager.clscor.io/entity/protodoc/3LtBeAURRnnaogtCd8otjo> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/annis>,
+        <https://core.clscor.io/entity/type/format/elan>,
+        <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://dracor .clscor.io/entity/attrassign/QL7TeMD7qHhwEiuCXvBWeZ> crm:P1_is_identified_by <https://github.com/dracor-org> .
+
+<https://dracor .clscor.io/entity/attrassign/QYtrgMrSj4urp4Z7RQYZp5> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://dracor .clscor.io/entity/descevent/E9X4FEAE94mVJwuNSRm3k8> ;
+    crm:P140_assigned_attribute_to <https://dracor .clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://dracor .clscor.io/entity/type/eval_type/uncertain> .
+
+<https://dracor .clscor.io/entity/attrassign/hLbbR82uMGWTDNAkEsHhop> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://dracor .clscor.io/entity/descevent/E9X4FEAE94mVJwuNSRm3k8> ;
+    crm:P140_assigned_attribute_to <https://dracor .clscor.io/entity/protodoc/PQ2YZJZLmQsBVf8v2tgY9n> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://dracor .clscor.io/entity/attrassign/hmt3HFZFinQ2QRyqxvcBiU> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://dracor .clscor.io/entity/descevent/E9X4FEAE94mVJwuNSRm3k8> ;
+    crm:P140_assigned_attribute_to <https://dracor .clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://dracor .clscor.io/entity/attrassign/kk4f7DUVtEF522LzS2e4Uw> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://dracor .clscor.io/entity/descevent/E9X4FEAE94mVJwuNSRm3k8> ;
+    crm:P140_assigned_attribute_to <https://dracor .clscor.io/entity/protodoc/PQ2YZJZLmQsBVf8v2tgY9n> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/ba>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/de>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/el>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/es>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/fr>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/gsw>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/it>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/rom>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/ru>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/sv>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/tt> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://dta.clscor.io/entity/attrassign/NaCmqXwfzqEfH6Puhowbsy> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://dta.clscor.io/entity/descevent/PNPLNFyesda78AgZfqUkWU> ;
+    crm:P140_assigned_attribute_to <https://dta.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/timespan/34KGcY5UPGkVvyY9qMt49P> ;
+    crm:P177_assigned_property_of_type crm:P4_has_time-span ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://dta.clscor.io/entity/attrassign/PVsE5Zcn7dTcXYMNqN7hea> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://dta.clscor.io/entity/descevent/PNPLNFyesda78AgZfqUkWU> ;
+    crm:P140_assigned_attribute_to <https://dta.clscor.io/entity/protodoc/5rtw26b8DEZ23UNoU2UFYN> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://dta.clscor.io/entity/attrassign/Se9edwZ79omeHH9imbybas> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://dta.clscor.io/entity/descevent/PNPLNFyesda78AgZfqUkWU> ;
+    crm:P140_assigned_attribute_to <https://dta.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://dta.clscor.io/entity/dim/jqZWxVbftzYjxXoc7gEbjt> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://dta.clscor.io/entity/attrassign/TqgqXFSYMgbgRXdCy9deb2> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://dta.clscor.io/entity/descevent/PNPLNFyesda78AgZfqUkWU> ;
+    crm:P140_assigned_attribute_to <https://dta.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://dta.clscor.io/entity/attrassign/Wg6hTVJS3EMPBbKNVLogbv> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://dta.clscor.io/entity/descevent/PNPLNFyesda78AgZfqUkWU> ;
+    crm:P140_assigned_attribute_to <https://dta.clscor.io/entity/protodoc/5rtw26b8DEZ23UNoU2UFYN> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/de> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://eltec.clscor.io/entity/attrassign/2uaGGC38ZRzJ9uArM5oXY5> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://eltec.clscor.io/entity/descevent/bHheNjMXexxaw7qHDTFh4o> ;
+    crm:P140_assigned_attribute_to <https://eltec.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://eltec.clscor.io/entity/dim/fPgAbVyEWBQ73urZ2jfDYr> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://eltec.clscor.io/entity/attrassign/Ba99PtPSLFCPYE78iS8avK> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://eltec.clscor.io/entity/descevent/bHheNjMXexxaw7qHDTFh4o> ;
+    crm:P140_assigned_attribute_to <https://eltec.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/timespan/EVPFyU4ELZyGxgnzdxCrNj> ;
+    crm:P177_assigned_property_of_type crm:P4_has_time-span ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://eltec.clscor.io/entity/attrassign/J8TRUyDgc3br8vmg3mv7PV> crm:P1_is_identified_by <https://distantreading.github.io/> .
+
+<https://eltec.clscor.io/entity/attrassign/J9fffrnX6C2d3AxDVQ9Dv5> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://eltec.clscor.io/entity/descevent/bHheNjMXexxaw7qHDTFh4o> ;
+    crm:P140_assigned_attribute_to <https://eltec.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://eltec.clscor.io/entity/attrassign/N8eoLV5hKd6xoKD8FgDBnU> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://eltec.clscor.io/entity/descevent/bHheNjMXexxaw7qHDTFh4o> ;
+    crm:P140_assigned_attribute_to <https://eltec.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/epic> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://eltec.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://eltec.clscor.io/entity/attrassign/PLjvNHS9LyqfYHKkcHnJg4> crm:P1_is_identified_by <https://distantreading.github.io/ELTeC/> .
+
+<https://eltec.clscor.io/entity/attrassign/ivL4Rs7Ssr26viNRJK4w6q> crm:P1_is_identified_by <https://zenodo.org/communities/eltec/> .
+
+<https://eltec.clscor.io/entity/attrassign/jqsM4MkD3HyG9ytVE4MEzX> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://eltec.clscor.io/entity/descevent/bHheNjMXexxaw7qHDTFh4o> ;
+    crm:P140_assigned_attribute_to <https://eltec.clscor.io/entity/protodoc/JfYFHHmnFsb56cGkrqTtTb> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://folgershake.clscor.io/entity/attrassign/BaZToTQF4L6Ngd7bBWhFt8> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://folgershake.clscor.io/entity/descevent/Zpc8fpMBW5PgqKhmZgBWeA> ;
+    crm:P140_assigned_attribute_to <https://folgershake.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/timespan/Wc73pXhwRt9vMDJajSBsEW> ;
+    crm:P177_assigned_property_of_type crm:P4_has_time-span ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://folgershake.clscor.io/entity/attrassign/J3ZZfWrbtJ5yccMfv2mBxS> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://folgershake.clscor.io/entity/descevent/Zpc8fpMBW5PgqKhmZgBWeA> ;
+    crm:P140_assigned_attribute_to <https://folgershake.clscor.io/entity/protodoc/J97aRGQAsM8Vwwz5RY2dy4> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/doc>,
+        <https://core.clscor.io/entity/type/format/html>,
+        <https://core.clscor.io/entity/type/format/pdf>,
+        <https://core.clscor.io/entity/type/format/tei>,
+        <https://core.clscor.io/entity/type/format/txt>,
+        <https://core.clscor.io/entity/type/format/xml> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://folgershake.clscor.io/entity/attrassign/LnUiZyjxxWp7fRG2sM8Aas> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://folgershake.clscor.io/entity/descevent/Zpc8fpMBW5PgqKhmZgBWeA> ;
+    crm:P140_assigned_attribute_to <https://folgershake.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://folgershake.clscor.io/entity/attrassign/Q3rL8oLQfqk2sSysCToWo8> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://folgershake.clscor.io/entity/descevent/Zpc8fpMBW5PgqKhmZgBWeA> ;
+    crm:P140_assigned_attribute_to <https://folgershake.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://folgershake.clscor.io/entity/dim/K4LBfazvHeDj9HnSDgM8Jo> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://folgershake.clscor.io/entity/attrassign/amfSjui5scWLDgxPUZStBX> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://folgershake.clscor.io/entity/descevent/Zpc8fpMBW5PgqKhmZgBWeA> ;
+    crm:P140_assigned_attribute_to <https://folgershake.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://folgershake.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://folgershake.clscor.io/entity/attrassign/hqUWzEugqBHF8vg6XNxiGm> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://folgershake.clscor.io/entity/descevent/Zpc8fpMBW5PgqKhmZgBWeA> ;
+    crm:P140_assigned_attribute_to <https://folgershake.clscor.io/entity/protodoc/J97aRGQAsM8Vwwz5RY2dy4> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/en> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://fredracor.clscor.io/entity/attrassign/6Th8QundikNwsJKT5Nxekg> crm:P1_is_identified_by <https://github.com/dracor-org/fredracor> .
+
+<https://fredracor.clscor.io/entity/attrassign/Gmi6xh7NDG7Le8EBTspBEF> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://fredracor.clscor.io/entity/descevent/EvApqCV3wtjxahj2Lu9qvz> ;
+    crm:P140_assigned_attribute_to <https://fredracor.clscor.io/entity/protodoc/i2yb3gtxAJcLtJZ7gbFSs9> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/fr> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://fredracor.clscor.io/entity/attrassign/NyoEatNduMoyqKNm2BXixU> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://fredracor.clscor.io/entity/descevent/EvApqCV3wtjxahj2Lu9qvz> ;
+    crm:P140_assigned_attribute_to <https://fredracor.clscor.io/entity/protodoc/i2yb3gtxAJcLtJZ7gbFSs9> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://fredracor.clscor.io/entity/attrassign/Qj5pNrKhZJRwngdkZJXDBy> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://fredracor.clscor.io/entity/descevent/EvApqCV3wtjxahj2Lu9qvz> ;
+    crm:P140_assigned_attribute_to <https://fredracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://fredracor.clscor.io/entity/attrassign/ZWLFfXZLwwyAUZSj9dJQvF> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://fredracor.clscor.io/entity/descevent/EvApqCV3wtjxahj2Lu9qvz> ;
+    crm:P140_assigned_attribute_to <https://fredracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://fredracor.clscor.io/entity/dim/gBF3YVc6rmRYG4R9e6ThDi> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://fredracor.clscor.io/entity/attrassign/dx7SZACEcsZiGcz6C8byai> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://fredracor.clscor.io/entity/descevent/EvApqCV3wtjxahj2Lu9qvz> ;
+    crm:P140_assigned_attribute_to <https://fredracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://fredracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://gerdracor.clscor.io/entity/attrassign/LKLasoZFoBVaskNgzSKuvg> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://gerdracor.clscor.io/entity/descevent/DxjCVvFoqwPXDDZTA9ofd9> ;
+    crm:P140_assigned_attribute_to <https://gerdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://gerdracor.clscor.io/entity/dim/6cMQxsYPTHz3NUt8E7Dwax> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://gerdracor.clscor.io/entity/attrassign/RiYZN7vstj4JJ7TWe3H3XB> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://gerdracor.clscor.io/entity/descevent/DxjCVvFoqwPXDDZTA9ofd9> ;
+    crm:P140_assigned_attribute_to <https://gerdracor.clscor.io/entity/protodoc/8QFV229rjny6iNH4t4kje5> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/de> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://gerdracor.clscor.io/entity/attrassign/gpfFdR3y7VZPjD5QD26rUm> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://gerdracor.clscor.io/entity/descevent/DxjCVvFoqwPXDDZTA9ofd9> ;
+    crm:P140_assigned_attribute_to <https://gerdracor.clscor.io/entity/protodoc/8QFV229rjny6iNH4t4kje5> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://gerdracor.clscor.io/entity/attrassign/kpUajb5XhtVKuTrrjJbJ3f> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://gerdracor.clscor.io/entity/descevent/DxjCVvFoqwPXDDZTA9ofd9> ;
+    crm:P140_assigned_attribute_to <https://gerdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://gerdracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://gerdracor.clscor.io/entity/attrassign/kwd3yZoDZGsBV8q2aoomLs> crm:P1_is_identified_by <https://github.com/dracor-org/gerdracor> .
+
+<https://gerdracor.clscor.io/entity/attrassign/mJn3AVS8u9PNVDbqw3v729> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://gerdracor.clscor.io/entity/descevent/DxjCVvFoqwPXDDZTA9ofd9> ;
+    crm:P140_assigned_attribute_to <https://gerdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/timespan/FNiNb4mwejxL9PjJZqjR5w> ;
+    crm:P177_assigned_property_of_type crm:P4_has_time-span ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://gerdracor.clscor.io/entity/attrassign/mgF8wxywxbVt29haMELDh2> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://gerdracor.clscor.io/entity/descevent/DxjCVvFoqwPXDDZTA9ofd9> ;
+    crm:P140_assigned_attribute_to <https://gerdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://gershdracor.clscor.io/entity/attrassign/7qJ7JfHqHPUiUKBJ9r2eRY> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://gershdracor.clscor.io/entity/descevent/kWkkSVWDbn4nrL2SfDFgJE> ;
+    crm:P140_assigned_attribute_to <https://gershdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://gershdracor.clscor.io/entity/attrassign/LnQgFrdEs54mgiceJMVK64> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://gershdracor.clscor.io/entity/descevent/kWkkSVWDbn4nrL2SfDFgJE> ;
+    crm:P140_assigned_attribute_to <https://gershdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://gershdracor.clscor.io/entity/dim/WygrNLP2EWigYqwEwjbfJa> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://gershdracor.clscor.io/entity/attrassign/T6mYxVS8eC6kTUPL84bY2f> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://gershdracor.clscor.io/entity/descevent/kWkkSVWDbn4nrL2SfDFgJE> ;
+    crm:P140_assigned_attribute_to <https://gershdracor.clscor.io/entity/protodoc/KKdTAFM7QzHeaj72DzkDiG> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/de> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://gershdracor.clscor.io/entity/attrassign/VWsC4SQQKdiLEbheSFxwQk> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://gershdracor.clscor.io/entity/descevent/kWkkSVWDbn4nrL2SfDFgJE> ;
+    crm:P140_assigned_attribute_to <https://gershdracor.clscor.io/entity/protodoc/KKdTAFM7QzHeaj72DzkDiG> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://gershdracor.clscor.io/entity/attrassign/WQZeWsmDv4gCMhj3TxaaZL> crm:P1_is_identified_by <https://github.com/dracor-org/gershdracor> .
+
+<https://gershdracor.clscor.io/entity/attrassign/agpHerHJvaAN5UXxJEAmvs> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://gershdracor.clscor.io/entity/descevent/kWkkSVWDbn4nrL2SfDFgJE> ;
+    crm:P140_assigned_attribute_to <https://gershdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://gershdracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://greekdracor.clscor.io/entity/attrassign/9mzdRsYnsesDJdeUBToh4J> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://greekdracor.clscor.io/entity/descevent/4PL4EscRtmGd9adq99BgDa> ;
+    crm:P140_assigned_attribute_to <https://greekdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://greekdracor.clscor.io/entity/dim/6Lex7jMrYkWCDYNGppuXQx> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://greekdracor.clscor.io/entity/attrassign/LCnrf3F9RuUAJn3rE2extM> crm:P1_is_identified_by <https://github.com/dracor-org/greekdracor> .
+
+<https://greekdracor.clscor.io/entity/attrassign/NgugqMqW4uPLo5y5K5Z4Lg> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://greekdracor.clscor.io/entity/descevent/4PL4EscRtmGd9adq99BgDa> ;
+    crm:P140_assigned_attribute_to <https://greekdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://greekdracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://greekdracor.clscor.io/entity/attrassign/ThLi3xpQZQrjL2FZsosvra> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://greekdracor.clscor.io/entity/descevent/4PL4EscRtmGd9adq99BgDa> ;
+    crm:P140_assigned_attribute_to <https://greekdracor.clscor.io/entity/protodoc/9G69DHNkzESdFSTnUDUtvR> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://greekdracor.clscor.io/entity/attrassign/Uq52wokuLB3AT6kHrZNCxU> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://greekdracor.clscor.io/entity/descevent/4PL4EscRtmGd9adq99BgDa> ;
+    crm:P140_assigned_attribute_to <https://greekdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://greekdracor.clscor.io/entity/attrassign/boef5zVrLEoUDXEoj2NaJA> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://greekdracor.clscor.io/entity/descevent/4PL4EscRtmGd9adq99BgDa> ;
+    crm:P140_assigned_attribute_to <https://greekdracor.clscor.io/entity/protodoc/9G69DHNkzESdFSTnUDUtvR> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/el> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://itadracor.clscor.io/entity/attrassign/9QhFoNc3xggrLcvwwpL3M5> crm:P1_is_identified_by <https://github.com/dracor-org/itadracor> .
+
+<https://itadracor.clscor.io/entity/attrassign/B9yCrquHGtpy2DXjyv2NRS> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://itadracor.clscor.io/entity/descevent/3nVr6rqSTJ97pSjrqzweU6> ;
+    crm:P140_assigned_attribute_to <https://itadracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://itadracor.clscor.io/entity/dim/HB82PjdaZ7hE35FctBJEHQ> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://itadracor.clscor.io/entity/attrassign/G3acNWUdFaPihtyuPvBRod> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://itadracor.clscor.io/entity/descevent/3nVr6rqSTJ97pSjrqzweU6> ;
+    crm:P140_assigned_attribute_to <https://itadracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://itadracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://itadracor.clscor.io/entity/attrassign/QMgKFeZYGDSA2oXXbBiAcA> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://itadracor.clscor.io/entity/descevent/3nVr6rqSTJ97pSjrqzweU6> ;
+    crm:P140_assigned_attribute_to <https://itadracor.clscor.io/entity/protodoc/e74pfPscfLbfdr8t3LSrpF> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://itadracor.clscor.io/entity/attrassign/QvhUqHjau2tCXTXuSdQyUr> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://itadracor.clscor.io/entity/descevent/3nVr6rqSTJ97pSjrqzweU6> ;
+    crm:P140_assigned_attribute_to <https://itadracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://itadracor.clscor.io/entity/attrassign/UEKVfAhfRcPiibKWLzCiok> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://itadracor.clscor.io/entity/descevent/3nVr6rqSTJ97pSjrqzweU6> ;
+    crm:P140_assigned_attribute_to <https://itadracor.clscor.io/entity/protodoc/e74pfPscfLbfdr8t3LSrpF> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/it> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://perseus.clscor.io/entity/attrassign/3VzcL5ciea3G5LRB6bfbDF> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://perseus.clscor.io/entity/descevent/cNhCAsGbWX3KekpQFqq3do> ;
+    crm:P140_assigned_attribute_to <https://perseus.clscor.io/entity/protodoc/3iw2N6aK6iPMwUehQyDxcF> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/ar>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/el>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/rom> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://perseus.clscor.io/entity/attrassign/Zr3UoL4jayjUwTB8VKdC7J> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://perseus.clscor.io/entity/descevent/cNhCAsGbWX3KekpQFqq3do> ;
+    crm:P140_assigned_attribute_to <https://perseus.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/digital_critical_edition> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://perseus.clscor.io/entity/attrassign/b2GaLm8DG67dtABd8Mbh4H> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://perseus.clscor.io/entity/descevent/cNhCAsGbWX3KekpQFqq3do> ;
+    crm:P140_assigned_attribute_to <https://perseus.clscor.io/entity/protodoc/3iw2N6aK6iPMwUehQyDxcF> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/txt> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rem.clscor.io/entity/attrassign/3JcMLWUgGokLknp2yMFgv9> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://rem.clscor.io/entity/descevent/ef94xmCu7m65B2t8kWMCBR> ;
+    crm:P140_assigned_attribute_to <https://rem.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://rem.clscor.io/entity/dim/9QugF3AEdLkSkw4SDb6grE> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rem.clscor.io/entity/attrassign/3mnNZ68u8uxwBNyDAGxnkv> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://rem.clscor.io/entity/descevent/ef94xmCu7m65B2t8kWMCBR> ;
+    crm:P140_assigned_attribute_to <https://rem.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/timespan/7NpEu5eythLVm88iXmdZL7> ;
+    crm:P177_assigned_property_of_type crm:P4_has_time-span ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rem.clscor.io/entity/attrassign/F3dhrCkQicGT6B8T62TxDa> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://rem.clscor.io/entity/descevent/ef94xmCu7m65B2t8kWMCBR> ;
+    crm:P140_assigned_attribute_to <https://rem.clscor.io/entity/protodoc/RSLvEPad8QCYT5hBLn9GXd> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/annis>,
+        <https://core.clscor.io/entity/type/format/cora-xml> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rem.clscor.io/entity/attrassign/HvRvq9vbymK9VjBUK7EdXA> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://rem.clscor.io/entity/descevent/ef94xmCu7m65B2t8kWMCBR> ;
+    crm:P140_assigned_attribute_to <https://rem.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/epic>,
+        <https://core.clscor.io/entity/type/literaryGenre/lyric> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://rem.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rem.clscor.io/entity/attrassign/K6cwA6KugjXMvbnZ7xug2Z> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://rem.clscor.io/entity/descevent/ef94xmCu7m65B2t8kWMCBR> ;
+    crm:P140_assigned_attribute_to <https://rem.clscor.io/entity/protodoc/RSLvEPad8QCYT5hBLn9GXd> ;
+    crm:P141_assigned <https://rem.clscor.io/entity/language/j6jbdrPEAgjntXj5ShwZcp> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rem.clscor.io/entity/attrassign/eJY3EgsfKYffeghqJeDeSE> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://rem.clscor.io/entity/descevent/ef94xmCu7m65B2t8kWMCBR> ;
+    crm:P140_assigned_attribute_to <https://rem.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/reference> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://romdracor.clscor.io/entity/attrassign/28cAtgjeLzaQATBMVFYU3r> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://romdracor.clscor.io/entity/descevent/DcXJGcX8zXMrpZtYWu5KDj> ;
+    crm:P140_assigned_attribute_to <https://romdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://romdracor.clscor.io/entity/attrassign/5tMd7qsWZM4MYxVuBKAuCx> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://romdracor.clscor.io/entity/descevent/DcXJGcX8zXMrpZtYWu5KDj> ;
+    crm:P140_assigned_attribute_to <https://romdracor.clscor.io/entity/protodoc/ew4kkzbq5VpHhMTnuZtzjR> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://romdracor.clscor.io/entity/attrassign/C76TJ6SbCCebVDsdotiGPs> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://romdracor.clscor.io/entity/descevent/DcXJGcX8zXMrpZtYWu5KDj> ;
+    crm:P140_assigned_attribute_to <https://romdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://romdracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://romdracor.clscor.io/entity/attrassign/VJ6W8AT9CmGMLM3Nk86g2N> crm:P1_is_identified_by <https://github.com/dracor-org/romdracor> .
+
+<https://romdracor.clscor.io/entity/attrassign/ZqiivmsHUazww5VQbXU5wY> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://romdracor.clscor.io/entity/descevent/DcXJGcX8zXMrpZtYWu5KDj> ;
+    crm:P140_assigned_attribute_to <https://romdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://romdracor.clscor.io/entity/dim/hdtgDi94Lcp6N2BEwxMEjj> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://romdracor.clscor.io/entity/attrassign/kBRqBvNfBDSM2GtVa47haZ> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://romdracor.clscor.io/entity/descevent/DcXJGcX8zXMrpZtYWu5KDj> ;
+    crm:P140_assigned_attribute_to <https://romdracor.clscor.io/entity/protodoc/ew4kkzbq5VpHhMTnuZtzjR> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/la> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rusdracor.clscor.io/entity/attrassign/B7MxQkwY46ZJvVT8AnCWBg> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://rusdracor.clscor.io/entity/descevent/dP5pDDz499zTC3hRSNKKBf> ;
+    crm:P140_assigned_attribute_to <https://rusdracor.clscor.io/entity/protodoc/cQGjAfNBix2nZPi9sRGt3c> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rusdracor.clscor.io/entity/attrassign/HHfQhRyhhjYdLykCWoxLKW> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://rusdracor.clscor.io/entity/descevent/dP5pDDz499zTC3hRSNKKBf> ;
+    crm:P140_assigned_attribute_to <https://rusdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/timespan/Su4gEgJ3QnEaR9cYFdaYXd> ;
+    crm:P177_assigned_property_of_type crm:P4_has_time-span ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rusdracor.clscor.io/entity/attrassign/L5bHuAS7Ee4ZPsY7BKHEKS> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://rusdracor.clscor.io/entity/descevent/dP5pDDz499zTC3hRSNKKBf> ;
+    crm:P140_assigned_attribute_to <https://rusdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://rusdracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rusdracor.clscor.io/entity/attrassign/WYbJpzt9i44SknyUK8r7dr> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://rusdracor.clscor.io/entity/descevent/dP5pDDz499zTC3hRSNKKBf> ;
+    crm:P140_assigned_attribute_to <https://rusdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rusdracor.clscor.io/entity/attrassign/bNPA2TbY5DaWD8zhE2Xzti> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://rusdracor.clscor.io/entity/descevent/dP5pDDz499zTC3hRSNKKBf> ;
+    crm:P140_assigned_attribute_to <https://rusdracor.clscor.io/entity/protodoc/cQGjAfNBix2nZPi9sRGt3c> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/ru> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rusdracor.clscor.io/entity/attrassign/dSkostMcLpbX2xvJf8f7L8> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://rusdracor.clscor.io/entity/descevent/dP5pDDz499zTC3hRSNKKBf> ;
+    crm:P140_assigned_attribute_to <https://rusdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://rusdracor.clscor.io/entity/dim/kXwSEvXZtUtGqFHgyRPLoP> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://rusdracor.clscor.io/entity/attrassign/mTWF5o6Gbdrrnoy3UuSJpL> crm:P1_is_identified_by <https://github.com/dracor-org/rusdracor> .
+
+<https://shakedracor.clscor.io/entity/attrassign/8jzqWBSJ46NDCuZuWrP3tJ> crm:P1_is_identified_by <https://github.com/dracor-org/shakedracor> .
+
+<https://shakedracor.clscor.io/entity/attrassign/DFkLtXMVYr57FdgUEQ2MU4> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://shakedracor.clscor.io/entity/descevent/4rt77PYGu5jpKcZYwvrxPk> ;
+    crm:P140_assigned_attribute_to <https://shakedracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://shakedracor.clscor.io/entity/dim/G3CvYQkKTNTarACVwxP2Ce> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://shakedracor.clscor.io/entity/attrassign/DK6KCHfEDSQdkdJxAxESph> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://shakedracor.clscor.io/entity/descevent/4rt77PYGu5jpKcZYwvrxPk> ;
+    crm:P140_assigned_attribute_to <https://shakedracor.clscor.io/entity/protodoc/Z6MUejYEjJvegWPKpHZp7C> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://shakedracor.clscor.io/entity/attrassign/Epbz2i7paCvzat5rneJmg5> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://shakedracor.clscor.io/entity/descevent/4rt77PYGu5jpKcZYwvrxPk> ;
+    crm:P140_assigned_attribute_to <https://shakedracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://shakedracor.clscor.io/entity/attrassign/bxNKCEQfd4JZDukPKwTTCD> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://shakedracor.clscor.io/entity/descevent/4rt77PYGu5jpKcZYwvrxPk> ;
+    crm:P140_assigned_attribute_to <https://shakedracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://shakedracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://shakedracor.clscor.io/entity/attrassign/gFhjiDP52mwUhVWYTuUoPz> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://shakedracor.clscor.io/entity/descevent/4rt77PYGu5jpKcZYwvrxPk> ;
+    crm:P140_assigned_attribute_to <https://shakedracor.clscor.io/entity/protodoc/Z6MUejYEjJvegWPKpHZp7C> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/en> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://spandracor.clscor.io/entity/attrassign/4zaKsvzncCUrpdR5mxep85> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://spandracor.clscor.io/entity/descevent/KDLmCZE3ZwpqPnzYo5KvEv> ;
+    crm:P140_assigned_attribute_to <https://spandracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://spandracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://spandracor.clscor.io/entity/attrassign/BLbiDdFbTNPeDZkhMWN2Ew> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://spandracor.clscor.io/entity/descevent/KDLmCZE3ZwpqPnzYo5KvEv> ;
+    crm:P140_assigned_attribute_to <https://spandracor.clscor.io/entity/protodoc/VPrjettHB2scRA6FPTAqam> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/es> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://spandracor.clscor.io/entity/attrassign/HUWwpJwzsgviyyunx4RpWw> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://spandracor.clscor.io/entity/descevent/KDLmCZE3ZwpqPnzYo5KvEv> ;
+    crm:P140_assigned_attribute_to <https://spandracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://spandracor.clscor.io/entity/dim/AcnDAurvunXb9SR2iT6X3o> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://spandracor.clscor.io/entity/attrassign/RDk5gJ5X6xKLTZyvaxUQgG> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://spandracor.clscor.io/entity/descevent/KDLmCZE3ZwpqPnzYo5KvEv> ;
+    crm:P140_assigned_attribute_to <https://spandracor.clscor.io/entity/protodoc/VPrjettHB2scRA6FPTAqam> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://spandracor.clscor.io/entity/attrassign/Y58FeSuQSTyYpQmFzG5S93> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://spandracor.clscor.io/entity/descevent/KDLmCZE3ZwpqPnzYo5KvEv> ;
+    crm:P140_assigned_attribute_to <https://spandracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://stanfordlitlab.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://litlab.stanford.edu/>,
+        <https://stanfordlitlab.clscor.io/entity/appellation/WCMw8pB9cJ2xFX2s7wFkGn>,
+        <https://stanfordlitlab.clscor.io/entity/appellation/YNDPAS6UMUNiyGUQA3n4G2> ;
+    crm:P3_has_note """Homepage: "The Stanford Literary Lab is a research collective that applies computational criticism, in all its forms, to the study of literature."
+Commentary: No texts available, no possibility of download, just textual information about projects """ .
+
+<https://stanfordlitlab.clscor.io/entity/descevent/ATnbjRP2reUqnpRdTrHqTU> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://stanfordlitlab.clscor.io/entity/protodoc/DtV4AZugxs6ZcFBxjS8Mk8> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://litlab.stanford.edu/"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/WEw2N4pmveduBhQnx8Z2Vi> .
+
+<https://swedracor.clscor.io/entity/attrassign/5v7b5o488zhmL2A34UiMme> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://swedracor.clscor.io/entity/descevent/gd8TKRPDXLZGfu3y5mGaN4> ;
+    crm:P140_assigned_attribute_to <https://swedracor.clscor.io/entity/protodoc/Ynxahe4HTBttWu3EtLzwqE> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/sv> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://swedracor.clscor.io/entity/attrassign/A6LCpFtSUi3yUg74tP6FHe> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://swedracor.clscor.io/entity/descevent/gd8TKRPDXLZGfu3y5mGaN4> ;
+    crm:P140_assigned_attribute_to <https://swedracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://swedracor.clscor.io/entity/dim/5zKwdiuaDvhq677RtMcFoW> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://swedracor.clscor.io/entity/attrassign/UVAKoeE4AvbtqCC58iqBzV> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://swedracor.clscor.io/entity/descevent/gd8TKRPDXLZGfu3y5mGaN4> ;
+    crm:P140_assigned_attribute_to <https://swedracor.clscor.io/entity/protodoc/Ynxahe4HTBttWu3EtLzwqE> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://swedracor.clscor.io/entity/attrassign/UnQkEHB9MjphYLWYFPigqm> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://swedracor.clscor.io/entity/descevent/gd8TKRPDXLZGfu3y5mGaN4> ;
+    crm:P140_assigned_attribute_to <https://swedracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://swedracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://swedracor.clscor.io/entity/attrassign/dxuZvbBXyYLwH26n4X4zwM> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://swedracor.clscor.io/entity/descevent/gd8TKRPDXLZGfu3y5mGaN4> ;
+    crm:P140_assigned_attribute_to <https://swedracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://swedracor.clscor.io/entity/attrassign/fpn7sW8vTsKZKeDEVUfjpm> crm:P1_is_identified_by <https://github.com/dracor-org/swedracor> .
+
+<https://swedracor.clscor.io/entity/attrassign/nvfkyoXzxwNvFutj9b9XcG> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://swedracor.clscor.io/entity/descevent/gd8TKRPDXLZGfu3y5mGaN4> ;
+    crm:P140_assigned_attribute_to <https://swedracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/timespan/XBwfrhufzeNrB6xwSaUuis> ;
+    crm:P177_assigned_property_of_type crm:P4_has_time-span ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://tatdracor.clscor.io/entity/attrassign/4VETNcc2rBTv9cx5vBQPBC> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://tatdracor.clscor.io/entity/descevent/6cRFZmEzkNPKK4q68tmJdB> ;
+    crm:P140_assigned_attribute_to <https://tatdracor.clscor.io/entity/protodoc/dkc7jk5qKuzJGWvbhSn8QD> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://tatdracor.clscor.io/entity/attrassign/K8vDpqBUN7wknKF76mwCDD> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://tatdracor.clscor.io/entity/descevent/6cRFZmEzkNPKK4q68tmJdB> ;
+    crm:P140_assigned_attribute_to <https://tatdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://tatdracor.clscor.io/entity/dim/BjGMGdNfhi3UZ63xPZXwvH> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://tatdracor.clscor.io/entity/attrassign/ZFHXsMd7r5y3bwvNXMBGDJ> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://tatdracor.clscor.io/entity/descevent/6cRFZmEzkNPKK4q68tmJdB> ;
+    crm:P140_assigned_attribute_to <https://tatdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://tatdracor.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://tatdracor.clscor.io/entity/attrassign/im7NB6WQkTcNLDtxPTuE2B> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://tatdracor.clscor.io/entity/descevent/6cRFZmEzkNPKK4q68tmJdB> ;
+    crm:P140_assigned_attribute_to <https://tatdracor.clscor.io/entity/protodoc/dkc7jk5qKuzJGWvbhSn8QD> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/tt> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://tatdracor.clscor.io/entity/attrassign/moZo5ibu9qdfxvfesTYyLS> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://tatdracor.clscor.io/entity/descevent/6cRFZmEzkNPKK4q68tmJdB> ;
+    crm:P140_assigned_attribute_to <https://tatdracor.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://theaclass.clscor.io/entity/attrassign/5TticTtP577baGTifaKZmZ> crm:P1_is_identified_by <http://www.theatre-classique.fr/pages/programmes/corpus.php> .
+
+<https://theaclass.clscor.io/entity/attrassign/7PEH6Lac9kyaYS7ekKDjHU> a crm:E13_Attribute_assignment ;
+    crm:P134_continued <https://theaclass.clscor.io/entity/descevent/DBY8BTVceBVpgoWxFtgxs9> ;
+    crm:P140_assigned_attribute_to <https://theaclass.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://theaclass.clscor.io/entity/dim/D9ga8WXibfCRwo5Kiv2mzX> .
+
+<https://theaclass.clscor.io/entity/attrassign/8aQ7QcGH75y8qPCqFCHzUb> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://theaclass.clscor.io/entity/descevent/DBY8BTVceBVpgoWxFtgxs9> ;
+    crm:P140_assigned_attribute_to <https://theaclass.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/literaryGenre/drama> ;
+    crm:P177_assigned_property_of_type crm:Z6_document_has_literary_genre ;
+    crm:P2_has_type <https://theaclass.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://theaclass.clscor.io/entity/attrassign/BKQpSJxs8moNhvtXB72gaU> crm:P1_is_identified_by <http://www.theatre-classique.fr/pages/PagePersonnages.html> .
+
+<https://theaclass.clscor.io/entity/attrassign/KmkHqsUFRnnVLmQ3gSoiEL> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://theaclass.clscor.io/entity/descevent/DBY8BTVceBVpgoWxFtgxs9> ;
+    crm:P140_assigned_attribute_to <https://theaclass.clscor.io/entity/protodoc/5XeiNBWQBdcdXkkA6duqbN> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/tei> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://theaclass.clscor.io/entity/attrassign/NohuvKfapkUyTeTrTftJgq> a crm:E13_Attibute_Assignment ;
+    crm:P134_continued <https://theaclass.clscor.io/entity/descevent/DBY8BTVceBVpgoWxFtgxs9> ;
+    crm:P140_assigned_attribute_to <https://theaclass.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://theaclass.clscor.io/entity/dim/33KFFt9Aq6JaBJGZKJQQGg> ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://theaclass.clscor.io/entity/attrassign/ZHzraL9KYsep3Ar6B9mfRZ> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://theaclass.clscor.io/entity/descevent/DBY8BTVceBVpgoWxFtgxs9> ;
+    crm:P140_assigned_attribute_to <https://theaclass.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/timespan/nvEPWSDE3jQ7X5AvagjVYT> ;
+    crm:P177_assigned_property_of_type crm:P4_has_time-span ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://theaclass.clscor.io/entity/attrassign/exg5GzacCWhPADUmcAtZTo> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://theaclass.clscor.io/entity/descevent/DBY8BTVceBVpgoWxFtgxs9> ;
+    crm:P140_assigned_attribute_to <https://theaclass.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/monitor> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://theaclass.clscor.io/entity/attrassign/i4R4QZG5VmWLQSfPPt2Bqn> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://theaclass.clscor.io/entity/descevent/DBY8BTVceBVpgoWxFtgxs9> ;
+    crm:P140_assigned_attribute_to <https://theaclass.clscor.io/entity/protodoc/5XeiNBWQBdcdXkkA6duqbN> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/fr> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://wikisource.clscor.io/entity/attrassign/5aytZxTa6w6k2JezP5Lsey> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://wikisource.clscor.io/entity/descevent/Zxkmv3yX8AirY8TaiXZv3s> ;
+    crm:P140_assigned_attribute_to <https://wikisource.clscor.io/entity/protodoc/erKnU9EgzkP64cFfeH3S2q> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/format/epub>,
+        <https://core.clscor.io/entity/type/format/html>,
+        <https://core.clscor.io/entity/type/format/pdf> ;
+    crm:P177_assigned_property_of_type crmcls:Z4_has_format ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<https://wikisource.clscor.io/entity/attrassign/NLk9LnpJAsYKYkAfEZqTvz> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://wikisource.clscor.io/entity/descevent/Zxkmv3yX8AirY8TaiXZv3s> ;
+    crm:P140_assigned_attribute_to <https://wikisource.clscor.io/entity/corpus> ;
+    crm:P141_assigned <https://core.clscor.io/entity/type/corpusType/general> ;
+    crm:P177_assigned_property_of_type crmcls:Z8_corpus_has_corpus_type ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/eval_type/uncertain> .
+
+<http://hdl.handle.net/11321/312 > a crm:E42_Identifier ;
+    crm:P2_has_type <https://1000novel.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the 1000 Novel Corpus website." .
+
+<http://www.annotating-literature.org/annotations/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Annotating Literatures resource." .
+
+<http://www.deutschdiachrondigital.de/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Reference corpus Altdeutsch resource." .
+
+<http://www.greek-language.gr/digitalResources/literature/tools/concordance/index.html> a crm:E42_Identifier ;
+    crm:P2_has_type <https://anemoskala.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Anemoskala: Corpus of Modern Greek Poetry website." .
+
+<http://www.perseus.tufts.edu/hopper/collections > a crm:E42_Identifier ;
+    crm:P2_has_type <https://perseus.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Perseus digital library website." .
+
+<http://www.theatre-classique.fr/pages/PagePersonnages.html> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Théâtre Classique resource." .
+
+<http://www.theatre-classique.fr/pages/programmes/PageEdition.php> a crm:E42_Identifier ;
+    crm:P2_has_type <https://theaclass.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Théâtre Classique website." .
+
+<http://www.theatre-classique.fr/pages/programmes/corpus.php> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Théâtre Classique resource." .
+
+<https://1000novel.clscor.io/entity/appellation/MUf8NKxCTjcmMpCFqMqPDW> a crm:E41_Appellation ;
+    crm:P2_has_type <https://1000novel.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "1000 Novel Corpus" .
+
+<https://1000novel.clscor.io/entity/appellation/RWcQktX4ZCUh4JwfkJrRSH> a crm:E41_Appellation ;
+    crm:P2_has_type <https://1000novel.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "1000Novel" ;
+    rdfs:comment "artificialAcronym" .
+
+<https://1000novel.clscor.io/entity/dim/LmHigdbtMwCg6uYSaNjKZn> a crm:E54_Dimension ;
+    crm:P90_has_value 1000 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://alsdracor.clscor.io/entity/appellation/86nMHFvKX8Fjqkx4SyUp9q> a crm:E41_Appellation ;
+    crm:P2_has_type <https://alsdracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Alsatian Drama Corpus" .
+
+<https://alsdracor.clscor.io/entity/appellation/cBgquhHqKPeeokZSRLzsx3> a crm:E41_Appellation ;
+    crm:P2_has_type <https://alsdracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "AlsDraCor" .
+
+<https://alsdracor.clscor.io/entity/dim/eiT5jjgmdBGUo7hUvMQvMo> a crm:E54_Dimension ;
+    crm:P90_has_value 25 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://anemoskala.clscor.io/entity/appellation/AVyAMdpv7Uk63XBx7P5FSC> a crm:E41_Appellation ;
+    crm:P2_has_type <https://anemoskala.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "Anemoskala" ;
+    rdfs:comment "artificialAcronym" .
+
+<https://anemoskala.clscor.io/entity/appellation/UGrDy7z4MeSFouTeGHYYvZ> a crm:E41_Appellation ;
+    crm:P2_has_type <https://anemoskala.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Anemoskala: Corpus of Modern Greek Poetry" .
+
+<https://annotlit.clscor.io/entity/appellation/bmhMAbULnExmPww2ocHeY3> a crm:E41_Appellation ;
+    crm:P2_has_type <https://annotlit.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Annotating Literatures" .
+
+<https://annotlit.clscor.io/entity/appellation/mkkqnefz6ATtYVDKKgVEpd> a crm:E41_Appellation ;
+    crm:P2_has_type <https://annotlit.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "AnnotLit" ;
+    rdfs:comment "artificialAcronym" .
+
+<https://bashdracor.clscor.io/entity/appellation/LKKGqNZY4CXjM6ku98V4m4> a crm:E41_Appellation ;
+    crm:P2_has_type <https://bashdracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Bashkir Drama Corpus" .
+
+<https://bashdracor.clscor.io/entity/appellation/aVbpGHXp3qWbSSh8iWMyJF> a crm:E41_Appellation ;
+    crm:P2_has_type <https://bashdracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "BashDraCor" .
+
+<https://bashdracor.clscor.io/entity/dim/WpPNuhPGztWEkc6khB5Moj> a crm:E54_Dimension ;
+    crm:P90_has_value 3 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://caldracor.clscor.io/entity/appellation/GUNCbE8EKHVGDUoE3xByWg> a crm:E41_Appellation ;
+    crm:P2_has_type <https://caldracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "CalDraCor" .
+
+<https://caldracor.clscor.io/entity/appellation/oPZ2Rp9CbV8arW4bNSXBbv> a crm:E41_Appellation ;
+    crm:P2_has_type <https://caldracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Calderón corpus" .
+
+<https://caldracor.clscor.io/entity/dim/NzfyfDwhPgXJWf2Je7DMpC> a crm:E54_Dimension ;
+    crm:P90_has_value 201 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://cligs.clscor.io/entity/appellation/SM4BzKXczLLRmqKqGhwbiB> a crm:E41_Appellation ;
+    crm:P2_has_type <https://cligs.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "The CLiGS textbox" .
+
+<https://cligs.clscor.io/entity/appellation/iQC72YwqC9mKnGkUGsvEMy> a crm:E41_Appellation ;
+    crm:P2_has_type <https://cligs.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "CLiGS" ;
+    rdfs:comment "artificialAcronym" .
+
+<https://cligs.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://cligs.clscor.io/entity/appellation/SM4BzKXczLLRmqKqGhwbiB>,
+        <https://cligs.clscor.io/entity/appellation/iQC72YwqC9mKnGkUGsvEMy>,
+        <https://github.com/cligs/textbox> .
+
+<https://core.clscor.io/entity/timespan/AJx8AUfwMCKimGc4xcxcMm> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/DsibeRihw8ribjDbXsSoS2> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/KnCG6hXRWKnvvBfczcT2gq> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/MG73LVhkJcR3MAFs847Q5h> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/N7mGzcCX2p7GFK8HDnKnXV> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/QGBoUNWsXXu73HghGNDe2g> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/Rs7mgbZe7WGQN4DGb8nCQX> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/TeHYr6HLVp2tefw9dX94cw> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/UYKYacHzLU7ZEy8RYr7B4f> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/WDHvsZAJB4BRBSAWcW5Dwf> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/WEw2N4pmveduBhQnx8Z2Vi> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/ZNKWcEzCHjcEEPmZqY5NfL> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/bMAZVnuFevpPmjLewXfCWo> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/dzQ7b36HUxreYK8e7Zo7CE> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/eEpgA3cppfLCp8dxkizJHe> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/jP9SonuLPZBYLr8vRgvNxh> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/natkmGSmZFcT6A98XQpKdc> a crm:E52_Time-Span ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://diager.clscor.io/entity/appellation/DUbbstiDYTcTAf4QUJZwxm> a crm:E41_Appellation ;
+    crm:P2_has_type <https://diager.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "DiaGer" ;
+    rdfs:comment "artificialAcronym" .
+
+<https://diager.clscor.io/entity/appellation/Zv6xuc76x9ihugZPfE6zDM> a crm:E41_Appellation ;
+    crm:P2_has_type <https://diager.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Reference corpus Altdeutsch" .
+
+<https://diager.clscor.io/entity/dim/2x8ZHAseP6BBJ94gLSXWKY> a crm:E54_Dimension ;
+    crm:P90_has_value 129 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://diager.clscor.io/entity/dim/GKHioxDfNrFGduHc6As8Hu> a crm:E54_Dimension ;
+    crm:P90_has_value 650000 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/words> .
+
+<https://diager.clscor.io/entity/language/VGZAi9SNGa7dTM4yB2cVSV> a crm:E56_Language ;
+    rdfs:label "Diachronic German" .
+
+<https://distantreading.github.io/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the European Literary Text Collection resource." .
+
+<https://distantreading.github.io/ELTeC/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the European Literary Text Collection resource." .
+
+<https://doi.org/10.34644/laudatio-dev-WiWkDnMB7CArCQ9CyBEw> a crm:E42_Identifier ;
+    crm:P2_has_type <https://diager.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Reference corpus Altdeutsch website." .
+
+<https://doi.org/10.34644/laudatio-dev-xCS3CnMB7CArCQ9C3LRB> a crm:E42_Identifier ;
+    crm:P2_has_type <https://rem.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Reference corpus Middle High German website." .
+
+<https://dracor.org/als> a crm:E42_Identifier ;
+    crm:P2_has_type <https://alsdracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Alsatian Drama Corpus website." .
+
+<https://dracor.org/bash> a crm:E42_Identifier ;
+    crm:P2_has_type <https://bashdracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Bashkir Drama Corpus website." .
+
+<https://dracor.org/cal> a crm:E42_Identifier ;
+    crm:P2_has_type <https://caldracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Calderón corpus website." .
+
+<https://dracor.org/fre> a crm:E42_Identifier ;
+    crm:P2_has_type <https://fredracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the French Drama Corpus website." .
+
+<https://dracor.org/ger> a crm:E42_Identifier ;
+    crm:P2_has_type <https://gerdracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the German Drama Corpus website." .
+
+<https://dracor.org/gersh> a crm:E42_Identifier ;
+    crm:P2_has_type <https://gershdracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the German Shakespeare Drama Corpus website." .
+
+<https://dracor.org/greek> a crm:E42_Identifier ;
+    crm:P2_has_type <https://greekdracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Greek Drama Corpus website." .
+
+<https://dracor.org/ita> a crm:E42_Identifier ;
+    crm:P2_has_type <https://itadracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Italian Drama Corpus website." .
+
+<https://dracor.org/rom> a crm:E42_Identifier ;
+    crm:P2_has_type <https://romdracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Roman Drama Corpus website." .
+
+<https://dracor.org/rus> a crm:E42_Identifier ;
+    crm:P2_has_type <https://rusdracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Russian Drama Corpus website." .
+
+<https://dracor.org/shake> a crm:E42_Identifier ;
+    crm:P2_has_type <https://shakedracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Shakespeare Drama Corpus website." .
+
+<https://dracor.org/span> a crm:E42_Identifier ;
+    crm:P2_has_type <https://spandracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Spanish Drama Corpus website." .
+
+<https://dracor.org/swe> a crm:E42_Identifier ;
+    crm:P2_has_type <https://swedracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Swedish Drama Corpus website." .
+
+<https://dracor.org/tat> a crm:E42_Identifier ;
+    crm:P2_has_type <https://tatdracor.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Tatar Drama Corpus website." .
+
+<https://dracor.org/ > a crm:E42_Identifier ;
+    crm:P2_has_type <https://dracor .clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Drama Corpora Project website." .
+
+<https://dracor .clscor.io/entity/appellation/NJ6xonXn8xfpNF7sMJntni> a crm:E41_Appellation ;
+    crm:P2_has_type <https://dracor .clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "DraCor " .
+
+<https://dracor .clscor.io/entity/appellation/c9mzKZKbec6cMCLYsCavqE> a crm:E41_Appellation ;
+    crm:P2_has_type <https://dracor .clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Drama Corpora Project" .
+
+<https://dta.clscor.io/entity/appellation/6vHzmGADkEmc6GvviycGVw> a crm:E41_Appellation ;
+    crm:P2_has_type <https://dta.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "DTA" .
+
+<https://dta.clscor.io/entity/appellation/LpXcu4wZVUzQ5g8dNXErfY> a crm:E41_Appellation ;
+    crm:P2_has_type <https://dta.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Deutsches Textarchiv" .
+
+<https://dta.clscor.io/entity/dim/jqZWxVbftzYjxXoc7gEbjt> a crm:E54_Dimension ;
+    crm:P90_has_value 4448 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://eltec.clscor.io/entity/appellation/96BCx4vRy6ehNaur6ZYvRP> a crm:E41_Appellation ;
+    crm:P2_has_type <https://eltec.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "ELTeC" .
+
+<https://eltec.clscor.io/entity/appellation/bV7oNrxpXoyyCXfLP7j9cR> a crm:E41_Appellation ;
+    crm:P2_has_type <https://eltec.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "European Literary Text Collection" .
+
+<https://eltec.clscor.io/entity/dim/fPgAbVyEWBQ73urZ2jfDYr> a crm:E54_Dimension ;
+    crm:P90_has_value 2500 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://folgershake.clscor.io/entity/appellation/AoYRzEptqQtasPYVMwuinp> a crm:E41_Appellation ;
+    crm:P2_has_type <https://folgershake.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "FolgerShake" ;
+    rdfs:comment "artificialAcronym" .
+
+<https://folgershake.clscor.io/entity/appellation/Q2EQWRVkCYyvc3xSTVWsLe> a crm:E41_Appellation ;
+    crm:P2_has_type <https://folgershake.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Folger Shakespeare Library" .
+
+<https://folgershake.clscor.io/entity/dim/K4LBfazvHeDj9HnSDgM8Jo> a crm:E54_Dimension ;
+    crm:P90_has_value 37 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://fredracor.clscor.io/entity/appellation/RqC9rWjqYk6uvEPhbQxASb> a crm:E41_Appellation ;
+    crm:P2_has_type <https://fredracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "FreDraCor" .
+
+<https://fredracor.clscor.io/entity/appellation/nBsMBKnhScHRWZTSJyo7ZU> a crm:E41_Appellation ;
+    crm:P2_has_type <https://fredracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "French Drama Corpus" .
+
+<https://fredracor.clscor.io/entity/dim/gBF3YVc6rmRYG4R9e6ThDi> a crm:E54_Dimension ;
+    crm:P90_has_value 1560 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://gerdracor.clscor.io/entity/appellation/WAoSxgVwnQBAfEx8Dy2HSE> a crm:E41_Appellation ;
+    crm:P2_has_type <https://gerdracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "German Drama Corpus" .
+
+<https://gerdracor.clscor.io/entity/appellation/YsGAFGBiarKBAXv3AAaWvw> a crm:E41_Appellation ;
+    crm:P2_has_type <https://gerdracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "GerDraCor" .
+
+<https://gerdracor.clscor.io/entity/dim/6cMQxsYPTHz3NUt8E7Dwax> a crm:E54_Dimension ;
+    crm:P90_has_value 569 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://gershdracor.clscor.io/entity/appellation/DQMLDAEn8pK3kiv85YvGTH> a crm:E41_Appellation ;
+    crm:P2_has_type <https://gershdracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "GershDraCor" .
+
+<https://gershdracor.clscor.io/entity/appellation/fKfxtuMk85hmr9dLXbg3To> a crm:E41_Appellation ;
+    crm:P2_has_type <https://gershdracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "German Shakespeare Drama Corpus" .
+
+<https://gershdracor.clscor.io/entity/dim/WygrNLP2EWigYqwEwjbfJa> a crm:E54_Dimension ;
+    crm:P90_has_value 37 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://github.com/COST-ELTeC > a crm:E42_Identifier ;
+    crm:P2_has_type <https://eltec.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the European Literary Text Collection website." .
+
+<https://github.com/cligs/textbox> a crm:E42_Identifier ;
+    crm:P2_has_type <https://cligs.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the The CLiGS textbox website." .
+
+<https://github.com/cligs/toolbox> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the The CLiGS textbox resource." .
+
+<https://github.com/dracor-org> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Drama Corpora Project resource." .
+
+<https://github.com/dracor-org/alsdracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Alsatian Drama Corpus resource." .
+
+<https://github.com/dracor-org/caldracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Calderón corpus resource." .
+
+<https://github.com/dracor-org/fredracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the French Drama Corpus resource." .
+
+<https://github.com/dracor-org/gerdracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the German Drama Corpus resource." .
+
+<https://github.com/dracor-org/gershdracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the German Shakespeare Drama Corpus resource." .
+
+<https://github.com/dracor-org/greekdracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Greek Drama Corpus resource." .
+
+<https://github.com/dracor-org/itadracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Italian Drama Corpus resource." .
+
+<https://github.com/dracor-org/romdracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Roman Drama Corpus resource." .
+
+<https://github.com/dracor-org/rusdracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Russian Drama Corpus resource." .
+
+<https://github.com/dracor-org/shakedracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Shakespeare Drama Corpus resource." .
+
+<https://github.com/dracor-org/swedracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the Swedish Drama Corpus resource." .
+
+<https://greekdracor.clscor.io/entity/appellation/EyVzPoEQwvUKzeckeyhQDd> a crm:E41_Appellation ;
+    crm:P2_has_type <https://greekdracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Greek Drama Corpus" .
+
+<https://greekdracor.clscor.io/entity/appellation/hAtLcBH44F6QYg7LYcyA5B> a crm:E41_Appellation ;
+    crm:P2_has_type <https://greekdracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "GreekDraCor" .
+
+<https://greekdracor.clscor.io/entity/dim/6Lex7jMrYkWCDYNGppuXQx> a crm:E54_Dimension ;
+    crm:P90_has_value 39 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://itadracor.clscor.io/entity/appellation/3dEaEau4qAdgTRenryNnMR> a crm:E41_Appellation ;
+    crm:P2_has_type <https://itadracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Italian Drama Corpus" .
+
+<https://itadracor.clscor.io/entity/appellation/GVbBoKF2qoP5Nj4nXDcb9s> a crm:E41_Appellation ;
+    crm:P2_has_type <https://itadracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "ItaDraCor" .
+
+<https://itadracor.clscor.io/entity/dim/HB82PjdaZ7hE35FctBJEHQ> a crm:E54_Dimension ;
+    crm:P90_has_value 139 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://litlab.stanford.edu/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://stanfordlitlab.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Stanford Literary Lab website." .
+
+<https://perseus.clscor.io/entity/appellation/DNmzvAz43yx45o2sxdxE2s> a crm:E41_Appellation ;
+    crm:P2_has_type <https://perseus.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Perseus digital library" .
+
+<https://perseus.clscor.io/entity/appellation/ZRoo6TSyRiFKRiv9W7S5eT> a crm:E41_Appellation ;
+    crm:P2_has_type <https://perseus.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "Perseus" ;
+    rdfs:comment "artificialAcronym" .
+
+<https://perseus.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://www.perseus.tufts.edu/hopper/collections >,
+        <https://perseus.clscor.io/entity/appellation/DNmzvAz43yx45o2sxdxE2s>,
+        <https://perseus.clscor.io/entity/appellation/ZRoo6TSyRiFKRiv9W7S5eT> .
+
+<https://rem.clscor.io/entity/appellation/4UKhGNuG3aKVb2HkR5hX8d> a crm:E41_Appellation ;
+    crm:P2_has_type <https://rem.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Reference corpus Middle High German" .
+
+<https://rem.clscor.io/entity/appellation/ER4pCQYTF6ah2SpEcrmzc5> a crm:E41_Appellation ;
+    crm:P2_has_type <https://rem.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "ReM" .
+
+<https://rem.clscor.io/entity/dim/9QugF3AEdLkSkw4SDb6grE> a crm:E54_Dimension ;
+    crm:P90_has_value 396 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://rem.clscor.io/entity/language/j6jbdrPEAgjntXj5ShwZcp> a crm:E56_Language ;
+    rdfs:label "Diachronic German" .
+
+<https://romdracor.clscor.io/entity/appellation/HkTU9mrQhmR4P7qjFT5JfT> a crm:E41_Appellation ;
+    crm:P2_has_type <https://romdracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "RomDraCor" .
+
+<https://romdracor.clscor.io/entity/appellation/JUg8hosYWV2h7wVvH3sbHW> a crm:E41_Appellation ;
+    crm:P2_has_type <https://romdracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Roman Drama Corpus" .
+
+<https://romdracor.clscor.io/entity/dim/hdtgDi94Lcp6N2BEwxMEjj> a crm:E54_Dimension ;
+    crm:P90_has_value 36 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://rusdracor.clscor.io/entity/appellation/Fk5p9PRJxTdniLmSGymzZM> a crm:E41_Appellation ;
+    crm:P2_has_type <https://rusdracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "RusDraCor" .
+
+<https://rusdracor.clscor.io/entity/appellation/nEb4CS3H9zK8sEYp9nrVua> a crm:E41_Appellation ;
+    crm:P2_has_type <https://rusdracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Russian Drama Corpus" .
+
+<https://rusdracor.clscor.io/entity/dim/kXwSEvXZtUtGqFHgyRPLoP> a crm:E54_Dimension ;
+    crm:P90_has_value 212 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://shakedracor.clscor.io/entity/appellation/RsD6oamvEmTF9Sc45zoxPV> a crm:E41_Appellation ;
+    crm:P2_has_type <https://shakedracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "ShakeDraCor" .
+
+<https://shakedracor.clscor.io/entity/appellation/kVS6tdvngqiSSEC3EPuyBy> a crm:E41_Appellation ;
+    crm:P2_has_type <https://shakedracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Shakespeare Drama Corpus" .
+
+<https://shakedracor.clscor.io/entity/dim/G3CvYQkKTNTarACVwxP2Ce> a crm:E54_Dimension ;
+    crm:P90_has_value 37 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://shakespeare.folger.edu/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://folgershake.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Folger Shakespeare Library website." .
+
+<https://shakespeare.folger.edu/the-folger-shakespeare-api/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> ;
+    rdf:value "API for the Folger Shakespeare Library website." .
+
+<https://spandracor.clscor.io/entity/appellation/8G2PCZKeej92mTEkb5EGDx> a crm:E41_Appellation ;
+    crm:P2_has_type <https://spandracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Spanish Drama Corpus" .
+
+<https://spandracor.clscor.io/entity/appellation/mntp6aFheanSCFqxSJjQ5p> a crm:E41_Appellation ;
+    crm:P2_has_type <https://spandracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "SpanDraCor" .
+
+<https://spandracor.clscor.io/entity/dim/AcnDAurvunXb9SR2iT6X3o> a crm:E54_Dimension ;
+    crm:P90_has_value 25 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://stanfordlitlab.clscor.io/entity/appellation/WCMw8pB9cJ2xFX2s7wFkGn> a crm:E41_Appellation ;
+    crm:P2_has_type <https://stanfordlitlab.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "StanfordLitLab" ;
+    rdfs:comment "artificialAcronym" .
+
+<https://stanfordlitlab.clscor.io/entity/appellation/YNDPAS6UMUNiyGUQA3n4G2> a crm:E41_Appellation ;
+    crm:P2_has_type <https://stanfordlitlab.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Stanford Literary Lab" .
+
+<https://stanfordlitlab.clscor.io/entity/protodoc/DtV4AZugxs6ZcFBxjS8Mk8> a crmcls:X11_Prototypical_Document .
+
+<https://swedracor.clscor.io/entity/appellation/DYwcmL6WQ2b2SFESqMHBAA> a crm:E41_Appellation ;
+    crm:P2_has_type <https://swedracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "SweDraCor" .
+
+<https://swedracor.clscor.io/entity/appellation/T28RFoRXKXhhS7gu8a7ZxZ> a crm:E41_Appellation ;
+    crm:P2_has_type <https://swedracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Swedish Drama Corpus" .
+
+<https://swedracor.clscor.io/entity/dim/5zKwdiuaDvhq677RtMcFoW> a crm:E54_Dimension ;
+    crm:P90_has_value 68 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://tatdracor.clscor.io/entity/appellation/NMsLn6U5dD763XZMAmHRmS> a crm:E41_Appellation ;
+    crm:P2_has_type <https://tatdracor.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "TatDraCor" .
+
+<https://tatdracor.clscor.io/entity/appellation/dWRJ4SxuGWHiTdmAwGktyE> a crm:E41_Appellation ;
+    crm:P2_has_type <https://tatdracor.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Tatar Drama Corpus" .
+
+<https://tatdracor.clscor.io/entity/dim/BjGMGdNfhi3UZ63xPZXwvH> a crm:E54_Dimension ;
+    crm:P90_has_value 3 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://theaclass.clscor.io/entity/appellation/4SWMKHor6GbPqED3ktcxoR> a crm:E41_Appellation ;
+    crm:P2_has_type <https://theaclass.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Théâtre Classique" .
+
+<https://theaclass.clscor.io/entity/appellation/VHeobi6J5g8XEwnoeaaXVK> a crm:E41_Appellation ;
+    crm:P2_has_type <https://theaclass.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "TheaClass" ;
+    rdfs:comment "artificialAcronym" .
+
+<https://theaclass.clscor.io/entity/dim/33KFFt9Aq6JaBJGZKJQQGg> a crm:E54_Dimension ;
+    crm:P90_has_value 1620 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/texts> .
+
+<https://theaclass.clscor.io/entity/dim/D9ga8WXibfCRwo5Kiv2mzX> a crm:E54_Dimension ;
+    crm:P90_has_value 12980645 ;
+    crm:P91_has_unit <https://core.clscor.io/entity/type/dimension_type/words> .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/ar> a crm:E56_Language ;
+    rdfs:label "Arabic" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/la> a crm:E56_Language ;
+    rdfs:label "Latin" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/pl> a crm:E56_Language ;
+    rdfs:label "Polish" .
+
+<https://wikisource.clscor.io/entity/appellation/GVhwVrxF6xPhmG7gAEcE9e> a crm:E41_Appellation ;
+    crm:P2_has_type <https://wikisource.clscor.io/entity/type/appellation_type/acronym> ;
+    rdf:value "Wikisource" ;
+    rdfs:comment "artificialAcronym" .
+
+<https://wikisource.clscor.io/entity/appellation/VZur6xKDumRhoLVNY7WT2D> a crm:E41_Appellation ;
+    crm:P2_has_type <https://wikisource.clscor.io/entity/type/appellation_type/full_title> ;
+    rdf:value "Wikisource" .
+
+<https://wikisource.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://wikisource.clscor.io/entity/appellation/GVhwVrxF6xPhmG7gAEcE9e>,
+        <https://wikisource.clscor.io/entity/appellation/VZur6xKDumRhoLVNY7WT2D>,
+        <https://wikisource.org/wiki/Wikisource:TEI> .
+
+<https://wikisource.org/wiki/Wikisource:TEI> a crm:E42_Identifier ;
+    crm:P2_has_type <https://wikisource.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Wikisource website." .
+
+<https://www.annotating-literature.org/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://annotlit.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Annotating Literatures website." .
+
+<https://www.deutschestextarchiv.de/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://dta.clscor.io/entity/type/link_type/project-website> ;
+    rdf:value "Link to the Deutsches Textarchiv website." .
+
+<https://www.deutschestextarchiv.de/api> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> ;
+    rdf:value "API for the Deutsches Textarchiv website." .
+
+<https://zenodo.org/communities/eltec/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data-repository> ;
+    rdf:value "Additional link for the European Literary Text Collection resource." .
+
+<https://annotlit.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://annotlit.clscor.io/entity/appellation/bmhMAbULnExmPww2ocHeY3>,
+        <https://annotlit.clscor.io/entity/appellation/mkkqnefz6ATtYVDKKgVEpd>,
+        <https://www.annotating-literature.org/> ;
+    crm:P3_has_note "Commentary: They provide a styleguide for annotating: http://www.annotating-literature.org/wp-content/uploads/2020/09/Styleguide-2020-08-11.pdf " .
+
+<https://annotlit.clscor.io/entity/protodoc/d7AimQEavN5XaVGfLcr9Fe> a crmcls:X11_Prototypical_Document .
+
+<https://core.clscor.io/entity/timespan/34KGcY5UPGkVvyY9qMt49P> a crm:E52_Time-Span ;
+    rdfs:label "1500–1900+" ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/7NpEu5eythLVm88iXmdZL7> a crm:E52_Time-Span ;
+    rdfs:label "1050–1350" ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/AsbZwSn8zGjNjeSw7WCXjB> a crm:E52_Time-Span ;
+    rdfs:label "19th and 20th century" ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/Dpohir9PFLo4opn8Atr3Ej> a crm:E52_Time-Span ;
+    rdfs:label "1801–2000" ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/EVPFyU4ELZyGxgnzdxCrNj> a crm:E52_Time-Span ;
+    rdfs:label "1840–1920" ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/FNiNb4mwejxL9PjJZqjR5w> a crm:E52_Time-Span ;
+    rdfs:label "1650s–1940s" ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/Su4gEgJ3QnEaR9cYFdaYXd> a crm:E52_Time-Span ;
+    rdfs:label "1740s–1940s " ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/Wc73pXhwRt9vMDJajSBsEW> a crm:E52_Time-Span ;
+    rdfs:label "1564(jul)–1616(greg)" ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/XBwfrhufzeNrB6xwSaUuis> a crm:E52_Time-Span ;
+    rdfs:label "1880–1900" ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/YJyK2bCk64fTRVXH4jvhCA> a crm:E52_Time-Span ;
+    rdfs:label "750–1050" ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/timespan/nvEPWSDE3jQ7X5AvagjVYT> a crm:E52_Time-Span ;
+    rdfs:label "1601–1800" ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
+
+<https://core.clscor.io/entity/type/dimension_type/words> a crmcls:X3_Feature .
+
+<https://dracor .clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/ >,
+        <https://dracor .clscor.io/entity/appellation/NJ6xonXn8xfpNF7sMJntni>,
+        <https://dracor .clscor.io/entity/appellation/c9mzKZKbec6cMCLYsCavqE> ;
+    crm:P3_has_note "Commentary: This is the overall-page starting page with links to the individual drama corpora, which are listed in the following lines of this table (Alsatian, Bashkir, Calderón, French, German, German Shakespeare, Greek, Italian, Roman, Russian, Shakespeare, Spanish, Swedish, Tatar); Dracor provides very sophisticated info, a lot of valuable information can be scraped via the API" .
+
+<https://eltec.clscor.io/entity/protodoc/JfYFHHmnFsb56cGkrqTtTb> a crmcls:X11_Prototypical_Document .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/ba> a crm:E56_Language ;
+    rdfs:label "Bashkir" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/gsw> a crm:E56_Language ;
+    rdfs:label "Alsatian" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/it> a crm:E56_Language ;
+    rdfs:label "Italian" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/rom> a crm:E56_Language ;
+    rdfs:label "Roman" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/ru> a crm:E56_Language ;
+    rdfs:label "Russian" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/sv> a crm:E56_Language ;
+    rdfs:label "Swedish" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/tt> a crm:E56_Language ;
+    rdfs:label "Tatar" .
+
+<https://wikisource.clscor.io/entity/descevent/Zxkmv3yX8AirY8TaiXZv3s> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://wikisource.clscor.io/entity/protodoc/erKnU9EgzkP64cFfeH3S2q> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://wikisource.org/wiki/Wikisource:TEI"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/DsibeRihw8ribjDbXsSoS2> .
+
+<https://wikisource.clscor.io/entity/protodoc/erKnU9EgzkP64cFfeH3S2q> a crmcls:X11_Prototypical_Document .
+
+<https://www.laudatio-repository.org/docs/elasticapi/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> ;
+    rdf:value "API for the Reference corpus Middle High German website.",
+        "API for the Reference corpus Altdeutsch website." .
+
+<https://1000novel.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://hdl.handle.net/11321/312 >,
+        <https://1000novel.clscor.io/entity/appellation/MUf8NKxCTjcmMpCFqMqPDW>,
+        <https://1000novel.clscor.io/entity/appellation/RWcQktX4ZCUh4JwfkJrRSH> ;
+    crm:P3_has_note """Homepage: "Corpus of literary texts intended as benchmark collection for text categorization. It contains 1000 novels written in polish or translated to polish by various authors. Each text is stored as separate .txt file."
+Commentary: Download all files: https://clarin-pl.eu/dspace/handle/11321/312?show=full# """ .
+
+<https://1000novel.clscor.io/entity/protodoc/C2ZdHhf9FMjm6zCoKvioRk> a crmcls:X11_Prototypical_Document .
+
+<https://alsdracor.clscor.io/entity/protodoc/77yzBcMqg6YgCXDAyfwhHw> a crmcls:X11_Prototypical_Document .
+
+<https://anemoskala.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://www.greek-language.gr/digitalResources/literature/tools/concordance/index.html>,
+        <https://anemoskala.clscor.io/entity/appellation/AVyAMdpv7Uk63XBx7P5FSC>,
+        <https://anemoskala.clscor.io/entity/appellation/UGrDy7z4MeSFouTeGHYYvZ> ;
+    crm:P3_has_note """Proposal: "Anemoscala: Corpus of Modern Greek Poetry (19th and 20th century) "
+Review: "publication policy does not allow any kind of download, export or further reuse of any part of the textual corpus"; “plain text, TEI-XML files,
+metadata, concordance results”
+Commentary: no download possible; homepage only in Greek""" .
+
+<https://anemoskala.clscor.io/entity/protodoc/LqbBwGg9M2LoioFXfod9WZ> a crmcls:X11_Prototypical_Document .
+
+<https://annotlit.clscor.io/entity/descevent/C2pwJRuiHzm2U5NRiEW7ZM> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://annotlit.clscor.io/entity/protodoc/d7AimQEavN5XaVGfLcr9Fe> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://www.annotating-literature.org/"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/N7mGzcCX2p7GFK8HDnKnXV> .
+
+<https://bashdracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://bashdracor.clscor.io/entity/appellation/LKKGqNZY4CXjM6ku98V4m4>,
+        <https://bashdracor.clscor.io/entity/appellation/aVbpGHXp3qWbSSh8iWMyJF>,
+        <https://dracor.org/bash>,
+        <https://dracor.org/doc/api> .
+
+<https://bashdracor.clscor.io/entity/protodoc/abLLgwNbVdMH4rhRiqqdfV> a crmcls:X11_Prototypical_Document .
+
+<https://caldracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://caldracor.clscor.io/entity/appellation/GUNCbE8EKHVGDUoE3xByWg>,
+        <https://caldracor.clscor.io/entity/appellation/oPZ2Rp9CbV8arW4bNSXBbv>,
+        <https://dracor.org/cal>,
+        <https://dracor.org/doc/api> ;
+    crm:P3_has_note "Proposal: \"Calderón corpus (54 plays)\"" .
+
+<https://caldracor.clscor.io/entity/protodoc/F7nuEfmRkjg29X5rYW2j8n> a crmcls:X11_Prototypical_Document .
+
+<https://cligs.clscor.io/entity/descevent/PPRM6baKsw4aG2ALHXQaBg> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://cligs.clscor.io/entity/protodoc/Dv6qhZMorxQSCitzPT6aXu> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://github.com/cligs/textbox"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/WDHvsZAJB4BRBSAWcW5Dwf> .
+
+<https://cligs.clscor.io/entity/protodoc/Dv6qhZMorxQSCitzPT6aXu> a crmcls:X11_Prototypical_Document .
+
+<https://diager.clscor.io/entity/protodoc/3LtBeAURRnnaogtCd8otjo> a crmcls:X11_Prototypical_Document .
+
+<https://dracor .clscor.io/entity/protodoc/PQ2YZJZLmQsBVf8v2tgY9n> a crmcls:X11_Prototypical_Document .
+
+<https://dta.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dta.clscor.io/entity/appellation/6vHzmGADkEmc6GvviycGVw>,
+        <https://dta.clscor.io/entity/appellation/LpXcu4wZVUzQ5g8dNXErfY>,
+        <https://www.deutschestextarchiv.de/>,
+        <https://www.deutschestextarchiv.de/api> ;
+    crm:P3_has_note """Proposal: "Deutsches Textarchiv, http://www.deutschestextarchiv.de/ (4165 texts, all in TEI)"
+Commentary: Multi-genre repositories with TEI-encoded texts; consists of a "Kernkorpus" (1468 texts) and additional corpora (5014 texts); metadata available in DC and CMDI; also OAI-PMH; very informative project-website with various features, documentation, download-area, etc. (but only available in German)""" .
+
+<https://dta.clscor.io/entity/protodoc/5rtw26b8DEZ23UNoU2UFYN> a crmcls:X11_Prototypical_Document .
+
+<https://folgershake.clscor.io/entity/protodoc/J97aRGQAsM8Vwwz5RY2dy4> a crmcls:X11_Prototypical_Document .
+
+<https://fredracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/fre>,
+        <https://fredracor.clscor.io/entity/appellation/RqC9rWjqYk6uvEPhbQxASb>,
+        <https://fredracor.clscor.io/entity/appellation/nBsMBKnhScHRWZTSJyo7ZU> .
+
+<https://fredracor.clscor.io/entity/protodoc/i2yb3gtxAJcLtJZ7gbFSs9> a crmcls:X11_Prototypical_Document .
+
+<https://gerdracor.clscor.io/entity/protodoc/8QFV229rjny6iNH4t4kje5> a crmcls:X11_Prototypical_Document .
+
+<https://gershdracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/gersh>,
+        <https://gershdracor.clscor.io/entity/appellation/DQMLDAEn8pK3kiv85YvGTH>,
+        <https://gershdracor.clscor.io/entity/appellation/fKfxtuMk85hmr9dLXbg3To> .
+
+<https://gershdracor.clscor.io/entity/protodoc/KKdTAFM7QzHeaj72DzkDiG> a crmcls:X11_Prototypical_Document .
+
+<https://greekdracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/greek>,
+        <https://greekdracor.clscor.io/entity/appellation/EyVzPoEQwvUKzeckeyhQDd>,
+        <https://greekdracor.clscor.io/entity/appellation/hAtLcBH44F6QYg7LYcyA5B> .
+
+<https://greekdracor.clscor.io/entity/protodoc/9G69DHNkzESdFSTnUDUtvR> a crmcls:X11_Prototypical_Document .
+
+<https://itadracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/ita>,
+        <https://itadracor.clscor.io/entity/appellation/3dEaEau4qAdgTRenryNnMR>,
+        <https://itadracor.clscor.io/entity/appellation/GVbBoKF2qoP5Nj4nXDcb9s> .
+
+<https://itadracor.clscor.io/entity/protodoc/e74pfPscfLbfdr8t3LSrpF> a crmcls:X11_Prototypical_Document .
+
+<https://perseus.clscor.io/entity/descevent/cNhCAsGbWX3KekpQFqq3do> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://perseus.clscor.io/entity/protodoc/3iw2N6aK6iPMwUehQyDxcF> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "http://www.perseus.tufts.edu/hopper/collections"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/QGBoUNWsXXu73HghGNDe2g> .
+
+<https://perseus.clscor.io/entity/protodoc/3iw2N6aK6iPMwUehQyDxcF> a crmcls:X11_Prototypical_Document .
+
+<https://rem.clscor.io/entity/protodoc/RSLvEPad8QCYT5hBLn9GXd> a crmcls:X11_Prototypical_Document .
+
+<https://romdracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/rom>,
+        <https://romdracor.clscor.io/entity/appellation/HkTU9mrQhmR4P7qjFT5JfT>,
+        <https://romdracor.clscor.io/entity/appellation/JUg8hosYWV2h7wVvH3sbHW> .
+
+<https://romdracor.clscor.io/entity/protodoc/ew4kkzbq5VpHhMTnuZtzjR> a crmcls:X11_Prototypical_Document .
+
+<https://rusdracor.clscor.io/entity/protodoc/cQGjAfNBix2nZPi9sRGt3c> a crmcls:X11_Prototypical_Document .
+
+<https://shakedracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/shake>,
+        <https://shakedracor.clscor.io/entity/appellation/RsD6oamvEmTF9Sc45zoxPV>,
+        <https://shakedracor.clscor.io/entity/appellation/kVS6tdvngqiSSEC3EPuyBy> ;
+    crm:P3_has_note "Homepage: \"derived from the Folger Shakespeare Library\"" .
+
+<https://shakedracor.clscor.io/entity/protodoc/Z6MUejYEjJvegWPKpHZp7C> a crmcls:X11_Prototypical_Document .
+
+<https://spandracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/span>,
+        <https://spandracor.clscor.io/entity/appellation/8G2PCZKeej92mTEkb5EGDx>,
+        <https://spandracor.clscor.io/entity/appellation/mntp6aFheanSCFqxSJjQ5p> ;
+    crm:P3_has_note "Homepage: \"Forked from the BETTE corpus (Biblioteca Electrónica Textual del Teatro en Español de 1868–1936).\"" .
+
+<https://spandracor.clscor.io/entity/protodoc/VPrjettHB2scRA6FPTAqam> a crmcls:X11_Prototypical_Document .
+
+<https://swedracor.clscor.io/entity/protodoc/Ynxahe4HTBttWu3EtLzwqE> a crmcls:X11_Prototypical_Document .
+
+<https://tatdracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/tat>,
+        <https://tatdracor.clscor.io/entity/appellation/NMsLn6U5dD763XZMAmHRmS>,
+        <https://tatdracor.clscor.io/entity/appellation/dWRJ4SxuGWHiTdmAwGktyE> ;
+    crm:P3_has_note "Homepage: \"provided through Tatar Electronic Library.\"" .
+
+<https://tatdracor.clscor.io/entity/protodoc/dkc7jk5qKuzJGWvbhSn8QD> a crmcls:X11_Prototypical_Document .
+
+<https://theaclass.clscor.io/entity/protodoc/5XeiNBWQBdcdXkkA6duqbN> a crmcls:X11_Prototypical_Document .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/en> a crm:E56_Language ;
+    rdfs:label "English" .
+
+<https://alsdracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://alsdracor.clscor.io/entity/appellation/86nMHFvKX8Fjqkx4SyUp9q>,
+        <https://alsdracor.clscor.io/entity/appellation/cBgquhHqKPeeokZSRLzsx3>,
+        <https://dracor.org/als>,
+        <https://dracor.org/doc/api> .
+
+<https://dracor .clscor.io/entity/descevent/E9X4FEAE94mVJwuNSRm3k8> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://dracor .clscor.io/entity/protodoc/PQ2YZJZLmQsBVf8v2tgY9n> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/ZNKWcEzCHjcEEPmZqY5NfL> .
+
+<https://eltec.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://eltec.clscor.io/entity/appellation/96BCx4vRy6ehNaur6ZYvRP>,
+        <https://eltec.clscor.io/entity/appellation/bV7oNrxpXoyyCXfLP7j9cR>,
+        <https://github.com/COST-ELTeC > ;
+    crm:P3_has_note "Proposal: \"One of the aims of the Distant Reading COST Action (2017-2021) is to coordinate the creation of a multilingual European Literary Text Collection (ELTeC). The ELTeC core will ultimately contain at least 10 linguistically annotated subcollections of 100 novels comparable in their internal structure in at least 10 different European languages, totalling at least 1,000 full-text novels from the period 1840-1920. The extended ELTeC will take the total number of full-text novels to at least 2,500. Novels have been chosen among major literary genres for availability and size. Chronological limits are due to constraints related to copyright and availability of quality full texts.\"" .
+
+<https://folgershake.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://folgershake.clscor.io/entity/appellation/AoYRzEptqQtasPYVMwuinp>,
+        <https://folgershake.clscor.io/entity/appellation/Q2EQWRVkCYyvc3xSTVWsLe>,
+        <https://shakespeare.folger.edu/>,
+        <https://shakespeare.folger.edu/the-folger-shakespeare-api/> ;
+    crm:P3_has_note """Proposal: "Shakespeare Folger Library: all (37) Shakespeare plays, very high encoding-depth "
+Commentary: corpus of a single author; contained in ShakeDraCor""" .
+
+<https://gerdracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/ger>,
+        <https://gerdracor.clscor.io/entity/appellation/WAoSxgVwnQBAfEx8Dy2HSE>,
+        <https://gerdracor.clscor.io/entity/appellation/YsGAFGBiarKBAXv3AAaWvw> ;
+    crm:P3_has_note "Proposal: \"German Drama Corpus: 481 German-language plays from 1730s–1940s\"" .
+
+<https://rem.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://doi.org/10.34644/laudatio-dev-xCS3CnMB7CArCQ9C3LRB>,
+        <https://rem.clscor.io/entity/appellation/4UKhGNuG3aKVb2HkR5hX8d>,
+        <https://rem.clscor.io/entity/appellation/ER4pCQYTF6ah2SpEcrmzc5>,
+        <https://www.laudatio-repository.org/docs/elasticapi/> ;
+    crm:P3_has_note """Commentary: The laudatio repository uses a custom XML (CorA XML) and custom linguistic search and visualization tool (ANNIS); the ReM is only one of the corpora provided by the laudatio repository
+Homepage: "The "Reference Corpus of Middle High German" (short: ReM) is a corpus of diplomatically transcribed and annotated texts from Middle High German (1050-1350) with a size of around 2 million word forms. It originated from the research projects "Reference Corpus of Middle High German" and "Middle High German grammar". Texts have been digitized and richly annotated, e.g. with parts of speech, morphology and lemma\"""" .
+
+<https://rusdracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/rus>,
+        <https://rusdracor.clscor.io/entity/appellation/Fk5p9PRJxTdniLmSGymzZM>,
+        <https://rusdracor.clscor.io/entity/appellation/nEb4CS3H9zK8sEYp9nrVua> ;
+    crm:P3_has_note "Proposal: \"Russian Drama Corpus: 210 Russian-language plays from 1740s–1940s\"" .
+
+<https://swedracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/swe>,
+        <https://swedracor.clscor.io/entity/appellation/DYwcmL6WQ2b2SFESqMHBAA>,
+        <https://swedracor.clscor.io/entity/appellation/T28RFoRXKXhhS7gu8a7ZxZ> ;
+    crm:P3_has_note "Homepage: \"Derived from the eDrama (https://litteraturbanken.se/dramawebben/sida/edrama) project\"" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/de> a crm:E56_Language ;
+    rdfs:label "German" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/el> a crm:E56_Language ;
+    rdfs:label "Greek" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/es> a crm:E56_Language ;
+    rdfs:label "Spanish" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/fr> a crm:E56_Language ;
+    rdfs:label "French" .
+
+<https://1000novel.clscor.io/entity/descevent/Bd9a9j3bhTsMEZ6kAAAywt> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://1000novel.clscor.io/entity/protodoc/C2ZdHhf9FMjm6zCoKvioRk> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "http://hdl.handle.net/11321/312"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/TeHYr6HLVp2tefw9dX94cw> .
+
+<https://anemoskala.clscor.io/entity/descevent/cKX7EgwGaMqdjvCt5BLdJE> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://anemoskala.clscor.io/entity/protodoc/LqbBwGg9M2LoioFXfod9WZ> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "http://www.greek-language.gr/digitalResources/literature/tools/concordance/index.html"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/Dpohir9PFLo4opn8Atr3Ej> .
+
+<https://bashdracor.clscor.io/entity/descevent/XTyx6uvr53DC7BXRiZ2Dxs> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://bashdracor.clscor.io/entity/protodoc/abLLgwNbVdMH4rhRiqqdfV> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/bash"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/bMAZVnuFevpPmjLewXfCWo> .
+
+<https://caldracor.clscor.io/entity/descevent/GQoaQWhQkbZiWNxL9xpaUc> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://caldracor.clscor.io/entity/protodoc/F7nuEfmRkjg29X5rYW2j8n> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/cal"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/Rs7mgbZe7WGQN4DGb8nCQX> .
+
+<https://diager.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://diager.clscor.io/entity/appellation/DUbbstiDYTcTAf4QUJZwxm>,
+        <https://diager.clscor.io/entity/appellation/Zv6xuc76x9ihugZPfE6zDM>,
+        <https://doi.org/10.34644/laudatio-dev-WiWkDnMB7CArCQ9CyBEw>,
+        <https://www.laudatio-repository.org/docs/elasticapi/> ;
+    crm:P3_has_note """Homepage (DE): "Das Referenzkorpus Altdeutsch erfasst und annotiert die ältesten Sprachdenkmäler des Deutschen vom Beginn der kontinuierlichen schriftlichen Überlieferung um 750 bis etwa 1050 mit einem Umfang von ca. 650 000 Textwörtern. Aufgenommen werden alle in dieser Zeit überlieferten Texte des Althochdeutschen und des Altsächsischen in einer möglichst genauen Wiedergabestufe. Dabei werden die handschriftengetreuesten gedruckten Texteditionen zugrundegelegt. Die Annotation erfasst Header-Informationen, strukturelle (Wort, Satz, Zeile, Absatz etc.) und linguistische Annotationen (Part of Speech-Tagging, Flexionsmorphologie) sowie syntaktische Satzinformationen und erfolgt mit Unterstützung einer semi-automatischen Vorannotation, die mit Hilfe der digitalisierten Sprachstufen- und Textwörterbücher und Glossare zum Althochdeutschen und zum Altsächsischen erzeugt wurde. Die verschiedenen Stufen der Annotation werden in Form einer Mehrebenenarchitektur aufeinander bezogen."
+Commentary: one of the corpora provided by the laudatio repository""" .
+
+<https://dta.clscor.io/entity/descevent/PNPLNFyesda78AgZfqUkWU> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://dta.clscor.io/entity/protodoc/5rtw26b8DEZ23UNoU2UFYN> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://www.deutschestextarchiv.de/"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/34KGcY5UPGkVvyY9qMt49P> .
+
+<https://eltec.clscor.io/entity/descevent/bHheNjMXexxaw7qHDTFh4o> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://eltec.clscor.io/entity/protodoc/JfYFHHmnFsb56cGkrqTtTb> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://github.com/COST-ELTeC"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/EVPFyU4ELZyGxgnzdxCrNj> .
+
+<https://fredracor.clscor.io/entity/descevent/EvApqCV3wtjxahj2Lu9qvz> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://fredracor.clscor.io/entity/protodoc/i2yb3gtxAJcLtJZ7gbFSs9> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/fre"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/natkmGSmZFcT6A98XQpKdc> .
+
+<https://gershdracor.clscor.io/entity/descevent/kWkkSVWDbn4nrL2SfDFgJE> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://gershdracor.clscor.io/entity/protodoc/KKdTAFM7QzHeaj72DzkDiG> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/gersh"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/UYKYacHzLU7ZEy8RYr7B4f> .
+
+<https://greekdracor.clscor.io/entity/descevent/4PL4EscRtmGd9adq99BgDa> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://greekdracor.clscor.io/entity/protodoc/9G69DHNkzESdFSTnUDUtvR> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/greek"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/MG73LVhkJcR3MAFs847Q5h> .
+
+<https://itadracor.clscor.io/entity/descevent/3nVr6rqSTJ97pSjrqzweU6> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://itadracor.clscor.io/entity/protodoc/e74pfPscfLbfdr8t3LSrpF> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/ita"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/jP9SonuLPZBYLr8vRgvNxh> .
+
+<https://romdracor.clscor.io/entity/descevent/DcXJGcX8zXMrpZtYWu5KDj> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://romdracor.clscor.io/entity/protodoc/ew4kkzbq5VpHhMTnuZtzjR> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/rom"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/eEpgA3cppfLCp8dxkizJHe> .
+
+<https://shakedracor.clscor.io/entity/descevent/4rt77PYGu5jpKcZYwvrxPk> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://shakedracor.clscor.io/entity/protodoc/Z6MUejYEjJvegWPKpHZp7C> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/shake"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/dzQ7b36HUxreYK8e7Zo7CE> .
+
+<https://spandracor.clscor.io/entity/descevent/KDLmCZE3ZwpqPnzYo5KvEv> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://spandracor.clscor.io/entity/protodoc/VPrjettHB2scRA6FPTAqam> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/span"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/AJx8AUfwMCKimGc4xcxcMm> .
+
+<https://tatdracor.clscor.io/entity/descevent/6cRFZmEzkNPKK4q68tmJdB> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://tatdracor.clscor.io/entity/protodoc/dkc7jk5qKuzJGWvbhSn8QD> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/tat"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/KnCG6hXRWKnvvBfczcT2gq> .
+
+<https://theaclass.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://www.theatre-classique.fr/pages/programmes/PageEdition.php>,
+        <https://theaclass.clscor.io/entity/appellation/4SWMKHor6GbPqED3ktcxoR>,
+        <https://theaclass.clscor.io/entity/appellation/VHeobi6J5g8XEwnoeaaXVK> ;
+    crm:P3_has_note """Proposal: "Théâtre Classique: 1.350 plays (from 17th and 18th century)"
+Commentary: TEI with tei-all invalid, undocumented customizations [M. Goebel set up a pipeline to do a cleaned up ingest into dracor]; from 17th and 18th century; homepage is entirely in French.""" .
+
+<https://alsdracor.clscor.io/entity/descevent/5cguWxAAADAKnEQoUTZ8bv> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://alsdracor.clscor.io/entity/protodoc/77yzBcMqg6YgCXDAyfwhHw> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/als"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/AsbZwSn8zGjNjeSw7WCXjB> .
+
+<https://folgershake.clscor.io/entity/descevent/Zpc8fpMBW5PgqKhmZgBWeA> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://folgershake.clscor.io/entity/protodoc/J97aRGQAsM8Vwwz5RY2dy4> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://shakespeare.folger.edu/"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/Wc73pXhwRt9vMDJajSBsEW> .
+
+<https://gerdracor.clscor.io/entity/descevent/DxjCVvFoqwPXDDZTA9ofd9> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://gerdracor.clscor.io/entity/protodoc/8QFV229rjny6iNH4t4kje5> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/ger"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/FNiNb4mwejxL9PjJZqjR5w> .
+
+<https://rem.clscor.io/entity/descevent/ef94xmCu7m65B2t8kWMCBR> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://rem.clscor.io/entity/protodoc/RSLvEPad8QCYT5hBLn9GXd> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://doi.org/10.34644/laudatio-dev-xCS3CnMB7CArCQ9C3LRB"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/7NpEu5eythLVm88iXmdZL7> .
+
+<https://rusdracor.clscor.io/entity/descevent/dP5pDDz499zTC3hRSNKKBf> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://rusdracor.clscor.io/entity/protodoc/cQGjAfNBix2nZPi9sRGt3c> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/rus"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/Su4gEgJ3QnEaR9cYFdaYXd> .
+
+<https://swedracor.clscor.io/entity/descevent/gd8TKRPDXLZGfu3y5mGaN4> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://swedracor.clscor.io/entity/protodoc/Ynxahe4HTBttWu3EtLzwqE> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://dracor.org/swe"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/XBwfrhufzeNrB6xwSaUuis> .
+
+<https://diager.clscor.io/entity/descevent/NZaQ6gY9oyjgg8ydTCwYZ6> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://diager.clscor.io/entity/protodoc/3LtBeAURRnnaogtCd8otjo> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "https://doi.org/10.34644/laudatio-dev-WiWkDnMB7CArCQ9CyBEw"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/YJyK2bCk64fTRVXH4jvhCA> .
+
+<https://theaclass.clscor.io/entity/descevent/DBY8BTVceBVpgoWxFtgxs9> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://theaclass.clscor.io/entity/protodoc/5XeiNBWQBdcdXkkA6duqbN> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/michal-mrugalski>,
+        <https://core.clscor.io/entity/person/susanne-zhanial>,
+        <https://core.clscor.io/entity/person/vera-charvat> ;
+    crm:P16_used_specific_object "http://www.theatre-classique.fr/pages/programmes/PageEdition.php"^^xsd:anyURI ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/nvEPWSDE3jQ7X5AvagjVYT> .
+
+<https://dracor.org/doc/api> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> ;
+    rdf:value "API for the Alsatian Drama Corpus website.",
+        "API for the Bashkir Drama Corpus website.",
+        "API for the Calderón corpus website.",
+        "API for the Drama Corpora Project website.",
+        "API for the French Drama Corpus website.",
+        "API for the German Drama Corpus website.",
+        "API for the German Shakespeare Drama Corpus website.",
+        "API for the Greek Drama Corpus website.",
+        "API for the Italian Drama Corpus website.",
+        "API for the Roman Drama Corpus website.",
+        "API for the Russian Drama Corpus website.",
+        "API for the Shakespeare Drama Corpus website.",
+        "API for the Spanish Drama Corpus website.",
+        "API for the Swedish Drama Corpus website.",
+        "API for the Tatar Drama Corpus website." .
+
+<https://core.clscor.io/entity/type/dimension_type/texts> a crm:E58_Measurement_Unit .
+
+<https://core.clscor.io/entity/person/michal-mrugalski> a crm:E39_Actor .
+
+<https://core.clscor.io/entity/person/susanne-zhanial> a crm:E39_Actor .
+
+<https://core.clscor.io/entity/person/vera-charvat> a crm:E39_Actor .
+
+
