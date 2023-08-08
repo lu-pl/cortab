@@ -8,7 +8,8 @@ import click
 from rdfdf.rdfdf import DFGraphConverter
 from rdflib import Graph
 
-from clsns import CLSInfraNamespaceManager
+# from clsns import CLSInfraNamespaceManager
+from clisn import CLSInfraNamespaceManager
 from table_partitions import corpus_table
 from rules import rules
 
