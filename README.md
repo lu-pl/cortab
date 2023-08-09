@@ -14,7 +14,7 @@ pip install .
 
 Either run `cortab.py` directly or use the CLI `cortacl`.
 
-The CLI creates a corpusTable partition by specifying a column and one or multiple rows and runs [tabulardf](https://github.com/lu-pl/tabulardf) rules defined in `rules.py`.
+The CLI either transforms the entire corpusTable (if invoked without options) or creates a corpusTable partition by specifying a column and one or multiple rows and runs [tabulardf](https://github.com/lu-pl/tabulardf) rules defined in `rules.py`.
 
 E.g.
 ```shell
