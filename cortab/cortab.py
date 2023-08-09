@@ -1,12 +1,11 @@
 """Script for corpusTable to RDF transformations."""
 
+from clisn import CLSInfraNamespaceManager
 from tabulardf import FieldGraphConverter
 from rdflib import Graph
 
-from rules import rules
-from clisn import CLSInfraNamespaceManager
-
-from table_partitions import (
+from cortab.rules import rules
+from cortab.table_partitions import (
     corpus_table,
     rem_partition,
     greekdracor_partition,
