@@ -9,14 +9,15 @@ from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, XSD, SKOS
 from shortuuid import uuid
 
-from clsns import crm, crmcls, clst
-from helpers.cortab_utils import skip_nan
+from clisn import crm, crmcls, clst
+
+from cortab.helpers.cortab_utils import skip_nan
 
 # graph imports
 from lodkit import importer
-from vocabs.corpusType import corpusType_skos
-from vocabs.literaryGenre import literaryGenre_skos
-from vocabs.formats import formats_crmcls
+from cortab.vocabs.corpusType import corpusType_skos
+from cortab.vocabs.literaryGenre import literaryGenre_skos
+from cortab.vocabs.formats import formats_crmcls
 
 
 _TripleObject = URIRef | Literal
@@ -677,7 +678,7 @@ def genre_rule(subject_field, object_field, store):
 
     def genre_triples():
         """Lookup genre URIs in vocabs and yield P141 statement."""
-        for genre in object_field.split(", "):
+        for genre in object_field.split(","):
             genre = genre.strip()
 
             corpus_genre_uri = next(
@@ -888,6 +889,7 @@ _rules = {
     "corpusTextCount": textcount_rule,
     "corpusWordCount": wordcount_rule,
     "corpusTimespan": timespan_rule,
+    # "corpusFormat/Schema_consolidatedVocab": format_rule,
     "corpusFormat/Schema": format_rule,
     # "corpusAnnotation": annotation_rule,
     # corpusType
