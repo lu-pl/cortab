@@ -5,16 +5,25 @@ description = ""
 authors = ["Lukas Plank <lupl@tuta.io>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+cortacl = "cortab.cortacl:cortacl"
+
 [tool.poetry.dependencies]
 python = "^3.11"
 pandas = "^2.0.2"
 shortuuid = "^1.0.11"
-langcodes = "^3.3.0"
+langcodes = {extras = ["data"], version = "^3.3.0"}
 click = "^8.1.3"
+<<<<<<< HEAD
 toolz = "^0.12.0"
 lodkit = "^0.1.1"
 rdfdf = "^0.1.8"
 clisn = "^0.1.2"
+=======
+lodkit = "^0.1.1"
+toolz = "^0.12.0"
+tabulardf = "^0.1.0"
+>>>>>>> port
 
 
 [build-system]
