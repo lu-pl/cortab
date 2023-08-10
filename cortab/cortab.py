@@ -4,8 +4,8 @@ from clisn import CLSInfraNamespaceManager
 from tabulardf import FieldGraphConverter
 from rdflib import Graph
 
-from cortab.rules import rules
-from cortab.table_partitions import (
+from rules import rules
+from table_partitions import (
     corpus_table,
     rem_partition,
     greekdracor_partition,

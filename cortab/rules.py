@@ -11,17 +11,15 @@ from shortuuid import uuid
 
 from clisn import crm, crmcls, clst
 
-from cortab.helpers.cortab_utils import skip_nan
+from helpers.cortab_utils import skip_nan
 
 # graph imports
 from lodkit import importer
-from cortab.vocabs.corpusType import corpusType_skos
-from cortab.vocabs.literaryGenre import literaryGenre_skos
-from cortab.vocabs.formats import formats_crmcls
+# from cortab.vocabs import (
 
+# )
 
-_TripleObject = URIRef | Literal
-_Triple = tuple[URIRef, URIRef, _TripleObject]
+from lodkit.types import _Triple
 
 
 def name_rule(subject_field, object_field, store) -> Graph:
@@ -163,7 +161,7 @@ def link_rule(subject_field, object_field, store) -> Graph:
             base_ns["corpus"],
             crm["P1_is_identified_by"],
             link_uri
-         ),
+        ),
         (
             link_uri,
             RDF.type,
@@ -276,7 +274,7 @@ def language_rule(subject_field, object_field, store) -> Graph:
     def generate_lang_uris() -> Generator[_Triple, None, None]:
         """Generate language triples."""
         for language_value in language_values:
-            language_value = language_value.strip() # todo: properly sanitize
+            language_value = language_value.strip()  # todo: properly sanitize
 
             try:
                 lang_uri = store["langs"][language_value]
@@ -520,7 +518,7 @@ def format_rule(subject_field, object_field, store):
     """Rule for corpusFormat field conversion."""
     base_ns = store["base_ns"]
     attrassign_uri = base_ns[f"attrassign/{uuid()}"]
-    descevent_uri  = store["descevent"]
+    descevent_uri = store["descevent"]
     protodoc_uri = store["protodoc_uri"]
     tei_type_uri = clst["type/format/tei"]
 
@@ -578,7 +576,7 @@ def format_rule(subject_field, object_field, store):
     return graph
 
 
-## unclear mapping
+# unclear mapping
 # def annotation_rule():
 #     """Rule for corpusAnnotation field."""
 #     base_ns = store["base_ns"]
