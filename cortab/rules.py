@@ -1,215 +1,113 @@
-"""rdfdf rules for corpusTable transformations."""
+"""Rules for corpusTable conversion."""
+
+from collections.abc import Generator
 
 import langcodes
 import toolz
 
-from collections.abc import Generator
-
+from clisn import crm, crmcls, clst, corpus_base
+from lodkit.types import _Triple
 from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, XSD, SKOS
-from shortuuid import uuid
-
-from clisn import crm, crmcls, clst
 
 from helpers.cortab_utils import skip_nan
 
 # graph imports
 from lodkit import importer
-# from cortab.vocabs import (
-
-# )
-
-from lodkit.types import _Triple
+from vocabs import (
+    appellation_type,
+    corpus_type,
+    feature,
+    format,
+    licenses,
+    link_type,
+    literary_genre,
+    method
+)
 
 
 def name_rule(subject_field, object_field, store) -> Graph:
-    """Rule for corpusName field conversion.
+    """Rule for corpusName field conversion."""
+    base_ns = corpus_base(subject_field)
 
-    Also basic setup for corpus identifier/descevent/protodoc.
-    """
-    base_ns = Namespace(f"https://{subject_field.lower()}.clscor.io/entity/")
-    name_appellation = base_ns[f"appellation/{uuid()}"]
-    literal_name = Literal(object_field.strip())
-    full_title = base_ns["type/appellation_type/full_title"]
-    protodoc_uri = base_ns[f"protodoc/{uuid()}"]
-
-    descevent_uri = base_ns[f"descevent/{uuid()}"]
-
-    store.update(
-        {
-            "base_ns": base_ns,
-            "literal_name": literal_name,
-            "descevent": descevent_uri,
-            "protodoc_uri": protodoc_uri
-        }
-    )
-
-    triples = [
-        # corpus identifier
-        (
-            base_ns["corpus"],
-            RDF.type,
-            crmcls["X1_Corpus"]
-        ),
-        # corpus protodoc
-        (
-            protodoc_uri,
-            RDF.type,
-            crmcls["X11_Prototypical_Document"]
-        ),
-        (
-            base_ns["corpus"],
-            crm["P1_is_identified_by"],
-            name_appellation
-        ),
-        (
-            name_appellation,
-            RDF.type,
-            crm["E41_Appellation"]
-        ),
-        (
-            name_appellation,
-            crm["P2_has_type"],
-            full_title
-        ),
-        (
-            name_appellation,
-            RDF.value,
-            literal_name
-        )
-    ]
-
-    graph = Graph()
-
-    for triple in triples:
-        graph.add(triple)
-
-    return graph
-
-
-def acronym_rule(subject_field, object_field, store) -> Graph:
-    """Rule for corpusAcronym field conversion."""
-    base_ns = store["base_ns"]
-    acronym_appellation = base_ns[f"appellation/{uuid()}"]
-    store["acronym_appellation"] = acronym_appellation
-
-    triples = [
-        (
-            base_ns["corpus"],
-            crm["P1_is_identified_by"],
-            acronym_appellation
-        ),
-        (
-            acronym_appellation,
-            RDF.type,
-            crm["E41_Appellation"]
-        ),
-        (
-            acronym_appellation,
-            crm["P2_has_type"],
-            base_ns["type/appellation_type/acronym"]
-        ),
-        (
-            acronym_appellation,
-            RDF.value,
-            Literal(object_field)
-        )
-    ]
-
-    graph = Graph()
-
-    for triple in triples:
-        graph.add(triple)
-
-    return graph
-
-
-def acronym_comment_rule(subject_field, object_field, store):
-    """Rule for corpusAcronym_comments."""
-    acronym_appellation = store["acronym_appellation"]
-
-    graph = Graph()
-
-    graph.add(
-        (
-            acronym_appellation,
-            RDFS.comment,
-            Literal(object_field)
+    corpus = base_ns["corpus"]
+    descevent = base_ns["descevent/1"]
+    protodoc = base_ns["protodoc/1"]
+    timespan = base_ns["timespan/1"]
+    name_appellation = base_ns["appellation/1"]
+    full_title_type = next(
+        appellation_type.subjects(
+            RDFS.label,
+            Literal("full title")
         )
     )
 
-    return graph
-
-
-def link_rule(subject_field, object_field, store) -> Graph:
-    """Rule for corpusLink field conversion."""
-    base_ns = store["base_ns"]
-    link_uri = URIRef(object_field)
-    link_literal = Literal(object_field.strip(), datatype=XSD.anyURI)
-    descevent_uri = store["descevent"]
-    descevent_timespan_uri = clst[f"timespan/{uuid()}"]
-    store["descevent_timespan_uri"] = descevent_timespan_uri
-    protodoc_uri = store["protodoc_uri"]
-
-    # persons
     vera = clst["person/vera-charvat"]
     michal = clst["person/michal-mrugalski"]
     susanne = clst["person/susanne-zhanial"]
 
-    link_triples = [
-        (
-            base_ns["corpus"],
-            crm["P1_is_identified_by"],
-            link_uri
-        ),
-        (
-            link_uri,
-            RDF.type,
-            crm["E42_Identifier"]
-        ),
-        (
-            link_uri,
-            crm["P2_has_type"],
-            base_ns["type/link_type/project-website"]
-        ),
-        (
-            link_uri,
-            RDF.value,
-            Literal(f"Link to the {store['literal_name']} website.")
-        )
-    ]
+    store["corpus_full_name"] = object_field
 
-    description_triples = [
+    # defer: "corpusLink", "additionalInfo / commentary"
+    corpus_triples = [
         (
-            descevent_uri,
+            corpus,
+            RDF.type,
+            crmcls["X1_Corpus"]
+        ),
+        (
+            descevent,
             RDF.type,
             crmcls["X9_Corpus_Description"]
         ),
         (
-            descevent_uri,
-            crm["P16_used_specific_object"],
-            link_literal
-        ),
-        (
-            descevent_uri,
+            descevent,
             crm["P135_created_type"],
-            protodoc_uri
+            protodoc
         ),
         (
-            descevent_uri,
+            protodoc,
+            RDF.type,
+            crmcls["X11_Prototypical_Document"]
+        ),
+        (
+            descevent,
             crm["P14_carried_out_by"],
             vera
         ),
         (
-            descevent_uri,
+            descevent,
             crm["P14_carried_out_by"],
             michal
         ),
         (
-            descevent_uri,
+            descevent,
             crm["P14_carried_out_by"],
             susanne
         ),
+        (
+            descevent,
+            crm["P4_has_time-span"],
+            timespan
+        ),
+        (
+            timespan,
+            RDF.type,
+            crm["E52_Time-Span"]
+        ),
+        (
+            timespan,
+            crm["P81a_end_of_the_begin"],
+            Literal("2022-04-14", datatype=XSD.date)
+        ),
+        (
+            timespan,
+            crm["P81b_begin_of_the_end"],
+            Literal("2022-06-15", datatype=XSD.date)
+        )
+    ]
+
+    person_triples = [
         (
             vera,
             RDF.type,
@@ -224,33 +122,158 @@ def link_rule(subject_field, object_field, store) -> Graph:
             susanne,
             RDF.type,
             crm["E39_Actor"]
+        )
+    ]
+
+    name_triples = [
+        (
+            corpus,
+            crm["P1_is_identified_by"],
+            name_appellation
         ),
         (
-            descevent_uri,
-            crm["P4_has_time-span"],
-            descevent_timespan_uri
-        ),
-        (
-            descevent_timespan_uri,
+            name_appellation,
             RDF.type,
-            crm["E52_Time-Span"]
-        ),
-        # timespan cidoc outdated?
-        (
-            descevent_timespan_uri,
-            crm["P81a_end_of_the_begin"],
-            Literal("2022-04-14", datatype=XSD.date)
+            crm["E41_Appellation"]
         ),
         (
-            descevent_timespan_uri,
-            crm["P81b_begin_of_the_end"],
-            Literal("2022-06-15", datatype=XSD.date)
+            name_appellation,
+            crm["P2_has_type"],
+            full_title_type
+        ),
+        (
+            name_appellation,
+            RDF.value,
+            Literal(object_field)
         )
     ]
 
     graph = Graph()
 
-    for triple in [*link_triples, *description_triples]:
+    for triple in [*corpus_triples, *person_triples, *name_triples]:
+        graph.add(triple)
+
+    return graph
+
+
+def acronym_rule(subject_field, object_field, store) -> Graph:
+    """Rule for corpusAcronym field conversion."""
+    base_ns = corpus_base(subject_field)
+
+    corpus = base_ns["corpus"]
+    acronym_appellation = base_ns["appellation/2"]
+    acronym_type = next(
+        appellation_type.subjects(
+            RDFS.label,
+            Literal("acronym")
+        )
+    )
+
+    # pass acronym_appellation to acronym_comment_rule
+    store["acronym_appellation"] = acronym_appellation
+
+    triples = [
+        (
+            corpus,
+            crm["P1_is_identified_by"],
+            acronym_appellation
+        ),
+        (
+            acronym_appellation,
+            RDF.type,
+            crm["E41_Appellation"]
+        ),
+        (
+            acronym_appellation,
+            crm["P2_has_type"],
+            acronym_type
+        ),
+        (
+            acronym_appellation,
+            RDF.value,
+            Literal(object_field)
+        ),
+    ]
+
+    graph = Graph()
+
+    for triple in triples:
+        graph.add(triple)
+
+    return graph
+
+
+def acronym_comment_rule(subject_field, object_field, store):
+    """Rule for corpusAcronym_comments."""
+    acronym_appellation = store["acronym_appellation"]
+
+    artificial_acronym_type = next(
+        appellation_type.subjects(
+            RDFS.label,
+            Literal("acronym")
+        )
+    )
+
+    triples = [
+        (
+            acronym_appellation,
+            RDFS.comment,
+            Literal(object_field)
+        ),
+        (
+            acronym_appellation,
+            crm["P2_has_type"],
+            artificial_acronym_type
+        )
+    ]
+
+    graph = Graph()
+
+    for triple in triples:
+        graph.add(triple)
+
+    return graph
+
+
+def link_rule(subject_field, object_field, store) -> Graph:
+    """Rule for the corpusLink field."""
+    base_ns = corpus_base(subject_field)
+
+    corpus = base_ns["corpus"]
+    link_uri = URIRef(object_field)
+    link_type_uri = next(
+        link_type.subjects(
+            RDFS.label,
+            Literal("project website")
+        )
+    )
+
+    triples = [
+        (
+            corpus,
+            crm["P1_is_identified_by"],
+            link_uri
+        ),
+        (
+            link_uri,
+            RDF.type,
+            crm["E42_Identifier"]
+        ),
+        (
+            link_uri,
+            crm["P2_has_type"],
+            link_type_uri
+        ),
+        (
+            link_uri,
+            RDF.value,
+            Literal(store["corpus_full_name"])
+        ),
+    ]
+
+    graph = Graph()
+
+    for triple in triples:
         graph.add(triple)
 
     return graph
@@ -258,16 +281,14 @@ def link_rule(subject_field, object_field, store) -> Graph:
 
 def language_rule(subject_field, object_field, store) -> Graph:
     """Rule for corpusLanguage field conversion."""
-    language_values = map(str.strip, object_field.split(","))
+    base_ns = corpus_base(subject_field)
 
-    base_ns = store["base_ns"]
-
-    attrassign_uri = base_ns[f"attrassign/{uuid()}"]
-    descevent_uri = store["descevent"]
-    protodoc_uri = store["protodoc_uri"]
+    attrassign_uri = base_ns["attrassign/1"]
+    descevent_uri = base_ns["descevent/1"]
+    protodoc_uri = base_ns["protodoc/1"]
 
     iso_language_ns = Namespace("https://vocabs.acdh.oeaw.ac.at/iso6391/")
-
+    language_values = map(str.strip, object_field.split(","))
     store["langs"] = {}
 
     # language triples
@@ -883,6 +904,8 @@ _rules = {
     "corpusAcronym": acronym_rule,
     "corpusAcronym_comments": acronym_comment_rule,
     "corpusLink": link_rule,
+
+
     "corpusLanguage": language_rule,
     "corpusTextCount": textcount_rule,
     "corpusWordCount": wordcount_rule,
