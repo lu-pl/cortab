@@ -803,26 +803,6 @@ files = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-name = "rdfdf"
-version = "0.1.8"
-description = ""
-optional = false
-python-versions = ">=3.10,<4.0"
-files = [
-    {file = "rdfdf-0.1.8-py3-none-any.whl", hash = "sha256:b8572a3e9d5626fb4d746b839f618ad17c3cb41063f8adaadb067bd8d8dfe9e0"},
-    {file = "rdfdf-0.1.8.tar.gz", hash = "sha256:e3ee566e441455bd0a2724c58fd88bda62b911367d979b58178fe1ffe4196ebb"},
-]
-
-[package.dependencies]
-langcodes = {version = ">=3.3.0,<4.0.0", extras = ["data"]}
-openpyxl = ">=3.1.2,<4.0.0"
-pandas = ">=2.0.1,<3.0.0"
-rdflib = ">=7.0.0,<8.0.0"
-
-[[package]]
-=======
->>>>>>> port
 name = "rdflib"
 version = "7.0.0"
 description = "RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information."
@@ -1002,8 +982,4 @@ test = ["websockets"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-<<<<<<< HEAD
-content-hash = "e27c27d1b0287a62734cfde8fc123984e90b2ffe464e77a8f10a0c4b82bbfaad"
-=======
-content-hash = "144bd25115e900d288fd607745dff3abe2bc585edbe0656a66e74867174fd279"
->>>>>>> port
+content-hash = "6d43211cc850970f27926c69e24d4032257cc5d488efa4cf980ba2a0f641ade5"
