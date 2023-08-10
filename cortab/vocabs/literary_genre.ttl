@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://core.clscor.io/entity/type/literary_genre/drama> a skos:Concept ;
+    rdfs:label "drama" ;
+    skos:inScheme <https://core.clscor.io/entity/type/literary_genre/> ;
+    skos:prefLabel "drama" .
+
+<https://core.clscor.io/entity/type/literary_genre/epic> a skos:Concept ;
+    rdfs:label "epic" ;
+    skos:altLabel "prose" ;
+    skos:inScheme <https://core.clscor.io/entity/type/literary_genre/> ;
+    skos:prefLabel "epic" .
+
+<https://core.clscor.io/entity/type/literary_genre/lyric> a skos:Concept ;
+    rdfs:label "lyric" ;
+    skos:altLabel "poetry" ;
+    skos:inScheme <https://core.clscor.io/entity/type/literary_genre/> ;
+    skos:prefLabel "lyric" .
+
+<https://core.clscor.io/entity/type/literary_genre/> a skos:ConceptScheme ;
+    skos:hasTopConcept <https://core.clscor.io/entity/type/literary_genre/drama>,
+        <https://core.clscor.io/entity/type/literary_genre/epic>,
+        <https://core.clscor.io/entity/type/literary_genre/lyric> .
+
+

@@ -1,0 +1,160 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://core.clscor.io/entity/type/corpus_type/annotated> a skos:Concept ;
+    rdfs:label "annotated" ;
+    skos:definition "An annotated corpus contains texts enriched with automatic annotations done by a machine (as opposed to manual annotation)." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "annotated" .
+
+<https://core.clscor.io/entity/type/corpus_type/author> a skos:Concept ;
+    rdfs:label "author" ;
+    skos:definition "An author corpus is based on the works of a single author (e.g. Shakespeare corpus)" ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "author" .
+
+<https://core.clscor.io/entity/type/corpus_type/balanced> a skos:Concept ;
+    rdfs:label "balanced" ;
+    skos:definition "In a balanced corpus,the relative sizes of its components are established according to some pre-defined criterion." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "balanced" .
+
+<https://core.clscor.io/entity/type/corpus_type/comparable> a skos:Concept ;
+    rdfs:label "comparable" ;
+    skos:definition "A comparable corpus contains texts from two or more languages with a similar genre and/or topics. Unlike in parallel corpora,the content does not have to be the translation of the source text." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "comparable" .
+
+<https://core.clscor.io/entity/type/corpus_type/diachronic> a skos:Concept ;
+    rdfs:label "diachronic" ;
+    skos:definition "A diachronic language corpus (also historical corpus) contains texts from different time periods and is often used to research changes in language." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "diachronic" .
+
+<https://core.clscor.io/entity/type/corpus_type/digital_critical_edition> a skos:Concept ;
+    rdfs:label "digital critical edition" ;
+    skos:definition "A machine-searchable scholarly enriched edition containing critical apparatus and usually making public different versions of a text." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "digital critical edition" .
+
+<https://core.clscor.io/entity/type/corpus_type/general> a skos:Concept ;
+    rdfs:label "general" ;
+    skos:definition "A general corpus contains a wide range of texts,literary genres,etc. and may contain written as well as spoken data." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "general" .
+
+<https://core.clscor.io/entity/type/corpus_type/learner> a skos:Concept ;
+    rdfs:label "learner" ;
+    skos:definition "A learner corpus contains texts of either spoken or written language produced by learners of a second language." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "learner" .
+
+<https://core.clscor.io/entity/type/corpus_type/manually_annotated> a skos:Concept ;
+    rdfs:label "manually annotated" ;
+    skos:definition "A manually annotated corpus contains texts enriched with manual annotations." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "manually annotated" .
+
+<https://core.clscor.io/entity/type/corpus_type/monitor> a skos:Concept ;
+    rdfs:label "monitor" ;
+    skos:definition "In linguistics,a monitor corpus is designed to monitor the dynamic reality of a language in real time. In CLS,the term refers to corpora that contain larger texts of a specific text type and are continuously curated and enhanced by adding new texts and affordances for research." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "monitor" .
+
+<https://core.clscor.io/entity/type/corpus_type/monolingual> a skos:Concept ;
+    rdfs:label "monolingual" ;
+    skos:definition "A monolingual corpus contains texts in only one language." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "monolingual" .
+
+<https://core.clscor.io/entity/type/corpus_type/multilingual> a skos:Concept ;
+    rdfs:label "multilingual" ;
+    skos:definition "A multilingual corpus contains texts in various languages." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "multilingual" .
+
+<https://core.clscor.io/entity/type/corpus_type/opportunistic> a skos:Concept ;
+    rdfs:label "opportunistic" ;
+    skos:definition "Opportunistic as opposed to principled corpora. Principled - built from the ground up in relation to a specific research question or a specific quality such as representativeness or balance,whereas opportunistic corpora are built by the compiler using what he or she can scrap/compile at any given time from existing resources." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "opportunistic" .
+
+<https://core.clscor.io/entity/type/corpus_type/parallel> a skos:Concept ;
+    rdfs:label "parallel" ;
+    skos:definition "A parallel corpus contains texts in their original language and their translations in another set of languages" ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "parallel" .
+
+<https://core.clscor.io/entity/type/corpus_type/programmable> a skos:Concept ;
+    rdfs:label "programmable" ;
+    skos:definition "Programmable corpora expose an open,transparently documented and (at least partly) research-driven API to make texts machine-actionable." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "programmable" .
+
+<https://core.clscor.io/entity/type/corpus_type/reference> a skos:Concept ;
+    rdfs:label "reference" ;
+    skos:definition "A reference corpus consists of a set of texts for a given scope (period,region,genre). It is designed to investigate a given language as a whole and accordingly contains subcorpora of texts in all major registers,containing 'fiction' or 'literature'." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "reference" .
+
+<https://core.clscor.io/entity/type/corpus_type/representative> a skos:Concept ;
+    rdfs:label "representative" ;
+    skos:definition "A representative corpus samples texts that correspond with the full range variability in a population." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "representative" .
+
+<https://core.clscor.io/entity/type/corpus_type/specialized> a skos:Concept ;
+    rdfs:label "specialized" ;
+    skos:definition "A specialized corpus collects texts under the focus of a specialized research question or topic." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "specialized" .
+
+<https://core.clscor.io/entity/type/corpus_type/spoken> a skos:Concept ;
+    rdfs:label "spoken" ;
+    skos:definition "A spoken language corpus (also speech corpus) contains texts of spoken language,such as audio and video files and their transcriptions." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "spoken" .
+
+<https://core.clscor.io/entity/type/corpus_type/synchronic> a skos:Concept ;
+    rdfs:label "synchronic" ;
+    skos:definition "A synchronic language corpus contains texts from one time period and is often used for comparing varieties in language." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "synchronic" .
+
+<https://core.clscor.io/entity/type/corpus_type/web_corpus> a skos:Concept ;
+    rdfs:label "web corpus" ;
+    skos:definition "A web-corpus contains texts of language used on the internet." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "web corpus" .
+
+<https://core.clscor.io/entity/type/corpus_type/written> a skos:Concept ;
+    rdfs:label "written" ;
+    skos:definition "A written language corpus contains texts of written language." ;
+    skos:inScheme <https://core.clscor.io/entity/type/corpus_type/> ;
+    skos:prefLabel "written" .
+
+<https://core.clscor.io/entity/type/corpus_type/> a skos:ConceptScheme ;
+    skos:hasTopConcept <https://core.clscor.io/entity/type/corpus_type/annotated>,
+        <https://core.clscor.io/entity/type/corpus_type/author>,
+        <https://core.clscor.io/entity/type/corpus_type/balanced>,
+        <https://core.clscor.io/entity/type/corpus_type/comparable>,
+        <https://core.clscor.io/entity/type/corpus_type/diachronic>,
+        <https://core.clscor.io/entity/type/corpus_type/digital_critical_edition>,
+        <https://core.clscor.io/entity/type/corpus_type/general>,
+        <https://core.clscor.io/entity/type/corpus_type/learner>,
+        <https://core.clscor.io/entity/type/corpus_type/manually_annotated>,
+        <https://core.clscor.io/entity/type/corpus_type/monitor>,
+        <https://core.clscor.io/entity/type/corpus_type/monolingual>,
+        <https://core.clscor.io/entity/type/corpus_type/multilingual>,
+        <https://core.clscor.io/entity/type/corpus_type/opportunistic>,
+        <https://core.clscor.io/entity/type/corpus_type/parallel>,
+        <https://core.clscor.io/entity/type/corpus_type/programmable>,
+        <https://core.clscor.io/entity/type/corpus_type/reference>,
+        <https://core.clscor.io/entity/type/corpus_type/representative>,
+        <https://core.clscor.io/entity/type/corpus_type/specialized>,
+        <https://core.clscor.io/entity/type/corpus_type/spoken>,
+        <https://core.clscor.io/entity/type/corpus_type/synchronic>,
+        <https://core.clscor.io/entity/type/corpus_type/web_corpus>,
+        <https://core.clscor.io/entity/type/corpus_type/written> .
+
+

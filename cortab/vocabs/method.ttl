@@ -1,0 +1,239 @@
+@prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://core.clscor.io/entity/type/method/annotation_of_stanza_type> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "annotation of stanza type" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "annotation of stanza type" .
+
+<https://core.clscor.io/entity/type/method/classification> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "classification" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "classification" .
+
+<https://core.clscor.io/entity/type/method/clustering> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "clustering" ;
+    skos:broaderMatch <https://vocabs.dariah.eu/tadirah/clusterAnalysis> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "clustering" .
+
+<https://core.clscor.io/entity/type/method/collocations_analysis> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "collocations analysis" ;
+    skos:exactMatch <https://vocabs.dariah.eu/tadirah/collocationAnalysis> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "collocations analysis" .
+
+<https://core.clscor.io/entity/type/method/coreference_resolution> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "coreference resolution" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "coreference resolution" .
+
+<https://core.clscor.io/entity/type/method/entity_linking> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "entity linking" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "entity linking" .
+
+<https://core.clscor.io/entity/type/method/event_extraction> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "event extraction" ;
+    skos:broaderMatch <https://vocabs.dariah.eu/tadirah/extracting> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "event extraction" .
+
+<https://core.clscor.io/entity/type/method/filtering_stop_words> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "filtering stop words" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "filtering stop words" .
+
+<https://core.clscor.io/entity/type/method/lemmatization> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "lemmatization" ;
+    skos:exactMatch <https://vocabs.dariah.eu/tadirah/lemmatizing> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "lemmatization" .
+
+<https://core.clscor.io/entity/type/method/linear_text_search> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "linear text search" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "linear text search" .
+
+<https://core.clscor.io/entity/type/method/manual_annotation> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "manual annotation" ;
+    skos:broaderMatch <https://vocabs.dariah.eu/tadirah/annotating> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "manual annotation" .
+
+<https://core.clscor.io/entity/type/method/morphological_segmentation> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "morphological segmentation" ;
+    skos:broaderMatch <https://vocabs.dariah.eu/tadirah/segmenting> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "morphological segmentation" .
+
+<https://core.clscor.io/entity/type/method/morphological_tagging> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "morphological tagging" ;
+    skos:broaderMatch <https://vocabs.dariah.eu/tadirah/tagging> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "morphological tagging" .
+
+<https://core.clscor.io/entity/type/method/named_entity_recognition> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "named entity recognition" ;
+    skos:exactMatch <https://vocabs.dariah.eu/tadirah/namedEntityRecognition> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "named entity recognition" .
+
+<https://core.clscor.io/entity/type/method/network_analysis> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "network analysis" ;
+    skos:exactMatch <https://vocabs.dariah.eu/tadirah/networkAnalysis> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "network analysis" .
+
+<https://core.clscor.io/entity/type/method/part_of_speech_tagging> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "part of speech tagging" ;
+    skos:exactMatch <https://vocabs.dariah.eu/tadirah/posTagging> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "part of speech tagging" .
+
+<https://core.clscor.io/entity/type/method/relation_extraction> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "relation extraction" ;
+    skos:broaderMatch <https://vocabs.dariah.eu/tadirah/extracting> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "relation extraction" .
+
+<https://core.clscor.io/entity/type/method/rule_based_enjambment_detection> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "rule-based enjambment detection" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "rule-based enjambment detection" .
+
+<https://core.clscor.io/entity/type/method/semantic_parsing> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "semantic parsing" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "semantic parsing" .
+
+<https://core.clscor.io/entity/type/method/semantic_role_labelling> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "semantic role labelling" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "semantic role labelling" .
+
+<https://core.clscor.io/entity/type/method/sentence_counting> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "sentence counting" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "sentence counting" .
+
+<https://core.clscor.io/entity/type/method/sentence_splitting> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "sentence splitting" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "sentence splitting" .
+
+<https://core.clscor.io/entity/type/method/sentiment_analysis> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "sentiment analysis" ;
+    skos:exactMatch <https://vocabs.dariah.eu/tadirah/sentimentAnalysis> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "sentiment analysis" .
+
+<https://core.clscor.io/entity/type/method/stemming> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "stemming" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "stemming" .
+
+<https://core.clscor.io/entity/type/method/syllabification> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "syllabification" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "syllabification" .
+
+<https://core.clscor.io/entity/type/method/syntactic_parsing> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "syntactic parsing" ;
+    skos:broaderMatch <https://vocabs.dariah.eu/tadirah/parsing> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "syntactic parsing" .
+
+<https://core.clscor.io/entity/type/method/syntactic_tree_search> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "syntactic tree search" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "syntactic tree search" .
+
+<https://core.clscor.io/entity/type/method/tokenization> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "tokenization" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "tokenization" .
+
+<https://core.clscor.io/entity/type/method/topic_modelling> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "topic modelling" ;
+    skos:exactMatch <https://vocabs.dariah.eu/tadirah/topicModeling> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "topic modelling" .
+
+<https://core.clscor.io/entity/type/method/topic_segmentation> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "topic segmentation" ;
+    skos:broaderMatch <https://vocabs.dariah.eu/tadirah/segmenting> ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "topic segmentation" .
+
+<https://core.clscor.io/entity/type/method/word_counting> a skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "word counting" ;
+    skos:inScheme <https://core.clscor.io/entity/type/method> ;
+    skos:prefLabel "word counting" .
+
+<https://core.clscor.io/entity/type/method> a skos:ConceptScheme ;
+    skos:hasTopConcept <https://core.clscor.io/entity/type/method/annotation_of_stanza_type>,
+        <https://core.clscor.io/entity/type/method/classification>,
+        <https://core.clscor.io/entity/type/method/clustering>,
+        <https://core.clscor.io/entity/type/method/collocations_analysis>,
+        <https://core.clscor.io/entity/type/method/coreference_resolution>,
+        <https://core.clscor.io/entity/type/method/entity_linking>,
+        <https://core.clscor.io/entity/type/method/event_extraction>,
+        <https://core.clscor.io/entity/type/method/filtering_stop_words>,
+        <https://core.clscor.io/entity/type/method/lemmatization>,
+        <https://core.clscor.io/entity/type/method/linear_text_search>,
+        <https://core.clscor.io/entity/type/method/manual_annotation>,
+        <https://core.clscor.io/entity/type/method/morphological_segmentation>,
+        <https://core.clscor.io/entity/type/method/morphological_tagging>,
+        <https://core.clscor.io/entity/type/method/named_entity_recognition>,
+        <https://core.clscor.io/entity/type/method/network_analysis>,
+        <https://core.clscor.io/entity/type/method/part_of_speech_tagging>,
+        <https://core.clscor.io/entity/type/method/relation_extraction>,
+        <https://core.clscor.io/entity/type/method/rule_based_enjambment_detection>,
+        <https://core.clscor.io/entity/type/method/semantic_parsing>,
+        <https://core.clscor.io/entity/type/method/semantic_role_labelling>,
+        <https://core.clscor.io/entity/type/method/sentence_counting>,
+        <https://core.clscor.io/entity/type/method/sentence_splitting>,
+        <https://core.clscor.io/entity/type/method/sentiment_analysis>,
+        <https://core.clscor.io/entity/type/method/stemming>,
+        <https://core.clscor.io/entity/type/method/syllabification>,
+        <https://core.clscor.io/entity/type/method/syntactic_parsing>,
+        <https://core.clscor.io/entity/type/method/syntactic_tree_search>,
+        <https://core.clscor.io/entity/type/method/tokenization>,
+        <https://core.clscor.io/entity/type/method/topic_modelling>,
+        <https://core.clscor.io/entity/type/method/topic_segmentation>,
+        <https://core.clscor.io/entity/type/method/word_counting> .
+
+

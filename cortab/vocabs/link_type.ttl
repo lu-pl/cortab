@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://core.clscor.io/entity/type/link_type/api> a skos:Concept ;
+    rdfs:label "api" ;
+    skos:inScheme <https://core.clscor.io/entity/type/link_type/> ;
+    skos:prefLabel "api" .
+
+<https://core.clscor.io/entity/type/link_type/data_repository> a skos:Concept ;
+    rdfs:label "data repository" ;
+    skos:inScheme <https://core.clscor.io/entity/type/link_type/> ;
+    skos:prefLabel "data repository" .
+
+<https://core.clscor.io/entity/type/link_type/exploration_ui> a skos:Concept ;
+    rdfs:label "exploration ui" ;
+    skos:inScheme <https://core.clscor.io/entity/type/link_type/> ;
+    skos:prefLabel "exploration ui" .
+
+<https://core.clscor.io/entity/type/link_type/info_website> a skos:Concept ;
+    rdfs:label "info website" ;
+    skos:inScheme <https://core.clscor.io/entity/type/link_type/> ;
+    skos:prefLabel "info website" .
+
+<https://core.clscor.io/entity/type/link_type/project_website> a skos:Concept ;
+    rdfs:label "project website" ;
+    skos:inScheme <https://core.clscor.io/entity/type/link_type/> ;
+    skos:prefLabel "project website" .
+
+<https://core.clscor.io/entity/type/link_type/review> a skos:Concept ;
+    rdfs:label "review" ;
+    skos:inScheme <https://core.clscor.io/entity/type/link_type/> ;
+    skos:prefLabel "review" .
+
+<https://core.clscor.io/entity/type/link_type/> a skos:ConceptScheme ;
+    skos:hasTopConcept <https://core.clscor.io/entity/type/link_type/api>,
+        <https://core.clscor.io/entity/type/link_type/data_repository>,
+        <https://core.clscor.io/entity/type/link_type/exploration_ui>,
+        <https://core.clscor.io/entity/type/link_type/info_website>,
+        <https://core.clscor.io/entity/type/link_type/project_website>,
+        <https://core.clscor.io/entity/type/link_type/review> .
+
+

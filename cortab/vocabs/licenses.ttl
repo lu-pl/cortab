@@ -1,0 +1,217 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://core.clscor.io/entity/type/license/cc-by-3-0-de> a skos:Concept ;
+    rdfs:label "Attribution 3.0 Germany (CC BY 3.0 DE)" ;
+    skos:altLabel "Attribution 3.0 Germany (CC BY 3.0 DE)" ;
+    skos:exactMatch <https://creativecommons.org/licenses/by/3.0/de/>,
+        <https://spdx.org/licenses/CC-BY-3.0-DE.html> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Attribution 3.0 Germany (CC BY 3.0 DE)" .
+
+<https://core.clscor.io/entity/type/license/cc-by-4-0> a skos:Concept ;
+    rdfs:label "Creative Commons Attribution 4.0 International" ;
+    skos:altLabel "Attribution 4.0 International (CC BY 4.0)" ;
+    skos:exactMatch <http://spdx.org/licenses/CC-BY-4.0>,
+        <https://creativecommons.org/licenses/by/4.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Creative Commons Attribution 4.0 International" .
+
+<https://core.clscor.io/entity/type/license/cc-by-nc-3-0> a skos:Concept ;
+    rdfs:label "Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)" ;
+    skos:altLabel "Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)" ;
+    skos:exactMatch <https://creativecommons.org/licenses/by-nc/3.0/>,
+        <https://spdx.org/licenses/CC-BY-NC-3.0.html> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)" .
+
+<https://core.clscor.io/entity/type/license/cc-by-nc-4-0> a skos:Concept ;
+    rdfs:label "Creative Commons Attribution Non Commercial 4.0 International" ;
+    skos:altLabel "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" ;
+    skos:exactMatch <http://spdx.org/licenses/CC-BY-NC-4.0>,
+        <https://creativecommons.org/licenses/by-nc/4.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-4-0> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Creative Commons Attribution Non Commercial 4.0 International" .
+
+<https://core.clscor.io/entity/type/license/cc-by-nc-nd-4-0> a skos:Concept ;
+    rdfs:label "Creative Commons Attribution Non Commercial No Derivatives 4.0 International" ;
+    skos:altLabel "Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)" ;
+    skos:exactMatch <http://spdx.org/licenses/CC-BY-NC-ND-4.0>,
+        <https://creativecommons.org/licenses/by-nc-nd/4.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-nd-4-0> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Creative Commons Attribution Non Commercial No Derivatives 4.0 International" .
+
+<https://core.clscor.io/entity/type/license/cc-by-nc-sa-3-0> a skos:Concept ;
+    rdfs:label "Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)" ;
+    skos:altLabel "Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)" ;
+    skos:exactMatch <https://creativecommons.org/licenses/by-nc-sa/3.0/>,
+        <https://spdx.org/licenses/CC-BY-NC-SA-3.0.html> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)" .
+
+<https://core.clscor.io/entity/type/license/cc-by-nc-sa-3-0-at> a skos:Concept ;
+    rdfs:label "Attribution-NonCommercial-ShareAlike 3.0 Austria (CC BY-NC-SA 3.0 AT)" ;
+    skos:altLabel "Attribution-NonCommercial-ShareAlike 3.0 Austria (CC BY-NC-SA 3.0 AT)" ;
+    skos:exactMatch <https://creativecommons.org/licenses/by-nc-sa/3.0/at/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-3-0-at> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Attribution-NonCommercial-ShareAlike 3.0 Austria (CC BY-NC-SA 3.0 AT)" .
+
+<https://core.clscor.io/entity/type/license/cc-by-nc-sa-4-0> a skos:Concept ;
+    rdfs:label "Creative Commons Attribution Non Commercial Share Alike 4.0 International" ;
+    skos:altLabel "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)" ;
+    skos:exactMatch <http://spdx.org/licenses/CC-BY-NC-SA-4.0>,
+        <https://creativecommons.org/licenses/by-nc-sa/4.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-4-0> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Creative Commons Attribution Non Commercial Share Alike 4.0 International" .
+
+<https://core.clscor.io/entity/type/license/cc-by-nd-4-0> a skos:Concept ;
+    rdfs:label "Creative Commons Attribution No Derivatives 4.0 International" ;
+    skos:exactMatch <http://spdx.org/licenses/CC-BY-ND-4.0>,
+        <https://creativecommons.org/licenses/by-nd/4.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nd-4-0> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Creative Commons Attribution No Derivatives 4.0 International" .
+
+<https://core.clscor.io/entity/type/license/cc-by-sa-3-0> a skos:Concept ;
+    rdfs:label "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)" ;
+    skos:altLabel "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)" ;
+    skos:exactMatch <https://creativecommons.org/licenses/by-sa/3.0/>,
+        <https://spdx.org/licenses/CC-BY-SA-3.0.html> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)" .
+
+<https://core.clscor.io/entity/type/license/cc-by-sa-3-0-us> a skos:Concept ;
+    rdfs:label "Attribution-ShareAlike 3.0 United States (CC BY-SA 3.0 US)" ;
+    skos:altLabel "Attribution-ShareAlike 3.0 United States (CC BY-SA 3.0 US)" ;
+    skos:exactMatch <https://creativecommons.org/licenses/by-sa/3.0/us/> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Attribution-ShareAlike 3.0 United States (CC BY-SA 3.0 US)" .
+
+<https://core.clscor.io/entity/type/license/cc-by-sa-4-0> a skos:Concept ;
+    rdfs:label "Creative Commons Attribution Share Alike 4.0 International" ;
+    skos:altLabel "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)" ;
+    skos:exactMatch <http://spdx.org/licenses/CC-BY-SA-4.0>,
+        <https://creativecommons.org/licenses/by-sa/4.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-sa-4-0> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Creative Commons Attribution Share Alike 4.0 International" .
+
+<https://core.clscor.io/entity/type/license/cc0-1-0> a skos:Concept ;
+    rdfs:label "Creative Commons Zero v1.0 Universal" ;
+    skos:altLabel "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication" ;
+    skos:exactMatch <http://spdx.org/licenses/CC0-1.0>,
+        <https://creativecommons.org/publicdomain/zero/1.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc0-1-0> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Creative Commons Zero v1.0 Universal" .
+
+<https://core.clscor.io/entity/type/license/cne> a skos:Concept ;
+    rdfs:label "Copyright Not Evaluated" ;
+    skos:altLabel "Copyright Not Evaluated" ;
+    skos:exactMatch <http://rightsstatements.org/vocab/CNE/1.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/cne> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Copyright Not Evaluated" .
+
+<https://core.clscor.io/entity/type/license/eupl-1-2> a skos:Concept ;
+    rdfs:label "European Union Public License 1.2" ;
+    skos:altLabel "European Union Public License 1.2" ;
+    skos:exactMatch <https://spdx.org/licenses/EUPL-1.2.html> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "European Union Public License 1.2" .
+
+<https://core.clscor.io/entity/type/license/gfdl-1-1> a skos:Concept ;
+    rdfs:label "GNU Free Documentation License v1.1" ;
+    skos:altLabel "GNU Free Documentation License v1.1" ;
+    skos:exactMatch <http://spdx.org/licenses/GFDL-1.1> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "GNU Free Documentation License v1.1" .
+
+<https://core.clscor.io/entity/type/license/inc-edu> a skos:Concept ;
+    rdfs:label "In Copyright - Educational Use Permitted" ;
+    skos:altLabel "In Copyright - Educational Use Permitted" ;
+    skos:exactMatch <http://rightsstatements.org/vocab/InC-EDU/1.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-edu> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "In Copyright - Educational Use Permitted" .
+
+<https://core.clscor.io/entity/type/license/inc-ow-eu> a skos:Concept ;
+    rdfs:label "In Copyright - EU Orphan Work" ;
+    skos:altLabel "In Copyright - EU Orphan Work" ;
+    skos:exactMatch <http://rightsstatements.org/vocab/InC-OW-EU/1.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-ow-eu> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "In Copyright - EU Orphan Work" .
+
+<https://core.clscor.io/entity/type/license/ind> a skos:Concept ;
+    rdfs:label "In Copyright" ;
+    skos:altLabel "In Copyright" ;
+    skos:exactMatch <http://rightsstatements.org/vocab/InC/1.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/inc> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "In Copyright" .
+
+<https://core.clscor.io/entity/type/license/mit> a skos:Concept ;
+    rdfs:label "MIT License" ;
+    skos:altLabel "MIT license" ;
+    skos:exactMatch <http://spdx.org/licenses/MIT>,
+        <https://opensource.org/licenses/MIT>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/mit> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "MIT License" .
+
+<https://core.clscor.io/entity/type/license/noc-nc> a skos:Concept ;
+    rdfs:label "No Copyright - Non-Commercial Use Only" ;
+    skos:altLabel "No Copyright - Non-Commercial Use Only" ;
+    skos:exactMatch <http://rightsstatements.org/vocab/NoC-NC/1.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-nc> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "No Copyright - Non-Commercial Use Only" .
+
+<https://core.clscor.io/entity/type/license/noc-oklr> a skos:Concept ;
+    rdfs:label "No Copyright - Other Known Legal Restrictions" ;
+    skos:altLabel "No Copyright - Other Known Legal Restrictions" ;
+    skos:exactMatch <http://rightsstatements.org/vocab/NoC-OKLR/1.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-oklr> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "No Copyright - Other Known Legal Restrictions" .
+
+<https://core.clscor.io/entity/type/license/publicdomain-1-0> a skos:Concept ;
+    rdfs:label "Public Domain Mark 1.0" ;
+    skos:altLabel "Public Domain Mark 1.0" ;
+    skos:exactMatch <https://creativecommons.org/publicdomain/mark/1.0/>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/publicdomain-1-0> ;
+    skos:inScheme <https://core.clscor.io/entity/type/license> ;
+    skos:prefLabel "Public Domain Mark 1.0" .
+
+<https://core.clscor.io/entity/type/license> a skos:ConceptScheme ;
+    skos:hasTopConcept <https://core.clscor.io/entity/type/license/cc-by-3-0-de>,
+        <https://core.clscor.io/entity/type/license/cc-by-4-0>,
+        <https://core.clscor.io/entity/type/license/cc-by-nc-3-0>,
+        <https://core.clscor.io/entity/type/license/cc-by-nc-4-0>,
+        <https://core.clscor.io/entity/type/license/cc-by-nc-nd-4-0>,
+        <https://core.clscor.io/entity/type/license/cc-by-nc-sa-3-0>,
+        <https://core.clscor.io/entity/type/license/cc-by-nc-sa-3-0-at>,
+        <https://core.clscor.io/entity/type/license/cc-by-nc-sa-4-0>,
+        <https://core.clscor.io/entity/type/license/cc-by-nd-4-0>,
+        <https://core.clscor.io/entity/type/license/cc-by-sa-3-0>,
+        <https://core.clscor.io/entity/type/license/cc-by-sa-3-0-us>,
+        <https://core.clscor.io/entity/type/license/cc-by-sa-4-0>,
+        <https://core.clscor.io/entity/type/license/cc0-1-0>,
+        <https://core.clscor.io/entity/type/license/cne>,
+        <https://core.clscor.io/entity/type/license/eupl-1-2>,
+        <https://core.clscor.io/entity/type/license/gfdl-1-1>,
+        <https://core.clscor.io/entity/type/license/inc-edu>,
+        <https://core.clscor.io/entity/type/license/inc-ow-eu>,
+        <https://core.clscor.io/entity/type/license/ind>,
+        <https://core.clscor.io/entity/type/license/mit>,
+        <https://core.clscor.io/entity/type/license/noc-nc>,
+        <https://core.clscor.io/entity/type/license/noc-oklr>,
+        <https://core.clscor.io/entity/type/license/publicdomain-1-0> .
+
+
