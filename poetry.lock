@@ -294,13 +294,13 @@ marisa-trie = ">=0.7.7,<0.8.0"
 
 [[package]]
 name = "lodkit"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 optional = false
 python-versions = ">=3.11,<4.0"
 files = [
-    {file = "lodkit-0.1.2-py3-none-any.whl", hash = "sha256:f7af842dfe50fb70dea39269728d3791dd573bb78967c6a2ee86b0697cbc75ab"},
-    {file = "lodkit-0.1.2.tar.gz", hash = "sha256:f6fdac75f264eb320adf67f6223a8261eef8ffa2097c82e8ad7e9b8b521594e0"},
+    {file = "lodkit-0.1.3-py3-none-any.whl", hash = "sha256:e267910408d555fe86b9825abef11a461f14fc144891cbbfa460f9ddd5037c7f"},
+    {file = "lodkit-0.1.3.tar.gz", hash = "sha256:4b14e02490aa4137b4a91fd146e7eb2886ca344f922231f344e65c0eec94f820"},
 ]
 
 [package.dependencies]
