@@ -1,14 +1,15 @@
-"""Test: RowGraphConverter"""
+"""Defines a row_rule callable for a tabulardf.RowGraphConverter."""
 
-import functools
 import itertools
-import hashlib
-import math
 import pandas as pd
 
-from typing import Callable, Mapping
+from typing import Mapping
 
-from helpers.cortab_utils import genhash, vocabs_lookup  #, nan_handler
+from helpers.cortab_utils import (  # noqa: F401
+    genhash,
+    vocabs_lookup,
+    nan_handler
+)
 
 from clisn import (
     clscore,
@@ -66,16 +67,8 @@ def row_rule(row_data: Mapping) -> Graph:
             )
 
     descevent_triples = [
-        (
-            corpus_uri,
-            RDF.type,
-            crmcls["X1_Corpus"]
-        ),
-        (
-            protodoc_uri,
-            RDF.type,
-            crmcls["X11_Prototypical_Document"]
-        ),
+        (corpus_uri, RDF.type, crmcls["X1_Corpus"]),
+        (protodoc_uri, RDF.type, crmcls["X11_Prototypical_Document"]),
         # descevent
         *plist(
             descevent_uri,
