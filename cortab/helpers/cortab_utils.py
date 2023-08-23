@@ -1,9 +1,76 @@
 """Basic utilities and helpers for CorTab."""
 
-import math
 import functools
+import hashlib
+import inspect
+import math
+
+from typing import Callable
+
+from rdflib import Graph, Literal, URIRef
+from rdflib.namespace import RDFS
 
 
+def nan_handler(f: Callable):
+    """Decorator; checks for NaN kwargs in a decorated function.
+
+    Note that checking is done for a function's /signature/,
+    i.e. at function definition time.
+
+    Only kwargs are checked; if a kwarg is NaN, an empty list is returned;
+    else the decorated function runs.
+
+    Intended (but certainly not sole) usage is in decoratoed generator functions:
+
+    @nan_handler
+    def some_generator(x="some value"):
+        yield from x
+
+    @nan_handler
+    def another_generator(x=math.nan):
+        yield from x
+
+    print(list(some_generator()))
+    print(list(another_generator()))
+    """
+    @functools.wraps(f)
+    def _wrapper(*args, **kwargs):
+
+        for parameter in inspect.signature(f).parameters.values():
+            if parameter.default is not inspect._empty:
+                try:
+                    if math.isnan(parameter.default):
+                        return []
+                except TypeError:
+                    pass
+
+        return f(*args, **kwargs)
+    return _wrapper
+
+
+def genhash(input: str,
+            length: int = 10,
+            hash_function: Callable = hashlib.sha256) -> str:
+    """Generate a truncated URL-safe string hash."""
+    _hash = hash_function(input.encode('utf-8')).hexdigest()
+    return _hash[:length]
+
+
+def vocabs_lookup(vocab: Graph,
+                  value: str | Literal,
+                  predicate: URIRef = RDFS.label) -> URIRef:
+    """Reverse URI lookup from vocabs."""
+    value = Literal(value) if isinstance(value, str) else value
+
+    return next(
+        vocab.subjects(
+            RDFS.label,
+            value
+        )
+    )
+
+
+## deprecated
 def skip_nan(f):
     """Skip NaN/empty values of object_field."""
     @functools.wraps(f)
