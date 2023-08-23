@@ -913,12 +913,12 @@ _rules = {
     # "corpusFormat/Schema_consolidatedVocab": format_rule,
     "corpusFormat/Schema": format_rule,
     # "corpusAnnotation": annotation_rule,
-    # corpusType
+    ## corpusType
     "corpusType_consolidatedVocab": type_rule,
-    # corpusLiteraryGenre
+    ## corpusLiteraryGenre
     "corpusLiteraryGenre_consolidatedVocab": genre_rule,
     "corpusAPI": api_rule,
-    # corpusLicence
+    ## corpusLicence
     # "corpusLicence_link": licence_rule,
     "additionalLink": addlink_rule,
     # additionalInfo
