@@ -1,6 +1,7 @@
 """Defines a row_rule callable for a tabulardf.RowGraphConverter."""
 
 import itertools
+import functools
 import pandas as pd
 
 from typing import Generator, Mapping
@@ -34,7 +35,7 @@ from vocabs import (
     appellation_type,
     corpus_type,
     feature,
-    format,
+    format as format_vocab,
     licenses,
     link_type,
     literary_genre,
@@ -52,7 +53,6 @@ def row_rule(row_data: Mapping) -> Graph:
     protodoc_uri = base_ns["protodoc/1"]
 
     timespan_uri_1 = base_ns["timespan/1"]
-    timespan_uri_2 = base_ns["timespan/2"]
 
     corpus_appellation_uri_1 = base_ns["appellation/1"]
     corpus_appellation_uri_2 = base_ns["appellation/2"]
@@ -60,6 +60,10 @@ def row_rule(row_data: Mapping) -> Graph:
     attribute_assignment_uri_1 = base_ns["attrassign/1"]
     attribute_assignment_uri_2 = base_ns["attrassign/2"]
     attribute_assignment_uri_3 = base_ns["attrassign/3"]
+    attribute_assignment_uri_4 = base_ns["attrassign/4"]
+    attribute_assignment_uri_5 = base_ns["attrassign/5"]
+    attribute_assignment_uri_6 = base_ns["attrassign/6"]
+    attribute_assignment_uri_7 = base_ns["attrassign/7"]
 
     dimension_uri_1 = base_ns["dimension/1"]
 
@@ -87,7 +91,7 @@ def row_rule(row_data: Mapping) -> Graph:
             (RDF.type, crmcls["X9_Corpus_Description"]),
             (crm["P16_used_specific_object"], Literal(row_data["corpusLink"])),
             (crm["P135_created_type"], protodoc_uri),
-            (crm["P4_has_time-span"], timespan_uri_1),
+            (crm["P4_has_time-span"], clscore["timespan/1"]),
             (crm["P3_has_note"], Literal(row_data["additionalInfo / commentary"]))
         ),
         # timespan
@@ -180,7 +184,6 @@ def row_rule(row_data: Mapping) -> Graph:
         )
     ]
 
-    # warning: NaN
     corpus_timespan_triples = [
         *plist(
             attribute_assignment_uri_3,
@@ -188,14 +191,92 @@ def row_rule(row_data: Mapping) -> Graph:
             (crm["P134_continued"], descevent_uri),
             (crm["P140_assigned_attribute_to"], corpus_uri),
             (crm["P177_assigned_property_of_type"], crm["P4_has_time-span"]),
-            (crm["P141_assigned"], timespan_uri_2)
+            (crm["P141_assigned"], timespan_uri_1)
         ),
         *plist(
-            timespan_uri_2,
+            timespan_uri_1,
             (RDF.type, crm["E52_Time-Span"]),
             (RDFS.label, Literal(row_data["corpusTimespan"]))
         )
     ]
+
+    # use "corpusFormat/Schema_consolidatedVocab"
+    def corpus_format_schema_triples():
+        format_values = map(
+            str.strip,
+            row_data["corpusFormat/Schema_consolidatedVocab"].split(",")
+        )
+
+        format_uris = map(
+            functools.partial(vocabs_lookup, format_vocab),
+            format_values
+        )
+
+        for format_uri in format_uris:
+            yield from plist(
+                attribute_assignment_uri_4,
+                (RDF.type, crm["E13_Attribute_Assignment"]),
+                (crm["P134_continued"], descevent_uri),
+                (crm["P140_assigned_attribute_to"], protodoc_uri),
+                (crm["P177_assigned_property_of_type"], crmcls["Y2_has_format"]),
+                (crm["P141_assigned"], format_uri)
+            )
+
+    def corpus_literary_genre_triples():
+        genre_values = map(
+            str.strip,
+            row_data["corpusLiteraryGenre_consolidatedVocab"].split(",")
+        )
+
+        genre_uris = map(
+            functools.partial(vocabs_lookup, literary_genre),
+            genre_values
+        )
+
+        for genre_uri in genre_uris:
+            yield from plist(
+                attribute_assignment_uri_5,
+                (RDF.type, crm["E13_Attribute_Assignment"]),
+                (crm["P134_continued"], descevent_uri),
+                (crm["P140_assigned_attribute_to"], corpus_uri),
+                (
+                    crm["P177_assigned_property_of_type"],
+                    crmcls["Y4_document_has_literary_genre"]
+                ),
+                (crm["P141_assigned"], genre_uri)
+            )
+
+    def corpus_type_triples():
+        corpus_type_value = row_data["corpusType_consolidatedVocab"]
+
+        yield from plist(
+            attribute_assignment_uri_6,
+            (RDF.type, crm["E13_Attribute_Assignment"]),
+            (crm["P134_continued"], descevent_uri),
+            (crm["P140_assigned_attribute_to"], corpus_uri),
+            (
+                crm["P177_assigned_property_of_type"],
+                crmcls["Y6_corpus_has_corpus_type"]
+            ),
+            (crm["P141_assigned"], vocabs_lookup(corpus_type, corpus_type_value))
+        )
+
+    def corpus_license_triples():
+        corpus_license_value = row_data["corpusLicence_consolidatedVocab"]
+
+        yield from plist(
+            attribute_assignment_uri_7,
+            (RDF.type, crm["E13_Attribute_Assignment"]),
+            (crm["P134_continued"], descevent_uri),
+            (crm["P140_assigned_attribute_to"], protodoc_uri),
+            (
+                crm["P177_assigned_property_of_type"],
+                crmcls["Y5_license_type"]
+            ),
+            (crm["P141_assigned"], vocabs_lookup(licenses, corpus_license_value))
+        )
+
+
 
     triples = itertools.chain(
         descevent_triples,
@@ -205,7 +286,11 @@ def row_rule(row_data: Mapping) -> Graph:
         corpus_link_triples,
         corpus_language_triples(),
         corpus_text_count_triples,
-        corpus_timespan_triples
+        corpus_timespan_triples,
+        corpus_format_schema_triples(),
+        corpus_literary_genre_triples(),
+        corpus_type_triples(),
+        corpus_license_triples()
     )
 
     graph = Graph()
@@ -217,17 +302,29 @@ def row_rule(row_data: Mapping) -> Graph:
 
 
 ##################################################
+import operator
 from table_partitions import rem_partition
 
 dataframe = pd.read_csv("./corpusTable.csv")
 graph = Graph()
 CLSInfraNamespaceManager(graph)
 
-converter = RowGraphConverter(
+corpustable_converter = RowGraphConverter(
     # dataframe=dataframe,
     dataframe=rem_partition,
     row_rule=row_rule,
     graph=graph
 )
 
-print(converter.serialize())
+additional_link_converter = RowGraphConverter(
+    dataframe=...,
+    row_rule=...
+)
+
+
+merged_graph = operator.add(
+    corpustable_converter.to_graph(),
+    additional_link_converter.to_graph()
+)
+
+print(merged_graph.serialize())
