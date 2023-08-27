@@ -43,6 +43,9 @@ from vocabs import (
 )
 
 
+TripleGenerator = Generator[_Triple, None, None]
+
+
 def row_rule(row_data: Mapping) -> Graph:
     """row_rule for RowGraphConverter."""
     # URIs
@@ -68,7 +71,7 @@ def row_rule(row_data: Mapping) -> Graph:
     dimension_uri_1 = base_ns["dimension/1"]
 
     # triples
-    def person_triples() -> Generator[_Triple, None, None]:
+    def person_triples() -> TripleGenerator:
         person_names = map(
             str.strip,
             row_data["editor/contributor"].split(",")
@@ -82,64 +85,68 @@ def row_rule(row_data: Mapping) -> Graph:
                 (descevent_uri, crm["P14_carried_out_by"], person_uri)
             )
 
-    descevent_triples = [
-        (corpus_uri, RDF.type, crmcls["X1_Corpus"]),
-        (protodoc_uri, RDF.type, crmcls["X11_Prototypical_Document"]),
-        # descevent
-        *plist(
-            descevent_uri,
-            (RDF.type, crmcls["X9_Corpus_Description"]),
-            (crm["P16_used_specific_object"], Literal(row_data["corpusLink"])),
-            (crm["P135_created_type"], protodoc_uri),
-            (crm["P4_has_time-span"], clscore["timespan/1"]),
-            (crm["P3_has_note"], Literal(row_data["additionalInfo / commentary"]))
-        ),
-        # timespan
-        *plist(
-            timespan_uri_1,
-            (RDF.type, crm["E52_Time-Span"]),
-            (
-                crm["81a_end_of_the_begin"],
-                Literal(row_data["descEvent_start"], datatype=XSD.date)
+    def descevent_triples() -> TripleGenerator:
+        yield from [
+            (corpus_uri, RDF.type, crmcls["X1_Corpus"]),
+            (protodoc_uri, RDF.type, crmcls["X11_Prototypical_Document"]),
+            # descevent
+            *plist(
+                descevent_uri,
+                (RDF.type, crmcls["X9_Corpus_Description"]),
+                (crm["P16_used_specific_object"], Literal(row_data["corpusLink"])),
+                (crm["P135_created_type"], protodoc_uri),
+                (crm["P4_has_time-span"], clscore["timespan/1"]),
+                (crm["P3_has_note"], Literal(row_data["additionalInfo / commentary"]))
             ),
-            (
-                crm["P81b_begin_of_the_end"],
-                Literal(row_data["descEvent_end"], datatype=XSD.date)
+            # timespan
+            *plist(
+                timespan_uri_1,
+                (RDF.type, crm["E52_Time-Span"]),
+                (
+                    crm["81a_end_of_the_begin"],
+                    Literal(row_data["descEvent_start"], datatype=XSD.date)
+                ),
+                (
+                    crm["P81b_begin_of_the_end"],
+                    Literal(row_data["descEvent_end"], datatype=XSD.date)
+                )
             )
-        )
-    ]
+        ]
 
-    corpus_name_triples = [
-        (corpus_uri, crm["P1_is_identified_by"], corpus_appellation_uri_1),
-        *plist(
-            corpus_appellation_uri_1,
-            (RDF.type, crm["E41_Appellation"]),
-            (crm["P2_has_type"], vocabs_lookup(appellation_type, "full title")),
-            (RDF.value, Literal(row_data["corpusName"]))
-        )
-    ]
+    def corpus_name_triples() -> TripleGenerator:
+        yield from [
+            (corpus_uri, crm["P1_is_identified_by"], corpus_appellation_uri_1),
+            *plist(
+                corpus_appellation_uri_1,
+                (RDF.type, crm["E41_Appellation"]),
+                (crm["P2_has_type"], vocabs_lookup(appellation_type, "full title")),
+                (RDF.value, Literal(row_data["corpusName"]))
+            )
+        ]
 
-    corpus_acronym_triples = [
-        (corpus_uri, crm["P1_is_identified_by"], corpus_appellation_uri_2),
-        *plist(
-            corpus_appellation_uri_2,
-            (RDF.type, crm["E41_Appellation"]),
-            (crm["P2_has_type"], vocabs_lookup(appellation_type, "acronym")),
-            (RDF.value, Literal(row_data["corpusAcronym"]))
-        )
-    ]
+    def corpus_acronym_triples() -> TripleGenerator:
+        yield from [
+            (corpus_uri, crm["P1_is_identified_by"], corpus_appellation_uri_2),
+            *plist(
+                corpus_appellation_uri_2,
+                (RDF.type, crm["E41_Appellation"]),
+                (crm["P2_has_type"], vocabs_lookup(appellation_type, "acronym")),
+                (RDF.value, Literal(row_data["corpusAcronym"]))
+            )
+        ]
 
-    corpus_link_triples = [
-        (corpus_uri, crm["P1_is_identified_by"], corpus_link_uri),
-        *plist(
-            corpus_link_uri,
-            (RDF.type, crm["E42_Identifier"]),
-            (crm["P2_has_type"], vocabs_lookup(link_type, "project website")),
-            (RDF.value, (Literal(f"Link to the {row_data['corpusName']} website.")))
-        )
-    ]
+    def corpus_link_triples() -> TripleGenerator:
+        yield from [
+            (corpus_uri, crm["P1_is_identified_by"], corpus_link_uri),
+            *plist(
+                corpus_link_uri,
+                (RDF.type, crm["E42_Identifier"]),
+                (crm["P2_has_type"], vocabs_lookup(link_type, "project website")),
+                (RDF.value, (Literal(f"Link to the {row_data['corpusName']} website.")))
+            )
+        ]
 
-    def corpus_language_triples() -> Generator[_Triple, None, None]:
+    def corpus_language_triples() -> TripleGenerator:
         iso_language_ns = Namespace("https://vocabs.acdh.oeaw.ac.at/iso6391/")
         language_values = map(str.strip, row_data["corpusLanguage"].split(","))
 
@@ -165,43 +172,45 @@ def row_rule(row_data: Mapping) -> Graph:
                 )
             ]
 
-    corpus_text_count_triples = [
-        *plist(
-            attribute_assignment_uri_2,
-            (RDF.type, crm["E13_Attribute_Assignment"]),
-            (crm["P134_continued"], descevent_uri),
-            (crm["P140_assigned_attribute_to"], corpus_uri),
-            (crm["P141_assigned"], dimension_uri_1)
-        ),
-        *plist(
-            dimension_uri_1,
-            (RDF.type, crm["E54_Dimension"]),
-            (
-                crm["P90_has_value"],
-                Literal(row_data["corpusTextCount"], datatype=XSD.integer)
+    def corpus_text_count_triples() -> TripleGenerator:
+        yield from [
+            *plist(
+                attribute_assignment_uri_2,
+                (RDF.type, crm["E13_Attribute_Assignment"]),
+                (crm["P134_continued"], descevent_uri),
+                (crm["P140_assigned_attribute_to"], corpus_uri),
+                (crm["P141_assigned"], dimension_uri_1)
             ),
-            (crm["P91_has_unit"], clscore["type/feature/document"])
-        )
-    ]
+            *plist(
+                dimension_uri_1,
+                (RDF.type, crm["E54_Dimension"]),
+                (
+                    crm["P90_has_value"],
+                    Literal(row_data["corpusTextCount"], datatype=XSD.integer)
+                ),
+                (crm["P91_has_unit"], clscore["type/feature/document"])
+            )
+        ]
 
-    corpus_timespan_triples = [
-        *plist(
-            attribute_assignment_uri_3,
-            (RDF.type, crm["E13_Attribute_Assignment"]),
-            (crm["P134_continued"], descevent_uri),
-            (crm["P140_assigned_attribute_to"], corpus_uri),
-            (crm["P177_assigned_property_of_type"], crm["P4_has_time-span"]),
-            (crm["P141_assigned"], timespan_uri_1)
-        ),
-        *plist(
-            timespan_uri_1,
-            (RDF.type, crm["E52_Time-Span"]),
-            (RDFS.label, Literal(row_data["corpusTimespan"]))
-        )
-    ]
+    def corpus_timespan_triples() -> TripleGenerator:
+        yield from [
+            *plist(
+                attribute_assignment_uri_3,
+                (RDF.type, crm["E13_Attribute_Assignment"]),
+                (crm["P134_continued"], descevent_uri),
+                (crm["P140_assigned_attribute_to"], corpus_uri),
+                (crm["P177_assigned_property_of_type"], crm["P4_has_time-span"]),
+                (crm["P141_assigned"], timespan_uri_1)
+            ),
+            *plist(
+                timespan_uri_1,
+                (RDF.type, crm["E52_Time-Span"]),
+                (RDFS.label, Literal(row_data["corpusTimespan"]))
+            )
+        ]
 
     # use "corpusFormat/Schema_consolidatedVocab"
-    def corpus_format_schema_triples():
+    def corpus_format_schema_triples() -> TripleGenerator:
         format_values = map(
             str.strip,
             row_data["corpusFormat/Schema_consolidatedVocab"].split(",")
@@ -222,7 +231,7 @@ def row_rule(row_data: Mapping) -> Graph:
                 (crm["P141_assigned"], format_uri)
             )
 
-    def corpus_literary_genre_triples():
+    def corpus_literary_genre_triples() -> TripleGenerator:
         genre_values = map(
             str.strip,
             row_data["corpusLiteraryGenre_consolidatedVocab"].split(",")
@@ -246,7 +255,7 @@ def row_rule(row_data: Mapping) -> Graph:
                 (crm["P141_assigned"], genre_uri)
             )
 
-    def corpus_type_triples():
+    def corpus_type_triples() -> TripleGenerator:
         corpus_type_value = row_data["corpusType_consolidatedVocab"]
 
         yield from plist(
@@ -261,7 +270,7 @@ def row_rule(row_data: Mapping) -> Graph:
             (crm["P141_assigned"], vocabs_lookup(corpus_type, corpus_type_value))
         )
 
-    def corpus_license_triples():
+    def corpus_license_triples() -> TripleGenerator:
         corpus_license_value = row_data["corpusLicence_consolidatedVocab"]
 
         yield from plist(
@@ -276,17 +285,17 @@ def row_rule(row_data: Mapping) -> Graph:
             (crm["P141_assigned"], vocabs_lookup(licenses, corpus_license_value))
         )
 
-
+    # missing: corpusApi, additionalLink
 
     triples = itertools.chain(
-        descevent_triples,
+        descevent_triples(),
         person_triples(),
-        corpus_name_triples,
-        corpus_acronym_triples,
-        corpus_link_triples,
+        corpus_name_triples(),
+        corpus_acronym_triples(),
+        corpus_link_triples(),
         corpus_language_triples(),
-        corpus_text_count_triples,
-        corpus_timespan_triples,
+        corpus_text_count_triples(),
+        corpus_timespan_triples(),
         corpus_format_schema_triples(),
         corpus_literary_genre_triples(),
         corpus_type_triples(),
@@ -316,15 +325,17 @@ corpustable_converter = RowGraphConverter(
     graph=graph
 )
 
-additional_link_converter = RowGraphConverter(
-    dataframe=...,
-    row_rule=...
-)
+print(corpustable_converter.serialize())
+
+# additional_link_converter = RowGraphConverter(
+#     dataframe=...,
+#     row_rule=...
+# )
 
 
-merged_graph = operator.add(
-    corpustable_converter.to_graph(),
-    additional_link_converter.to_graph()
-)
+# merged_graph = operator.add(
+#     corpustable_converter.to_graph(),
+#     additional_link_converter.to_graph()
+# )
 
-print(merged_graph.serialize())
+# print(merged_graph.serialize())
