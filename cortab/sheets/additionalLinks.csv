@@ -1,0 +1,216 @@
+,id,corpusName,corpusAcronym,links,used_in_descEvent,link_type_vocab,link_comment
+0,1,Drama Corpora Project,DraCor,https://dracor.org/,yes,info website,
+1,1,Drama Corpora Project,DraCor,https://dracor.org/doc/api,,api,
+2,1,Drama Corpora Project,DraCor,https://github.com/dracor-org,,data repository,
+3,2,Alsatian Drama Corpus,AlsDraCor,https://dracor.org/als,yes,info website,
+4,2,Alsatian Drama Corpus,AlsDraCor,https://dracor.org/doc/api,,api,
+5,2,Alsatian Drama Corpus,AlsDraCor,https://github.com/dracor-org/alsdracor,,data repository,
+6,3,Bashkir Drama Corpus,BashDraCor,https://dracor.org/bash,yes,info website,
+7,3,Bashkir Drama Corpus,BashDraCor,https://dracor.org/doc/api,,api,
+8,4,Calderón corpus,CalDraCor,https://dracor.org/cal,yes,info website,
+9,4,Calderón corpus,CalDraCor,https://github.com/dracor-org/caldracor,,data repository,
+10,4,Calderón corpus,CalDraCor,https://dracor.org/doc/api,,api,
+11,5,French Drama Corpus,FreDraCor,https://dracor.org/fre,yes,info website,
+12,5,French Drama Corpus,FreDraCor,https://github.com/dracor-org/fredracor,,data repository,
+13,5,French Drama Corpus,FreDraCor,https://dracor.org/doc/api,,api,
+14,6,German Drama Corpus,GerDraCor,https://dracor.org/ger,yes,info website,
+15,6,German Drama Corpus,GerDraCor,https://github.com/dracor-org/gerdracor,,data repository,
+16,6,German Drama Corpus,GerDraCor,https://dracor.org/doc/api,,api,
+17,7,German Shakespeare Drama Corpus,GershDraCor,https://dracor.org/gersh,yes,info website,
+18,7,German Shakespeare Drama Corpus,GershDraCor,https://github.com/dracor-org/gershdracor,,data repository,
+19,7,German Shakespeare Drama Corpus,GershDraCor,https://dracor.org/doc/api,,api,
+20,8,Greek Drama Corpus,GreekDraCor,https://dracor.org/greek,yes,info website,
+21,8,Greek Drama Corpus,GreekDraCor,https://github.com/dracor-org/greekdracor,,data repository,
+22,8,Greek Drama Corpus,GreekDraCor,https://dracor.org/doc/api,,api,
+23,9,Italian Drama Corpus,ItaDraCor,https://dracor.org/ita,yes,info website,
+24,9,Italian Drama Corpus,ItaDraCor,https://github.com/dracor-org/itadracor,,data repository,
+25,9,Italian Drama Corpus,ItaDraCor,https://dracor.org/doc/api,,api,
+26,10,Roman Drama Corpus,RomDraCor,https://dracor.org/rom,yes,info website,
+27,10,Roman Drama Corpus,RomDraCor,https://github.com/dracor-org/romdracor,,data repository,
+28,10,Roman Drama Corpus,RomDraCor,https://dracor.org/doc/api,,api,
+29,11,Russian Drama Corpus,RusDraCor,https://dracor.org/rus,yes,info website,
+30,11,Russian Drama Corpus,RusDraCor,https://github.com/dracor-org/rusdracor,,data repository,
+31,11,Russian Drama Corpus,RusDraCor,https://dracor.org/doc/api,,api,
+32,12,Shakespeare Drama Corpus,ShakeDraCor,https://dracor.org/shake,yes,info website,
+33,12,Shakespeare Drama Corpus,ShakeDraCor,https://github.com/dracor-org/shakedracor,,data repository,
+34,12,Shakespeare Drama Corpus,ShakeDraCor,https://dracor.org/doc/api,,api,
+35,13,Spanish Drama Corpus,SpanDraCor,https://dracor.org/span,yes,info website,
+36,13,Spanish Drama Corpus,SpanDraCor,https://dracor.org/doc/api,,api,
+37,14,Swedish Drama Corpus,SweDraCor,https://dracor.org/swe,yes,info website,
+38,14,Swedish Drama Corpus,SweDraCor,https://github.com/dracor-org/swedracor,,data repository,
+39,14,Swedish Drama Corpus,SweDraCor,https://dracor.org/doc/api,,api,
+40,15,Tatar Drama Corpus,TatDraCor,https://dracor.org/tat,yes,info website,
+41,15,Tatar Drama Corpus,TatDraCor,https://dracor.org/doc/api,,api,
+42,16,Reference corpus Middle High German,ReM,https://doi.org/10.34644/laudatio-dev-xCS3CnMB7CArCQ9C3LRB,yes,,
+43,16,Reference corpus Middle High German,ReM,https://www.laudatio-repository.org/docs/elasticapi/,,api,
+44,17,Deutsches Textarchiv,DTA,https://www.deutschestextarchiv.de/,yes,info website,
+45,17,Deutsches Textarchiv,DTA,https://www.deutschestextarchiv.de/api,,api,
+46,17,Deutsches Textarchiv,DTA,https://ride.i-d-e.de/issues/issue-6/deutsches-textarchiv/,yes,review,
+47,18,Folger Shakespeare Library,FolgerShake,https://shakespeare.folger.edu/,yes,,
+48,18,Folger Shakespeare Library,FolgerShake,https://shakespeare.folger.edu/the-folger-shakespeare-api/,,api,
+49,19,Anemoskala: Corpus of Modern Greek Poetry,Anemoskala,http://www.greek-language.gr/digitalResources/literature/tools/concordance/index.html,yes,,
+50,19,Anemoskala: Corpus of Modern Greek Poetry,Anemoskala,https://ride.i-d-e.de/issues/issue-8/anemoskala/,yes,review,
+51,20,Wikisource,Wikisource,https://wikisource.org/wiki/Wikisource:TEI,,info website,
+52,20,Wikisource,Wikisource,https://ride.i-d-e.de/issues/issue-8/wikisource/,yes,review,
+53,21,European Literary Text Collection,ELTeC,https://github.com/COST-ELTeC,yes,data repository,Work on the different ELTeC corpora is in progress here
+54,21,European Literary Text Collection,ELTeC,https://distantreading.github.io/ELTeC/,yes,info website,An overview of the current state in ELTeC corpus building can be found here
+55,21,European Literary Text Collection,ELTeC,https://distantreading.github.io/,yes,info website,A collection of relevant documentation can be found here
+56,21,European Literary Text Collection,ELTeC,https://zenodo.org/communities/eltec/,,,"ELTeC page on Zenodo, with archived releases, one for each corpus"
+57,22,1000 Novel Corpus,1000Novel,http://hdl.handle.net/11321/312,yes,,
+58,22,1000 Novel Corpus,1000Novel,https://clarin-pl.eu/dspace/handle/11321/312?show=full#,,,Commentary: Download all files
+59,23,Annotating Literatures,AnnotLit,https://www.annotating-literature.org/,yes,,
+60,23,Annotating Literatures,AnnotLit,http://www.annotating-literature.org/wp-content/uploads/2020/09/Styleguide-2020-08-11.pdf,yes,,Commentary: They provide a styleguide for annotating
+61,23,Annotating Literatures,AnnotLit,http://www.annotating-literature.org/annotations/,yes,,
+62,24,The CLiGS textbox,CLiGS,https://github.com/cligs/textbox,yes,,
+63,24,The CLiGS textbox,CLiGS,https://github.com/cligs/toolbox,,,"Vera Maria Charvat:
+Toolbox"
+64,25,Perseus digital library,Perseus,http://www.perseus.tufts.edu/hopper/collections,yes,,
+65,25,Perseus digital library,Perseus,https://ride.i-d-e.de/issues/issue-8/perseus/,yes,review,
+66,26,Reference corpus Altdeutsch,DiaGer,https://doi.org/10.34644/laudatio-dev-WiWkDnMB7CArCQ9CyBEw,yes,,
+67,26,Reference corpus Altdeutsch,DiaGer,http://www.deutschdiachrondigital.de/,,,
+68,26,Reference corpus Altdeutsch,DiaGer,https://www.laudatio-repository.org/docs/elasticapi/,,api,
+69,27,Stanford Literary Lab,StanfordLitLab,https://litlab.stanford.edu/,yes,,
+70,28,Théâtre Classique,TheaClass,http://www.theatre-classique.fr/pages/programmes/PageEdition.php,yes,,
+71,28,Théâtre Classique,TheaClass,http://www.theatre-classique.fr/pages/programmes/corpus.php,yes,,statistic on corpus
+72,28,Théâtre Classique,TheaClass,http://www.theatre-classique.fr/pages/PagePersonnages.html,,,analysis of person/actor in drama
+73,28,Théâtre Classique,TheaClass,https://ride.i-d-e.de/issues/issue-8/theatre-classique/,yes,review,
+74,29,Shakespeare His Contemporaries,SHC,https://github.com/JonathanReeve/corpus-SHC,yes,,
+75,29,Shakespeare His Contemporaries,SHC,https://github.com/DH-Box/corpus-downloader,,,Tool developed by authors of SHC corpus
+76,30,Letteratura teatrale nella Biblioteca italiana,LTItal,http://www.letteraturaitaliana.net/autori/carlo_goldoni.html,yes,,
+77,31,Dramawebben,DramaWebben,https://litteraturbanken.se/dramawebben,,,
+78,31,Dramawebben,DramaWebben,https://litteraturbanken.se/om/english.html,yes,info website,about-page in English
+79,31,Dramawebben,DramaWebben,https://ride.i-d-e.de/issues/issue-6/litteraturbanken-the-swedish-literature-bank/,,review,
+80,32,Ludvig Holbergs skrifter,LHS,http://holbergsskrifter.dk/holberg-public/view?docId=adm/main.xml,yes,,
+81,32,Ludvig Holbergs skrifter,LHS,http://holbergsskrifter.dk/holberg-public/view?docId=adm/userHelp.xml,yes,,"there is a doku (in Danish), see ""Guidelines for textual encoding"""
+82,33,Biblioteca Electrónica Textual del Teatro en Español de 1868–1936,BETTE,https://github.com/HDAUNIR/BETTE,yes,,
+83,33,Biblioteca Electrónica Textual del Teatro en Español de 1868–1936,BETTE,https://zenodo.org/badge/latestdoi/104444419,,,
+84,34,Emothe: The Classics of Early Modern European Theatre,EMOTHE,https://emothe.uv.es/en/,yes,,
+85,35,British Women Romantic Poets,BWRP,https://digital.lib.ucdavis.edu/projects/bwrp/,yes,,
+86,35,British Women Romantic Poets,BWRP,https://quod.lib.umich.edu/b/bwrp/,,,
+87,36,Diachronic Spanish Sonnet Corpus,DISCO,http://prf1.org/disco/,yes,,
+88,36,Diachronic Spanish Sonnet Corpus,DISCO,https://prf1.org/disco/about.html,yes,,about-section
+89,36,Diachronic Spanish Sonnet Corpus,DISCO,https://github.com/pruizf/disco,yes,,
+90,37,Freiburger Anthologie,FRAN,http://freiburger-anthologie.de/,yes,,
+91,38,Poetess Archive,PoetessArchive,https://poetessarchive.org/,yes,,
+92,38,Poetess Archive,PoetessArchive,https://poetessarchive.org/about/principles.html,yes,,Editorial Principles
+93,38,Poetess Archive,PoetessArchive,https://poetessarchive.org/about/template.html,,,Instructions
+94,38,Poetess Archive,PoetessArchive,https://poetessarchive.org/about/annualtemplate-full.xml,,,XML-template
+95,39,Russian Poetic Corpus,RusPoet,https://ruscorpora.ru/new/en/search-poetic.html,yes,,
+96,39,Russian Poetic Corpus,RusPoet,https://wp.hse.ru/data/2018/12/29/1143017363/77LNG2018.pdf,yes,,related paper
+97,40,"Corpus Sonetos del Siglo de Oro, ed. Borja Navarro Colorado",SonetSiglo,https://github.com/bncolorado/CorpusSonetosSigloDeOro,yes,,
+98,40,"Corpus Sonetos del Siglo de Oro, ed. Borja Navarro Colorado",SonetSiglo,http://adso.gplsi.es/index.php/en/corpus-of-metre/,yes,,
+99,40,"Corpus Sonetos del Siglo de Oro, ed. Borja Navarro Colorado",SonetSiglo,https://ride.i-d-e.de/issues/issue-6/corpus-of-spanish-golden-age-sonnets/,,review,
+100,41,"TextGrid Repository, including “Digitale Bibliothek”",TextGrid,https://textgrid.de/digitale-bibliothek,yes,,
+101,41,"TextGrid Repository, including “Digitale Bibliothek”",TextGrid,https://gitlab.gwdg.de/dariah-de/textgrid-digitale-bibliothek,,,
+102,42,Biblioteca italiana,BibIta,http://www.bibliotecaitaliana.it/,yes,,
+103,43,Oxford Text Archive,OTA,https://ota.bodleian.ox.ac.uk/,yes,,
+104,43,Oxford Text Archive,OTA,https://ota.bodleian.ox.ac.uk/repository/xmlui/discover?advance,,,advanced search
+105,44,PHI Latin Texts: Classical Latin Texts. A Resource Prepared by The Packard Humanities Institute,PHI,https://latin.packhum.org/,yes,,
+106,44,PHI Latin Texts: Classical Latin Texts. A Resource Prepared by The Packard Humanities Institute,PHI,https://ride.i-d-e.de/issues/issue-8/phi/,yes,review,
+107,45,Korpus der Literarischen Moderne/Corpus of Literary Modernism,KOLIMO,https://kolimo.uni-goettingen.de,,,
+108,45,Korpus der Literarischen Moderne/Corpus of Literary Modernism,KOLIMO,https://github.com/ingoboerner/kolimo-schnitzler,yes,,for examples see derived corpus
+109,46,Deutsches Lyrik Korpus/German Poetry Corpus,DLK,https://github.com/tnhaider/DLK,yes,,
+110,47,Scottish Corpus of Texts & Speech,SCOTS,https://www.scottishcorpus.ac.uk/,yes,,
+111,47,Scottish Corpus of Texts & Speech,SCOTS,https://www.scottishcorpus.ac.uk/advanced-search/,,,advanced search
+112,47,Scottish Corpus of Texts & Speech,SCOTS,https://www.scottishcorpus.ac.uk/tools/,,,analysis tools
+113,48,The Corpus of Modern Scottish Writing,CMSW,https://www.scottishcorpus.ac.uk/cmsw/,yes,,
+114,48,The Corpus of Modern Scottish Writing,CMSW,https://www.scottishcorpus.ac.uk/cmsw/download-corpus,,,download entire corpus as plain text
+115,49,Corpus Resource Database,CorD,https://varieng.helsinki.fi/CoRD/corpora/index.html,yes,,
+116,50,Austrian Books Online,ABO,https://onb.ac.at/digitaler-lesesaal/austrian-books-online-abo,yes,,
+117,50,Austrian Books Online,ABO,https://search.onb.ac.at/primo-explore/search?query=&tab=onb_fulltext&search_scope=ONB_aleph_abo&vid=ONB,,,
+118,51,1-Satz-Korpus,1SatzCor,https://github.com/satzomat/corpus,yes,,
+119,52,Historisches Textkorpus,HistCor,https://www.ids-mannheim.de/lexik/abgeschlosseneprojekte/historischeskorpus/,yes,,
+120,52,Historisches Textkorpus,HistCor,https://www.ids-mannheim.de/fileadmin/lexik/uwv/dateien/GerManC_Documentation.pdf,yes,,"contains the ""GerManC"
+121,52,Historisches Textkorpus,HistCor,https://www2.ids-mannheim.de/cosmas2/,,,searchable via
+122,53,Text Creation Partnership,TCP,https://textcreationpartnership.org/,yes,,
+123,53,Text Creation Partnership,TCP,https://www.dropbox.com/sh/inyy253jvytoxcu/AAAT9nMPo0sa5aXEgs5SC5aGa?dl=0,,,Evans - Evans Early American Imprints
+124,53,Text Creation Partnership,TCP,https://www.dropbox.com/sh/pfx619wnjdck2lj/AAAeQjd_dv29oPymNoKJWfEYa?dl=0,,,EEBO - Early English Books Online
+125,53,Text Creation Partnership,TCP,https://www.dropbox.com/sh/inhwjphw682i2gf/AAC8NixNye8Gp0smYBTly2Y9a?dl=0,,,ECCO - Eighteenth Century Collection
+126,53,Text Creation Partnership,TCP,https://github.com/Text-Creation-Partnership/EEBO-TCP-Collections-Navigations,,data repository,
+127,54,Project Gutenberg,PG,https://www.gutenberg.org/,yes,,
+128,54,Project Gutenberg,PG,https://www.gutenberg.org/ebooks/offline_catalogs.html,,,machine-read able (offline) catalogue
+129,55,Project Gutenberg Australia,PGAus,https://gutenberg.net.au/,yes,,
+130,55,Project Gutenberg Australia,PGAus,https://gutenberg.net.au/gutindex_aus.txt,yes,,Index
+131,56,Projekt Gutenberg-DE,PGGer,https://www.projekt-gutenberg.org/,yes,,
+132,57,txtlab Multilingual Novels,txtlab,https://figshare.com/articles/dataset/txtlab_Novel450/2062002/3,yes,,
+133,57,txtlab Multilingual Novels,txtlab,https://figshare.com/ndownloader/files/3686778,,,Download link
+134,58,LINHD POSTDATA Project,LINDH,https://github.com/linhd-postdata,yes,,
+135,58,LINHD POSTDATA Project,LINDH,https://postdata.linhd.uned.es/corpus-y-datasets/,yes,,overview of corpora and datasets
+136,58,LINHD POSTDATA Project,LINDH,https://postdata.linhd.uned.es/,yes,,
+137,59,Biblioteka Maksima Moshkova,LibRu,http://lib.ru/,yes,,
+138,60,Internet Biblioteka Alekseia Komarova,ILibRu,https://ilibrary.ru/,yes,,
+139,61,Russkaia virtual’naia Biblioteka,RVB,https://rvb.ru/,yes,,
+140,62,Fundamental’naia elektronnaia biblioteka „Russkaia literatura i fol’klor“,FEB,http://www.feb-web.ru/,yes,,
+141,63,HathiTrust Digital Library,HATHI,https://www.hathitrust.org/,yes,,
+142,63,HathiTrust Digital Library,HATHI,https://www.hathitrust.org/data,,api,Vera Maria Charvat: various APIs available
+143,64,“To be continued . . .”: The Australian Newspaper Fiction Database,TBC,http://cdhrdatasys.anu.edu.au/tobecontinued,yes,,
+144,64,“To be continued . . .”: The Australian Newspaper Fiction Database,TBC,https://trove.nla.gov.au/,,,links to TROVE for newspaper scans - corpus download as zip file
+145,65,Biblioteca Virtual Miguel de Cervantes,Cervantes,http://www.cervantesvirtual.com/,yes,,
+146,65,Biblioteca Virtual Miguel de Cervantes,Cervantes,https://data.cervantesvirtual.com/?_ga=2.19868668.55021663.1655726653-1879338039.1655467666,,,
+147,66,Europeana,Europeana,https://www.europeana.eu/de,yes,,
+148,66,Europeana,Europeana,https://github.com/europeana/,,,
+149,66,Europeana,Europeana,https://pro.europeana.eu/page/apis,,api,
+150,67,Polona,Polona,https://polona.pl/,yes,,
+151,68,Gallica,Gallica,https://gallica.bnf.fr,yes,,
+152,69,DIKDA - Písomné kultúrne dedičstvo Slovenska,DIKDA,https://dikda.eu/,yes,,
+153,70,Zlatý Fond SME,SME,https://zlatyfond.sme.sk/autori#U,yes,,
+154,71,Univerzitná Knižnica v Bratislave,UKB,http://digitalna.kniznica.info/browse,yes,,
+155,72,World Digital Library,WDC,https://www.loc.gov/collections/world-digital-library/about-this-collection/,yes,,
+156,73,Federacja Bibliotek Cyfrowych,FBC,https://fbc.pionier.net.pl/,yes,,
+157,73,Federacja Bibliotek Cyfrowych,FBC,http://fbc.pionier.net.pl/pro/en/,yes,,
+158,74,Open Texts,OpenTexts,https://opentexts.world/,yes,,
+159,74,Open Texts,OpenTexts,https://opentexts.world/about,yes,,about page
+160,74,Open Texts,OpenTexts,https://github.com/opentexts/opentexts/,,,
+161,75,Travel writings on Italy,TravelItal,https://sites.google.com/view/travelwritingsonitaly/home,yes,,
+162,76,Fashist Latin Texts,FLT,https://flt.hf.uio.no/,yes,,
+163,77,"Musisque Deoque. A digital archive of Latin poetry, from its origins to the Italian Renaissance",MQDQ,https://www.mqdq.it/public/index,yes,,
+164,77,"Musisque Deoque. A digital archive of Latin poetry, from its origins to the Italian Renaissance",MQDQ,https://www.mqdq.it/public/ce/corpora#HI_anchor,,,
+165,78,Poeti d'Italia in lingua latina,PDI,http://mizar.unive.it/poetiditalia/public/,yes,,
+166,79,Humanist and Renaissance Italian Poetry in Latin,HIP,https://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:PDILL,yes,,
+167,79,Humanist and Renaissance Italian Poetry in Latin,HIP,https://www.perseus.tufts.edu/hopper/collections,,,"Perseus also hosts other collections, some texts can be downloaded"
+168,79,Humanist and Renaissance Italian Poetry in Latin,HIP,https://www.perseus.tufts.edu/hopper/opensource,,,Perseus Hopper
+169,80,NOSCEMUS,NOSCEMUS,https://wiki.uibk.ac.at/noscemus/Main_Page,yes,,
+170,80,NOSCEMUS,NOSCEMUS,https://transkribus.eu/r/noscemus/#/staticDirectory,,,
+171,81,LatTy on Zenodo,LatTy,https://doi.org/10.5281/zenodo.1454630,yes,,
+172,81,LatTy on Zenodo,LatTy,https://github.com/nevenjovanovic/latty-cts/tree/1.1.10,,,
+173,82,LatTy under PhiloLogic,LatTyPhilo,http://solr.ffzg.hr/philo4/latty2/,yes,,
+174,82,LatTy under PhiloLogic,LatTyPhilo,http://www.ffzg.unizg.hr/klafil/dokuwiki/doku.php/z:croatica-et-tyrolensia,yes,,additional project description
+175,83,Academia Gustaviana (1632-1656) ladinakeelse juhuluule tekstikorpus,NeoLat,https://philologic.ut.ee/neolatina/,yes,,
+176,84,Thomas More Concordances,TMC,https://essentialmore.org/concordances/,yes,,
+177,85,"Marko Marulić, Judita and Dauidias",MM,https://teipublisher.com/exist/apps/judita-davidias,yes,,
+178,86,CAMENA on Zenodo,CAMENA,https://doi.org/10.5281/zenodo.1454036,yes,,
+179,86,CAMENA on Zenodo,CAMENA,https://github.com/nevenjovanovic/camena-neolatinlit/tree/v0.0.1,,,
+180,87,SLäNDa 2.0,SLäNDa,https://lindat.mff.cuni.cz/repository/xmlui/handle/11372/LRT-4739,yes,,
+181,88,Spoken corpus of Karel Makoň,MakonSpoken,http://hdl.handle.net/11234/1-3422,yes,,
+182,88,Spoken corpus of Karel Makoň,MakonSpoken,http://radio.makon.cz/,,,
+183,89,LiFR-Lite,LiFRLite,http://hdl.handle.net/11234/1-4612,yes,,
+184,90,Annotation of Dramatic Situations in Theater Play Scripts,ADSTPS,http://hdl.handle.net/11234/1-4930,yes,,
+185,90,Annotation of Dramatic Situations in Theater Play Scripts,ADSTPS,http://theaitre.com,,,
+186,91,Petrarca+,PetrarcaPlus,https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=petrarca_it_m,yes,,
+187,92,Summa Theologiae,SummaTheo,https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=summa_la_a,yes,,
+188,93,Summa Theologica in English,SummaTheoEN,https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=summa_en_a,yes,,
+189,94,Teologická Summa,SummaTheaCZ,https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=summa_cs_a,yes,,
+190,95,Corpus of Czech Verse - Searchable version,CzechVerseSearchable,https://lindat.mff.cuni.cz/services/teitok-live/czechverse/,yes,,
+191,96,Corpus of Czech Verse -downloadable data,CzechVerseDownloadable,https://github.com/versotym/corpusCzechVerse,yes,,
+192,97,Macedonian Poetry Corpus - Searchable version,MapCorpSearchable,https://lindat.mff.cuni.cz/services/teitok-live/mapcorp/,yes,,
+193,98,A Human-Annotated Dataset of Scanned Images and OCR Texts from Medieval Documents: Supplementary Materials - searchable version,HusMedSearchable,https://lindat.mff.cuni.cz/services/teitok/ocrcz/index.php,yes,,
+194,99,A Human-Annotated Dataset of Scanned Images and OCR Texts from Medieval Documents: Supplementary Materials,HusMedSupplement,http://hdl.handle.net/11234/1-4935,yes,,
+195,99,A Human-Annotated Dataset of Scanned Images and OCR Texts from Medieval Documents: Supplementary Materials,HusMedSupplement,https://nlp.fi.muni.cz/raslan/2022/paper12.pdf,,,
+196,99,A Human-Annotated Dataset of Scanned Images and OCR Texts from Medieval Documents: Supplementary Materials,HusMedSupplement,https://nlp.fi.muni.cz/projects/ahisto/ocr-dataset,,,
+197,100,Česká elektronická knihovna: Plnotextová databáze české poezie 19. a počátku 20. století - searchable version,CeskaPoesia,http://www.ceska-poezie.cz/cek/?id=2&lang=cz,yes,,
+198,101,"Kanseki Repository
+Comprehensive collection of premodern Chinese texts",KansekiRepo,https://github.com/kanripo,,,
+199,101,"Kanseki Repository
+Comprehensive collection of premodern Chinese texts",KansekiRepo,https://www.kanripo.org,yes,,
+200,102,Korpus všech textů Karla Čapka,capek_uplny,www.korpus.cz,yes,,
+201,103,Korpus prozaických textů Jana Čepa,cep,www.korpus.cz,yes,,
+202,104,Literary cartographic and quantitative models of Czech prose of the 19th century,CzechProse,http://korpusprozy.com/eng-website/index.php,yes,,
+203,105,Poesi.as,poesi-as,https://github.com/linhd-postdata/poesi.as,yes,,
+204,106,Gongocorpus,gongocorpus,https://github.com/linhd-postdata/gongocorpus,yes,,
+205,107,Project Gutenberg Poetry Corpora,projectgutenberg-poetry-corpora,https://github.com/linhd-postdata/projectgutenberg-poetry-corpora,yes,,
+206,108,Métrique en Ligne Corpus,metrique-en-ligne,https://github.com/linhd-postdata/metrique-en-ligne,yes,,
+207,109,Corpus of Spanish stanzas,spanish-stanzas,https://github.com/linhd-postdata/stanzas-evalution-public,yes,,
+208,110,PULPO Corpus,PULPO,https://huggingface.co/datasets/linhd-postdata/pulpo,yes,,
+209,111,Slovak National Corpus,SNC,http://korpus.juls.savba.sk/res_en.html,yes,,
+210,111,Slovak National Corpus,SNC,https://bonito.korpus.sk/run_guest.cgi/first_form,,,
+211,111,Slovak National Corpus,SNC,http://korpus.juls.savba.sk/structure1_en.html,,,"contains various subcorpora, needs to be split into single entries in corpusTable, check link for structured overview"
