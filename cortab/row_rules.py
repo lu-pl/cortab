@@ -355,10 +355,19 @@ def additional_link_row_rule(row_data):
             link_uri
         )
 
+    @nan_handler
+    def link_comment_triples(link_comment=row_data["link_comment"]):
+        return (
+            link_uri,
+            crm["P3_has_note"],
+            Literal(link_comment)
+        )
+
     triples = [
         link_triple(),
         link_type_triple(),
-        # descevent_triples()
+        descevent_triples(),
+        link_comment_triples()
     ]
 
     graph = Graph()
