@@ -2400,9 +2400,9 @@
 <https://projectgutenberg-poetry-corpora.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://projectgutenberg-poetry-corpora.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://projectgutenberg-poetry-corpora.clscor.io/entity/protodoc/1> ;
-    crm:P141_assigned <https://core.clscor.io/entity/language/7960323fdf>,
-        <https://vocabs.acdh.oeaw.ac.at/iso6391/de>,
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/de>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/en>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6391/es>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/fr>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/it>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/nl>,
@@ -3740,9 +3740,6 @@
 
 <https://core.clscor.io/entity/language/5b9ec497fe> a crm:E56_Language ;
     rdfs:label "Diachronic German" .
-
-<https://core.clscor.io/entity/language/7960323fdf> a crm:E56_Language ;
-    rdfs:label "and Spanish." .
 
 <https://core.clscor.io/entity/language/99553cc3c7> a crm:E56_Language ;
     rdfs:label "Diachronic German" .
@@ -6966,4 +6963,376 @@ Commentary: more detailed info might be in the Gitlab-repo""" ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
         <https://core.clscor.io/entity/person/a38bec184d>,
         <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Biblioteca Electrónica Textual del Teat
+    crm:P3_has_note """Proposal: "Biblioteca Electrónica Textual del Teatro en Español de 1868–1936 (BETTE): 25 Spanish plays"
+Commentary: contained in SpanDraCor; metadata encoded in TEIHeader; VIAF IDs""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://cmsw.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://cmsw.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Homepage: \"The Corpus of Modern Scottish Writing (CMSW) is an electronic corpus of written and printed texts from the period 1700-1945, complementing the Helsinki Corpus of Older Scots (1450-1700) and the Scottish Corpus of Texts & Speech (1945-present day).\"; \"147,129 total types; 5434830 total tokens\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://core.clscor.io/entity/person/550ff6082b> a crm:E39_Actor ;
+    rdfs:label "Álvaro Pérez" .
+
+<https://core.clscor.io/entity/person/d489c48a01> a crm:E39_Actor ;
+    rdfs:label "Javier de la Rosa" .
+
+<https://core.clscor.io/entity/person/d9652f0363> a crm:E39_Actor ;
+    rdfs:label "Salvador Ros" .
+
+<https://disco.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://disco.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "DISCO (Diachronic Spanish Sonnet Corpus, over 4,000 sonnets by more than 1,000 authors, incl. canonical as well as non-canonical authors, 15th to the 19th century)"
+Homepage (about-section): 15th to the 19th century; over 4,000 sonnets by more than 1,000 authors, incl. canonical as well as non-canonical authors; "The raw texts were in most cases extracted from Biblioteca Virtual Miguel de Cervantes (1999), with some 18th-century texts coming from Wikisource.\"""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://dlk.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://dlk.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: lots of info in the github readme, needs to be filtered; corpus ca be downloaded in .zip files; compiled from Textgrid and DTA; Some digital research on poetry based on this corpus, see https://www.aesthetics.mpg.de/institut/mitarbeiterinnen/thomas-haider.html; Especially: https://arxiv.org/abs/2102.08858; Lines + minimal metadata in a JSON object / python dictionary" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://dracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://dracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: This is the overall-page starting page with links to the individual drama corpora, which are listed in the following lines of this table (Alsatian, Bashkir, Calderón, French, German, German Shakespeare, Greek, Italian, Roman, Russian, Shakespeare, Spanish, Swedish, Tatar); Dracor provides very sophisticated info, a lot of valuable information can be scraped via the API" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://dramawebben.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://dramawebben.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Dramawebben: 62 Swedish plays"
+Commentary: It looks as if Dramawebben is only one collection of the "litteraturbanken"; files are available as e-pub; available in SweDraCor""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://dta.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://dta.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Deutsches Textarchiv, http://www.deutschestextarchiv.de/ (4165 texts, all in TEI)"
+Commentary: Multi-genre repositories with TEI-encoded texts; consists of a "Kernkorpus" (1468 texts) and additional corpora (5014 texts); metadata available in DC and CMDI; also OAI-PMH; very informative project-website with various features, documentation, download-area, etc. (but only available in German)""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://emothe.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://emothe.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Emothe: The Classics of Early Modern European Theatre: 113 plays incl. translations (Italian, English, French, Spanish)"
+Commentary: certificate on homepage has expired (page not safe?)""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://gallica.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://gallica.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: The Bibliothèque nationale de France offers a Gallica iOS and Android application, can be downloaded for free" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://gongocorpus.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://gongocorpus.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
+        <https://core.clscor.io/entity/person/d489c48a01>,
+        <https://core.clscor.io/entity/person/d9652f0363> ;
+    crm:P3_has_note "downloadable, Plain text poetic corpora" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://lhs.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://lhs.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Ludvig Holbergs skrifter: 36 comedies"
+Commentary: no info if texts are downloadable, seems you can only look at the texts online, no XML Files available, but there is a doku (in Danish), see additional link""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://metrique-en-ligne.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://metrique-en-ligne.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
+        <https://core.clscor.io/entity/person/d489c48a01>,
+        <https://core.clscor.io/entity/person/d9652f0363> ;
+    crm:P3_has_note "downloadable, JSON poetic corpora; This corpus is a subset in JSON format of the available poems in métrique en ligne" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://ota.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://ota.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Oxford Text Archive, https://ota.bodleian.ox.ac.uk/ (209 novels, 350 plays, 64 collections of poetry; most in TEI)"
+Homepage: "A repository of full-text literary and linguistic resources. Thousands of texts in more than 25 languages."; "The Oxford Text Archive (OTA) is a repository of digital literary and linguistic resources for research and teaching. The OTA was created at and remains a part of the University of Oxford. We also offer advice to resource creators about best practice for creating digital resources, and to users of digital resources on how to benefit from existing resources."
+Commentary: founded by Lou Burnard & Susan Hockey; currently under review (nov2021); they provide single entries in DC, via OAI-PMH, use CMDI, BIBTEX, handles, support open data (but also support restricted access data); clear info on licenses; The OTA is a registered CLARIN C Centre, and the repository is based on the CLARIN DSpace platform;
+OTA collections can be found via the VLO; records are displayed with their metadata and download possiblilities (HTML, TEI, epub, ?);""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://poesi-as.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://poesi-as.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
+        <https://core.clscor.io/entity/person/d489c48a01>,
+        <https://core.clscor.io/entity/person/d9652f0363> ;
+    crm:P3_has_note "downloadablem, Plain text poetic corpora; All Gongora's poems" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://poetessarchive.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://poetessarchive.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Poetess Archive (flowery poetry written in Britain and America between 1750–1900)"
+Homepage: "Work Flow: Every bibliographic entry in the Poetess Archive has been made into a TEI-encoded page (see "Editorial Principles" for more about TEI). We have created TEI templates and will continue to create them for those who wish to submit texts already encoded, but we accept submissions of any kind, and then TEI-encode them here. After that work, the TEI pages are:
+- created into HTML presenetation pages;
+- entered into our Oracle database;
+- made into RDFs so that the Poetess Archive Database is interoperable with NINES using the NINES COLLEX TOOL.\"""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://spanish-stanzas.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://spanish-stanzas.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
+        <https://core.clscor.io/entity/person/d489c48a01>,
+        <https://core.clscor.io/entity/person/d9652f0363> ;
+    crm:P3_has_note "downloadable, Plain text poetic corpora" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://tbc.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://tbc.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://theaclass.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://theaclass.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Théâtre Classique: 1.350 plays (from 17th and 18th century)"
+Commentary: TEI with tei-all invalid, undocumented customizations (M. Goebel set up a pipeline to do a cleaned up ingest into dracor); from 17th and 18th century; homepage is entirely in French.""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://travelital.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://travelital.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: all texts are also available via project gutenberg;; download of TEI & plain text files: calls for a google-account" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/el> a crm:E56_Language ;
+    rdfs:label "Greek" .
+
+<https://1000novel.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://1000novel.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Homepage: \"Corpus of literary texts intended as benchmark collection for text categorization. It contains 1000 novels written in polish or translated to polish by various authors. Each text is stored as separate .txt file.\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://alsdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://alsdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://caldracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://caldracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Proposal: \"Calderón corpus (54 plays)\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://camena.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://camena.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: contains five collections: POEMATA, Neo-Latin poetry composed by German authors; HISTORICA & POLITICA, Latin historical and political writing; THESAURUS ERUDITIONIS, a reference collection of dictionaries and handbooks of the period 1500-1750; CERA, printed Latin letters, mostly by German scholars, from the period 1530-1770; and ITALI, works by Italian Renaissance humanists born before 1500. The collection ITALI has no XML files, so it was not included in this repository.; downloads possible" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://diager.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://diager.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Homepage (DE): "Das Referenzkorpus Altdeutsch erfasst und annotiert die ältesten Sprachdenkmäler des Deutschen vom Beginn der kontinuierlichen schriftlichen Überlieferung um 750 bis etwa 1050 mit einem Umfang von ca. 650 000 Textwörtern. Aufgenommen werden alle in dieser Zeit überlieferten Texte des Althochdeutschen und des Altsächsischen in einer möglichst genauen Wiedergabestufe. Dabei werden die handschriftengetreuesten gedruckten Texteditionen zugrundegelegt. Die Annotation erfasst Header-Informationen, strukturelle (Wort, Satz, Zeile, Absatz etc.) und linguistische Annotationen (Part of Speech-Tagging, Flexionsmorphologie) sowie syntaktische Satzinformationen und erfolgt mit Unterstützung einer semi-automatischen Vorannotation, die mit Hilfe der digitalisierten Sprachstufen- und Textwörterbücher und Glossare zum Althochdeutschen und zum Altsächsischen erzeugt wurde. Die verschiedenen Stufen der Annotation werden in Form einer Mehrebenenarchitektur aufeinander bezogen."
+Commentary: one of the corpora provided by the laudatio repository""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://folgershake.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://folgershake.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Shakespeare Folger Library: all (37) Shakespeare plays, very high encoding-depth "
+Commentary: corpus of a single author; contained in ShakeDraCor""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://fredracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://fredracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://gerdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://gerdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Proposal: \"German Drama Corpus: 481 German-language plays from 1730s–1940s\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://gershdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://gershdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://greekdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://greekdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://itadracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://itadracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://latty.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://latty.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: downloads possible; XQuery" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://rem.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://rem.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Commentary: The laudatio repository uses a custom XML (CorA XML) and custom linguistic search and visualization tool (ANNIS); the ReM is only one of the corpora provided by the laudatio repository
+Homepage: "The "Reference Corpus of Middle High German" (short: ReM) is a corpus of diplomatically transcribed and annotated texts from Middle High German (1050-1350) with a size of around 2 million word forms. It originated from the research projects "Reference Corpus of Middle High German" and "Middle High German grammar". Texts have been digitized and richly annotated, e.g. with parts of speech, morphology and lemma\"""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://romdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://romdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://rusdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://rusdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Proposal: \"Russian Drama Corpus: 210 Russian-language plays from 1740s–1940s\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://shakedracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://shakedracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Homepage: \"derived from the Folger Shakespeare Library\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://sonetsiglo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://sonetsiglo.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Proposal: \"Corpus Sonetos del Siglo de Oro, ed. Borja Navarro Colorado (more than 5000 Spanish sonnets, ca. 1500-1700, with metrical annotation)\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://spandracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://spandracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Homepage: \"Forked from the BETTE corpus (Biblioteca Electrónica Textual del Teatro en Español de 1868–1936).\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://swedracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://swedracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Homepage: \"Derived from the eDrama (https://litteraturbanken.se/dramawebben/sida/edrama) project\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://tatdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://tatdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Homepage: \"provided through Tatar Electronic Library.\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://txtlab.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://txtlab.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: designed for use in teaching and research" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/ru> a crm:E56_Language ;
+    rdfs:label "Russian" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/it> a crm:E56_Language ;
+    rdfs:label "Italian" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/cs> a crm:E56_Language ;
+    rdfs:label "Czech" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/fr> a crm:E56_Language ;
+    rdfs:label "French" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/es> a crm:E56_Language ;
+    rdfs:label "Spanish" .
+
+<https://core.clscor.io/entity/person/d211546a86> a crm:E39_Actor ;
+    rdfs:label "Silvie Cinkova" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/de> a crm:E56_Language ;
+    rdfs:label "Deutsch",
+        "German" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/la> a crm:E56_Language ;
+    rdfs:label "Latin" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/en> a crm:E56_Language ;
+    rdfs:label "English" .
+
+<https://core.clscor.io/entity/person/9deca32cb6> a crm:E39_Actor ;
+    rdfs:label "Michal Mrugalski" .
+
+<https://core.clscor.io/entity/person/a47820d846> a crm:E39_Actor ;
+    rdfs:label "Susanne Zhanial" .
+
+<https://core.clscor.io/entity/person/a38bec184d> a crm:E39_Actor ;
+    rdfs:label "Vera Maria Charvat" .
