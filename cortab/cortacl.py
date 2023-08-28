@@ -58,12 +58,14 @@ def cortacl(column: str, rows: tuple[Any], format="ttl"):
     nsgraph = Graph()
     CLSInfraNamespaceManager(nsgraph)
 
-    dfconversion = FieldGraphConverter(
-        dataframe=dataframe,
-        subject_column="corpusAcronym",
-        column_rules=rules,
-        graph=nsgraph
-    )
+    # dfconversion = FieldGraphConverter(
+    #     dataframe=dataframe,
+    #     subject_column="corpusAcronym",
+    #     column_rules=rules,
+    #     graph=nsgraph
+    # )
+
+    ## todo: port to RowGraphConverter
 
     graph = dfconversion.to_graph()
     click.echo(graph.serialize(format=format))
