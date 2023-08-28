@@ -2053,7 +2053,6 @@
         <https://vocabs.acdh.oeaw.ac.at/iso6391/mga>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/ml>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/ms>,
-        <https://vocabs.acdh.oeaw.ac.at/iso6391/mul>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/nl>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/non>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/nuy>,
@@ -5538,9 +5537,6 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://vocabs.acdh.oeaw.ac.at/iso6391/ms> a crm:E56_Language ;
     rdfs:label "Malay" .
-
-<https://vocabs.acdh.oeaw.ac.at/iso6391/mul> a crm:E56_Language ;
-    rdfs:label "Multiple languages" .
 
 <https://vocabs.acdh.oeaw.ac.at/iso6391/non> a crm:E56_Language ;
     rdfs:label "Old Norse" .
