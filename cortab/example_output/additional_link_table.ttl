@@ -1,0 +1,420 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://1000novel.clscor.io/entity/corpus> crm:P1_is_identified_by <http://hdl.handle.net/11321/312>,
+        <https://clarin-pl.eu/dspace/handle/11321/312?show=full#> .
+
+<https://1satzcor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/satzomat/corpus> .
+
+<https://abo.clscor.io/entity/corpus> crm:P1_is_identified_by <https://onb.ac.at/digitaler-lesesaal/austrian-books-online-abo>,
+        <https://search.onb.ac.at/primo-explore/search?query=&tab=onb_fulltext&search_scope=ONB_aleph_abo&vid=ONB> .
+
+<https://adstps.clscor.io/entity/corpus> crm:P1_is_identified_by <http://hdl.handle.net/11234/1-4930>,
+        <http://theaitre.com> .
+
+<https://alsdracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/als>,
+        <https://dracor.org/doc/api>,
+        <https://github.com/dracor-org/alsdracor> .
+
+<https://anemoskala.clscor.io/entity/corpus> crm:P1_is_identified_by <http://www.greek-language.gr/digitalResources/literature/tools/concordance/index.html>,
+        <https://ride.i-d-e.de/issues/issue-8/anemoskala/> .
+
+<https://annotlit.clscor.io/entity/corpus> crm:P1_is_identified_by <http://www.annotating-literature.org/annotations/>,
+        <http://www.annotating-literature.org/wp-content/uploads/2020/09/Styleguide-2020-08-11.pdf>,
+        <https://www.annotating-literature.org/> .
+
+<https://bashdracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/bash>,
+        <https://dracor.org/doc/api> .
+
+<https://bette.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/HDAUNIR/BETTE>,
+        <https://zenodo.org/badge/latestdoi/104444419> .
+
+<https://bibita.clscor.io/entity/corpus> crm:P1_is_identified_by <http://www.bibliotecaitaliana.it/> .
+
+<https://bwrp.clscor.io/entity/corpus> crm:P1_is_identified_by <https://digital.lib.ucdavis.edu/projects/bwrp/>,
+        <https://quod.lib.umich.edu/b/bwrp/> .
+
+<https://caldracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/cal>,
+        <https://dracor.org/doc/api>,
+        <https://github.com/dracor-org/caldracor> .
+
+<https://camena.clscor.io/entity/corpus> crm:P1_is_identified_by <https://doi.org/10.5281/zenodo.1454036>,
+        <https://github.com/nevenjovanovic/camena-neolatinlit/tree/v0.0.1> .
+
+<https://capek_uplny.clscor.io/entity/corpus> crm:P1_is_identified_by <www.korpus.cz> .
+
+<https://cep.clscor.io/entity/corpus> crm:P1_is_identified_by <www.korpus.cz> .
+
+<https://cervantes.clscor.io/entity/corpus> crm:P1_is_identified_by <http://www.cervantesvirtual.com/>,
+        <https://data.cervantesvirtual.com/?_ga=2.19868668.55021663.1655726653-1879338039.1655467666> .
+
+<https://ceskapoesia.clscor.io/entity/corpus> crm:P1_is_identified_by <http://www.ceska-poezie.cz/cek/?id=2&lang=cz> .
+
+<https://cligs.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/cligs/textbox>,
+        <https://github.com/cligs/toolbox> .
+
+<https://cmsw.clscor.io/entity/corpus> crm:P1_is_identified_by <https://www.scottishcorpus.ac.uk/cmsw/>,
+        <https://www.scottishcorpus.ac.uk/cmsw/download-corpus> .
+
+<https://cord.clscor.io/entity/corpus> crm:P1_is_identified_by <https://varieng.helsinki.fi/CoRD/corpora/index.html> .
+
+<https://czechprose.clscor.io/entity/corpus> crm:P1_is_identified_by <http://korpusprozy.com/eng-website/index.php> .
+
+<https://czechversedownloadable.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/versotym/corpusCzechVerse> .
+
+<https://czechversesearchable.clscor.io/entity/corpus> crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/teitok-live/czechverse/> .
+
+<https://diager.clscor.io/entity/corpus> crm:P1_is_identified_by <http://www.deutschdiachrondigital.de/>,
+        <https://doi.org/10.34644/laudatio-dev-WiWkDnMB7CArCQ9CyBEw>,
+        <https://www.laudatio-repository.org/docs/elasticapi/> .
+
+<https://dikda.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dikda.eu/> .
+
+<https://disco.clscor.io/entity/corpus> crm:P1_is_identified_by <http://prf1.org/disco/>,
+        <https://github.com/pruizf/disco>,
+        <https://prf1.org/disco/about.html> .
+
+<https://dlk.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/tnhaider/DLK> .
+
+<https://dracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/>,
+        <https://dracor.org/doc/api>,
+        <https://github.com/dracor-org> .
+
+<https://dramawebben.clscor.io/entity/corpus> crm:P1_is_identified_by <https://litteraturbanken.se/dramawebben>,
+        <https://litteraturbanken.se/om/english.html>,
+        <https://ride.i-d-e.de/issues/issue-6/litteraturbanken-the-swedish-literature-bank/> .
+
+<https://dta.clscor.io/entity/corpus> crm:P1_is_identified_by <https://ride.i-d-e.de/issues/issue-6/deutsches-textarchiv/>,
+        <https://www.deutschestextarchiv.de/>,
+        <https://www.deutschestextarchiv.de/api> .
+
+<https://eltec.clscor.io/entity/corpus> crm:P1_is_identified_by <https://distantreading.github.io/>,
+        <https://distantreading.github.io/ELTeC/>,
+        <https://github.com/COST-ELTeC>,
+        <https://zenodo.org/communities/eltec/> .
+
+<https://emothe.clscor.io/entity/corpus> crm:P1_is_identified_by <https://emothe.uv.es/en/> .
+
+<https://europeana.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/europeana/>,
+        <https://pro.europeana.eu/page/apis>,
+        <https://www.europeana.eu/de> .
+
+<https://fbc.clscor.io/entity/corpus> crm:P1_is_identified_by <http://fbc.pionier.net.pl/pro/en/>,
+        <https://fbc.pionier.net.pl/> .
+
+<https://feb.clscor.io/entity/corpus> crm:P1_is_identified_by <http://www.feb-web.ru/> .
+
+<https://flt.clscor.io/entity/corpus> crm:P1_is_identified_by <https://flt.hf.uio.no/> .
+
+<https://folgershake.clscor.io/entity/corpus> crm:P1_is_identified_by <https://shakespeare.folger.edu/>,
+        <https://shakespeare.folger.edu/the-folger-shakespeare-api/> .
+
+<https://fran.clscor.io/entity/corpus> crm:P1_is_identified_by <http://freiburger-anthologie.de/> .
+
+<https://fredracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/fre>,
+        <https://github.com/dracor-org/fredracor> .
+
+<https://gallica.clscor.io/entity/corpus> crm:P1_is_identified_by <https://gallica.bnf.fr> .
+
+<https://gerdracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/ger>,
+        <https://github.com/dracor-org/gerdracor> .
+
+<https://gershdracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/gersh>,
+        <https://github.com/dracor-org/gershdracor> .
+
+<https://gongocorpus.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/linhd-postdata/gongocorpus> .
+
+<https://greekdracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/greek>,
+        <https://github.com/dracor-org/greekdracor> .
+
+<https://hathi.clscor.io/entity/corpus> crm:P1_is_identified_by <https://www.hathitrust.org/>,
+        <https://www.hathitrust.org/data> .
+
+<https://hip.clscor.io/entity/corpus> crm:P1_is_identified_by <https://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:PDILL>,
+        <https://www.perseus.tufts.edu/hopper/collections>,
+        <https://www.perseus.tufts.edu/hopper/opensource> .
+
+<https://histcor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://www.ids-mannheim.de/fileadmin/lexik/uwv/dateien/GerManC_Documentation.pdf>,
+        <https://www.ids-mannheim.de/lexik/abgeschlosseneprojekte/historischeskorpus/>,
+        <https://www2.ids-mannheim.de/cosmas2/> .
+
+<https://husmedsearchable.clscor.io/entity/corpus> crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/teitok/ocrcz/index.php> .
+
+<https://husmedsupplement.clscor.io/entity/corpus> crm:P1_is_identified_by <http://hdl.handle.net/11234/1-4935>,
+        <https://nlp.fi.muni.cz/projects/ahisto/ocr-dataset>,
+        <https://nlp.fi.muni.cz/raslan/2022/paper12.pdf> .
+
+<https://ilibru.clscor.io/entity/corpus> crm:P1_is_identified_by <https://ilibrary.ru/> .
+
+<https://itadracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/ita>,
+        <https://github.com/dracor-org/itadracor> .
+
+<https://kansekirepo.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/kanripo>,
+        <https://www.kanripo.org> .
+
+<https://kolimo.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/ingoboerner/kolimo-schnitzler>,
+        <https://kolimo.uni-goettingen.de> .
+
+<https://latty.clscor.io/entity/corpus> crm:P1_is_identified_by <https://doi.org/10.5281/zenodo.1454630>,
+        <https://github.com/nevenjovanovic/latty-cts/tree/1.1.10> .
+
+<https://lattyphilo.clscor.io/entity/corpus> crm:P1_is_identified_by <http://solr.ffzg.hr/philo4/latty2/>,
+        <http://www.ffzg.unizg.hr/klafil/dokuwiki/doku.php/z:croatica-et-tyrolensia> .
+
+<https://lhs.clscor.io/entity/corpus> crm:P1_is_identified_by <http://holbergsskrifter.dk/holberg-public/view?docId=adm/main.xml>,
+        <http://holbergsskrifter.dk/holberg-public/view?docId=adm/userHelp.xml> .
+
+<https://libru.clscor.io/entity/corpus> crm:P1_is_identified_by <http://lib.ru/> .
+
+<https://lifrlite.clscor.io/entity/corpus> crm:P1_is_identified_by <http://hdl.handle.net/11234/1-4612> .
+
+<https://lindh.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/linhd-postdata>,
+        <https://postdata.linhd.uned.es/>,
+        <https://postdata.linhd.uned.es/corpus-y-datasets/> .
+
+<https://ltital.clscor.io/entity/corpus> crm:P1_is_identified_by <http://www.letteraturaitaliana.net/autori/carlo_goldoni.html> .
+
+<https://makonspoken.clscor.io/entity/corpus> crm:P1_is_identified_by <http://hdl.handle.net/11234/1-3422>,
+        <http://radio.makon.cz/> .
+
+<https://mapcorpsearchable.clscor.io/entity/corpus> crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/teitok-live/mapcorp/> .
+
+<https://metrique-en-ligne.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/linhd-postdata/metrique-en-ligne> .
+
+<https://mm.clscor.io/entity/corpus> crm:P1_is_identified_by <https://teipublisher.com/exist/apps/judita-davidias> .
+
+<https://mqdq.clscor.io/entity/corpus> crm:P1_is_identified_by <https://www.mqdq.it/public/ce/corpora#HI_anchor>,
+        <https://www.mqdq.it/public/index> .
+
+<https://neolat.clscor.io/entity/corpus> crm:P1_is_identified_by <https://philologic.ut.ee/neolatina/> .
+
+<https://noscemus.clscor.io/entity/corpus> crm:P1_is_identified_by <https://transkribus.eu/r/noscemus/#/staticDirectory>,
+        <https://wiki.uibk.ac.at/noscemus/Main_Page> .
+
+<https://opentexts.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/opentexts/opentexts/>,
+        <https://opentexts.world/>,
+        <https://opentexts.world/about> .
+
+<https://ota.clscor.io/entity/corpus> crm:P1_is_identified_by <https://ota.bodleian.ox.ac.uk/>,
+        <https://ota.bodleian.ox.ac.uk/repository/xmlui/discover?advance> .
+
+<https://pdi.clscor.io/entity/corpus> crm:P1_is_identified_by <http://mizar.unive.it/poetiditalia/public/> .
+
+<https://perseus.clscor.io/entity/corpus> crm:P1_is_identified_by <http://www.perseus.tufts.edu/hopper/collections>,
+        <https://ride.i-d-e.de/issues/issue-8/perseus/> .
+
+<https://petrarcaplus.clscor.io/entity/corpus> crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=petrarca_it_m> .
+
+<https://pg.clscor.io/entity/corpus> crm:P1_is_identified_by <https://www.gutenberg.org/>,
+        <https://www.gutenberg.org/ebooks/offline_catalogs.html> .
+
+<https://pgaus.clscor.io/entity/corpus> crm:P1_is_identified_by <https://gutenberg.net.au/>,
+        <https://gutenberg.net.au/gutindex_aus.txt> .
+
+<https://pgger.clscor.io/entity/corpus> crm:P1_is_identified_by <https://www.projekt-gutenberg.org/> .
+
+<https://phi.clscor.io/entity/corpus> crm:P1_is_identified_by <https://latin.packhum.org/>,
+        <https://ride.i-d-e.de/issues/issue-8/phi/> .
+
+<https://poesi-as.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/linhd-postdata/poesi.as> .
+
+<https://poetessarchive.clscor.io/entity/corpus> crm:P1_is_identified_by <https://poetessarchive.org/>,
+        <https://poetessarchive.org/about/annualtemplate-full.xml>,
+        <https://poetessarchive.org/about/principles.html>,
+        <https://poetessarchive.org/about/template.html> .
+
+<https://polona.clscor.io/entity/corpus> crm:P1_is_identified_by <https://polona.pl/> .
+
+<https://projectgutenberg-poetry-corpora.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/linhd-postdata/projectgutenberg-poetry-corpora> .
+
+<https://pulpo.clscor.io/entity/corpus> crm:P1_is_identified_by <https://huggingface.co/datasets/linhd-postdata/pulpo> .
+
+<https://rem.clscor.io/entity/corpus> crm:P1_is_identified_by <https://doi.org/10.34644/laudatio-dev-xCS3CnMB7CArCQ9C3LRB>,
+        <https://www.laudatio-repository.org/docs/elasticapi/> .
+
+<https://romdracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/rom>,
+        <https://github.com/dracor-org/romdracor> .
+
+<https://rusdracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/rus>,
+        <https://github.com/dracor-org/rusdracor> .
+
+<https://ruspoet.clscor.io/entity/corpus> crm:P1_is_identified_by <https://ruscorpora.ru/new/en/search-poetic.html>,
+        <https://wp.hse.ru/data/2018/12/29/1143017363/77LNG2018.pdf> .
+
+<https://rvb.clscor.io/entity/corpus> crm:P1_is_identified_by <https://rvb.ru/> .
+
+<https://scots.clscor.io/entity/corpus> crm:P1_is_identified_by <https://www.scottishcorpus.ac.uk/>,
+        <https://www.scottishcorpus.ac.uk/advanced-search/>,
+        <https://www.scottishcorpus.ac.uk/tools/> .
+
+<https://shakedracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/shake>,
+        <https://github.com/dracor-org/shakedracor> .
+
+<https://shc.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/DH-Box/corpus-downloader>,
+        <https://github.com/JonathanReeve/corpus-SHC> .
+
+<https://slända.clscor.io/entity/corpus> crm:P1_is_identified_by <https://lindat.mff.cuni.cz/repository/xmlui/handle/11372/LRT-4739> .
+
+<https://sme.clscor.io/entity/corpus> crm:P1_is_identified_by <https://zlatyfond.sme.sk/autori#U> .
+
+<https://snc.clscor.io/entity/corpus> crm:P1_is_identified_by <http://korpus.juls.savba.sk/res_en.html>,
+        <http://korpus.juls.savba.sk/structure1_en.html>,
+        <https://bonito.korpus.sk/run_guest.cgi/first_form> .
+
+<https://sonetsiglo.clscor.io/entity/corpus> crm:P1_is_identified_by <http://adso.gplsi.es/index.php/en/corpus-of-metre/>,
+        <https://github.com/bncolorado/CorpusSonetosSigloDeOro>,
+        <https://ride.i-d-e.de/issues/issue-6/corpus-of-spanish-golden-age-sonnets/> .
+
+<https://spandracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/span> .
+
+<https://spanish-stanzas.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/linhd-postdata/stanzas-evalution-public> .
+
+<https://stanfordlitlab.clscor.io/entity/corpus> crm:P1_is_identified_by <https://litlab.stanford.edu/> .
+
+<https://summatheacz.clscor.io/entity/corpus> crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=summa_cs_a> .
+
+<https://summatheo.clscor.io/entity/corpus> crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=summa_la_a> .
+
+<https://summatheoen.clscor.io/entity/corpus> crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=summa_en_a> .
+
+<https://swedracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/swe>,
+        <https://github.com/dracor-org/swedracor> .
+
+<https://tatdracor.clscor.io/entity/corpus> crm:P1_is_identified_by <https://dracor.org/doc/api>,
+        <https://dracor.org/tat> .
+
+<https://tbc.clscor.io/entity/corpus> crm:P1_is_identified_by <http://cdhrdatasys.anu.edu.au/tobecontinued>,
+        <https://trove.nla.gov.au/> .
+
+<https://tcp.clscor.io/entity/corpus> crm:P1_is_identified_by <https://github.com/Text-Creation-Partnership/EEBO-TCP-Collections-Navigations>,
+        <https://textcreationpartnership.org/>,
+        <https://www.dropbox.com/sh/inhwjphw682i2gf/AAC8NixNye8Gp0smYBTly2Y9a?dl=0>,
+        <https://www.dropbox.com/sh/inyy253jvytoxcu/AAAT9nMPo0sa5aXEgs5SC5aGa?dl=0>,
+        <https://www.dropbox.com/sh/pfx619wnjdck2lj/AAAeQjd_dv29oPymNoKJWfEYa?dl=0> .
+
+<https://textgrid.clscor.io/entity/corpus> crm:P1_is_identified_by <https://gitlab.gwdg.de/dariah-de/textgrid-digitale-bibliothek>,
+        <https://textgrid.de/digitale-bibliothek> .
+
+<https://theaclass.clscor.io/entity/corpus> crm:P1_is_identified_by <http://www.theatre-classique.fr/pages/PagePersonnages.html>,
+        <http://www.theatre-classique.fr/pages/programmes/PageEdition.php>,
+        <http://www.theatre-classique.fr/pages/programmes/corpus.php>,
+        <https://ride.i-d-e.de/issues/issue-8/theatre-classique/> .
+
+<https://tmc.clscor.io/entity/corpus> crm:P1_is_identified_by <https://essentialmore.org/concordances/> .
+
+<https://travelital.clscor.io/entity/corpus> crm:P1_is_identified_by <https://sites.google.com/view/travelwritingsonitaly/home> .
+
+<https://txtlab.clscor.io/entity/corpus> crm:P1_is_identified_by <https://figshare.com/articles/dataset/txtlab_Novel450/2062002/3>,
+        <https://figshare.com/ndownloader/files/3686778> .
+
+<https://ukb.clscor.io/entity/corpus> crm:P1_is_identified_by <http://digitalna.kniznica.info/browse> .
+
+<https://wdc.clscor.io/entity/corpus> crm:P1_is_identified_by <https://www.loc.gov/collections/world-digital-library/about-this-collection/> .
+
+<https://wikisource.clscor.io/entity/corpus> crm:P1_is_identified_by <https://ride.i-d-e.de/issues/issue-8/wikisource/>,
+        <https://wikisource.org/wiki/Wikisource:TEI> .
+
+<https://distantreading.github.io/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://distantreading.github.io/ELTeC/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/als> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/bash> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/cal> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/fre> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/ger> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/gersh> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/greek> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/ita> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/rom> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/rus> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/shake> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/span> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/swe> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://dracor.org/tat> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://github.com/COST-ELTeC> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/Text-Creation-Partnership/EEBO-TCP-Collections-Navigations> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/dracor-org> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/dracor-org/alsdracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/dracor-org/caldracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/dracor-org/fredracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/dracor-org/gerdracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/dracor-org/gershdracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/dracor-org/greekdracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/dracor-org/itadracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/dracor-org/romdracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/dracor-org/rusdracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/dracor-org/shakedracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://github.com/dracor-org/swedracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+
+<https://litteraturbanken.se/om/english.html> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://pro.europeana.eu/page/apis> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
+
+<https://ride.i-d-e.de/issues/issue-6/corpus-of-spanish-golden-age-sonnets/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+
+<https://ride.i-d-e.de/issues/issue-6/deutsches-textarchiv/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+
+<https://ride.i-d-e.de/issues/issue-6/litteraturbanken-the-swedish-literature-bank/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+
+<https://ride.i-d-e.de/issues/issue-8/anemoskala/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+
+<https://ride.i-d-e.de/issues/issue-8/perseus/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+
+<https://ride.i-d-e.de/issues/issue-8/phi/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+
+<https://ride.i-d-e.de/issues/issue-8/theatre-classique/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+
+<https://ride.i-d-e.de/issues/issue-8/wikisource/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+
+<https://shakespeare.folger.edu/the-folger-shakespeare-api/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
+
+<https://wikisource.org/wiki/Wikisource:TEI> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://www.deutschestextarchiv.de/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> .
+
+<https://www.deutschestextarchiv.de/api> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
+
+<https://www.hathitrust.org/data> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
+
+<https://www.laudatio-repository.org/docs/elasticapi/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
+
+<https://dracor.org/doc/api> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
