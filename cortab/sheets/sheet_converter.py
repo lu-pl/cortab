@@ -37,7 +37,6 @@ def sheets_to_csv(excel_file: PathLike | str,
             f.write(csv)
 
 
-
 @click.command()
 @click.argument("input", type=click.Path())
 @click.argument("output", type=click.Path(), default=None)
