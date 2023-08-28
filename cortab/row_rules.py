@@ -282,37 +282,38 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
 
     @nan_handler
     def corpus_license_triples(
-            license_value=row_data["corpusLicence_consolidatedVocab"]) -> TripleGenerator:
+            license_field=row_data["corpusLicence_consolidatedVocab"]) -> TripleGenerator:
 
-        yield from plist(
-            attribute_assignment_uri_7,
-            (RDF.type, crm["E13_Attribute_Assignment"]),
-            (crm["P134_continued"], descevent_uri),
-            (crm["P140_assigned_attribute_to"], protodoc_uri),
-            (
-                crm["P177_assigned_property_of_type"],
-                crmcls["Y5_license_type"]
-            ),
-            (crm["P141_assigned"], vocabs_lookup(licenses, license_value))
+        license_field_values = map(
+            str.strip,
+            license_field.split(",")
         )
 
+        for license_value in license_field_values:
+            yield from plist(
+                attribute_assignment_uri_7,
+                (RDF.type, crm["E13_Attribute_Assignment"]),
+                (crm["P134_continued"], descevent_uri),
+                (crm["P140_assigned_attribute_to"], protodoc_uri),
+                (
+                    crm["P177_assigned_property_of_type"],
+                    crmcls["Y5_license_type"]
+                ),
+                (crm["P141_assigned"], vocabs_lookup(licenses, license_value))
+            )
+
     triples = itertools.chain(
-        # descevent_triples(),
-        # person_triples(),
-        # corpus_name_triples(),
-        # corpus_acronym_triples(),
-        # corpus_link_triples(),
-        # corpus_language_triples(),
-
-        ## "records" in line 112..
-        # corpus_text_count_triples(),
-        # corpus_timespan_triples(),
-
-        # corpus_format_schema_triples(),
-        # corpus_literary_genre_triples(),
-        # corpus_type_triples(),
-
-        ## vocab lookup not working
+        descevent_triples(),
+        person_triples(),
+        corpus_name_triples(),
+        corpus_acronym_triples(),
+        corpus_link_triples(),
+        corpus_language_triples(),
+        corpus_text_count_triples(),
+        corpus_timespan_triples(),
+        corpus_format_schema_triples(),
+        corpus_literary_genre_triples(),
+        corpus_type_triples(),
         corpus_license_triples()
     )
 
@@ -392,24 +393,26 @@ from table_partitions import (
 graph = Graph()
 CLSInfraNamespaceManager(graph)
 
-# corpustable_converter = RowGraphConverter(
-#     dataframe=corpus_table,
-#     row_rule=corpustable_row_rule,
-#     graph=graph
-# )
-
-# corpustable_graph = remove_nan(corpustable_converter.to_graph())
-
-# print(corpustable_converter.serialize())
-
-
-additional_link_converter = RowGraphConverter(
-    dataframe=additional_link_table,
-    row_rule=additional_link_row_rule,
+corpustable_converter = RowGraphConverter(
+    dataframe=corpus_table,
+    row_rule=corpustable_row_rule,
     graph=graph
 )
 
-print(additional_link_converter.serialize())
+corpustable_graph = remove_nan(corpustable_converter.to_graph())
+
+print(corpustable_converter.serialize())
+
+
+
+
+# additional_link_converter = RowGraphConverter(
+#     dataframe=additional_link_table,
+#     row_rule=additional_link_row_rule,
+#     graph=graph
+# )
+
+# print(additional_link_converter.serialize())
 
 
 
@@ -421,3 +424,21 @@ print(additional_link_converter.serialize())
 # )
 
 # print(merged_graph.serialize())
+
+
+
+
+
+# import math
+
+# cnt = 0
+
+# for value in corpus_table.loc[:, "corpusLicence_consolidatedVocab"]:
+#     cnt+=1
+#     try:
+#         if math.isnan(value):
+#             continue
+#     except TypeError:
+#         print(cnt)
+#         print(value)
+#         print(vocabs_lookup(licenses, value))
