@@ -3437,7 +3437,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://1000novel.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://1satzcor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3449,7 +3449,7 @@
     rdf:value "1SatzCor" .
 
 <https://1satzcor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://abo.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3464,7 +3464,7 @@
 
 <https://abo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1880–today" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://adstps.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3480,7 +3480,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://adstps.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://alsdracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3497,7 +3497,7 @@
 
 <https://alsdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "19th and 20th century" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://anemoskala.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3510,7 +3510,7 @@
 
 <https://anemoskala.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1801–2000" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://annotlit.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3522,7 +3522,7 @@
     rdf:value "AnnotLit" .
 
 <https://annotlit.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://bashdracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3538,7 +3538,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://bashdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://bette.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3555,7 +3555,7 @@
 
 <https://bette.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1868–1936" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://bibita.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3572,7 +3572,7 @@
 
 <https://bibita.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "Middle Ages to the 20th century" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://bwrp.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3585,7 +3585,7 @@
 
 <https://bwrp.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1789–1832" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://caldracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3601,7 +3601,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://caldracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://camena.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3618,7 +3618,7 @@
 
 <https://camena.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "early modern Europe" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://capek_uplny.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3634,7 +3634,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://capek_uplny.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://cep.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3650,7 +3650,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://cep.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://cervantes.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3662,7 +3662,7 @@
     rdf:value "Cervantes" .
 
 <https://cervantes.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://ceskapoesia.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3679,7 +3679,7 @@
         <https://ceskapoesia.clscor.io/entity/appellation/2> .
 
 <https://ceskapoesia.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://cligs.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3691,7 +3691,7 @@
     rdf:value "CLiGS" .
 
 <https://cligs.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://cmsw.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3708,7 +3708,7 @@
 
 <https://cmsw.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1700–1945" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://cord.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3735,7 +3735,7 @@
 <https://cord.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://cord.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://core.clscor.io/entity/language/5b9ec497fe> a crm:E56_Language ;
@@ -3764,7 +3764,7 @@
         <https://czechprose.clscor.io/entity/appellation/2> .
 
 <https://czechprose.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://czechversedownloadable.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3781,7 +3781,7 @@
         <https://github.com/versotym/corpusCzechVerse> .
 
 <https://czechversedownloadable.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://czechversesearchable.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3798,7 +3798,7 @@
         <https://lindat.mff.cuni.cz/services/teitok-live/czechverse/> .
 
 <https://czechversesearchable.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://diager.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3815,7 +3815,7 @@
 
 <https://diager.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "750–1050" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://digital.lib.ucdavis.edu/projects/bwrp/> a crm:E42_Identifier ;
@@ -3837,7 +3837,7 @@
 <https://dikda.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://dikda.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://dikda.eu/> a crm:E42_Identifier ;
@@ -3858,7 +3858,7 @@
 
 <https://disco.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1401–1900" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://dlk.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3874,7 +3874,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://dlk.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://doi.org/10.34644/laudatio-dev-WiWkDnMB7CArCQ9CyBEw> a crm:E42_Identifier ;
@@ -3902,7 +3902,7 @@
     rdf:value "DraCor" .
 
 <https://dracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://dracor.org/> a crm:E42_Identifier ;
@@ -3979,7 +3979,7 @@
 
 <https://dramawebben.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1248–today" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://dta.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -3996,7 +3996,7 @@
 
 <https://dta.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1500–1900+" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://eltec.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4013,7 +4013,7 @@
 
 <https://eltec.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1840–1920" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://emothe.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4029,7 +4029,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://emothe.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://emothe.uv.es/en/> a crm:E42_Identifier ;
@@ -4053,7 +4053,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://europeana.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://fbc.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4069,7 +4069,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://fbc.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://fbc.pionier.net.pl/> a crm:E42_Identifier ;
@@ -4088,7 +4088,7 @@
 
 <https://feb.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "11th century to 20th century" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://figshare.com/articles/dataset/txtlab_Novel450/2062002/3> a crm:E42_Identifier ;
@@ -4105,7 +4105,7 @@
 
 <https://flt.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1922–1943" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://flt.hf.uio.no/> a crm:E42_Identifier ;
@@ -4126,7 +4126,7 @@
 
 <https://folgershake.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1564(jul)–1616(greg)" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://fran.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4143,7 +4143,7 @@
 
 <https://fran.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1720–1900" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://fredracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4159,7 +4159,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://fredracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://gallica.bnf.fr> a crm:E42_Identifier ;
@@ -4179,7 +4179,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://gallica.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://gerdracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4196,7 +4196,7 @@
 
 <https://gerdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1650s–1940s" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://gershdracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4212,7 +4212,7 @@
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://gershdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://github.com/COST-ELTeC> a crm:E42_Identifier ;
@@ -4289,7 +4289,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://gongocorpus.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://greekdracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4305,7 +4305,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://greekdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://gutenberg.net.au/> a crm:E42_Identifier ;
@@ -4325,7 +4325,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://hathi.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://hip.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4338,7 +4338,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
 
 <https://hip.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "birth of Dante until the first half of the sixteenth century." ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://histcor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4351,7 +4351,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
 
 <https://histcor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1700–1918" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://huggingface.co/datasets/linhd-postdata/pulpo> a crm:E42_Identifier ;
@@ -4372,7 +4372,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
         <https://lindat.mff.cuni.cz/services/teitok/ocrcz/index.php> .
 
 <https://husmedsearchable.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://husmedsupplement.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4388,7 +4388,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://husmedsupplement.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://ilibrary.ru/> a crm:E42_Identifier ;
@@ -4406,7 +4406,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
 <https://ilibru.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://ilibru.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://itadracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4422,7 +4422,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://itadracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://kansekirepo.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4440,7 +4440,7 @@ Comprehensive collection of premodern Chinese texts""" .
         <https://kansekirepo.clscor.io/entity/appellation/2> .
 
 <https://kansekirepo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://kolimo.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4452,7 +4452,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "KOLIMO" .
 
 <https://kolimo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://kolimo.uni-goettingen.de> a crm:E42_Identifier ;
@@ -4476,7 +4476,7 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://latty.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://lattyphilo.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4489,7 +4489,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://lattyphilo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "Renaissance to present day" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://lhs.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4505,7 +4505,7 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://lhs.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://libru.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4519,7 +4519,7 @@ Comprehensive collection of premodern Chinese texts""" .
 <https://libru.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://libru.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://lifrlite.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4535,7 +4535,7 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://lifrlite.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://lindat.mff.cuni.cz/repository/xmlui/handle/11372/LRT-4739> a crm:E42_Identifier ;
@@ -4579,7 +4579,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "LINDH" .
 
 <https://lindh.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://litlab.stanford.edu/> a crm:E42_Identifier ;
@@ -4604,7 +4604,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://ltital.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "13.Jh-today" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://makonspoken.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4617,7 +4617,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://makonspoken.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1000 hours" ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://mapcorpsearchable.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4634,7 +4634,7 @@ Comprehensive collection of premodern Chinese texts""" .
         <https://mapcorpsearchable.clscor.io/entity/appellation/2> .
 
 <https://mapcorpsearchable.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://metrique-en-ligne.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4651,7 +4651,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://metrique-en-ligne.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1600s-1900s" ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://mm.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4668,7 +4668,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://mm.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1450–1524" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://mqdq.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4680,7 +4680,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "MQDQ" .
 
 <https://mqdq.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://neolat.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4693,7 +4693,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://neolat.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1850–1940" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://noscemus.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4710,7 +4710,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://noscemus.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "early modern era, age of Scientific Revolution" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://onb.ac.at/digitaler-lesesaal/austrian-books-online-abo> a crm:E42_Identifier ;
@@ -4731,7 +4731,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://opentexts.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "from 15th century onwards" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://opentexts.world/> a crm:E42_Identifier ;
@@ -4756,7 +4756,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://ota.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "BCE–present" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://pdi.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4769,7 +4769,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://pdi.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1250–1550" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://perseus.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4781,7 +4781,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "Perseus" .
 
 <https://perseus.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://petrarcaplus.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4798,7 +4798,7 @@ Comprehensive collection of premodern Chinese texts""" .
         <https://petrarcaplus.clscor.io/entity/appellation/2> .
 
 <https://petrarcaplus.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://pg.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4814,7 +4814,7 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://pg.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://pgaus.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4830,7 +4830,7 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://pgaus.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://pgger.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4846,7 +4846,7 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://pgger.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://phi.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4858,7 +4858,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "PHI" .
 
 <https://phi.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://philologic.ut.ee/neolatina/> a crm:E42_Identifier ;
@@ -4878,7 +4878,7 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://poesi-as.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://poetessarchive.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4895,7 +4895,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://poetessarchive.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1750–1900" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://poetessarchive.org/> a crm:E42_Identifier ;
@@ -4915,7 +4915,7 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://polona.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://polona.pl/> a crm:E42_Identifier ;
@@ -4931,7 +4931,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "projectgutenberg-poetry-corpora" .
 
 <https://projectgutenberg-poetry-corpora.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://pulpo.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4944,7 +4944,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://pulpo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1600s-1900s" ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://rem.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4961,7 +4961,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://rem.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1050–1350" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://romdracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -4977,7 +4977,7 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://romdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://ruscorpora.ru/new/en/search-poetic.html> a crm:E42_Identifier ;
@@ -4998,7 +4998,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://rusdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1740s–1940s" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://ruspoet.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5010,7 +5010,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "RusPoet" .
 
 <https://ruspoet.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://rvb.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5024,7 +5024,7 @@ Comprehensive collection of premodern Chinese texts""" .
 <https://rvb.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://rvb.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://rvb.ru/> a crm:E42_Identifier ;
@@ -5045,7 +5045,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://scots.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1945–today" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://shakedracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5061,7 +5061,7 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://shakedracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://shakespeare.folger.edu/> a crm:E42_Identifier ;
@@ -5082,7 +5082,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://shc.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1550–1660" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://sites.google.com/view/travelwritingsonitaly/home> a crm:E42_Identifier ;
@@ -5098,7 +5098,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "SLäNDa" .
 
 <https://slända.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://sme.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5111,7 +5111,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://sme.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "800 to present" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://snc.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5127,7 +5127,7 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://snc.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-08-08"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-08-08"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-08-09"^^xsd:date .
 
 <https://sonetsiglo.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5144,7 +5144,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://sonetsiglo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1500–1700" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://spandracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5160,7 +5160,7 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://spandracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://spanish-stanzas.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5177,7 +5177,7 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://spanish-stanzas.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1600s-1900s" ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://stanfordlitlab.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5205,7 +5205,7 @@ Commentary: No texts available, no possibility of download, just textual informa
 <https://stanfordlitlab.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://stanfordlitlab.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://summatheacz.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5222,7 +5222,7 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://summatheacz.clscor.io/entity/appellation/2> .
 
 <https://summatheacz.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://summatheo.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5239,7 +5239,7 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://summatheo.clscor.io/entity/appellation/2> .
 
 <https://summatheo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://summatheoen.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5256,7 +5256,7 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://summatheoen.clscor.io/entity/appellation/2> .
 
 <https://summatheoen.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
 
 <https://swedracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5273,7 +5273,7 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://swedracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1880–1900" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://tatdracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5289,7 +5289,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://tatdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://tbc.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5306,7 +5306,7 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://tbc.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "19th and early 20th century" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://tcp.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5322,7 +5322,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://tcp.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://teipublisher.com/exist/apps/judita-davidias> a crm:E42_Identifier ;
@@ -5342,7 +5342,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     rdf:value "TextGrid" .
 
 <https://textgrid.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://textgrid.de/digitale-bibliothek> a crm:E42_Identifier ;
@@ -5363,7 +5363,7 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://theaclass.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1601–1800" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://tmc.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5375,7 +5375,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     rdf:value "TMC" .
 
 <https://tmc.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://travelital.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5392,7 +5392,7 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://travelital.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "19.–20. century" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://txtlab.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5409,7 +5409,7 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://txtlab.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1170 –1930" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://ukb.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
@@ -5425,7 +5425,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://ukb.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://varieng.helsinki.fi/CoRD/corpora/index.html> a crm:E42_Identifier ;
@@ -5625,7 +5625,7 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://wdc.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1000-2000" ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://wiki.uibk.ac.at/noscemus/Main_Page> a crm:E42_Identifier ;
@@ -5641,7 +5641,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     rdf:value "Wikisource" .
 
 <https://wikisource.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
-    crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
+    crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
 <https://wikisource.org/wiki/Wikisource:TEI> a crm:E42_Identifier ;
@@ -6966,279 +6966,4 @@ Commentary: more detailed info might be in the Gitlab-repo""" ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
         <https://core.clscor.io/entity/person/a38bec184d>,
         <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Biblioteca Electrónica Textual del Teatro en Español de 1868–1936 (BETTE): 25 Spanish plays"
-Commentary: contained in SpanDraCor; metadata encoded in TEIHeader; VIAF IDs""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://cmsw.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://cmsw.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Homepage: \"The Corpus of Modern Scottish Writing (CMSW) is an electronic corpus of written and printed texts from the period 1700-1945, complementing the Helsinki Corpus of Older Scots (1450-1700) and the Scottish Corpus of Texts & Speech (1945-present day).\"; \"147,129 total types; 5434830 total tokens\"" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://core.clscor.io/entity/person/550ff6082b> a crm:E39_Actor ;
-    rdfs:label "Álvaro Pérez" .
-
-<https://core.clscor.io/entity/person/d489c48a01> a crm:E39_Actor ;
-    rdfs:label "Javier de la Rosa" .
-
-<https://core.clscor.io/entity/person/d9652f0363> a crm:E39_Actor ;
-    rdfs:label "Salvador Ros" .
-
-<https://disco.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://disco.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "DISCO (Diachronic Spanish Sonnet Corpus, over 4,000 sonnets by more than 1,000 authors, incl. canonical as well as non-canonical authors, 15th to the 19th century)"
-Homepage (about-section): 15th to the 19th century; over 4,000 sonnets by more than 1,000 authors, incl. canonical as well as non-canonical authors; "The raw texts were in most cases extracted from Biblioteca Virtual Miguel de Cervantes (1999), with some 18th-century texts coming from Wikisource.\"""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://dlk.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://dlk.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: lots of info in the github readme, needs to be filtered; corpus ca be downloaded in .zip files; compiled from Textgrid and DTA; Some digital research on poetry based on this corpus, see https://www.aesthetics.mpg.de/institut/mitarbeiterinnen/thomas-haider.html; Especially: https://arxiv.org/abs/2102.08858; Lines + minimal metadata in a JSON object / python dictionary" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://dracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://dracor.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: This is the overall-page starting page with links to the individual drama corpora, which are listed in the following lines of this table (Alsatian, Bashkir, Calderón, French, German, German Shakespeare, Greek, Italian, Roman, Russian, Shakespeare, Spanish, Swedish, Tatar); Dracor provides very sophisticated info, a lot of valuable information can be scraped via the API" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://dramawebben.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://dramawebben.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Dramawebben: 62 Swedish plays"
-Commentary: It looks as if Dramawebben is only one collection of the "litteraturbanken"; files are available as e-pub; available in SweDraCor""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://dta.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://dta.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Deutsches Textarchiv, http://www.deutschestextarchiv.de/ (4165 texts, all in TEI)"
-Commentary: Multi-genre repositories with TEI-encoded texts; consists of a "Kernkorpus" (1468 texts) and additional corpora (5014 texts); metadata available in DC and CMDI; also OAI-PMH; very informative project-website with various features, documentation, download-area, etc. (but only available in German)""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://emothe.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://emothe.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Emothe: The Classics of Early Modern European Theatre: 113 plays incl. translations (Italian, English, French, Spanish)"
-Commentary: certificate on homepage has expired (page not safe?)""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://gallica.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://gallica.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: The Bibliothèque nationale de France offers a Gallica iOS and Android application, can be downloaded for free" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://gongocorpus.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://gongocorpus.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
-        <https://core.clscor.io/entity/person/d489c48a01>,
-        <https://core.clscor.io/entity/person/d9652f0363> ;
-    crm:P3_has_note "downloadable, Plain text poetic corpora" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://lhs.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://lhs.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Ludvig Holbergs skrifter: 36 comedies"
-Commentary: no info if texts are downloadable, seems you can only look at the texts online, no XML Files available, but there is a doku (in Danish), see additional link""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://metrique-en-ligne.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://metrique-en-ligne.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
-        <https://core.clscor.io/entity/person/d489c48a01>,
-        <https://core.clscor.io/entity/person/d9652f0363> ;
-    crm:P3_has_note "downloadable, JSON poetic corpora; This corpus is a subset in JSON format of the available poems in métrique en ligne" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://ota.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://ota.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Oxford Text Archive, https://ota.bodleian.ox.ac.uk/ (209 novels, 350 plays, 64 collections of poetry; most in TEI)"
-Homepage: "A repository of full-text literary and linguistic resources. Thousands of texts in more than 25 languages."; "The Oxford Text Archive (OTA) is a repository of digital literary and linguistic resources for research and teaching. The OTA was created at and remains a part of the University of Oxford. We also offer advice to resource creators about best practice for creating digital resources, and to users of digital resources on how to benefit from existing resources."
-Commentary: founded by Lou Burnard & Susan Hockey; currently under review (nov2021); they provide single entries in DC, via OAI-PMH, use CMDI, BIBTEX, handles, support open data (but also support restricted access data); clear info on licenses; The OTA is a registered CLARIN C Centre, and the repository is based on the CLARIN DSpace platform;
-OTA collections can be found via the VLO; records are displayed with their metadata and download possiblilities (HTML, TEI, epub, ?);""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://poesi-as.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://poesi-as.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
-        <https://core.clscor.io/entity/person/d489c48a01>,
-        <https://core.clscor.io/entity/person/d9652f0363> ;
-    crm:P3_has_note "downloadablem, Plain text poetic corpora; All Gongora's poems" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://poetessarchive.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://poetessarchive.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Poetess Archive (flowery poetry written in Britain and America between 1750–1900)"
-Homepage: "Work Flow: Every bibliographic entry in the Poetess Archive has been made into a TEI-encoded page (see "Editorial Principles" for more about TEI). We have created TEI templates and will continue to create them for those who wish to submit texts already encoded, but we accept submissions of any kind, and then TEI-encode them here. After that work, the TEI pages are:
-- created into HTML presenetation pages;
-- entered into our Oracle database;
-- made into RDFs so that the Poetess Archive Database is interoperable with NINES using the NINES COLLEX TOOL.\"""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://spanish-stanzas.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://spanish-stanzas.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
-        <https://core.clscor.io/entity/person/d489c48a01>,
-        <https://core.clscor.io/entity/person/d9652f0363> ;
-    crm:P3_has_note "downloadable, Plain text poetic corpora" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://tbc.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://tbc.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://theaclass.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://theaclass.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Théâtre Classique: 1.350 plays (from 17th and 18th century)"
-Commentary: TEI with tei-all invalid, undocumented customizations (M. Goebel set up a pipeline to do a cleaned up ingest into dracor); from 17th and 18th century; homepage is entirely in French.""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://travelital.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://travelital.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: all texts are also available via project gutenberg;; download of TEI & plain text files: calls for a google-account" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://vocabs.acdh.oeaw.ac.at/iso6391/el> a crm:E56_Language ;
-    rdfs:label "Greek" .
-
-<https://1000novel.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://1000novel.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Homepage: \"Corpus of literary texts intended as benchmark collection for text categorization. It contains 1000 novels written in polish or translated to polish by various authors. Each text is stored as separate .txt file.\"" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://alsdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://alsdracor.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://caldracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://caldracor.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Proposal: \"Calderón corpus (54 plays)\"" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://camena.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://camena.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: contains five collections: POEMATA, Neo-Latin poetry composed by German authors; HISTORICA & POLITICA, Latin historical and political writing; THESAURUS ERUDITIONIS, a reference collection of dictionaries and handbooks of the period 1500-1750; CERA, printed Latin letters, mostly by German scholars, from the period 1530-1770; and ITALI, works by Italian Renaissance humanists born before 1500. The collection ITALI has no XML files, so it was not included in this repository.; downloads possible" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://diager.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://diager.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Homepage (DE): "Das Referenzkorpus Altdeutsch erfasst und annotiert die ältesten Sprachdenkmäler des Deutschen vom Beginn der kontinuierlichen schriftlichen Überlieferung um 750 bis etwa 1050 mit einem Umfang von ca. 650 000 Textwörtern. Aufgenommen werden alle in dieser Zeit überlieferten Texte des Althochdeutschen und des Altsächsischen in einer möglichst genauen Wiedergabestufe. Dabei werden die handschriftengetreuesten gedruckten Texteditionen zugrundegelegt. Die Annotation erfasst Header-Informationen, strukturelle (Wort, Satz, Zeile, Absatz etc.) und linguistische Annotationen (Part of Speech-Tagging, Flexionsmorphologie) sowie syntaktische Satzinformationen und erfolgt mit Unterstützung einer semi-automatischen Vorannotation, die mit Hilfe der digitalisierten Sprachstufen- und Textwörterbücher und Glossare zum Althochdeutschen und zum Altsächsischen erzeugt wurde. Die verschiedenen Stufen der Annotation werden in Form einer Mehrebenenarchitektur aufeinander bezogen."
-Commentary: one of the corpora provided by the laudatio repository""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://folgershake.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://folgershake.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Shakespeare Folger Library: all (37) Shakespeare plays, very high encoding-depth "
-Commentary: corpus of a single author; contained in ShakeDraCor""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://fredracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://fredracor.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://gerdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://gerdracor.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Proposal: \"German Drama Corpus: 481 German-language plays from 1730s–1940s\"" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://gershdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://gershdracor.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://greekdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://greekdracor.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://itadracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://itadracor.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://latty.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://latty.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: downloads possible; XQuery" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://rem.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://rem.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Commentary: The laudatio repository uses a custom XML (CorA XML) and custom linguistic search and visualization tool (ANNIS); the ReM is only one of the corpora provided by the laudatio repository
-Homepage: "The "Reference Corpus of Middle High German" (short: ReM) is a corpus of diplomatically transcribed and annotated texts from Middle High German (1050-1350) with a size of around 2 million word forms. It originated from the research projects "Reference Corpus of Middle High German" and "Middle High German grammar". Texts have been digitized and richly annotated, e.g. with parts of speech, morphology and lemma\"""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://romdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://romdracor.clscor.io/entity/protodoc/1> ;
+    crm:P3_has_note """Proposal: "Biblioteca Electrónica Textual del Teat

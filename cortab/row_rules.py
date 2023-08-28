@@ -104,7 +104,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 timespan_uri_1,
                 (RDF.type, crm["E52_Time-Span"]),
                 (
-                    crm["81a_end_of_the_begin"],
+                    crm["P81a_end_of_the_begin"],
                     Literal(row_data["descEvent_start"], datatype=XSD.date)
                 ),
                 (
@@ -424,21 +424,3 @@ print(corpustable_converter.serialize())
 # )
 
 # print(merged_graph.serialize())
-
-
-
-
-
-# import math
-
-# cnt = 0
-
-# for value in corpus_table.loc[:, "corpusLicence_consolidatedVocab"]:
-#     cnt+=1
-#     try:
-#         if math.isnan(value):
-#             continue
-#     except TypeError:
-#         print(cnt)
-#         print(value)
-#         print(vocabs_lookup(licenses, value))
