@@ -6,6 +6,7 @@ import langcodes
 import toolz
 
 from clisn import crm, crmcls, clst, corpus_base
+
 from lodkit.types import _Triple
 from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, XSD, SKOS
