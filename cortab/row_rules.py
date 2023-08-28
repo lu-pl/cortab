@@ -176,7 +176,8 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 )
             ]
 
-    def corpus_text_count_triples() -> TripleGenerator:
+    @nan_handler
+    def corpus_text_count_triples(text_count=row_data["corpusTextCount"]) -> TripleGenerator:
         yield from [
             *plist(
                 attribute_assignment_uri_2,
@@ -190,7 +191,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (RDF.type, crm["E54_Dimension"]),
                 (
                     crm["P90_has_value"],
-                    Literal(row_data["corpusTextCount"], datatype=XSD.integer)
+                    Literal(text_count, datatype=XSD.integer)
                 ),
                 (crm["P91_has_unit"], clscore["type/feature/document"])
             )
@@ -400,7 +401,6 @@ corpustable_converter = RowGraphConverter(
 )
 
 corpustable_graph = remove_nan(corpustable_converter.to_graph())
-
 print(corpustable_converter.serialize())
 
 
