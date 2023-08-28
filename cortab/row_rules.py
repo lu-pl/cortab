@@ -191,7 +191,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (RDF.type, crm["E54_Dimension"]),
                 (
                     crm["P90_has_value"],
-                    Literal(text_count, datatype=XSD.integer)
+                    Literal(int(text_count), datatype=XSD.integer)
                 ),
                 (crm["P91_has_unit"], clscore["type/feature/document"])
             )

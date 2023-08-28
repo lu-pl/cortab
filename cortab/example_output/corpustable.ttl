@@ -3432,7 +3432,7 @@
     rdf:value "1000Novel" .
 
 <https://1000novel.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 1000.0 ;
+    crm:P90_has_value 1000 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://1000novel.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3475,7 +3475,7 @@
     rdf:value "ADSTPS" .
 
 <https://adstps.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 21.0 ;
+    crm:P90_has_value 21 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://adstps.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3491,7 +3491,7 @@
     rdf:value "AlsDraCor" .
 
 <https://alsdracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 25.0 ;
+    crm:P90_has_value 25 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://alsdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3533,7 +3533,7 @@
     rdf:value "BashDraCor" .
 
 <https://bashdracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 3.0 ;
+    crm:P90_has_value 3 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://bashdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3549,7 +3549,7 @@
     rdf:value "BETTE" .
 
 <https://bette.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 25.0 ;
+    crm:P90_has_value 25 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://bette.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3566,7 +3566,7 @@
     rdf:value "BibIta" .
 
 <https://bibita.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 3523.0 ;
+    crm:P90_has_value 3523 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://bibita.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3596,7 +3596,7 @@
     rdf:value "CalDraCor" .
 
 <https://caldracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 201.0 ;
+    crm:P90_has_value 201 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://caldracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3612,7 +3612,7 @@
     rdf:value "CAMENA" .
 
 <https://camena.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 1751.0 ;
+    crm:P90_has_value 1751 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://camena.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3629,7 +3629,7 @@
     rdf:value "capek_uplny" .
 
 <https://capek_uplny.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 187.0 ;
+    crm:P90_has_value 187 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://capek_uplny.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3645,7 +3645,7 @@
     rdf:value "cep" .
 
 <https://cep.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 17.0 ;
+    crm:P90_has_value 17 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://cep.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3702,7 +3702,7 @@
     rdf:value "CMSW" .
 
 <https://cmsw.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 356.0 ;
+    crm:P90_has_value 356 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://cmsw.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3803,7 +3803,7 @@
     rdf:value "DiaGer" .
 
 <https://diager.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 129.0 ;
+    crm:P90_has_value 129 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://diager.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3824,7 +3824,7 @@
     rdf:value "DIKDA" .
 
 <https://dikda.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 28244.0 ;
+    crm:P90_has_value 28244 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://dikda.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
@@ -3846,7 +3846,7 @@
     rdf:value "DISCO" .
 
 <https://disco.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 4303.0 ;
+    crm:P90_has_value 4303 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://disco.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3863,7 +3863,7 @@
     rdf:value "DLK" .
 
 <https://dlk.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 75141.0 ;
+    crm:P90_has_value 75141 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://dlk.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3967,7 +3967,7 @@
     rdf:value "DramaWebben" .
 
 <https://dramawebben.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 8234.0 ;
+    crm:P90_has_value 8234 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://dramawebben.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -3984,7 +3984,7 @@
     rdf:value "DTA" .
 
 <https://dta.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 4448.0 ;
+    crm:P90_has_value 4448 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://dta.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4001,7 +4001,7 @@
     rdf:value "ELTeC" .
 
 <https://eltec.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 2500.0 ;
+    crm:P90_has_value 2500 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://eltec.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4018,7 +4018,7 @@
     rdf:value "EMOTHE" .
 
 <https://emothe.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 113.0 ;
+    crm:P90_has_value 113 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://emothe.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4042,7 +4042,7 @@
     rdf:value "Europeana" .
 
 <https://europeana.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 22559106.0 ;
+    crm:P90_has_value 22559106 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://europeana.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4058,7 +4058,7 @@
     rdf:value "FBC" .
 
 <https://fbc.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 8500000.0 ;
+    crm:P90_has_value 8500000 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://fbc.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4114,7 +4114,7 @@
     rdf:value "FolgerShake" .
 
 <https://folgershake.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 37.0 ;
+    crm:P90_has_value 37 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://folgershake.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4131,7 +4131,7 @@
     rdf:value "FRAN" .
 
 <https://fran.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 1300.0 ;
+    crm:P90_has_value 1300 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://fran.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4148,7 +4148,7 @@
     rdf:value "FreDraCor" .
 
 <https://fredracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 1560.0 ;
+    crm:P90_has_value 1560 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://fredracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4168,7 +4168,7 @@
     rdf:value "Gallica" .
 
 <https://gallica.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 9004194.0 ;
+    crm:P90_has_value 9004194 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://gallica.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4184,7 +4184,7 @@
     rdf:value "GerDraCor" .
 
 <https://gerdracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 569.0 ;
+    crm:P90_has_value 569 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://gerdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4201,7 +4201,7 @@
     rdf:value "GershDraCor" .
 
 <https://gershdracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 37.0 ;
+    crm:P90_has_value 37 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://gershdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4278,7 +4278,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
     rdf:value "gongocorpus" .
 
 <https://gongocorpus.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 241.0 ;
+    crm:P90_has_value 241 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://gongocorpus.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4294,7 +4294,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
     rdf:value "GreekDraCor" .
 
 <https://greekdracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 39.0 ;
+    crm:P90_has_value 39 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://greekdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4314,7 +4314,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
     rdf:value "HATHI" .
 
 <https://hathi.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 17000000.0 ;
+    crm:P90_has_value 17000000 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://hathi.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4377,7 +4377,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
     rdf:value "HusMedSupplement" .
 
 <https://husmedsupplement.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 880.0 ;
+    crm:P90_has_value 880 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://husmedsupplement.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4411,7 +4411,7 @@ Comprehensive collection of premodern Chinese texts website.""" .
     rdf:value "ItaDraCor" .
 
 <https://itadracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 139.0 ;
+    crm:P90_has_value 139 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://itadracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4465,7 +4465,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "LatTy" .
 
 <https://latty.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 90.0 ;
+    crm:P90_has_value 90 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://latty.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4494,7 +4494,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "LHS" .
 
 <https://lhs.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 86.0 ;
+    crm:P90_has_value 86 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://lhs.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4524,7 +4524,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "LiFRLite" .
 
 <https://lifrlite.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 91.0 ;
+    crm:P90_has_value 91 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://lifrlite.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4592,7 +4592,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "LTItal" .
 
 <https://ltital.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 139.0 ;
+    crm:P90_has_value 139 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://ltital.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4639,7 +4639,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "metrique-en-ligne" .
 
 <https://metrique-en-ligne.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 5081.0 ;
+    crm:P90_has_value 5081 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://metrique-en-ligne.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4656,7 +4656,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "MM" .
 
 <https://mm.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 2.0 ;
+    crm:P90_has_value 2 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://mm.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4698,7 +4698,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "NOSCEMUS" .
 
 <https://noscemus.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 1500.0 ;
+    crm:P90_has_value 1500 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://noscemus.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4719,7 +4719,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "OpenTexts" .
 
 <https://opentexts.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 8000000.0 ;
+    crm:P90_has_value 8000000 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://opentexts.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4744,7 +4744,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "OTA" .
 
 <https://ota.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 63854.0 ;
+    crm:P90_has_value 63854 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://ota.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4803,7 +4803,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "PG" .
 
 <https://pg.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 60000.0 ;
+    crm:P90_has_value 60000 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://pg.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4819,7 +4819,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "PGAus" .
 
 <https://pgaus.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 5000.0 ;
+    crm:P90_has_value 5000 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://pgaus.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4835,7 +4835,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "PGGer" .
 
 <https://pgger.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 10000.0 ;
+    crm:P90_has_value 10000 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://pgger.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4867,7 +4867,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "poesi-as" .
 
 <https://poesi-as.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 25187.0 ;
+    crm:P90_has_value 25187 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://poesi-as.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4883,7 +4883,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "PoetessArchive" .
 
 <https://poetessarchive.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 4000.0 ;
+    crm:P90_has_value 4000 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://poetessarchive.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4904,7 +4904,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "Polona" .
 
 <https://polona.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 3667722.0 ;
+    crm:P90_has_value 3667722 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://polona.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4949,7 +4949,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "ReM" .
 
 <https://rem.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 396.0 ;
+    crm:P90_has_value 396 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://rem.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4966,7 +4966,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "RomDraCor" .
 
 <https://romdracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 36.0 ;
+    crm:P90_has_value 36 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://romdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4986,7 +4986,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "RusDraCor" .
 
 <https://rusdracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 212.0 ;
+    crm:P90_has_value 212 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://rusdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5033,7 +5033,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "SCOTS" .
 
 <https://scots.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 1316.0 ;
+    crm:P90_has_value 1316 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://scots.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5050,7 +5050,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "ShakeDraCor" .
 
 <https://shakedracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 37.0 ;
+    crm:P90_has_value 37 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://shakedracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5070,7 +5070,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "SHC" .
 
 <https://shc.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 509.0 ;
+    crm:P90_has_value 509 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://shc.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5116,7 +5116,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "SNC" .
 
 <https://snc.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 1155742085.0 ;
+    crm:P90_has_value 1155742085 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://snc.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5132,7 +5132,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "SonetSiglo" .
 
 <https://sonetsiglo.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 5000.0 ;
+    crm:P90_has_value 5000 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://sonetsiglo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5149,7 +5149,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "SpanDraCor" .
 
 <https://spandracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 25.0 ;
+    crm:P90_has_value 25 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://spandracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5165,7 +5165,7 @@ Comprehensive collection of premodern Chinese texts""" .
     rdf:value "spanish-stanzas" .
 
 <https://spanish-stanzas.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 5005.0 ;
+    crm:P90_has_value 5005 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://spanish-stanzas.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5261,7 +5261,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     rdf:value "SweDraCor" .
 
 <https://swedracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 68.0 ;
+    crm:P90_has_value 68 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://swedracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5278,7 +5278,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     rdf:value "TatDraCor" .
 
 <https://tatdracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 3.0 ;
+    crm:P90_has_value 3 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://tatdracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5294,7 +5294,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     rdf:value "TBC" .
 
 <https://tbc.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 21000.0 ;
+    crm:P90_has_value 21000 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://tbc.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5311,7 +5311,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     rdf:value "TCP" .
 
 <https://tcp.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 73000.0 ;
+    crm:P90_has_value 73000 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://tcp.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5351,7 +5351,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     rdf:value "TheaClass" .
 
 <https://theaclass.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 1620.0 ;
+    crm:P90_has_value 1620 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://theaclass.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5380,7 +5380,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     rdf:value "TravelItal" .
 
 <https://travelital.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 30.0 ;
+    crm:P90_has_value 30 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://travelital.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5397,7 +5397,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     rdf:value "txtlab" .
 
 <https://txtlab.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 450.0 ;
+    crm:P90_has_value 450 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://txtlab.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5414,7 +5414,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     rdf:value "UKB" .
 
 <https://ukb.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 99319.0 ;
+    crm:P90_has_value 99319 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://ukb.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -5611,7 +5611,7 @@ Commentary: No texts available, no possibility of download, just textual informa
     rdf:value "WDC" .
 
 <https://wdc.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value 18933.0 ;
+    crm:P90_has_value 18933 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://wdc.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
@@ -7113,4 +7113,222 @@ Homepage: "Work Flow: Every bibliographic entry in the Poetess Archive has been 
 
 <https://theaclass.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://theaclass.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Théâtre Classique: 1.350 plays (from 17th and 18th century)"
+Commentary: TEI with tei-all invalid, undocumented customizations (M. Goebel set up a pipeline to do a cleaned up ingest into dracor); from 17th and 18th century; homepage is entirely in French.""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://travelital.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://travelital.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: all texts are also available via project gutenberg;; download of TEI & plain text files: calls for a google-account" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/el> a crm:E56_Language ;
+    rdfs:label "Greek" .
+
+<https://1000novel.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://1000novel.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Homepage: \"Corpus of literary texts intended as benchmark collection for text categorization. It contains 1000 novels written in polish or translated to polish by various authors. Each text is stored as separate .txt file.\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://alsdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://alsdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://caldracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://caldracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Proposal: \"Calderón corpus (54 plays)\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://camena.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://camena.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: contains five collections: POEMATA, Neo-Latin poetry composed by German authors; HISTORICA & POLITICA, Latin historical and political writing; THESAURUS ERUDITIONIS, a reference collection of dictionaries and handbooks of the period 1500-1750; CERA, printed Latin letters, mostly by German scholars, from the period 1530-1770; and ITALI, works by Italian Renaissance humanists born before 1500. The collection ITALI has no XML files, so it was not included in this repository.; downloads possible" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://diager.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://diager.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Homepage (DE): "Das Referenzkorpus Altdeutsch erfasst und annotiert die ältesten Sprachdenkmäler des Deutschen vom Beginn der kontinuierlichen schriftlichen Überlieferung um 750 bis etwa 1050 mit einem Umfang von ca. 650 000 Textwörtern. Aufgenommen werden alle in dieser Zeit überlieferten Texte des Althochdeutschen und des Altsächsischen in einer möglichst genauen Wiedergabestufe. Dabei werden die handschriftengetreuesten gedruckten Texteditionen zugrundegelegt. Die Annotation erfasst Header-Informationen, strukturelle (Wort, Satz, Zeile, Absatz etc.) und linguistische Annotationen (Part of Speech-Tagging, Flexionsmorphologie) sowie syntaktische Satzinformationen und erfolgt mit Unterstützung einer semi-automatischen Vorannotation, die mit Hilfe der digitalisierten Sprachstufen- und Textwörterbücher und Glossare zum Althochdeutschen und zum Altsächsischen erzeugt wurde. Die verschiedenen Stufen der Annotation werden in Form einer Mehrebenenarchitektur aufeinander bezogen."
+Commentary: one of the corpora provided by the laudatio repository""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://folgershake.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://folgershake.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Shakespeare Folger Library: all (37) Shakespeare plays, very high encoding-depth "
+Commentary: corpus of a single author; contained in ShakeDraCor""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://fredracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://fredracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://gerdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://gerdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Proposal: \"German Drama Corpus: 481 German-language plays from 1730s–1940s\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://gershdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://gershdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://greekdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://greekdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://itadracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://itadracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://latty.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://latty.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: downloads possible; XQuery" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://rem.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://rem.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Commentary: The laudatio repository uses a custom XML (CorA XML) and custom linguistic search and visualization tool (ANNIS); the ReM is only one of the corpora provided by the laudatio repository
+Homepage: "The "Reference Corpus of Middle High German" (short: ReM) is a corpus of diplomatically transcribed and annotated texts from Middle High German (1050-1350) with a size of around 2 million word forms. It originated from the research projects "Reference Corpus of Middle High German" and "Middle High German grammar". Texts have been digitized and richly annotated, e.g. with parts of speech, morphology and lemma\"""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://romdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://romdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://rusdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://rusdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Proposal: \"Russian Drama Corpus: 210 Russian-language plays from 1740s–1940s\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://shakedracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://shakedracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Homepage: \"derived from the Folger Shakespeare Library\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://sonetsiglo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://sonetsiglo.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Proposal: \"Corpus Sonetos del Siglo de Oro, ed. Borja Navarro Colorado (more than 5000 Spanish sonnets, ca. 1500-1700, with metrical annotation)\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://spandracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://spandracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Homepage: \"Forked from the BETTE corpus (Biblioteca Electrónica Textual del Teatro en Español de 1868–1936).\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://swedracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://swedracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Homepage: \"Derived from the eDrama (https://litteraturbanken.se/dramawebben/sida/edrama) project\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://tatdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://tatdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Homepage: \"provided through Tatar Electronic Library.\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://txtlab.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://txtlab.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: designed for use in teaching and research" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/ru> a crm:E56_Language ;
+    rdfs:label "Russian" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/it> a crm:E56_Language ;
+    rdfs:label "Italian" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/cs> a crm:E56_Language ;
+    rdfs:label "Czech" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/fr> a crm:E56_Language ;
+    rdfs:label "French" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/es> a crm:E56_Language ;
+    rdfs:label "Spanish" .
+
+<https://core.clscor.io/entity/person/d211546a86> a crm:E39_Actor ;
+    rdfs:label "Silvie Cinkova" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/de> a crm:E56_Language ;
+    rdfs:label "Deutsch",
+        "German" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/la> a crm:E56_Language ;
+    rdfs:label "Latin" .
+
+<https://vocabs.acdh.oeaw.ac.at/iso6391/en> a crm:E56_Language ;
+    rdfs:label "English" .
+
+<https://core.clscor.io/entity/person/9deca32cb6> a crm:E39_Actor ;
+    rdfs:label "Michal Mrugalski" .
+
+<https://core.clscor.io/entity/person/a47820d846> a crm:E39_Actor ;
+    rdfs:label "Susanne Zhanial" .
+
+<https://core.clscor.io/entity/person/a38bec184d> a crm:E39_Actor ;
+    rdfs:label "Vera Maria Charvat" .
