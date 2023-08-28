@@ -13,6 +13,8 @@ from helpers.cortab_utils import (  # noqa: F401
     nan_handler
 )
 
+from table_partitions import corpus_table, additional_link_table
+
 from clisn import (
     clscore,
     crm,
@@ -383,13 +385,6 @@ def additional_link_row_rule(row_data):
 
 
 ##################################################
-import operator
-from table_partitions import (
-    corpus_table,
-    greekdracor_partition,
-    rem_partition,
-    additional_link_table
-)
 
 graph = Graph()
 CLSInfraNamespaceManager(graph)
@@ -400,27 +395,19 @@ corpustable_converter = RowGraphConverter(
     graph=graph
 )
 
+## todo: get read of that remove_nan kludge
+# corpustable_graph = corpustable_converter.to_graph()
 corpustable_graph = remove_nan(corpustable_converter.to_graph())
-print(corpustable_converter.serialize())
+# print(corpustable_converter.serialize())
 
 
 
 
-# additional_link_converter = RowGraphConverter(
-#     dataframe=additional_link_table,
-#     row_rule=additional_link_row_rule,
-#     graph=graph
-# )
+additional_link_converter = RowGraphConverter(
+    dataframe=additional_link_table,
+    row_rule=additional_link_row_rule,
+    graph=graph
+)
 
-# print(additional_link_converter.serialize())
-
-
-
-
-
-# merged_graph = operator.add(
-#     corpustable_converter.to_graph(),
-#     additional_link_converter.to_graph()
-# )
-
-# print(merged_graph.serialize())
+additional_link_graph = additional_link_converter.to_graph()
+print(additional_link_graph.serialize())
