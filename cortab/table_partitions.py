@@ -4,7 +4,8 @@ import pathlib
 import pandas as pd
 
 # _corpus_table_path = pathlib.Path(__file__).parent / "corpusTable_prep.xlsx"
-_corpus_table_path = pathlib.Path(__file__).parent / "corpusTable.csv"
+# _corpus_table_path = pathlib.Path(__file__).parent / "corpusTable.csv"
+_corpus_table_path = pathlib.Path(__file__).parent / "sheets/corporaList.csv"
 corpus_table = pd.read_csv(_corpus_table_path)
 
 # partitions
@@ -23,3 +24,7 @@ fredracor_partition = corpus_table.loc[
 dramawebben_partition = corpus_table.loc[
     corpus_table["corpusAcronym"] == "DramaWebben"
 ]
+
+
+_additional_link_table_path = pathlib.Path(__file__).parent / "sheets/additionalLinks.csv"
+additional_link_table = pd.read_csv(_additional_link_table_path)
