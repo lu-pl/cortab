@@ -51,11 +51,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/de> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://1satzcor.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://1satzcor.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://1satzcor.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://1satzcor.clscor.io/entity/dimension/1> .
-
 <https://1satzcor.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://1satzcor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://1satzcor.clscor.io/entity/corpus> ;
@@ -81,11 +76,6 @@
     crm:P140_assigned_attribute_to <https://1satzcor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/specialized> ;
     crm:P177_assigned_property_of_type crmcls:Y6_corpus_has_corpus_type .
-
-<https://abo.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://abo.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://abo.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://abo.clscor.io/entity/dimension/1> .
 
 <https://abo.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://abo.clscor.io/entity/descevent/1> ;
@@ -169,11 +159,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/el> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://anemoskala.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://anemoskala.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://anemoskala.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://anemoskala.clscor.io/entity/dimension/1> .
-
 <https://anemoskala.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://anemoskala.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://anemoskala.clscor.io/entity/corpus> ;
@@ -204,11 +189,6 @@
     crm:P140_assigned_attribute_to <https://annotlit.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/en> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://annotlit.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://annotlit.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://annotlit.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://annotlit.clscor.io/entity/dimension/1> .
 
 <https://annotlit.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://annotlit.clscor.io/entity/descevent/1> ;
@@ -333,11 +313,6 @@
     crm:P140_assigned_attribute_to <https://bwrp.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/en> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://bwrp.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://bwrp.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://bwrp.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://bwrp.clscor.io/entity/dimension/1> .
 
 <https://bwrp.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://bwrp.clscor.io/entity/descevent/1> ;
@@ -499,11 +474,6 @@
         <https://vocabs.acdh.oeaw.ac.at/iso6391/es> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://cervantes.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://cervantes.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://cervantes.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://cervantes.clscor.io/entity/dimension/1> .
-
 <https://cervantes.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://cervantes.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://cervantes.clscor.io/entity/corpus> ;
@@ -537,11 +507,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/cs> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://ceskapoesia.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://ceskapoesia.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://ceskapoesia.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://ceskapoesia.clscor.io/entity/dimension/1> .
-
 <https://ceskapoesia.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ceskapoesia.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ceskapoesia.clscor.io/entity/corpus> ;
@@ -554,11 +519,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/es>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/fr> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://cligs.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://cligs.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://cligs.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://cligs.clscor.io/entity/dimension/1> .
 
 <https://cligs.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://cligs.clscor.io/entity/descevent/1> ;
@@ -621,11 +581,6 @@
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
     crm:P177_assigned_property_of_type crmcls:Y6_corpus_has_corpus_type .
 
-<https://cord.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://cord.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://cord.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://cord.clscor.io/entity/dimension/1> .
-
 <https://cord.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://cord.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://cord.clscor.io/entity/corpus> ;
@@ -637,11 +592,6 @@
     crm:P140_assigned_attribute_to <https://czechprose.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/cs> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://czechprose.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://czechprose.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://czechprose.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://czechprose.clscor.io/entity/dimension/1> .
 
 <https://czechprose.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://czechprose.clscor.io/entity/descevent/1> ;
@@ -655,11 +605,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/cs> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://czechversedownloadable.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://czechversedownloadable.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://czechversedownloadable.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://czechversedownloadable.clscor.io/entity/dimension/1> .
-
 <https://czechversedownloadable.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://czechversedownloadable.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://czechversedownloadable.clscor.io/entity/corpus> ;
@@ -671,11 +616,6 @@
     crm:P140_assigned_attribute_to <https://czechversesearchable.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/cs> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://czechversesearchable.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://czechversesearchable.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://czechversesearchable.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://czechversesearchable.clscor.io/entity/dimension/1> .
 
 <https://czechversesearchable.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://czechversesearchable.clscor.io/entity/descevent/1> ;
@@ -830,11 +770,6 @@
         <https://vocabs.acdh.oeaw.ac.at/iso6391/sv>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/tt> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://dracor.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://dracor.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://dracor.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://dracor.clscor.io/entity/dimension/1> .
 
 <https://dracor.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://dracor.clscor.io/entity/descevent/1> ;
@@ -1063,11 +998,6 @@
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
     crm:P177_assigned_property_of_type crmcls:Y6_corpus_has_corpus_type .
 
-<https://feb.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://feb.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://feb.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://feb.clscor.io/entity/dimension/1> .
-
 <https://feb.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://feb.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://feb.clscor.io/entity/corpus> ;
@@ -1091,11 +1021,6 @@
     crm:P140_assigned_attribute_to <https://flt.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/la> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://flt.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://flt.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://flt.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://flt.clscor.io/entity/dimension/1> .
 
 <https://flt.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://flt.clscor.io/entity/descevent/1> ;
@@ -1476,11 +1401,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/la> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://hip.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://hip.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://hip.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://hip.clscor.io/entity/dimension/1> .
-
 <https://hip.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://hip.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://hip.clscor.io/entity/corpus> ;
@@ -1504,11 +1424,6 @@
     crm:P140_assigned_attribute_to <https://histcor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/de> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://histcor.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://histcor.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://histcor.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://histcor.clscor.io/entity/dimension/1> .
 
 <https://histcor.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://histcor.clscor.io/entity/descevent/1> ;
@@ -1544,11 +1459,6 @@
         <https://vocabs.acdh.oeaw.ac.at/iso6391/la> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://husmedsearchable.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://husmedsearchable.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://husmedsearchable.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://husmedsearchable.clscor.io/entity/dimension/1> .
-
 <https://husmedsearchable.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://husmedsearchable.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://husmedsearchable.clscor.io/entity/corpus> ;
@@ -1580,11 +1490,6 @@
     crm:P140_assigned_attribute_to <https://husmedsupplement.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
     crm:P177_assigned_property_of_type crmcls:Y5_license_type .
-
-<https://ilibru.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://ilibru.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://ilibru.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://ilibru.clscor.io/entity/dimension/1> .
 
 <https://ilibru.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ilibru.clscor.io/entity/descevent/1> ;
@@ -1645,11 +1550,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/zh> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://kansekirepo.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://kansekirepo.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://kansekirepo.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://kansekirepo.clscor.io/entity/dimension/1> .
-
 <https://kansekirepo.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://kansekirepo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://kansekirepo.clscor.io/entity/corpus> ;
@@ -1667,11 +1567,6 @@
     crm:P140_assigned_attribute_to <https://kolimo.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/de> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://kolimo.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://kolimo.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://kolimo.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://kolimo.clscor.io/entity/dimension/1> .
 
 <https://kolimo.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://kolimo.clscor.io/entity/descevent/1> ;
@@ -1740,11 +1635,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/la> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://lattyphilo.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://lattyphilo.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://lattyphilo.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://lattyphilo.clscor.io/entity/dimension/1> .
-
 <https://lattyphilo.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lattyphilo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://lattyphilo.clscor.io/entity/corpus> ;
@@ -1801,11 +1691,6 @@
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
     crm:P177_assigned_property_of_type crmcls:Y6_corpus_has_corpus_type .
 
-<https://libru.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://libru.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://libru.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://libru.clscor.io/entity/dimension/1> .
-
 <https://libru.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://libru.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://libru.clscor.io/entity/corpus> ;
@@ -1858,11 +1743,6 @@
         <https://vocabs.acdh.oeaw.ac.at/iso6391/nl>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/pt> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://lindh.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://lindh.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://lindh.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://lindh.clscor.io/entity/dimension/1> .
 
 <https://lindh.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lindh.clscor.io/entity/descevent/1> ;
@@ -1926,11 +1806,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/cs> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://makonspoken.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://makonspoken.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://makonspoken.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://makonspoken.clscor.io/entity/dimension/1> .
-
 <https://makonspoken.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://makonspoken.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://makonspoken.clscor.io/entity/corpus> ;
@@ -1954,11 +1829,6 @@
     crm:P140_assigned_attribute_to <https://mapcorpsearchable.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/mk> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://mapcorpsearchable.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://mapcorpsearchable.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://mapcorpsearchable.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://mapcorpsearchable.clscor.io/entity/dimension/1> .
 
 <https://mapcorpsearchable.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://mapcorpsearchable.clscor.io/entity/descevent/1> ;
@@ -2040,11 +1910,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/la> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://mqdq.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://mqdq.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://mqdq.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://mqdq.clscor.io/entity/dimension/1> .
-
 <https://mqdq.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://mqdq.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://mqdq.clscor.io/entity/corpus> ;
@@ -2069,11 +1934,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/el>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/la> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://neolat.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://neolat.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://neolat.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://neolat.clscor.io/entity/dimension/1> .
 
 <https://neolat.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://neolat.clscor.io/entity/descevent/1> ;
@@ -2261,11 +2121,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/la> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://pdi.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://pdi.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://pdi.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://pdi.clscor.io/entity/dimension/1> .
-
 <https://pdi.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://pdi.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pdi.clscor.io/entity/corpus> ;
@@ -2292,11 +2147,6 @@
         <https://vocabs.acdh.oeaw.ac.at/iso6391/rom> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://perseus.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://perseus.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://perseus.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://perseus.clscor.io/entity/dimension/1> .
-
 <https://perseus.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://perseus.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://perseus.clscor.io/entity/corpus> ;
@@ -2320,11 +2170,6 @@
     crm:P140_assigned_attribute_to <https://petrarcaplus.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/it> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://petrarcaplus.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://petrarcaplus.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://petrarcaplus.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://petrarcaplus.clscor.io/entity/dimension/1> .
 
 <https://petrarcaplus.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://petrarcaplus.clscor.io/entity/descevent/1> ;
@@ -2434,11 +2279,6 @@
     crm:P140_assigned_attribute_to <https://phi.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/la> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://phi.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://phi.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://phi.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://phi.clscor.io/entity/dimension/1> .
 
 <https://phi.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://phi.clscor.io/entity/descevent/1> ;
@@ -2569,11 +2409,6 @@
         <https://vocabs.acdh.oeaw.ac.at/iso6391/pt> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://projectgutenberg-poetry-corpora.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://projectgutenberg-poetry-corpora.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://projectgutenberg-poetry-corpora.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://projectgutenberg-poetry-corpora.clscor.io/entity/dimension/1> .
-
 <https://projectgutenberg-poetry-corpora.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://projectgutenberg-poetry-corpora.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://projectgutenberg-poetry-corpora.clscor.io/entity/corpus> ;
@@ -2614,11 +2449,6 @@
         <https://vocabs.acdh.oeaw.ac.at/iso6391/ru>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/zh> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://pulpo.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://pulpo.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://pulpo.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://pulpo.clscor.io/entity/dimension/1> .
 
 <https://pulpo.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://pulpo.clscor.io/entity/descevent/1> ;
@@ -2775,11 +2605,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/ru> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://ruspoet.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://ruspoet.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://ruspoet.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://ruspoet.clscor.io/entity/dimension/1> .
-
 <https://ruspoet.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ruspoet.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ruspoet.clscor.io/entity/corpus> ;
@@ -2803,11 +2628,6 @@
     crm:P140_assigned_attribute_to <https://ruspoet.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/reference> ;
     crm:P177_assigned_property_of_type crmcls:Y6_corpus_has_corpus_type .
-
-<https://rvb.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://rvb.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://rvb.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://rvb.clscor.io/entity/dimension/1> .
 
 <https://rvb.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://rvb.clscor.io/entity/descevent/1> ;
@@ -2920,11 +2740,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/sv> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://slända.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://slända.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://slända.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://slända.clscor.io/entity/dimension/1> .
-
 <https://slända.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://slända.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://slända.clscor.io/entity/corpus> ;
@@ -2942,11 +2757,6 @@
     crm:P140_assigned_attribute_to <https://sme.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/sk> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://sme.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://sme.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://sme.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://sme.clscor.io/entity/dimension/1> .
 
 <https://sme.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://sme.clscor.io/entity/descevent/1> ;
@@ -3094,11 +2904,6 @@
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
     crm:P177_assigned_property_of_type crmcls:Y5_license_type .
 
-<https://stanfordlitlab.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://stanfordlitlab.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://stanfordlitlab.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://stanfordlitlab.clscor.io/entity/dimension/1> .
-
 <https://stanfordlitlab.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://stanfordlitlab.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://stanfordlitlab.clscor.io/entity/corpus> ;
@@ -3110,11 +2915,6 @@
     crm:P140_assigned_attribute_to <https://summatheacz.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/cs> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://summatheacz.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://summatheacz.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://summatheacz.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://summatheacz.clscor.io/entity/dimension/1> .
 
 <https://summatheacz.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://summatheacz.clscor.io/entity/descevent/1> ;
@@ -3128,11 +2928,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/la> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://summatheo.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://summatheo.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://summatheo.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://summatheo.clscor.io/entity/dimension/1> .
-
 <https://summatheo.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://summatheo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://summatheo.clscor.io/entity/corpus> ;
@@ -3144,11 +2939,6 @@
     crm:P140_assigned_attribute_to <https://summatheoen.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/en> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://summatheoen.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://summatheoen.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://summatheoen.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://summatheoen.clscor.io/entity/dimension/1> .
 
 <https://summatheoen.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://summatheoen.clscor.io/entity/descevent/1> ;
@@ -3311,11 +3101,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/de> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
 
-<https://textgrid.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://textgrid.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://textgrid.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://textgrid.clscor.io/entity/dimension/1> .
-
 <https://textgrid.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://textgrid.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://textgrid.clscor.io/entity/corpus> ;
@@ -3381,11 +3166,6 @@
     crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/en>,
         <https://vocabs.acdh.oeaw.ac.at/iso6391/la> ;
     crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://tmc.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://tmc.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://tmc.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://tmc.clscor.io/entity/dimension/1> .
 
 <https://tmc.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://tmc.clscor.io/entity/descevent/1> ;
@@ -3525,11 +3305,6 @@
     crm:P140_assigned_attribute_to <https://wdc.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
     crm:P177_assigned_property_of_type crmcls:Y6_corpus_has_corpus_type .
-
-<https://wikisource.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://wikisource.clscor.io/entity/descevent/1> ;
-    crm:P140_assigned_attribute_to <https://wikisource.clscor.io/entity/corpus> ;
-    crm:P141_assigned <https://wikisource.clscor.io/entity/dimension/1> .
 
 <https://wikisource.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://wikisource.clscor.io/entity/descevent/1> ;
@@ -3673,10 +3448,6 @@
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "1SatzCor" .
 
-<https://1satzcor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://1satzcor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
@@ -3688,10 +3459,6 @@
 <https://abo.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "ABO" .
-
-<https://abo.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://abo.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -3741,10 +3508,6 @@
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "Anemoskala" .
 
-<https://anemoskala.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://anemoskala.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1801–2000" ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
@@ -3757,10 +3520,6 @@
 <https://annotlit.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "AnnotLit" .
-
-<https://annotlit.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://annotlit.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
@@ -3823,10 +3582,6 @@
 <https://bwrp.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "BWRP" .
-
-<https://bwrp.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://bwrp.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1789–1832" ;
@@ -3906,10 +3661,6 @@
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "Cervantes" .
 
-<https://cervantes.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://cervantes.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
@@ -3922,9 +3673,10 @@
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "CeskaPoesia" .
 
-<https://ceskapoesia.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://ceskapoesia.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://www.ceska-poezie.cz/cek/?id=2&lang=cz>,
+        <https://ceskapoesia.clscor.io/entity/appellation/1>,
+        <https://ceskapoesia.clscor.io/entity/appellation/2> .
 
 <https://ceskapoesia.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
@@ -3937,10 +3689,6 @@
 <https://cligs.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "CLiGS" .
-
-<https://cligs.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://cligs.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
@@ -3971,9 +3719,18 @@
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "CorD" .
 
-<https://cord.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://cord.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://cord.clscor.io/entity/appellation/1>,
+        <https://cord.clscor.io/entity/appellation/2>,
+        <https://varieng.helsinki.fi/CoRD/corpora/index.html> .
+
+<https://cord.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://cord.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: it is a database/list of corpora; \"CoRD provides descriptions of a large number of corpora, subcorpora and databases. Many more are forthcoming and we encourage all compilers of English language corpora to submit a description.\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://cord.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -4001,9 +3758,10 @@
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "CzechProse" .
 
-<https://czechprose.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://czechprose.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://korpusprozy.com/eng-website/index.php>,
+        <https://czechprose.clscor.io/entity/appellation/1>,
+        <https://czechprose.clscor.io/entity/appellation/2> .
 
 <https://czechprose.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
@@ -4017,9 +3775,10 @@
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "CzechVerseDownloadable" .
 
-<https://czechversedownloadable.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://czechversedownloadable.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://czechversedownloadable.clscor.io/entity/appellation/1>,
+        <https://czechversedownloadable.clscor.io/entity/appellation/2>,
+        <https://github.com/versotym/corpusCzechVerse> .
 
 <https://czechversedownloadable.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
@@ -4033,9 +3792,10 @@
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "CzechVerseSearchable" .
 
-<https://czechversesearchable.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://czechversesearchable.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://czechversesearchable.clscor.io/entity/appellation/1>,
+        <https://czechversesearchable.clscor.io/entity/appellation/2>,
+        <https://lindat.mff.cuni.cz/services/teitok-live/czechverse/> .
 
 <https://czechversesearchable.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
@@ -4140,10 +3900,6 @@
 <https://dracor.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "DraCor" .
-
-<https://dracor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://dracor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
@@ -4328,10 +4084,6 @@
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "FEB" .
 
-<https://feb.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://feb.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://feb.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4350,10 +4102,6 @@
 <https://flt.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "FLT" .
-
-<https://flt.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://flt.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1922–1943" ;
@@ -4588,10 +4336,6 @@ Comprehensive collection of premodern Chinese texts website.""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "HIP" .
 
-<https://hip.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://hip.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "birth of Dante until the first half of the sixteenth century." ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
@@ -4604,10 +4348,6 @@ Comprehensive collection of premodern Chinese texts website.""" .
 <https://histcor.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "HistCor" .
-
-<https://histcor.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://histcor.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1700–1918" ;
@@ -4626,9 +4366,10 @@ Comprehensive collection of premodern Chinese texts website.""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "HusMedSearchable" .
 
-<https://husmedsearchable.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://husmedsearchable.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://husmedsearchable.clscor.io/entity/appellation/1>,
+        <https://husmedsearchable.clscor.io/entity/appellation/2>,
+        <https://lindat.mff.cuni.cz/services/teitok/ocrcz/index.php> .
 
 <https://husmedsearchable.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
@@ -4662,10 +4403,6 @@ Comprehensive collection of premodern Chinese texts website.""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "ILibRu" .
 
-<https://ilibru.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://ilibru.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://ilibru.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
@@ -4697,9 +4434,10 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "KansekiRepo" .
 
-<https://kansekirepo.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://kansekirepo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://github.com/kanripo>,
+        <https://kansekirepo.clscor.io/entity/appellation/1>,
+        <https://kansekirepo.clscor.io/entity/appellation/2> .
 
 <https://kansekirepo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
@@ -4712,10 +4450,6 @@ Comprehensive collection of premodern Chinese texts""" .
 <https://kolimo.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "KOLIMO" .
-
-<https://kolimo.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://kolimo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
@@ -4753,10 +4487,6 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "LatTyPhilo" .
 
-<https://lattyphilo.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://lattyphilo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "Renaissance to present day" ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
@@ -4785,10 +4515,6 @@ Comprehensive collection of premodern Chinese texts""" .
 <https://libru.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "LibRu" .
-
-<https://libru.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://libru.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -4852,10 +4578,6 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "LINDH" .
 
-<https://lindh.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://lindh.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
@@ -4893,10 +4615,6 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "MakonSpoken" .
 
-<https://makonspoken.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://makonspoken.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1000 hours" ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
@@ -4910,9 +4628,10 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "MapCorpSearchable" .
 
-<https://mapcorpsearchable.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://mapcorpsearchable.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/teitok-live/mapcorp/>,
+        <https://mapcorpsearchable.clscor.io/entity/appellation/1>,
+        <https://mapcorpsearchable.clscor.io/entity/appellation/2> .
 
 <https://mapcorpsearchable.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
@@ -4960,10 +4679,6 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "MQDQ" .
 
-<https://mqdq.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://mqdq.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
@@ -4975,10 +4690,6 @@ Comprehensive collection of premodern Chinese texts""" .
 <https://neolat.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "NeoLat" .
-
-<https://neolat.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://neolat.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1850–1940" ;
@@ -5056,10 +4767,6 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "PDI" .
 
-<https://pdi.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://pdi.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1250–1550" ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
@@ -5073,10 +4780,6 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "Perseus" .
 
-<https://perseus.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://perseus.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
@@ -5089,9 +4792,10 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "PetrarcaPlus" .
 
-<https://petrarcaplus.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://petrarcaplus.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=petrarca_it_m>,
+        <https://petrarcaplus.clscor.io/entity/appellation/1>,
+        <https://petrarcaplus.clscor.io/entity/appellation/2> .
 
 <https://petrarcaplus.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
@@ -5152,10 +4856,6 @@ Comprehensive collection of premodern Chinese texts""" .
 <https://phi.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "PHI" .
-
-<https://phi.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://phi.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
@@ -5230,10 +4930,6 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "projectgutenberg-poetry-corpora" .
 
-<https://projectgutenberg-poetry-corpora.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://projectgutenberg-poetry-corpora.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
@@ -5245,10 +4941,6 @@ Comprehensive collection of premodern Chinese texts""" .
 <https://pulpo.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "PULPO" .
-
-<https://pulpo.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://pulpo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "1600s-1900s" ;
@@ -5317,10 +5009,6 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "RusPoet" .
 
-<https://ruspoet.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://ruspoet.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
@@ -5332,10 +5020,6 @@ Comprehensive collection of premodern Chinese texts""" .
 <https://rvb.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "RVB" .
-
-<https://rvb.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://rvb.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -5413,10 +5097,6 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "SLäNDa" .
 
-<https://slända.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://slända.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
     crm:P81b_begin_of_the_end "2023-02-28"^^xsd:date .
@@ -5428,10 +5108,6 @@ Comprehensive collection of premodern Chinese texts""" .
 <https://sme.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "SME" .
-
-<https://sme.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://sme.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     rdfs:label "800 to present" ;
@@ -5512,9 +5188,19 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "StanfordLitLab" .
 
-<https://stanfordlitlab.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://stanfordlitlab.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://litlab.stanford.edu/>,
+        <https://stanfordlitlab.clscor.io/entity/appellation/1>,
+        <https://stanfordlitlab.clscor.io/entity/appellation/2> .
+
+<https://stanfordlitlab.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://stanfordlitlab.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Homepage: "The Stanford Literary Lab is a research collective that applies computational criticism, in all its forms, to the study of literature."
+Commentary: No texts available, no possibility of download, just textual information about projects""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://stanfordlitlab.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -5530,9 +5216,10 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "SummaTheaCZ" .
 
-<https://summatheacz.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://summatheacz.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=summa_cs_a>,
+        <https://summatheacz.clscor.io/entity/appellation/1>,
+        <https://summatheacz.clscor.io/entity/appellation/2> .
 
 <https://summatheacz.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
@@ -5546,9 +5233,10 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "SummaTheo" .
 
-<https://summatheo.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://summatheo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=summa_la_a>,
+        <https://summatheo.clscor.io/entity/appellation/1>,
+        <https://summatheo.clscor.io/entity/appellation/2> .
 
 <https://summatheo.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
@@ -5562,9 +5250,10 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "SummaTheoEN" .
 
-<https://summatheoen.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
+<https://summatheoen.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=summa_en_a>,
+        <https://summatheoen.clscor.io/entity/appellation/1>,
+        <https://summatheoen.clscor.io/entity/appellation/2> .
 
 <https://summatheoen.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2023-02-01"^^xsd:date ;
@@ -5652,10 +5341,6 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "TextGrid" .
 
-<https://textgrid.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://textgrid.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
@@ -5688,10 +5373,6 @@ Comprehensive collection of premodern Chinese texts""" .
 <https://tmc.clscor.io/entity/appellation/2> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "TMC" .
-
-<https://tmc.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
 <https://tmc.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
@@ -5959,10 +5640,6 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/acronym> ;
     rdf:value "Wikisource" .
 
-<https://wikisource.clscor.io/entity/dimension/1> a crm:E54_Dimension ;
-    crm:P90_has_value nan ;
-    crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
-
 <https://wikisource.clscor.io/entity/timespan/1> a crm:E52_Time-Span ;
     crm:81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
@@ -6023,6 +5700,19 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P2_has_type <https://core.clscor.io/entity/type/link_type/project_website> ;
     rdf:value "Link to the Zlatý Fond SME website." .
 
+<https://abo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://abo.clscor.io/entity/appellation/1>,
+        <https://abo.clscor.io/entity/appellation/2>,
+        <https://onb.ac.at/digitaler-lesesaal/austrian-books-online-abo> .
+
+<https://abo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://abo.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Homepage (DE): \"Im Rahmen einer Public Private Partnership mit Google hat die Österreichische Nationalbibliothek seit 2011 insgesamt rund 600.000 urheberrechtsfreie Werke mit insgesamt 200 Millionen Seiten digitalisiert, darunter auch jene 200.000 Bücher, die sich im Prunksaal befinden. Damit sind alle digitalisierten Bücher erstmals vollständig und kostenlos zugänglich, können im Volltext durchsucht oder auch als PDF heruntergeladen werden. Diese erfolgreiche Zusammenarbeit mit Google wird nun fortgesetzt: Ab 2019 werden jene Jahrgänge historischer Werke digitalisiert und online gestellt, bei denen mittlerweile das Urheberrecht erloschen ist. Die „moving wall“, bis zu der digitalisiert wird, liegt derzeit beim Erscheinungsjahr 1880 und wird jährlich um ein Jahr verschoben; der große Sicherheitsabstand von 140 Jahren setzt sich aus der urheberrechtlichen Schutzfrist von 70 Jahren nach dem Tod der AutorInnen und 70 Lebensjahren ab Erscheinen ihrer Werke zusammen: Dadurch ist gewährleistet, dass selbst dann kein urheberrechtlich geschütztes Buch digitalisiert wird, wenn die AutorInnen zum Zeitpunkt der Veröffentlichung noch sehr jung waren und lange gelebt haben.\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
 <https://adstps.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://annotlit.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
@@ -6037,44 +5727,37 @@ Comprehensive collection of premodern Chinese texts""" .
         <https://cep.clscor.io/entity/appellation/2>,
         <www.korpus.cz> .
 
-<https://ceskapoesia.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <http://www.ceska-poezie.cz/cek/?id=2&lang=cz>,
-        <https://ceskapoesia.clscor.io/entity/appellation/1>,
-        <https://ceskapoesia.clscor.io/entity/appellation/2> .
+<https://ceskapoesia.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://ceskapoesia.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://ceskapoesia.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://cord.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://cord.clscor.io/entity/appellation/1>,
-        <https://cord.clscor.io/entity/appellation/2>,
-        <https://varieng.helsinki.fi/CoRD/corpora/index.html> .
+<https://cligs.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://cligs.clscor.io/entity/appellation/1>,
+        <https://cligs.clscor.io/entity/appellation/2>,
+        <https://github.com/cligs/textbox> .
 
-<https://cord.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://cord.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: it is a database/list of corpora; \"CoRD provides descriptions of a large number of corpora, subcorpora and databases. Many more are forthcoming and we encourage all compilers of English language corpora to submit a description.\"" ;
+<https://czechprose.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://czechprose.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
+    crm:P3_has_note "downloadable" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://czechprose.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <http://korpusprozy.com/eng-website/index.php>,
-        <https://czechprose.clscor.io/entity/appellation/1>,
-        <https://czechprose.clscor.io/entity/appellation/2> .
 
 <https://czechprose.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://czechversedownloadable.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://czechversedownloadable.clscor.io/entity/appellation/1>,
-        <https://czechversedownloadable.clscor.io/entity/appellation/2>,
-        <https://github.com/versotym/corpusCzechVerse> .
+<https://czechversedownloadable.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://czechversedownloadable.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://czechversedownloadable.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://czechversesearchable.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://czechversesearchable.clscor.io/entity/appellation/1>,
-        <https://czechversesearchable.clscor.io/entity/appellation/2>,
-        <https://lindat.mff.cuni.cz/services/teitok-live/czechverse/> .
+<https://czechversesearchable.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://czechversesearchable.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://czechversesearchable.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6086,10 +5769,15 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://hathi.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://husmedsearchable.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://husmedsearchable.clscor.io/entity/appellation/1>,
-        <https://husmedsearchable.clscor.io/entity/appellation/2>,
-        <https://lindat.mff.cuni.cz/services/teitok/ocrcz/index.php> .
+<https://hip.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://hip.clscor.io/entity/appellation/1>,
+        <https://hip.clscor.io/entity/appellation/2>,
+        <https://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:PDILL> .
+
+<https://husmedsearchable.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://husmedsearchable.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://husmedsearchable.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6098,17 +5786,48 @@ Comprehensive collection of premodern Chinese texts""" .
         <https://husmedsupplement.clscor.io/entity/appellation/1>,
         <https://husmedsupplement.clscor.io/entity/appellation/2> .
 
-<https://kansekirepo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://github.com/kanripo>,
-        <https://kansekirepo.clscor.io/entity/appellation/1>,
-        <https://kansekirepo.clscor.io/entity/appellation/2> .
+<https://ilibru.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://ilibrary.ru/>,
+        <https://ilibru.clscor.io/entity/appellation/1>,
+        <https://ilibru.clscor.io/entity/appellation/2> .
+
+<https://ilibru.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://ilibru.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: only available in Russian" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://kolimo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://kolimo.clscor.io/entity/appellation/1>,
+        <https://kolimo.clscor.io/entity/appellation/2>,
+        <https://kolimo.uni-goettingen.de> .
 
 <https://lattyphilo.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://mapcorpsearchable.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/teitok-live/mapcorp/>,
-        <https://mapcorpsearchable.clscor.io/entity/appellation/1>,
-        <https://mapcorpsearchable.clscor.io/entity/appellation/2> .
+<https://libru.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://lib.ru/>,
+        <https://libru.clscor.io/entity/appellation/1>,
+        <https://libru.clscor.io/entity/appellation/2> .
+
+<https://libru.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://libru.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: only available in Russian" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://makonspoken.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://hdl.handle.net/11234/1-3422>,
+        <https://makonspoken.clscor.io/entity/appellation/1>,
+        <https://makonspoken.clscor.io/entity/appellation/2> .
+
+<https://mapcorpsearchable.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://mapcorpsearchable.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://mapcorpsearchable.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6120,10 +5839,16 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://pdi.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://petrarcaplus.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=petrarca_it_m>,
-        <https://petrarcaplus.clscor.io/entity/appellation/1>,
-        <https://petrarcaplus.clscor.io/entity/appellation/2> .
+<https://perseus.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://www.perseus.tufts.edu/hopper/collections>,
+        <https://perseus.clscor.io/entity/appellation/1>,
+        <https://perseus.clscor.io/entity/appellation/2> .
+
+<https://petrarcaplus.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://petrarcaplus.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
+    crm:P3_has_note "LindatClariah's Kontext service. A collection of corpora you can search with CQL and download  your search results but not the corpora as such." ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://petrarcaplus.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6133,11 +5858,44 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://polona.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
+<https://projectgutenberg-poetry-corpora.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://github.com/linhd-postdata/projectgutenberg-poetry-corpora>,
+        <https://projectgutenberg-poetry-corpora.clscor.io/entity/appellation/1>,
+        <https://projectgutenberg-poetry-corpora.clscor.io/entity/appellation/2> .
+
+<https://pulpo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://huggingface.co/datasets/linhd-postdata/pulpo>,
+        <https://pulpo.clscor.io/entity/appellation/1>,
+        <https://pulpo.clscor.io/entity/appellation/2> .
+
+<https://rvb.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://rvb.clscor.io/entity/appellation/1>,
+        <https://rvb.clscor.io/entity/appellation/2>,
+        <https://rvb.ru/> .
+
+<https://rvb.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://rvb.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: only available in Russian" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
 <https://scots.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://shc.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
+<https://slända.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://lindat.mff.cuni.cz/repository/xmlui/handle/11372/LRT-4739>,
+        <https://slända.clscor.io/entity/appellation/1>,
+        <https://slända.clscor.io/entity/appellation/2> .
+
 <https://slända.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
+
+<https://sme.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://sme.clscor.io/entity/appellation/1>,
+        <https://sme.clscor.io/entity/appellation/2>,
+        <https://zlatyfond.sme.sk/autori#U> .
 
 <https://sme.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6148,40 +5906,37 @@ Comprehensive collection of premodern Chinese texts""" .
 
 <https://snc.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://stanfordlitlab.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://litlab.stanford.edu/>,
-        <https://stanfordlitlab.clscor.io/entity/appellation/1>,
-        <https://stanfordlitlab.clscor.io/entity/appellation/2> .
-
-<https://stanfordlitlab.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://stanfordlitlab.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Homepage: "The Stanford Literary Lab is a research collective that applies computational criticism, in all its forms, to the study of literature."
-Commentary: No texts available, no possibility of download, just textual information about projects""" ;
+<https://summatheacz.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://summatheacz.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://summatheacz.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=summa_cs_a>,
-        <https://summatheacz.clscor.io/entity/appellation/1>,
-        <https://summatheacz.clscor.io/entity/appellation/2> .
 
 <https://summatheacz.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://summatheo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=summa_la_a>,
-        <https://summatheo.clscor.io/entity/appellation/1>,
-        <https://summatheo.clscor.io/entity/appellation/2> .
+<https://summatheo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://summatheo.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
+    crm:P3_has_note "LindatClariah's Kontext service. A collection of corpora you can search with CQL and download  your search results but not the corpora as such." ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://summatheo.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://summatheoen.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://lindat.mff.cuni.cz/services/kontext/first_form?corpname=summa_en_a>,
-        <https://summatheoen.clscor.io/entity/appellation/1>,
-        <https://summatheoen.clscor.io/entity/appellation/2> .
+<https://summatheoen.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://summatheoen.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://summatheoen.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
+
+<https://textgrid.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://textgrid.clscor.io/entity/appellation/1>,
+        <https://textgrid.clscor.io/entity/appellation/2>,
+        <https://textgrid.de/digitale-bibliothek> .
+
+<https://tmc.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://essentialmore.org/concordances/>,
+        <https://tmc.clscor.io/entity/appellation/1>,
+        <https://tmc.clscor.io/entity/appellation/2> .
 
 <https://tmc.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6212,32 +5967,39 @@ Commentary: No texts available, no possibility of download, just textual informa
 <https://vocabs.acdh.oeaw.ac.at/iso6391/zh> a crm:E56_Language ;
     rdfs:label "Chinese" .
 
+<https://wikisource.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://wikisource.clscor.io/entity/appellation/1>,
+        <https://wikisource.clscor.io/entity/appellation/2>,
+        <https://wikisource.org/wiki/Wikisource:TEI> .
+
 <www.korpus.cz> a crm:E42_Identifier ;
     crm:P2_has_type <https://core.clscor.io/entity/type/link_type/project_website> ;
     rdf:value "Link to the Korpus prozaických textů Jana Čepa website.",
         "Link to the Korpus všech textů Karla Čapka website." .
 
+<https://1satzcor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://1satzcor.clscor.io/entity/appellation/1>,
+        <https://1satzcor.clscor.io/entity/appellation/2>,
+        <https://github.com/satzomat/corpus> .
+
 <https://1satzcor.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
-
-<https://abo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://abo.clscor.io/entity/appellation/1>,
-        <https://abo.clscor.io/entity/appellation/2>,
-        <https://onb.ac.at/digitaler-lesesaal/austrian-books-online-abo> .
-
-<https://abo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://abo.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Homepage (DE): \"Im Rahmen einer Public Private Partnership mit Google hat die Österreichische Nationalbibliothek seit 2011 insgesamt rund 600.000 urheberrechtsfreie Werke mit insgesamt 200 Millionen Seiten digitalisiert, darunter auch jene 200.000 Bücher, die sich im Prunksaal befinden. Damit sind alle digitalisierten Bücher erstmals vollständig und kostenlos zugänglich, können im Volltext durchsucht oder auch als PDF heruntergeladen werden. Diese erfolgreiche Zusammenarbeit mit Google wird nun fortgesetzt: Ab 2019 werden jene Jahrgänge historischer Werke digitalisiert und online gestellt, bei denen mittlerweile das Urheberrecht erloschen ist. Die „moving wall“, bis zu der digitalisiert wird, liegt derzeit beim Erscheinungsjahr 1880 und wird jährlich um ein Jahr verschoben; der große Sicherheitsabstand von 140 Jahren setzt sich aus der urheberrechtlichen Schutzfrist von 70 Jahren nach dem Tod der AutorInnen und 70 Lebensjahren ab Erscheinen ihrer Werke zusammen: Dadurch ist gewährleistet, dass selbst dann kein urheberrechtlich geschütztes Buch digitalisiert wird, wenn die AutorInnen zum Zeitpunkt der Veröffentlichung noch sehr jung waren und lange gelebt haben.\"" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://adstps.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <http://hdl.handle.net/11234/1-4930>,
         <https://adstps.clscor.io/entity/appellation/1>,
         <https://adstps.clscor.io/entity/appellation/2> .
 
+<https://anemoskala.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://www.greek-language.gr/digitalResources/literature/tools/concordance/index.html>,
+        <https://anemoskala.clscor.io/entity/appellation/1>,
+        <https://anemoskala.clscor.io/entity/appellation/2> .
+
 <https://anemoskala.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
+
+<https://annotlit.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://annotlit.clscor.io/entity/appellation/1>,
+        <https://annotlit.clscor.io/entity/appellation/2>,
+        <https://www.annotating-literature.org/> .
 
 <https://bashdracor.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6250,41 +6012,25 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://bibita.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
+<https://bwrp.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://bwrp.clscor.io/entity/appellation/1>,
+        <https://bwrp.clscor.io/entity/appellation/2>,
+        <https://digital.lib.ucdavis.edu/projects/bwrp/> .
+
 <https://bwrp.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://capek_uplny.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://cep.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
+<https://cervantes.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://www.cervantesvirtual.com/>,
+        <https://cervantes.clscor.io/entity/appellation/1>,
+        <https://cervantes.clscor.io/entity/appellation/2> .
+
 <https://cervantes.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://ceskapoesia.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://ceskapoesia.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://cligs.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://cligs.clscor.io/entity/appellation/1>,
-        <https://cligs.clscor.io/entity/appellation/2>,
-        <https://github.com/cligs/textbox> .
-
 <https://cmsw.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
-
-<https://czechprose.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://czechprose.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P3_has_note "downloadable" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://czechversedownloadable.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://czechversedownloadable.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://czechversesearchable.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://czechversesearchable.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://dikda.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <https://dikda.clscor.io/entity/appellation/1>,
@@ -6302,6 +6048,11 @@ Commentary: No texts available, no possibility of download, just textual informa
 <https://disco.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://dlk.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
+
+<https://dracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://dracor.clscor.io/entity/appellation/1>,
+        <https://dracor.clscor.io/entity/appellation/2>,
+        <https://dracor.org/> .
 
 <https://dramawebben.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6321,6 +6072,24 @@ Commentary: No texts available, no possibility of download, just textual informa
     crm:P1_is_identified_by <https://fbc.clscor.io/entity/appellation/1>,
         <https://fbc.clscor.io/entity/appellation/2>,
         <https://fbc.pionier.net.pl/> .
+
+<https://feb.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://www.feb-web.ru/>,
+        <https://feb.clscor.io/entity/appellation/1>,
+        <https://feb.clscor.io/entity/appellation/2> .
+
+<https://feb.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://feb.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: only available in Russian" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://flt.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://flt.clscor.io/entity/appellation/1>,
+        <https://flt.clscor.io/entity/appellation/2>,
+        <https://flt.hf.uio.no/> .
 
 <https://flt.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6343,58 +6112,33 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://hathi.clscor.io/entity/appellation/2>,
         <https://www.hathitrust.org/> .
 
-<https://hip.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://hip.clscor.io/entity/appellation/1>,
-        <https://hip.clscor.io/entity/appellation/2>,
-        <https://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:PDILL> .
-
 <https://hip.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
+
+<https://histcor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://histcor.clscor.io/entity/appellation/1>,
+        <https://histcor.clscor.io/entity/appellation/2>,
+        <https://www.ids-mannheim.de/lexik/abgeschlosseneprojekte/historischeskorpus/> .
 
 <https://histcor.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://husmedsearchable.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://husmedsearchable.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
 <https://husmedsupplement.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://ilibru.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://ilibrary.ru/>,
-        <https://ilibru.clscor.io/entity/appellation/1>,
-        <https://ilibru.clscor.io/entity/appellation/2> .
-
-<https://ilibru.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://ilibru.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: only available in Russian" ;
+<https://kansekirepo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://kansekirepo.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
+    crm:P3_has_note "Silvie Cinkova hinted by Pavel Straňák, Lindat Clariah, saying the website looked dead but the repository still updated" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://kansekirepo.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://kolimo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://kolimo.clscor.io/entity/appellation/1>,
-        <https://kolimo.clscor.io/entity/appellation/2>,
-        <https://kolimo.uni-goettingen.de> .
-
 <https://kolimo.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
+<https://lattyphilo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://solr.ffzg.hr/philo4/latty2/>,
+        <https://lattyphilo.clscor.io/entity/appellation/1>,
+        <https://lattyphilo.clscor.io/entity/appellation/2> .
+
 <https://lhs.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
-
-<https://libru.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <http://lib.ru/>,
-        <https://libru.clscor.io/entity/appellation/1>,
-        <https://libru.clscor.io/entity/appellation/2> .
-
-<https://libru.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://libru.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: only available in Russian" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://lifrlite.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <http://hdl.handle.net/11234/1-4612>,
@@ -6402,6 +6146,11 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://lifrlite.clscor.io/entity/appellation/2> .
 
 <https://lifrlite.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
+
+<https://lindh.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://github.com/linhd-postdata>,
+        <https://lindh.clscor.io/entity/appellation/1>,
+        <https://lindh.clscor.io/entity/appellation/2> .
 
 <https://lindh.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6412,17 +6161,7 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://ltital.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://makonspoken.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <http://hdl.handle.net/11234/1-3422>,
-        <https://makonspoken.clscor.io/entity/appellation/1>,
-        <https://makonspoken.clscor.io/entity/appellation/2> .
-
 <https://makonspoken.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
-
-<https://mapcorpsearchable.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://mapcorpsearchable.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://metrique-en-ligne.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <https://github.com/linhd-postdata/metrique-en-ligne>,
@@ -6435,6 +6174,16 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://teipublisher.com/exist/apps/judita-davidias> .
 
 <https://mm.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
+
+<https://mqdq.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://mqdq.clscor.io/entity/appellation/1>,
+        <https://mqdq.clscor.io/entity/appellation/2>,
+        <https://www.mqdq.it/public/index> .
+
+<https://neolat.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://neolat.clscor.io/entity/appellation/1>,
+        <https://neolat.clscor.io/entity/appellation/2>,
+        <https://philologic.ut.ee/neolatina/> .
 
 <https://noscemus.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <https://noscemus.clscor.io/entity/appellation/1>,
@@ -6450,18 +6199,12 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://ota.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://perseus.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <http://www.perseus.tufts.edu/hopper/collections>,
-        <https://perseus.clscor.io/entity/appellation/1>,
-        <https://perseus.clscor.io/entity/appellation/2> .
+<https://pdi.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <http://mizar.unive.it/poetiditalia/public/>,
+        <https://pdi.clscor.io/entity/appellation/1>,
+        <https://pdi.clscor.io/entity/appellation/2> .
 
 <https://perseus.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
-
-<https://petrarcaplus.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://petrarcaplus.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P3_has_note "LindatClariah's Kontext service. A collection of corpora you can search with CQL and download  your search results but not the corpora as such." ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://pgaus.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <https://gutenberg.net.au/>,
@@ -6477,6 +6220,11 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://pgger.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
+<https://phi.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://latin.packhum.org/>,
+        <https://phi.clscor.io/entity/appellation/1>,
+        <https://phi.clscor.io/entity/appellation/2> .
+
 <https://poesi-as.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <https://github.com/linhd-postdata/poesi.as>,
         <https://poesi-as.clscor.io/entity/appellation/1>,
@@ -6484,45 +6232,31 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://poetessarchive.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://projectgutenberg-poetry-corpora.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://github.com/linhd-postdata/projectgutenberg-poetry-corpora>,
-        <https://projectgutenberg-poetry-corpora.clscor.io/entity/appellation/1>,
-        <https://projectgutenberg-poetry-corpora.clscor.io/entity/appellation/2> .
-
-<https://pulpo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://huggingface.co/datasets/linhd-postdata/pulpo>,
-        <https://pulpo.clscor.io/entity/appellation/1>,
-        <https://pulpo.clscor.io/entity/appellation/2> .
+<https://ruspoet.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
+    crm:P1_is_identified_by <https://ruscorpora.ru/new/en/search-poetic.html>,
+        <https://ruspoet.clscor.io/entity/appellation/1>,
+        <https://ruspoet.clscor.io/entity/appellation/2> .
 
 <https://ruspoet.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
-
-<https://rvb.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://rvb.clscor.io/entity/appellation/1>,
-        <https://rvb.clscor.io/entity/appellation/2>,
-        <https://rvb.ru/> .
-
-<https://rvb.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://rvb.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: only available in Russian" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://scots.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <https://scots.clscor.io/entity/appellation/1>,
         <https://scots.clscor.io/entity/appellation/2>,
         <https://www.scottishcorpus.ac.uk/> .
 
-<https://slända.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://lindat.mff.cuni.cz/repository/xmlui/handle/11372/LRT-4739>,
-        <https://slända.clscor.io/entity/appellation/1>,
-        <https://slända.clscor.io/entity/appellation/2> .
+<https://slända.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://slända.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
+    crm:P3_has_note "CC BY-NC-SA 4.0; downloads possible; SLäNDa, the Swedish literature corpus of narrative and dialogue, is a corpus made up of eight Swedish literary novels from the 19th and early 20th centuries, manually annotated mainly for different aspects of dialogue. The full annotation also contains other cited materials, like thoughts, signs and letters. The main motivation for including these categories as well, is to be able to identify the main narrative, which is all remaining unannotated text." ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
-<https://sme.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://sme.clscor.io/entity/appellation/1>,
-        <https://sme.clscor.io/entity/appellation/2>,
-        <https://zlatyfond.sme.sk/autori#U> .
+<https://sme.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://sme.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: people can help edit works (zfedit)" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://snc.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://snc.clscor.io/entity/protodoc/1> ;
@@ -6534,22 +6268,6 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://spanish-stanzas.clscor.io/entity/appellation/1>,
         <https://spanish-stanzas.clscor.io/entity/appellation/2> .
 
-<https://summatheacz.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://summatheacz.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://summatheo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://summatheo.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P3_has_note "LindatClariah's Kontext service. A collection of corpora you can search with CQL and download  your search results but not the corpora as such." ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://summatheoen.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://summatheoen.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
 <https://tbc.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://tcp.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
@@ -6559,17 +6277,15 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://tcp.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://textgrid.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://textgrid.clscor.io/entity/appellation/1>,
-        <https://textgrid.clscor.io/entity/appellation/2>,
-        <https://textgrid.de/digitale-bibliothek> .
-
 <https://theaclass.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://tmc.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://essentialmore.org/concordances/>,
-        <https://tmc.clscor.io/entity/appellation/1>,
-        <https://tmc.clscor.io/entity/appellation/2> .
+<https://tmc.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://tmc.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: downloads as PDFs" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://travelital.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6604,11 +6320,6 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://core.clscor.io/entity/person/a47820d846> ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
-<https://wikisource.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://wikisource.clscor.io/entity/appellation/1>,
-        <https://wikisource.clscor.io/entity/appellation/2>,
-        <https://wikisource.org/wiki/Wikisource:TEI> .
-
 <https://wikisource.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://1000novel.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
@@ -6617,11 +6328,6 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://1000novel.clscor.io/entity/appellation/2> .
 
 <https://1000novel.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
-
-<https://1satzcor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://1satzcor.clscor.io/entity/appellation/1>,
-        <https://1satzcor.clscor.io/entity/appellation/2>,
-        <https://github.com/satzomat/corpus> .
 
 <https://adstps.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://adstps.clscor.io/entity/protodoc/1> ;
@@ -6636,15 +6342,12 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://alsdracor.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://anemoskala.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <http://www.greek-language.gr/digitalResources/literature/tools/concordance/index.html>,
-        <https://anemoskala.clscor.io/entity/appellation/1>,
-        <https://anemoskala.clscor.io/entity/appellation/2> .
-
-<https://annotlit.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://annotlit.clscor.io/entity/appellation/1>,
-        <https://annotlit.clscor.io/entity/appellation/2>,
-        <https://www.annotating-literature.org/> .
+<https://annotlit.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://annotlit.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://bashdracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <https://bashdracor.clscor.io/entity/appellation/1>,
@@ -6655,11 +6358,6 @@ Commentary: No texts available, no possibility of download, just textual informa
     crm:P1_is_identified_by <https://bette.clscor.io/entity/appellation/1>,
         <https://bette.clscor.io/entity/appellation/2>,
         <https://github.com/HDAUNIR/BETTE> .
-
-<https://bwrp.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://bwrp.clscor.io/entity/appellation/1>,
-        <https://bwrp.clscor.io/entity/appellation/2>,
-        <https://digital.lib.ucdavis.edu/projects/bwrp/> .
 
 <https://caldracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <https://caldracor.clscor.io/entity/appellation/1>,
@@ -6687,11 +6385,6 @@ Commentary: No texts available, no possibility of download, just textual informa
     crm:P3_has_note "Searchable within the Czech National Corpus collections, non-downloadable" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
-<https://cervantes.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <http://www.cervantesvirtual.com/>,
-        <https://cervantes.clscor.io/entity/appellation/1>,
-        <https://cervantes.clscor.io/entity/appellation/2> .
-
 <https://cligs.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
 <https://cmsw.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
@@ -6715,11 +6408,6 @@ Commentary: No texts available, no possibility of download, just textual informa
     crm:P1_is_identified_by <https://dlk.clscor.io/entity/appellation/1>,
         <https://dlk.clscor.io/entity/appellation/2>,
         <https://github.com/tnhaider/DLK> .
-
-<https://dracor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://dracor.clscor.io/entity/appellation/1>,
-        <https://dracor.clscor.io/entity/appellation/2>,
-        <https://dracor.org/> .
 
 <https://dracor.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6754,24 +6442,6 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://core.clscor.io/entity/person/a38bec184d>,
         <https://core.clscor.io/entity/person/a47820d846> ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://feb.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <http://www.feb-web.ru/>,
-        <https://feb.clscor.io/entity/appellation/1>,
-        <https://feb.clscor.io/entity/appellation/2> .
-
-<https://feb.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://feb.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: only available in Russian" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://flt.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://flt.clscor.io/entity/appellation/1>,
-        <https://flt.clscor.io/entity/appellation/2>,
-        <https://flt.hf.uio.no/> .
 
 <https://folgershake.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <https://folgershake.clscor.io/entity/appellation/1>,
@@ -6823,10 +6493,12 @@ Commentary: No texts available, no possibility of download, just textual informa
     crm:P3_has_note "Commentary: download of books and creation of collections possible with institutional login" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
-<https://histcor.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://histcor.clscor.io/entity/appellation/1>,
-        <https://histcor.clscor.io/entity/appellation/2>,
-        <https://www.ids-mannheim.de/lexik/abgeschlosseneprojekte/historischeskorpus/> .
+<https://hip.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://hip.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://husmedsupplement.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://husmedsupplement.clscor.io/entity/protodoc/1> ;
@@ -6840,10 +6512,13 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://itadracor.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://kansekirepo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://kansekirepo.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P3_has_note "Silvie Cinkova hinted by Pavel Straňák, Lindat Clariah, saying the website looked dead but the repository still updated" ;
+<https://kolimo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://kolimo.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Homepage (redirected): "The eXistdb-corpus “KOLIMO” is currently being overhauled for re-launch. It was built at the University of Göttingen 2015-2017."; "KOLIMO allows running quantitative profiles of language use. This means essentially “counting stuff at the language surface”. We work with the basic assumption that “style” may be assessed by means of frequency counts of those textual features that are easily distinguishable by the computer: characters, syllables, words, sentences, and so on, combining to measures such as word length, sentence length, type-token ratios, most frequent word lists, etc. Abundant stylometric research shows that this straightforward approach to style is quite fruitful. Of course, any more advanced analysis may start here, including cluster analysis of text-similarity based on most frequent word counts (e.g., delta), or entropy measures of lexical variation. Anything goes, as long as we have a hold on the discrete enties that make up the texts (characters, strings etc.)."
+combines texts taken from DTA, Textgrid, Project Gutenberg + Metadata"; "KOLIMO is made available under a Creative Commons license, in line with the licenses of the source repositories. The texts from TextGrid are available under a CC-BY attribution license (see textgrid digitale bibliothek ). However, the Deutsches Textarchiv documents are made available under a CC BY-NC 3.0 license (non-commercial, see creative commons), meaning that commercial use of those texts is prohibited (see nutzungsbedigungen dta ). Gutenberg-DE documents are made available in a way that we understand as a CC-BY-NC-SA license (non-commercial, share alike, see creative commons), meaning that commercial use of those texts is prohibited, and remixing, transformation, or building upon the material only if using the same license as the original. When using the corpus, please ensure to cite the sources of the texts as required by the distinct statements, and give credit to the KOLIMO team listed below, for doing the text compilation, annotation, and working on the metadata\"""" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://latty.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
@@ -6853,32 +6528,41 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://latty.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://lattyphilo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <http://solr.ffzg.hr/philo4/latty2/>,
-        <https://lattyphilo.clscor.io/entity/appellation/1>,
-        <https://lattyphilo.clscor.io/entity/appellation/2> .
+<https://lattyphilo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://lattyphilo.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: hardly any information on corpus available on main homepage" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://lhs.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <http://holbergsskrifter.dk/holberg-public/view?docId=adm/main.xml>,
         <https://lhs.clscor.io/entity/appellation/1>,
         <https://lhs.clscor.io/entity/appellation/2> .
 
-<https://lindh.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://github.com/linhd-postdata>,
-        <https://lindh.clscor.io/entity/appellation/1>,
-        <https://lindh.clscor.io/entity/appellation/2> .
+<https://makonspoken.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://makonspoken.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
+    crm:P3_has_note "Talks of Karel Makoň given to his friends in the course of late sixties through early nineties of the 20th century. The topic is mostly christian mysticism; download possible" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://metrique-en-ligne.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://mqdq.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://mqdq.clscor.io/entity/appellation/1>,
-        <https://mqdq.clscor.io/entity/appellation/2>,
-        <https://www.mqdq.it/public/index> .
+<https://mqdq.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://mqdq.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
-<https://neolat.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://neolat.clscor.io/entity/appellation/1>,
-        <https://neolat.clscor.io/entity/appellation/2>,
-        <https://philologic.ut.ee/neolatina/> .
+<https://neolat.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://neolat.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: PhiloLogic4" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://opentexts.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://opentexts.clscor.io/entity/protodoc/1> ;
@@ -6893,20 +6577,35 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://ota.clscor.io/entity/appellation/1>,
         <https://ota.clscor.io/entity/appellation/2> .
 
-<https://pdi.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <http://mizar.unive.it/poetiditalia/public/>,
-        <https://pdi.clscor.io/entity/appellation/1>,
-        <https://pdi.clscor.io/entity/appellation/2> .
+<https://pdi.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://pdi.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: subcorpus of MQDQ (line 78)" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://perseus.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://perseus.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://pg.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <https://pg.clscor.io/entity/appellation/1>,
         <https://pg.clscor.io/entity/appellation/2>,
         <https://www.gutenberg.org/> .
 
-<https://phi.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://latin.packhum.org/>,
-        <https://phi.clscor.io/entity/appellation/1>,
-        <https://phi.clscor.io/entity/appellation/2> .
+<https://phi.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://phi.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Review: “Although technologically obsolete by today’s standards (e. g. TEI/XML are not used), PHI is still one of the most widely
+used open access text collections of Roman literature.”
+Homepage: "This website contains essentially all Latin literary texts written before A.D. 200, as well as some texts selected from later antiquity.\"""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://poesi-as.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
@@ -6945,11 +6644,6 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://rusdracor.clscor.io/entity/protodoc/1> a crmcls:X11_Prototypical_Document .
 
-<https://ruspoet.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
-    crm:P1_is_identified_by <https://ruscorpora.ru/new/en/search-poetic.html>,
-        <https://ruspoet.clscor.io/entity/appellation/1>,
-        <https://ruspoet.clscor.io/entity/appellation/2> .
-
 <https://scots.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://scots.clscor.io/entity/protodoc/1> ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
@@ -6969,20 +6663,6 @@ Commentary: No texts available, no possibility of download, just textual informa
     crm:P1_is_identified_by <https://github.com/JonathanReeve/corpus-SHC>,
         <https://shc.clscor.io/entity/appellation/1>,
         <https://shc.clscor.io/entity/appellation/2> .
-
-<https://slända.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://slända.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P3_has_note "CC BY-NC-SA 4.0; downloads possible; SLäNDa, the Swedish literature corpus of narrative and dialogue, is a corpus made up of eight Swedish literary novels from the 19th and early 20th centuries, manually annotated mainly for different aspects of dialogue. The full annotation also contains other cited materials, like thoughts, signs and letters. The main motivation for including these categories as well, is to be able to identify the main narrative, which is all remaining unannotated text." ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://sme.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://sme.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: people can help edit works (zfedit)" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://sonetsiglo.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <https://github.com/bncolorado/CorpusSonetosSigloDeOro>,
@@ -7026,14 +6706,6 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://theaclass.clscor.io/entity/appellation/1>,
         <https://theaclass.clscor.io/entity/appellation/2> .
 
-<https://tmc.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://tmc.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: downloads as PDFs" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
 <https://travelital.clscor.io/entity/corpus> a crmcls:X1_Corpus ;
     crm:P1_is_identified_by <https://sites.google.com/view/travelwritingsonitaly/home>,
         <https://travelital.clscor.io/entity/appellation/1>,
@@ -7059,11 +6731,29 @@ Commentary: No texts available, no possibility of download, just textual informa
 <https://vocabs.acdh.oeaw.ac.at/iso6391/nl> a crm:E56_Language ;
     rdfs:label "Dutch" .
 
-<https://annotlit.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://annotlit.clscor.io/entity/protodoc/1> ;
+<https://wikisource.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://wikisource.clscor.io/entity/protodoc/1> ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
         <https://core.clscor.io/entity/person/a38bec184d>,
         <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://1satzcor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://1satzcor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://anemoskala.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://anemoskala.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Anemoscala: Corpus of Modern Greek Poetry (19th and 20th century) "
+Review: "publication policy does not allow any kind of download, export or further reuse of any part of the textual corpus"; “plain text, TEI-XML files,
+metadata, concordance results”
+Commentary: no download possible; homepage only in Greek""" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://bibita.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
@@ -7080,12 +6770,44 @@ Bibit hat das Kodierungsschema der Text Encoding Initiative (TEI P4), das auf de
     Niveau 2: Strukturelle Gliederungen mit expliziten Typangaben, explizite Zitate, Hervorhebungen, Überschriften von zitierten Texten und Abschnitten in anderen Sprachen als der Basissprache des Textes, einfache redaktionelle Eingriffe\"""" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
+<https://bwrp.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://bwrp.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "British Women Romantic Poets, 1789–1832"
+Commentary: Currently only an older version is available. On the starting page, a note says "The British Women Romantic Poets archive is being transitioned to a new home. This page will automatically redirect to the new location when it becomes available."; 
+Homepage: "Last content update May 23, 2001.\"""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://cervantes.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://cervantes.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: corpus downloads available" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://cligs.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://cligs.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
 <https://eltec.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://eltec.clscor.io/entity/protodoc/1> ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
         <https://core.clscor.io/entity/person/a38bec184d>,
         <https://core.clscor.io/entity/person/a47820d846> ;
     crm:P3_has_note "Proposal: \"One of the aims of the Distant Reading COST Action (2017-2021) is to coordinate the creation of a multilingual European Literary Text Collection (ELTeC). The ELTeC core will ultimately contain at least 10 linguistically annotated subcollections of 100 novels comparable in their internal structure in at least 10 different European languages, totalling at least 1,000 full-text novels from the period 1840-1920. The extended ELTeC will take the total number of full-text novels to at least 2,500. Novels have been chosen among major literary genres for availability and size. Chronological limits are due to constraints related to copyright and availability of quality full texts.\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://flt.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://flt.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://fran.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
@@ -7097,34 +6819,28 @@ Bibit hat das Kodierungsschema der Text Encoding Initiative (TEI P4), das auf de
 Commentary: network timeout; page not reachable""" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
-<https://hip.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://hip.clscor.io/entity/protodoc/1> ;
+<https://histcor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://histcor.clscor.io/entity/protodoc/1> ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
         <https://core.clscor.io/entity/person/a38bec184d>,
         <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://kolimo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://kolimo.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Homepage (redirected): "The eXistdb-corpus “KOLIMO” is currently being overhauled for re-launch. It was built at the University of Göttingen 2015-2017."; "KOLIMO allows running quantitative profiles of language use. This means essentially “counting stuff at the language surface”. We work with the basic assumption that “style” may be assessed by means of frequency counts of those textual features that are easily distinguishable by the computer: characters, syllables, words, sentences, and so on, combining to measures such as word length, sentence length, type-token ratios, most frequent word lists, etc. Abundant stylometric research shows that this straightforward approach to style is quite fruitful. Of course, any more advanced analysis may start here, including cluster analysis of text-similarity based on most frequent word counts (e.g., delta), or entropy measures of lexical variation. Anything goes, as long as we have a hold on the discrete enties that make up the texts (characters, strings etc.)."
-combines texts taken from DTA, Textgrid, Project Gutenberg + Metadata"; "KOLIMO is made available under a Creative Commons license, in line with the licenses of the source repositories. The texts from TextGrid are available under a CC-BY attribution license (see textgrid digitale bibliothek ). However, the Deutsches Textarchiv documents are made available under a CC BY-NC 3.0 license (non-commercial, see creative commons), meaning that commercial use of those texts is prohibited (see nutzungsbedigungen dta ). Gutenberg-DE documents are made available in a way that we understand as a CC-BY-NC-SA license (non-commercial, share alike, see creative commons), meaning that commercial use of those texts is prohibited, and remixing, transformation, or building upon the material only if using the same license as the original. When using the corpus, please ensure to cite the sources of the texts as required by the distinct statements, and give credit to the KOLIMO team listed below, for doing the text compilation, annotation, and working on the metadata\"""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://lattyphilo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://lattyphilo.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: hardly any information on corpus available on main homepage" ;
+    crm:P3_has_note """Homepage (DE: "zwei Querschnittskorpora mit Texten der Sach- und Gebrauchsliteratur (z.B. Wörterbuch- und Lexikonartikel, Zeitungen und Zeitschriften, wissenschaftliche Texte, Gesetzestexte) und drei Korpora mit Textsammlungen aus der Reihe „Digitale Bibliothek“: Deutsche Literatur von Lessing bis Kafka (DB 1), Philosophie von Platon bis Nietzsche (DB 2), Deutsche Literatur von Frauen (DB 45). [...] Teilkorpora die Sagen, Kinder- und Hausmärchen der Brüder Grimm, Goethes Werke und die Marx-Engels-Gesamtausgabe."
+contains the "GerManC\"""" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://lifrlite.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://lifrlite.clscor.io/entity/protodoc/1> ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
     crm:P3_has_note "Corpus of Czech educational texts for readability studies, with paraphrases, measured reading comprehension, and a multi-annotator subjective rating of selected text features based on the Hamburg Comprehensibility Concept" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://lindh.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://lindh.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Commentary/Homepage: project aimed at "Making poetry available online as machine-readable data will open a great world of possibilities of linking, indexing and extracting new information."
+approx. 4 millionen verse lines, regarding to: https://postdata.linhd.uned.es/corpus-y-datasets/""" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://ltital.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
@@ -7135,12 +6851,6 @@ combines texts taken from DTA, Textgrid, Project Gutenberg + Metadata"; "KOLIMO 
     crm:P3_has_note "page in Italian, not very informative" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
-<https://makonspoken.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://makonspoken.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/d211546a86> ;
-    crm:P3_has_note "Talks of Karel Makoň given to his friends in the course of late sixties through early nineties of the 20th century. The topic is mostly christian mysticism; download possible" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
 <https://mm.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://mm.clscor.io/entity/protodoc/1> ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
@@ -7149,38 +6859,8 @@ combines texts taken from DTA, Textgrid, Project Gutenberg + Metadata"; "KOLIMO 
     crm:P3_has_note "Commentary: downloads possible" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
-<https://mqdq.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://mqdq.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://neolat.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://neolat.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: PhiloLogic4" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
 <https://noscemus.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://noscemus.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://pdi.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://pdi.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: subcorpus of MQDQ (line 78)" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://perseus.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://perseus.clscor.io/entity/protodoc/1> ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
         <https://core.clscor.io/entity/person/a38bec184d>,
         <https://core.clscor.io/entity/person/a47820d846> ;
@@ -7209,22 +6889,37 @@ combines texts taken from DTA, Textgrid, Project Gutenberg + Metadata"; "KOLIMO 
     crm:P3_has_note "Homepage (DE): \"weltweit größte deutschsprachige Volltext-Literatursammlung\"" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
-<https://phi.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://phi.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Review: “Although technologically obsolete by today’s standards (e. g. TEI/XML are not used), PHI is still one of the most widely
-used open access text collections of Roman literature.”
-Homepage: "This website contains essentially all Latin literary texts written before A.D. 200, as well as some texts selected from later antiquity.\"""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
 <https://polona.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://polona.clscor.io/entity/protodoc/1> ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
         <https://core.clscor.io/entity/person/a38bec184d>,
         <https://core.clscor.io/entity/person/a47820d846> ;
     crm:P3_has_note "Commentary: corpus partly available for download" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://projectgutenberg-poetry-corpora.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://projectgutenberg-poetry-corpora.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
+        <https://core.clscor.io/entity/person/d489c48a01>,
+        <https://core.clscor.io/entity/person/d9652f0363> ;
+    crm:P3_has_note "downloadable, Plain text poetic corpora; Only verses" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://pulpo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://pulpo.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
+        <https://core.clscor.io/entity/person/d489c48a01>,
+        <https://core.clscor.io/entity/person/d9652f0363> ;
+    crm:P3_has_note "downloadable, usable with huggingface, Plain text poetic corpora; Only verses" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://ruspoet.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://ruspoet.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Russian Poetic Corpus (part of the Russian National Corpus)"
+Homepage: "The Poetry corpus, which facilitates searches not only by lexical and grammatical features but also by specifically poetical features, such as meter, rhyme types, etc,\"""" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://shc.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
@@ -7243,36 +6938,21 @@ Homepage: "This website contains essentially all Latin literary texts written be
     crm:P3_has_note "Commentary: TCP hosts four collections (Early English Books Online, Navigations, Eighteenth Century Collection, and Evans Early American Imprints); every collection has its own site; Navigations collections also has a Github repository (see link)" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
+<https://textgrid.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://textgrid.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Multi-genre repositories with TEI-encoded texts" "TextGrid Repository, including “Digitale Bibliothek” (all texts in TEI)"
+Homepage: "Literatur, Märchen, Geschichte, Kulturgeschichte, Kunst, Musik, Philosophie, Soziologie, Nachschlagewerke"
+Commentary: more detailed info might be in the Gitlab-repo""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
 <https://vocabs.acdh.oeaw.ac.at/iso6391/pt> a crm:E56_Language ;
     rdfs:label "Portuguese" .
 
 <https://vocabs.acdh.oeaw.ac.at/iso6391/sv> a crm:E56_Language ;
     rdfs:label "Swedish" .
-
-<https://wikisource.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://wikisource.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://1satzcor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://1satzcor.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://anemoskala.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://anemoskala.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Anemoscala: Corpus of Modern Greek Poetry (19th and 20th century) "
-Review: "publication policy does not allow any kind of download, export or further reuse of any part of the textual corpus"; “plain text, TEI-XML files,
-metadata, concordance results”
-Commentary: no download possible; homepage only in Greek""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://bashdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://bashdracor.clscor.io/entity/protodoc/1> ;
@@ -7288,31 +6968,6 @@ Commentary: no download possible; homepage only in Greek""" ;
         <https://core.clscor.io/entity/person/a47820d846> ;
     crm:P3_has_note """Proposal: "Biblioteca Electrónica Textual del Teatro en Español de 1868–1936 (BETTE): 25 Spanish plays"
 Commentary: contained in SpanDraCor; metadata encoded in TEIHeader; VIAF IDs""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://bwrp.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://bwrp.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "British Women Romantic Poets, 1789–1832"
-Commentary: Currently only an older version is available. On the starting page, a note says "The British Women Romantic Poets archive is being transitioned to a new home. This page will automatically redirect to the new location when it becomes available."; 
-Homepage: "Last content update May 23, 2001.\"""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://cervantes.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://cervantes.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: corpus downloads available" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://cligs.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://cligs.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://cmsw.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
@@ -7349,6 +7004,14 @@ Homepage (about-section): 15th to the 19th century; over 4,000 sonnets by more t
     crm:P3_has_note "Commentary: lots of info in the github readme, needs to be filtered; corpus ca be downloaded in .zip files; compiled from Textgrid and DTA; Some digital research on poetry based on this corpus, see https://www.aesthetics.mpg.de/institut/mitarbeiterinnen/thomas-haider.html; Especially: https://arxiv.org/abs/2102.08858; Lines + minimal metadata in a JSON object / python dictionary" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
+<https://dracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://dracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: This is the overall-page starting page with links to the individual drama corpora, which are listed in the following lines of this table (Alsatian, Bashkir, Calderón, French, German, German Shakespeare, Greek, Italian, Roman, Russian, Shakespeare, Spanish, Swedish, Tatar); Dracor provides very sophisticated info, a lot of valuable information can be scraped via the API" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
 <https://dramawebben.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://dramawebben.clscor.io/entity/protodoc/1> ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
@@ -7376,13 +7039,6 @@ Commentary: Multi-genre repositories with TEI-encoded texts; consists of a "Kern
 Commentary: certificate on homepage has expired (page not safe?)""" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
-<https://flt.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://flt.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
 <https://gallica.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://gallica.clscor.io/entity/protodoc/1> ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
@@ -7399,15 +7055,6 @@ Commentary: certificate on homepage has expired (page not safe?)""" ;
     crm:P3_has_note "downloadable, Plain text poetic corpora" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
-<https://histcor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://histcor.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Homepage (DE: "zwei Querschnittskorpora mit Texten der Sach- und Gebrauchsliteratur (z.B. Wörterbuch- und Lexikonartikel, Zeitungen und Zeitschriften, wissenschaftliche Texte, Gesetzestexte) und drei Korpora mit Textsammlungen aus der Reihe „Digitale Bibliothek“: Deutsche Literatur von Lessing bis Kafka (DB 1), Philosophie von Platon bis Nietzsche (DB 2), Deutsche Literatur von Frauen (DB 45). [...] Teilkorpora die Sagen, Kinder- und Hausmärchen der Brüder Grimm, Goethes Werke und die Marx-Engels-Gesamtausgabe."
-contains the "GerManC\"""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
 <https://lhs.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://lhs.clscor.io/entity/protodoc/1> ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
@@ -7415,15 +7062,6 @@ contains the "GerManC\"""" ;
         <https://core.clscor.io/entity/person/a47820d846> ;
     crm:P3_has_note """Proposal: "Ludvig Holbergs skrifter: 36 comedies"
 Commentary: no info if texts are downloadable, seems you can only look at the texts online, no XML Files available, but there is a doku (in Danish), see additional link""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://lindh.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://lindh.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Commentary/Homepage: project aimed at "Making poetry available online as machine-readable data will open a great world of possibilities of linking, indexing and extracting new information."
-approx. 4 millionen verse lines, regarding to: https://postdata.linhd.uned.es/corpus-y-datasets/""" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://metrique-en-ligne.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
@@ -7465,31 +7103,6 @@ Homepage: "Work Flow: Every bibliographic entry in the Poetess Archive has been 
 - made into RDFs so that the Poetess Archive Database is interoperable with NINES using the NINES COLLEX TOOL.\"""" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
-<https://projectgutenberg-poetry-corpora.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://projectgutenberg-poetry-corpora.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
-        <https://core.clscor.io/entity/person/d489c48a01>,
-        <https://core.clscor.io/entity/person/d9652f0363> ;
-    crm:P3_has_note "downloadable, Plain text poetic corpora; Only verses" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://pulpo.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://pulpo.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
-        <https://core.clscor.io/entity/person/d489c48a01>,
-        <https://core.clscor.io/entity/person/d9652f0363> ;
-    crm:P3_has_note "downloadable, usable with huggingface, Plain text poetic corpora; Only verses" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://ruspoet.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://ruspoet.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Russian Poetic Corpus (part of the Russian National Corpus)"
-Homepage: "The Poetry corpus, which facilitates searches not only by lexical and grammatical features but also by specifically poetical features, such as meter, rhyme types, etc,\"""" ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
 <https://spanish-stanzas.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
     crm:P135_created_type <https://spanish-stanzas.clscor.io/entity/protodoc/1> ;
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/550ff6082b>,
@@ -7503,16 +7116,6 @@ Homepage: "The Poetry corpus, which facilitates searches not only by lexical and
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
         <https://core.clscor.io/entity/person/a38bec184d>,
         <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
-
-<https://textgrid.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://textgrid.clscor.io/entity/protodoc/1> ;
-    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
-        <https://core.clscor.io/entity/person/a38bec184d>,
-        <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note """Proposal: "Multi-genre repositories with TEI-encoded texts" "TextGrid Repository, including “Digitale Bibliothek” (all texts in TEI)"
-Homepage: "Literatur, Märchen, Geschichte, Kulturgeschichte, Kunst, Musik, Philosophie, Soziologie, Nachschlagewerke"
-Commentary: more detailed info might be in the Gitlab-repo""" ;
     crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
 
 <https://theaclass.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
@@ -7563,4 +7166,79 @@ Commentary: TEI with tei-all invalid, undocumented customizations (M. Goebel set
     crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
         <https://core.clscor.io/entity/person/a38bec184d>,
         <https://core.clscor.io/entity/person/a47820d846> ;
-    crm:P3_has_note "Commentary: contains five collections: POEMATA, Neo-Latin poetry composed by German authors; HISTORICA & POLITICA, Latin historical and political writing; THESAURUS ERUDITIONIS, a reference collection
+    crm:P3_has_note "Commentary: contains five collections: POEMATA, Neo-Latin poetry composed by German authors; HISTORICA & POLITICA, Latin historical and political writing; THESAURUS ERUDITIONIS, a reference collection of dictionaries and handbooks of the period 1500-1750; CERA, printed Latin letters, mostly by German scholars, from the period 1530-1770; and ITALI, works by Italian Renaissance humanists born before 1500. The collection ITALI has no XML files, so it was not included in this repository.; downloads possible" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://diager.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://diager.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Homepage (DE): "Das Referenzkorpus Altdeutsch erfasst und annotiert die ältesten Sprachdenkmäler des Deutschen vom Beginn der kontinuierlichen schriftlichen Überlieferung um 750 bis etwa 1050 mit einem Umfang von ca. 650 000 Textwörtern. Aufgenommen werden alle in dieser Zeit überlieferten Texte des Althochdeutschen und des Altsächsischen in einer möglichst genauen Wiedergabestufe. Dabei werden die handschriftengetreuesten gedruckten Texteditionen zugrundegelegt. Die Annotation erfasst Header-Informationen, strukturelle (Wort, Satz, Zeile, Absatz etc.) und linguistische Annotationen (Part of Speech-Tagging, Flexionsmorphologie) sowie syntaktische Satzinformationen und erfolgt mit Unterstützung einer semi-automatischen Vorannotation, die mit Hilfe der digitalisierten Sprachstufen- und Textwörterbücher und Glossare zum Althochdeutschen und zum Altsächsischen erzeugt wurde. Die verschiedenen Stufen der Annotation werden in Form einer Mehrebenenarchitektur aufeinander bezogen."
+Commentary: one of the corpora provided by the laudatio repository""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://folgershake.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://folgershake.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Proposal: "Shakespeare Folger Library: all (37) Shakespeare plays, very high encoding-depth "
+Commentary: corpus of a single author; contained in ShakeDraCor""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://fredracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://fredracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://gerdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://gerdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Proposal: \"German Drama Corpus: 481 German-language plays from 1730s–1940s\"" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://gershdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://gershdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://greekdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://greekdracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://itadracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://itadracor.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://latty.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://latty.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note "Commentary: downloads possible; XQuery" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://rem.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://rem.clscor.io/entity/protodoc/1> ;
+    crm:P14_carried_out_by <https://core.clscor.io/entity/person/9deca32cb6>,
+        <https://core.clscor.io/entity/person/a38bec184d>,
+        <https://core.clscor.io/entity/person/a47820d846> ;
+    crm:P3_has_note """Commentary: The laudatio repository uses a custom XML (CorA XML) and custom linguistic search and visualization tool (ANNIS); the ReM is only one of the corpora provided by the laudatio repository
+Homepage: "The "Reference Corpus of Middle High German" (short: ReM) is a corpus of diplomatically transcribed and annotated texts from Middle High German (1050-1350) with a size of around 2 million word forms. It originated from the research projects "Reference Corpus of Middle High German" and "Middle High German grammar". Texts have been digitized and richly annotated, e.g. with parts of speech, morphology and lemma\"""" ;
+    crm:P4_has_time-span <https://core.clscor.io/entity/timespan/1> .
+
+<https://romdracor.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://romdracor.clscor.io/entity/protodoc/1> ;
