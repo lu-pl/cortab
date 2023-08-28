@@ -11,8 +11,18 @@ from rdflib import Graph, Literal, URIRef
 from rdflib.namespace import RDFS
 
 
+def remove_nan(graph: Graph) -> Graph:
+    """Remove triples with a NaN object from graph."""
+    for triple in graph:
+        *_, triple_object = triple
+        if triple_object == Literal(math.nan):
+            graph.remove(triple)
+
+    return graph
+
+
 def nan_handler(f: Callable):
-    """Decorator; checks for NaN kwargs in a decorated function.
+    """Check for NaN kwargs in a decorated function.
 
     Note that checking is done for a function's /signature/,
     i.e. at function definition time.
