@@ -4,6 +4,7 @@ import functools
 import hashlib
 import inspect
 import math
+import operator
 
 from typing import Callable
 
@@ -15,6 +16,7 @@ def remove_nan(graph: Graph) -> Graph:
     """Remove triples with a NaN object from graph."""
     for triple in graph:
         *_, triple_object = triple
+
         if triple_object == Literal(math.nan):
             graph.remove(triple)
 
