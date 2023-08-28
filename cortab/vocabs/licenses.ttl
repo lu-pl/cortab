@@ -105,7 +105,7 @@
     rdfs:label "Creative Commons Zero v1.0 Universal" ;
     skos:altLabel "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication" ;
     skos:exactMatch <http://spdx.org/licenses/CC0-1.0>,
-        <https://creativecommons.org/publicdomain/zero/1.0/>,
+    <https://creativecommons.org/publicdomain/zero/1.0/>,
         <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc0-1-0> ;
     skos:inScheme <https://core.clscor.io/entity/type/license> ;
     skos:prefLabel "Creative Commons Zero v1.0 Universal" .
