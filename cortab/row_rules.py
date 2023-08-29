@@ -2,6 +2,8 @@
 
 import itertools
 import functools
+import math
+
 import pandas as pd
 
 from typing import Generator, Mapping
@@ -58,7 +60,8 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
     descevent_uri = base_ns["descevent/1"]
     protodoc_uri = base_ns["protodoc/1"]
 
-    timespan_uri_1 = base_ns["timespan/1"]
+    descevent_timespan_uri_1 = base_ns["descevent-timespan/1"]
+    corpus_timespan_uri_1 = base_ns["corpus-timespan/1"]
 
     corpus_appellation_uri_1 = base_ns["appellation/1"]
     corpus_appellation_uri_2 = base_ns["appellation/2"]
@@ -70,8 +73,11 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
     attribute_assignment_uri_5 = base_ns["attrassign/5"]
     attribute_assignment_uri_6 = base_ns["attrassign/6"]
     attribute_assignment_uri_7 = base_ns["attrassign/7"]
+    attribute_assignment_uri_8 = base_ns["attrassign/8"]
+    attribute_assignment_uri_9 = base_ns["attrassign/9"]
 
     dimension_uri_1 = base_ns["dimension/1"]
+    dimension_uri_2 = base_ns["dimension/2"]
 
     # triples
     def person_triples() -> TripleGenerator:
@@ -98,12 +104,12 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (RDF.type, crmcls["X9_Corpus_Description"]),
                 # (crm["P16_used_specific_object"], Literal(row_data["corpusLink"])),
                 (crm["P135_created_type"], protodoc_uri),
-                (crm["P4_has_time-span"], clscore["timespan/1"]),
+                (crm["P4_has_time-span"], descevent_timespan_uri_1),
                 (crm["P3_has_note"], Literal(row_data["additionalInfo / commentary"]))
             ),
             # timespan
             *plist(
-                timespan_uri_1,
+                descevent_timespan_uri_1,
                 (RDF.type, crm["E52_Time-Span"]),
                 (
                     crm["P81a_end_of_the_begin"],
@@ -137,6 +143,14 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (RDF.value, Literal(row_data["corpusAcronym"]))
             )
         ]
+
+        comment = row_data["corpusAcronym_comments"]
+        if isinstance(comment, str):
+            yield (
+                corpus_appellation_uri_2,
+                crm["P3_has_note"],
+                Literal(comment)
+            )
 
     def corpus_link_triples() -> TripleGenerator:
         yield from [
@@ -178,6 +192,14 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 )
             ]
 
+        comment = row_data["corpusLanguage_comments"]
+        if isinstance(comment, str):
+            yield (
+                attribute_assignment_uri_1,
+                crm["P3_has_note"],
+                Literal(comment)
+            )
+
     @nan_handler
     def corpus_text_count_triples(text_count=row_data["corpusTextCount"]) -> TripleGenerator:
         yield from [
@@ -199,6 +221,43 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
             )
         ]
 
+        comment = row_data["corpusTextCount_comments"]
+        if isinstance(comment, str):
+            yield (
+                attribute_assignment_uri_2,
+                crm["P3_has_note"],
+                Literal(comment)
+            )
+
+    @nan_handler
+    def corpus_word_count_triples(word_count=row_data["corpusWordCount"]) -> TripleGenerator:
+        yield from [
+            *plist(
+                attribute_assignment_uri_8,
+                (RDF.type, crm["E13_Attribute_Assignment"]),
+                (crm["P134_continued"], descevent_uri),
+                (crm["P140_assigned_attribute_to"], corpus_uri),
+                (crm["P141_assigned"], dimension_uri_2)
+            ),
+            *plist(
+                dimension_uri_2,
+                (RDF.type, crm["E54_Dimension"]),
+                (
+                    crm["P90_has_value"],
+                    Literal(int(word_count), datatype=XSD.integer)
+                ),
+                (crm["P91_has_unit"], clscore["type/feature/word"])
+            )
+        ]
+
+        comment = row_data["corpusWordCount_comments"]
+        if isinstance(comment, str):
+            yield (
+                attribute_assignment_uri_8,
+                crm["P3_has_note"],
+                Literal(comment)
+            )
+
     def corpus_timespan_triples() -> TripleGenerator:
         yield from [
             *plist(
@@ -207,14 +266,22 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (crm["P134_continued"], descevent_uri),
                 (crm["P140_assigned_attribute_to"], corpus_uri),
                 (crm["P177_assigned_property_of_type"], crm["P4_has_time-span"]),
-                (crm["P141_assigned"], timespan_uri_1)
+                (crm["P141_assigned"], corpus_timespan_uri_1)
             ),
             *plist(
-                timespan_uri_1,
+                corpus_timespan_uri_1,
                 (RDF.type, crm["E52_Time-Span"]),
                 (RDFS.label, Literal(row_data["corpusTimespan"]))
             )
         ]
+
+        comment = row_data["corpusTimespan_comments"]
+        if isinstance(comment, str):
+            yield (
+                attribute_assignment_uri_3,
+                crm["P3_has_note"],
+                Literal(comment)
+            )
 
     @nan_handler
     def corpus_format_schema_triples(
@@ -238,6 +305,14 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (crm["P140_assigned_attribute_to"], protodoc_uri),
                 (crm["P177_assigned_property_of_type"], crmcls["Y2_has_format"]),
                 (crm["P141_assigned"], format_uri)
+            )
+
+        comment = row_data["corpusFormat/Schema_comments"]
+        if isinstance(comment, str):
+            yield (
+                attribute_assignment_uri_4,
+                crm["P3_has_note"],
+                Literal(comment)
             )
 
     @nan_handler
@@ -267,6 +342,14 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (crm["P141_assigned"], genre_uri)
             )
 
+        comment = row_data["corpusLiteraryGenre_comments"]
+        if isinstance(comment, str):
+            yield (
+                attribute_assignment_uri_5,
+                crm["P3_has_note"],
+                Literal(comment)
+            )
+
     @nan_handler
     def corpus_type_triples(
             corpus_type_value=row_data["corpusType_consolidatedVocab"]) -> TripleGenerator:
@@ -282,6 +365,14 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
             ),
             (crm["P141_assigned"], vocabs_lookup(corpus_type, corpus_type_value))
         )
+
+        comment = row_data["corpusType_comments"]
+        if isinstance(comment, str):
+            yield (
+                attribute_assignment_uri_6,
+                crm["P3_has_note"],
+                Literal(comment)
+            )
 
     @nan_handler
     def corpus_license_triples(
@@ -305,6 +396,49 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (crm["P141_assigned"], vocabs_lookup(licenses, license_value))
             )
 
+        comment = row_data["corpusLicence_comments"]
+        if isinstance(comment, str):
+            yield (
+                attribute_assignment_uri_7,
+                crm["P3_has_note"],
+                Literal(comment)
+            )
+
+    @nan_handler
+    def corpus_annotation_triples(
+            annotation_field=row_data["corpusAnnotation_consolidatedVocab"]) -> TripleGenerator:
+
+        annotation_field_values = map(
+            str.strip,
+            annotation_field.split(",")
+        )
+
+        annotation_uris = map(
+            functools.partial(vocabs_lookup, feature),
+            annotation_field_values
+        )
+
+        for annotation_uri in annotation_uris:
+            yield from plist(
+                attribute_assignment_uri_9,
+                (RDF.type, crm["E13_Attribute_Assignment"]),
+                (crm["P134_continued"], descevent_uri),
+                (crm["P140_assigned_attribute_to"], protodoc_uri),
+                (
+                    crm["P177_assigned_property_of_type"],
+                    crmcls["Y1_document_exhibits_feature"]
+                ),
+                (crm["P141_assigned"], annotation_uri)
+            )
+
+        comment = row_data["corpusAnnotation_comments"]
+        if isinstance(comment, str):
+            yield (
+                attribute_assignment_uri_9,
+                crm["P3_has_note"],
+                Literal(comment)
+            )
+
     triples = itertools.chain(
         descevent_triples(),
         person_triples(),
@@ -313,11 +447,13 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
         corpus_link_triples(),
         corpus_language_triples(),
         corpus_text_count_triples(),
+        corpus_word_count_triples(),
         corpus_timespan_triples(),
         corpus_format_schema_triples(),
         corpus_literary_genre_triples(),
         corpus_type_triples(),
-        corpus_license_triples()
+        corpus_license_triples(),
+        corpus_annotation_triples()
     )
 
     graph = Graph()
@@ -383,8 +519,6 @@ def additional_link_row_rule(row_data):
         graph.add(triple)
 
     return graph
-
-
 
 ##################################################
 
