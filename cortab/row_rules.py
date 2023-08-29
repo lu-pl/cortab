@@ -367,18 +367,20 @@ def additional_link_row_rule(row_data):
             Literal(link_comment)
         )
 
-    triples = [
-        link_triple(),
-        link_type_triple(),
-        descevent_triples(),
-        link_comment_triples()
-    ]
+    triples = filter(
+        bool,
+        [
+            link_triple(),
+            link_type_triple(),
+            descevent_triples(),
+            link_comment_triples()
+        ]
+    )
 
     graph = Graph()
 
     for triple in triples:
-        if triple:
-            graph.add(triple)
+        graph.add(triple)
 
     return graph
 
