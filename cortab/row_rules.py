@@ -520,7 +520,6 @@ def additional_link_row_rule(row_data):
 
     return graph
 
-##################################################
 
 graph = Graph()
 CLSInfraNamespaceManager(graph)
@@ -531,13 +530,8 @@ corpustable_converter = RowGraphConverter(
     graph=graph
 )
 
-## todo: get read of that remove_nan kludge
 # corpustable_graph = corpustable_converter.to_graph()
 corpustable_graph = remove_nan(corpustable_converter.to_graph())
-# print(corpustable_converter.serialize())
-
-
-
 
 additional_link_converter = RowGraphConverter(
     dataframe=additional_link_table,
@@ -546,4 +540,4 @@ additional_link_converter = RowGraphConverter(
 )
 
 additional_link_graph = additional_link_converter.to_graph()
-print(additional_link_graph.serialize())
+# print(additional_link_graph.serialize())
