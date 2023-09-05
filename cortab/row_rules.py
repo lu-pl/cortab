@@ -334,7 +334,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 attribute_assignment_uri_5,
                 (RDF.type, crm["E13_Attribute_Assignment"]),
                 (crm["P134_continued"], descevent_uri),
-                (crm["P140_assigned_attribute_to"], corpus_uri),
+                (crm["P140_assigned_attribute_to"], protodoc_uri),
                 (
                     crm["P177_assigned_property_of_type"],
                     crmcls["Y4_document_has_literary_genre"]
