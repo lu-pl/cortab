@@ -5006,34 +5006,47 @@ information derived from review - GFDL, CC-BY, CC-BY-SA""" .
 
 <https://github.com/DH-Box/corpus-downloader> crm:P3_has_note "Tool developed by authors of SHC corpus" .
 
-<https://github.com/Text-Creation-Partnership/EEBO-TCP-Collections-Navigations> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/Text-Creation-Partnership/EEBO-TCP-Collections-Navigations> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
 <https://github.com/cligs/toolbox> crm:P3_has_note """Vera Maria Charvat:
 Toolbox""" .
 
-<https://github.com/dracor-org> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/dracor-org> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
-<https://github.com/dracor-org/alsdracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/dracor-org/alsdracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
-<https://github.com/dracor-org/caldracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/dracor-org/caldracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
-<https://github.com/dracor-org/fredracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/dracor-org/fredracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
-<https://github.com/dracor-org/gerdracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/dracor-org/gerdracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
-<https://github.com/dracor-org/gershdracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/dracor-org/gershdracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
-<https://github.com/dracor-org/greekdracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/dracor-org/greekdracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
-<https://github.com/dracor-org/itadracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/dracor-org/itadracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
-<https://github.com/dracor-org/romdracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/dracor-org/romdracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
-<https://github.com/dracor-org/rusdracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/dracor-org/rusdracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
-<https://github.com/dracor-org/shakedracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/dracor-org/shakedracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
-<https://github.com/dracor-org/swedracor> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
+<https://github.com/dracor-org/swedracor> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/data_repository> .
 
 <https://github.com/kanripo> a crm:E42_Identifier ;
     crm:P2_has_type <https://core.clscor.io/entity/type/link_type/project_website> ;
@@ -5737,7 +5750,8 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P90_has_value 3667722 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
-<https://pro.europeana.eu/page/apis> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
+<https://pro.europeana.eu/page/apis> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
 
 <https://projectgutenberg-poetry-corpora.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/full_title> ;
@@ -5791,9 +5805,11 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P90_has_value 396 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
-<https://ride.i-d-e.de/issues/issue-6/corpus-of-spanish-golden-age-sonnets/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+<https://ride.i-d-e.de/issues/issue-6/corpus-of-spanish-golden-age-sonnets/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
 
-<https://ride.i-d-e.de/issues/issue-6/litteraturbanken-the-swedish-literature-bank/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+<https://ride.i-d-e.de/issues/issue-6/litteraturbanken-the-swedish-literature-bank/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
 
 <https://romdracor.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/full_title> ;
@@ -5905,7 +5921,8 @@ Comprehensive collection of premodern Chinese texts""" .
     crm:P90_has_value 37 ;
     crm:P91_has_unit <https://core.clscor.io/entity/type/feature/document> .
 
-<https://shakespeare.folger.edu/the-folger-shakespeare-api/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
+<https://shakespeare.folger.edu/the-folger-shakespeare-api/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
 
 <https://shc.clscor.io/entity/appellation/1> a crm:E41_Appellation ;
     crm:P2_has_type <https://core.clscor.io/entity/type/appellation_type/full_title> ;
@@ -6533,7 +6550,8 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://core.clscor.io/entity/type/link_type/project_website> ;
     rdf:value "Link to the Wikisource website." .
 
-<https://www.deutschestextarchiv.de/api> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
+<https://www.deutschestextarchiv.de/api> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
 
 <https://www.dropbox.com/sh/inhwjphw682i2gf/AAC8NixNye8Gp0smYBTly2Y9a?dl=0> crm:P3_has_note "ECCO - Eighteenth Century Collection" .
 
@@ -6543,7 +6561,8 @@ Commentary: No texts available, no possibility of download, just textual informa
 
 <https://www.gutenberg.org/ebooks/offline_catalogs.html> crm:P3_has_note "machine-read able (offline) catalogue" .
 
-<https://www.hathitrust.org/data> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> ;
+<https://www.hathitrust.org/data> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> ;
     crm:P3_has_note "Vera Maria Charvat: various APIs available" .
 
 <https://www.perseus.tufts.edu/hopper/collections> crm:P3_has_note "Perseus also hosts other collections, some texts can be downloaded" .
@@ -6725,10 +6744,12 @@ Commentary: No texts available, no possibility of download, just textual informa
     crm:P2_has_type <https://core.clscor.io/entity/type/link_type/project_website> ;
     rdf:value "Link to the DIKDA - Písomné kultúrne dedičstvo Slovenska website." .
 
-<https://distantreading.github.io/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> ;
+<https://distantreading.github.io/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> ;
     crm:P3_has_note "A collection of relevant documentation can be found here" .
 
-<https://distantreading.github.io/ELTeC/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> ;
+<https://distantreading.github.io/ELTeC/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> ;
     crm:P3_has_note "An overview of the current state in ELTeC corpus building can be found here" .
 
 <https://doi.org/10.34644/laudatio-dev-WiWkDnMB7CArCQ9CyBEw> a crm:E42_Identifier ;
@@ -7011,7 +7032,8 @@ Commentary: No texts available, no possibility of download, just textual informa
     crm:P2_has_type <https://core.clscor.io/entity/type/link_type/project_website> ;
     rdf:value "Link to the Stanford Literary Lab website." .
 
-<https://litteraturbanken.se/om/english.html> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> ;
+<https://litteraturbanken.se/om/english.html> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/info_website> ;
     crm:P3_has_note "about-page in English" .
 
 <https://mapcorpsearchable.clscor.io/entity/descevent/1> a crmcls:X9_Corpus_Description ;
@@ -7078,17 +7100,23 @@ Commentary: No texts available, no possibility of download, just textual informa
         <https://projectgutenberg-poetry-corpora.clscor.io/entity/appellation/1>,
         <https://projectgutenberg-poetry-corpora.clscor.io/entity/appellation/2> .
 
-<https://ride.i-d-e.de/issues/issue-6/deutsches-textarchiv/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+<https://ride.i-d-e.de/issues/issue-6/deutsches-textarchiv/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
 
-<https://ride.i-d-e.de/issues/issue-8/anemoskala/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+<https://ride.i-d-e.de/issues/issue-8/anemoskala/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
 
-<https://ride.i-d-e.de/issues/issue-8/perseus/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+<https://ride.i-d-e.de/issues/issue-8/perseus/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
 
-<https://ride.i-d-e.de/issues/issue-8/phi/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+<https://ride.i-d-e.de/issues/issue-8/phi/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
 
-<https://ride.i-d-e.de/issues/issue-8/theatre-classique/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+<https://ride.i-d-e.de/issues/issue-8/theatre-classique/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
 
-<https://ride.i-d-e.de/issues/issue-8/wikisource/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
+<https://ride.i-d-e.de/issues/issue-8/wikisource/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/review> .
 
 <https://ruscorpora.ru/new/en/search-poetic.html> a crm:E42_Identifier ;
     crm:P2_has_type <https://core.clscor.io/entity/type/link_type/project_website> ;
@@ -7253,7 +7281,8 @@ Commentary: No texts available, no possibility of download, just textual informa
     crm:P2_has_type <https://core.clscor.io/entity/type/link_type/project_website> ;
     rdf:value "Link to the Historisches Textkorpus website." .
 
-<https://www.laudatio-repository.org/docs/elasticapi/> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
+<https://www.laudatio-repository.org/docs/elasticapi/> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
 
 <https://www.loc.gov/collections/world-digital-library/about-this-collection/> a crm:E42_Identifier ;
     crm:P2_has_type <https://core.clscor.io/entity/type/link_type/project_website> ;
@@ -8902,7 +8931,8 @@ Commentary: one of the corpora provided by the laudatio repository""" ;
 <https://vocabs.acdh.oeaw.ac.at/iso6391/it> a crm:E56_Language ;
     rdfs:label "Italian" .
 
-<https://dracor.org/doc/api> crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
+<https://dracor.org/doc/api> a crm:E42_Identifier ;
+    crm:P2_has_type <https://core.clscor.io/entity/type/link_type/api> .
 
 <https://vocabs.acdh.oeaw.ac.at/iso6391/cs> a crm:E56_Language ;
     rdfs:label "Czech" .
@@ -8934,3 +8964,6 @@ Commentary: one of the corpora provided by the laudatio repository""" ;
 
 <https://core.clscor.io/entity/person/a38bec184d> a crm:E39_Actor ;
     rdfs:label "Vera Maria Charvat" .
+
+
+6989

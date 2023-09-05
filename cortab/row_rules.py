@@ -481,10 +481,10 @@ def additional_link_row_rule(row_data):
 
     @nan_handler
     def link_type_triple(link_type_value=row_data["link_type_vocab"]):
-        return (
+        yield from plist(
             link_uri,
-            crm["P2_has_type"],
-            vocabs_lookup(link_type, link_type_value)
+            (RDF.type, crm["E42_Identifier"]),
+            (crm["P2_has_type"], vocabs_lookup(link_type, link_type_value))
         )
 
     @nan_handler
@@ -507,7 +507,7 @@ def additional_link_row_rule(row_data):
         bool,
         [
             link_triple(),
-            link_type_triple(),
+            *link_type_triple(),
             descevent_triples(),
             link_comment_triples()
         ]
@@ -540,4 +540,5 @@ additional_link_converter = RowGraphConverter(
 )
 
 additional_link_graph = additional_link_converter.to_graph()
-# print(additional_link_graph.serialize())
+print(additional_link_graph.serialize())
+print(len(additional_link_graph))
