@@ -337,7 +337,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (crm["P140_assigned_attribute_to"], protodoc_uri),
                 (
                     crm["P177_assigned_property_of_type"],
-                    crmcls["Y4_document_has_literary_genre"]
+                    crmcls["Y4_has_literary_genre"]
                 ),
                 (crm["P141_assigned"], genre_uri)
             )
@@ -361,7 +361,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
             (crm["P140_assigned_attribute_to"], corpus_uri),
             (
                 crm["P177_assigned_property_of_type"],
-                crmcls["Y6_corpus_has_corpus_type"]
+                crmcls["Y6_has_corpus_type"]
             ),
             (crm["P141_assigned"], vocabs_lookup(corpus_type, corpus_type_value))
         )
@@ -391,7 +391,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (crm["P140_assigned_attribute_to"], protodoc_uri),
                 (
                     crm["P177_assigned_property_of_type"],
-                    crmcls["Y5_license_type"]
+                    crmcls["Y5_has_license_type"]
                 ),
                 (crm["P141_assigned"], vocabs_lookup(licenses, license_value))
             )
@@ -426,7 +426,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (crm["P140_assigned_attribute_to"], protodoc_uri),
                 (
                     crm["P177_assigned_property_of_type"],
-                    crmcls["Y1_document_exhibits_feature"]
+                    crmcls["Y1_exhibits_feature"]
                 ),
                 (crm["P141_assigned"], annotation_uri)
             )
@@ -541,4 +541,4 @@ additional_link_converter = RowGraphConverter(
 
 additional_link_graph = additional_link_converter.to_graph()
 print(additional_link_graph.serialize())
-print(len(additional_link_graph))
+# print(len(additional_link_graph))
