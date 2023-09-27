@@ -15,7 +15,12 @@ from helpers.cortab_utils import (  # noqa: F401
     nan_handler
 )
 
-from table_partitions import corpus_table, additional_link_table
+from table_partitions import (
+    corpus_table,
+    additional_link_table,
+    disco_partition,
+    disco_additional_link_table
+)
 
 from clisn import (
     clscore,
@@ -337,7 +342,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (crm["P140_assigned_attribute_to"], protodoc_uri),
                 (
                     crm["P177_assigned_property_of_type"],
-                    crmcls["Y4_has_literary_genre"]
+                    crm["P2_has_type"]
                 ),
                 (crm["P141_assigned"], genre_uri)
             )
@@ -361,7 +366,8 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
             (crm["P140_assigned_attribute_to"], corpus_uri),
             (
                 crm["P177_assigned_property_of_type"],
-                crmcls["Y6_has_corpus_type"]
+                # crmcls["Y6_has_corpus_type"]
+                crm["P2_has_type"]
             ),
             (crm["P141_assigned"], vocabs_lookup(corpus_type, corpus_type_value))
         )
@@ -391,7 +397,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 (crm["P140_assigned_attribute_to"], protodoc_uri),
                 (
                     crm["P177_assigned_property_of_type"],
-                    crmcls["Y5_has_license_type"]
+                    crm["P2_has_type"]
                 ),
                 (crm["P141_assigned"], vocabs_lookup(licenses, license_value))
             )
@@ -525,7 +531,8 @@ graph = Graph()
 CLSInfraNamespaceManager(graph)
 
 corpustable_converter = RowGraphConverter(
-    dataframe=corpus_table,
+    # dataframe=corpus_table,
+    dataframe=disco_partition,
     row_rule=corpustable_row_rule,
     graph=graph
 )
@@ -534,11 +541,11 @@ corpustable_converter = RowGraphConverter(
 corpustable_graph = remove_nan(corpustable_converter.to_graph())
 
 additional_link_converter = RowGraphConverter(
-    dataframe=additional_link_table,
+    # dataframe=additional_link_table,
+    dataframe=disco_additional_link_table,
     row_rule=additional_link_row_rule,
     graph=graph
 )
 
 additional_link_graph = additional_link_converter.to_graph()
 print(additional_link_graph.serialize())
-# print(len(additional_link_graph))
