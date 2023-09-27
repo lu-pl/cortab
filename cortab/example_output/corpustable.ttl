@@ -31,21 +31,21 @@
     crm:P134_continued <https://1000novel.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://1000novel.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "prose, novels" .
 
 <https://1000novel.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://1000novel.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://1000novel.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/specialized> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Based on a Research Question" .
 
 <https://1000novel.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://1000novel.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://1000novel.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-sa-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://1satzcor.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://1satzcor.clscor.io/entity/descevent/1> ;
@@ -71,21 +71,21 @@
     crm:P134_continued <https://1satzcor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://1satzcor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "\"Novellen, Romane, Maerchen\"" .
 
 <https://1satzcor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://1satzcor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://1satzcor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/specialized> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Based on a Research Question" .
 
 <https://1satzcor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://1satzcor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://1satzcor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://abo.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://abo.clscor.io/entity/descevent/1> ;
@@ -97,14 +97,14 @@
     crm:P134_continued <https://abo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://abo.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://abo.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://abo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://abo.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://adstps.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://adstps.clscor.io/entity/descevent/1> ;
@@ -127,21 +127,21 @@
     crm:P134_continued <https://adstps.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://adstps.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "drama, plays" .
 
 <https://adstps.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://adstps.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://adstps.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/specialized> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Based on a Research Question" .
 
 <https://adstps.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://adstps.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://adstps.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "possible license-info: https://lindat.mff.cuni.cz/repository/xmlui/page/theaitre-license" .
 
 <https://adstps.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
@@ -176,20 +176,20 @@
     crm:P134_continued <https://alsdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://alsdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://alsdracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://alsdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://alsdracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://alsdracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://alsdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://alsdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://anemoskala.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://anemoskala.clscor.io/entity/descevent/1> ;
@@ -214,20 +214,20 @@
     crm:P134_continued <https://anemoskala.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://anemoskala.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://anemoskala.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://anemoskala.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://anemoskala.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://anemoskala.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://anemoskala.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://anemoskala.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://annotlit.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://annotlit.clscor.io/entity/descevent/1> ;
@@ -246,21 +246,21 @@
     crm:P140_assigned_attribute_to <https://annotlit.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "prose, lyric, fiction" .
 
 <https://annotlit.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://annotlit.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://annotlit.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://annotlit.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://annotlit.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://annotlit.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 Homepage: "The website on which our finished annotations will be published is open to the public and licensed under Creative Commons\"""" .
 
@@ -291,20 +291,20 @@ Homepage: "The website on which our finished annotations will be published is op
     crm:P134_continued <https://bashdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://bashdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://bashdracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://bashdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://bashdracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://bashdracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://bashdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://bashdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 Works still under copyright published with the permission of the rights holders""" .
 
@@ -335,21 +335,21 @@ Works still under copyright published with the permission of the rights holders"
     crm:P134_continued <https://bette.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://bette.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "drama, plays" .
 
 <https://bette.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://bette.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://bette.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://bette.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://bette.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://bette.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://bette.clscor.io/entity/attrassign/9> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://bette.clscor.io/entity/descevent/1> ;
@@ -390,7 +390,7 @@ many, not all in TEI""" .
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama>,
         <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 multigenre:
 Commenti, traduzioni…
@@ -425,14 +425,14 @@ oratoria""" .
     crm:P134_continued <https://bibita.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://bibita.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://bibita.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://bibita.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://bibita.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 only info in German on FAQ page available:
 "Kann ich die Texte frei herunterladen?
@@ -462,21 +462,21 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://bwrp.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://bwrp.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "poems" .
 
 <https://bwrp.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://bwrp.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://bwrp.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://bwrp.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://bwrp.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://bwrp.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://caldracor.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://caldracor.clscor.io/entity/descevent/1> ;
@@ -507,20 +507,20 @@ proposal: 54, homepage: 201""" .
     crm:P134_continued <https://caldracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://caldracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://caldracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://caldracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://caldracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://caldracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://caldracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://caldracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://camena.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://camena.clscor.io/entity/descevent/1> ;
@@ -550,21 +550,21 @@ proposal: 54, homepage: 201""" .
     crm:P140_assigned_attribute_to <https://camena.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "poetry, historical and political writings, letters, dictionaries, handbooks" .
 
 <https://camena.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://camena.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://camena.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/specialized> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Based on a Research Question" .
 
 <https://camena.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://camena.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://camena.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-sa-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://camena.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://camena.clscor.io/entity/descevent/1> ;
@@ -600,7 +600,7 @@ proposal: 54, homepage: 201""" .
     crm:P134_continued <https://capek_uplny.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://capek_uplny.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://capek_uplny.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://capek_uplny.clscor.io/entity/descevent/1> ;
@@ -642,7 +642,7 @@ proposal: 54, homepage: 201""" .
     crm:P134_continued <https://cep.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://cep.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://cep.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://cep.clscor.io/entity/descevent/1> ;
@@ -683,21 +683,21 @@ proposal: 54, homepage: 201""" .
     crm:P134_continued <https://cervantes.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://cervantes.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "literature, language, history, letters" .
 
 <https://cervantes.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://cervantes.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://cervantes.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://cervantes.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://cervantes.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://cervantes.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://ceskapoesia.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ceskapoesia.clscor.io/entity/descevent/1> ;
@@ -715,7 +715,7 @@ proposal: 54, homepage: 201""" .
     crm:P134_continued <https://ceskapoesia.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ceskapoesia.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://cligs.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://cligs.clscor.io/entity/descevent/1> ;
@@ -740,14 +740,14 @@ proposal: 54, homepage: 201""" .
     crm:P134_continued <https://cligs.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://cligs.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/specialized> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "based on a Research Question" .
 
 <https://cligs.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://cligs.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://cligs.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-sa-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://cmsw.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://cmsw.clscor.io/entity/descevent/1> ;
@@ -773,21 +773,21 @@ proposal: 54, homepage: 201""" .
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama>,
         <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "\"Administrative prose, expository prose, personal writing, instructional prose, religious prose, verse/drama, imaginative prose, journalism, orthoepists\"" .
 
 <https://cmsw.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://cmsw.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://cmsw.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://cmsw.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://cmsw.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://cmsw.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://cmsw.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://cmsw.clscor.io/entity/descevent/1> ;
@@ -806,7 +806,7 @@ proposal: 54, homepage: 201""" .
     crm:P134_continued <https://cord.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://cord.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://czechprose.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://czechprose.clscor.io/entity/descevent/1> ;
@@ -824,7 +824,7 @@ proposal: 54, homepage: 201""" .
     crm:P134_continued <https://czechprose.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://czechprose.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://czechprose.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://czechprose.clscor.io/entity/descevent/1> ;
@@ -847,7 +847,7 @@ proposal: 54, homepage: 201""" .
     crm:P134_continued <https://czechversedownloadable.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://czechversedownloadable.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://czechversesearchable.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://czechversesearchable.clscor.io/entity/descevent/1> ;
@@ -865,7 +865,7 @@ proposal: 54, homepage: 201""" .
     crm:P134_continued <https://czechversesearchable.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://czechversesearchable.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://diager.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://diager.clscor.io/entity/descevent/1> ;
@@ -899,20 +899,20 @@ ANNIS (custom linguistic search and visualization tool)""" .
     crm:P140_assigned_attribute_to <https://diager.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://diager.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://diager.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://diager.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/reference> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Reference Corpus" .
 
 <https://diager.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://diager.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://diager.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-nc-sa-3-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://diager.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://diager.clscor.io/entity/descevent/1> ;
@@ -952,14 +952,14 @@ search catalogue - document types: https://onk.snk.sk/browse""" .
     crm:P134_continued <https://dikda.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dikda.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://dikda.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://dikda.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dikda.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://disco.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://disco.clscor.io/entity/descevent/1> ;
@@ -992,21 +992,21 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://disco.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://disco.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "poems, sonnets" .
 
 <https://disco.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://disco.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://disco.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://disco.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://disco.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://disco.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "CC-BY licence" .
 
 <https://dlk.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
@@ -1037,21 +1037,21 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://dlk.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dlk.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "poems" .
 
 <https://dlk.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://dlk.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dlk.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://dlk.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://dlk.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dlk.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://dlk.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://dlk.clscor.io/entity/descevent/1> ;
@@ -1094,20 +1094,20 @@ DLK v5: 17,335,638""" .
     crm:P134_continued <https://dracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://dracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://dracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://dracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://dracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 Unless otherwise stated, all corpora and the web design
 are released under Creative Commons 0 1.0""" .
@@ -1158,21 +1158,21 @@ Information from proposal""" .
     crm:P134_continued <https://dramawebben.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dramawebben.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "drama, plays" .
 
 <https://dramawebben.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://dramawebben.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dramawebben.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://dramawebben.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://dramawebben.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dramawebben.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://dramawebben.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://dramawebben.clscor.io/entity/descevent/1> ;
@@ -1225,7 +1225,7 @@ TEI P5 XML Subset "DTA Basisformat\"""" .
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama>,
         <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 multigenre/various""" .
 
@@ -1233,14 +1233,14 @@ multigenre/various""" .
     crm:P134_continued <https://dta.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dta.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://dta.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://dta.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://dta.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-nc-3-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://dta.clscor.io/entity/attrassign/9> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://dta.clscor.io/entity/descevent/1> ;
@@ -1280,21 +1280,21 @@ multilingual""" .
     crm:P134_continued <https://eltec.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://eltec.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "prose, novels" .
 
 <https://eltec.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://eltec.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://eltec.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://eltec.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://eltec.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://eltec.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://emothe.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://emothe.clscor.io/entity/descevent/1> ;
@@ -1326,21 +1326,21 @@ multilingual""" .
     crm:P134_continued <https://emothe.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://emothe.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "drama, plays" .
 
 <https://emothe.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://emothe.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://emothe.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://emothe.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://emothe.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://emothe.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://europeana.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://europeana.clscor.io/entity/descevent/1> ;
@@ -1381,7 +1381,7 @@ Text, video, audio, images, 3D""" .
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama>,
         <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 various/multigenre""" .
 
@@ -1389,7 +1389,7 @@ various/multigenre""" .
     crm:P134_continued <https://europeana.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://europeana.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://europeana.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
@@ -1397,7 +1397,7 @@ various/multigenre""" .
     crm:P140_assigned_attribute_to <https://europeana.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0>,
         <https://core.clscor.io/entity/type/license/eupl-1-2> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Creative Commons CC0 1.0 Universal Public Domain Dedication, EUPL v1.2. License" .
 
 <https://fbc.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
@@ -1432,14 +1432,14 @@ information derived from search options""" .
     crm:P134_continued <https://fbc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://fbc.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://fbc.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://fbc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://fbc.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "from public to BY-NC-SA" .
 
 <https://feb.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
@@ -1452,21 +1452,21 @@ information derived from search options""" .
     crm:P134_continued <https://feb.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://feb.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "literature, folklore, dictionaries, encyclopedias, Russian scholarship" .
 
 <https://feb.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://feb.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://feb.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://feb.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://feb.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://feb.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://flt.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://flt.clscor.io/entity/descevent/1> ;
@@ -1498,7 +1498,7 @@ counted 102 works""" .
     crm:P140_assigned_attribute_to <https://flt.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Susanne Zhanial:
 also images available under inscriptions""" .
 
@@ -1506,14 +1506,14 @@ also images available under inscriptions""" .
     crm:P134_continued <https://flt.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://flt.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/digital_critical_edition> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Digital Critical Edition" .
 
 <https://flt.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://flt.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://flt.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 The copyright for all Latin texts published on this website rests with their original author or publisher""" .
 
@@ -1552,20 +1552,20 @@ PDF, DOC (word, Apple Pages, Apache Open Office, etc.), HTML, TXT (i.e., plain t
     crm:P134_continued <https://folgershake.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://folgershake.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://folgershake.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://folgershake.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://folgershake.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://folgershake.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://folgershake.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://folgershake.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-sa-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://fran.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://fran.clscor.io/entity/descevent/1> ;
@@ -1596,14 +1596,14 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://fran.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://fran.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "poems" .
 
 <https://fran.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://fran.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://fran.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://fredracor.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://fredracor.clscor.io/entity/descevent/1> ;
@@ -1632,20 +1632,20 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://fredracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://fredracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://fredracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://fredracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://fredracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://fredracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://fredracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://fredracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-nc-sa-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://gallica.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://gallica.clscor.io/entity/descevent/1> ;
@@ -1688,21 +1688,21 @@ https://gallica.bnf.fr/GallicaEnChiffres""" .
     crm:P134_continued <https://gallica.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://gallica.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "books, manuscripts, images, maps, newspapers, audio, music, video, objects" .
 
 <https://gallica.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://gallica.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://gallica.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://gallica.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://gallica.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://gallica.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://gerdracor.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://gerdracor.clscor.io/entity/descevent/1> ;
@@ -1735,20 +1735,20 @@ proposal: 1730s–1940s; homepage: 1650s to the 1940s""" .
     crm:P134_continued <https://gerdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://gerdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://gerdracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://gerdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://gerdracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://gerdracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://gerdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://gerdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://gershdracor.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://gershdracor.clscor.io/entity/descevent/1> ;
@@ -1777,20 +1777,20 @@ proposal: 1730s–1940s; homepage: 1650s to the 1940s""" .
     crm:P134_continued <https://gershdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://gershdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://gershdracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://gershdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://gershdracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://gershdracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://gershdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://gershdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://gongocorpus.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://gongocorpus.clscor.io/entity/descevent/1> ;
@@ -1819,14 +1819,14 @@ proposal: 1730s–1940s; homepage: 1650s to the 1940s""" .
     crm:P134_continued <https://gongocorpus.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://gongocorpus.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Poetry" .
 
 <https://gongocorpus.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://gongocorpus.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://gongocorpus.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "public domain" .
 
 <https://greekdracor.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
@@ -1856,20 +1856,20 @@ proposal: 1730s–1940s; homepage: 1650s to the 1940s""" .
     crm:P134_continued <https://greekdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://greekdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://greekdracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://greekdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://greekdracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://greekdracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://greekdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://greekdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-sa-3-0-us> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://hathi.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://hathi.clscor.io/entity/descevent/1> ;
@@ -1906,14 +1906,14 @@ Advanced search: over 30 languages""" .
     crm:P134_continued <https://hathi.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://hathi.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://hathi.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://hathi.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://hathi.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://hip.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://hip.clscor.io/entity/descevent/1> ;
@@ -1937,14 +1937,14 @@ Advanced search: over 30 languages""" .
     crm:P134_continued <https://hip.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://hip.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Italian poetry" .
 
 <https://hip.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://hip.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://hip.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://hip.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://hip.clscor.io/entity/descevent/1> ;
@@ -1978,21 +1978,21 @@ Advanced search: over 30 languages""" .
     crm:P140_assigned_attribute_to <https://histcor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama>,
         <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "\"drama, humanities, legal texts, letters, narrative prose, historical newspapers, scientific texts, sermons, fairy tales, sagas,  ...\"" .
 
 <https://histcor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://histcor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://histcor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/reference> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Reference Corpus" .
 
 <https://histcor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://histcor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://histcor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 "Aus urheberrechtlichen Gründen kann derzeit nur eine eingeschränkte Auswahl der Texte im Internet zur Recherche mittels COSMAS II angeboten werden.\"""" .
 
@@ -2022,7 +2022,7 @@ Advanced search: over 30 languages""" .
     crm:P134_continued <https://husmedsearchable.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://husmedsearchable.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://husmedsupplement.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://husmedsupplement.clscor.io/entity/descevent/1> ;
@@ -2048,7 +2048,7 @@ Advanced search: over 30 languages""" .
     crm:P134_continued <https://husmedsupplement.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://husmedsupplement.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "public domain dedication" .
 
 <https://ilibru.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
@@ -2061,14 +2061,14 @@ Advanced search: over 30 languages""" .
     crm:P134_continued <https://ilibru.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ilibru.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://ilibru.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ilibru.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ilibru.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://itadracor.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://itadracor.clscor.io/entity/descevent/1> ;
@@ -2097,20 +2097,20 @@ Advanced search: over 30 languages""" .
     crm:P134_continued <https://itadracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://itadracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://itadracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://itadracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://itadracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://itadracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://itadracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://itadracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://kansekirepo.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://kansekirepo.clscor.io/entity/descevent/1> ;
@@ -2128,7 +2128,7 @@ Advanced search: over 30 languages""" .
     crm:P134_continued <https://kansekirepo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://kansekirepo.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-sa-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://kolimo.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://kolimo.clscor.io/entity/descevent/1> ;
@@ -2153,14 +2153,14 @@ Advanced search: over 30 languages""" .
     crm:P134_continued <https://kolimo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://kolimo.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/specialized> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "based on a Research Question" .
 
 <https://kolimo.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://kolimo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://kolimo.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://kolimo.clscor.io/entity/attrassign/9> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://kolimo.clscor.io/entity/descevent/1> ;
@@ -2197,21 +2197,21 @@ Advanced search: over 30 languages""" .
     crm:P134_continued <https://latty.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://latty.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Tyrolean Neo-Latin texts" .
 
 <https://latty.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://latty.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://latty.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/specialized> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Based on a Research Question" .
 
 <https://latty.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://latty.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://latty.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://lattyphilo.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lattyphilo.clscor.io/entity/descevent/1> ;
@@ -2236,21 +2236,21 @@ project description speaks of 14000 works, see http://www.ffzg.unizg.hr/klafil/d
     crm:P134_continued <https://lattyphilo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://lattyphilo.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Neo-Latin texts" .
 
 <https://lattyphilo.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lattyphilo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://lattyphilo.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/digital_critical_edition> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Digital Critical Edition" .
 
 <https://lattyphilo.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lattyphilo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://lattyphilo.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://lhs.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lhs.clscor.io/entity/descevent/1> ;
@@ -2284,21 +2284,21 @@ project description speaks of 14000 works, see http://www.ffzg.unizg.hr/klafil/d
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama>,
         <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "comedies, historical works, non-fiction/prose, essays, writings related to comedies, autobiography" .
 
 <https://lhs.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lhs.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://lhs.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://lhs.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lhs.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://lhs.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://libru.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://libru.clscor.io/entity/descevent/1> ;
@@ -2310,14 +2310,14 @@ project description speaks of 14000 works, see http://www.ffzg.unizg.hr/klafil/d
     crm:P134_continued <https://libru.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://libru.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://libru.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://libru.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://libru.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://lifrlite.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lifrlite.clscor.io/entity/descevent/1> ;
@@ -2340,21 +2340,21 @@ project description speaks of 14000 works, see http://www.ffzg.unizg.hr/klafil/d
     crm:P134_continued <https://lifrlite.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://lifrlite.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "literary history book chapters with paraphrases" .
 
 <https://lifrlite.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lifrlite.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://lifrlite.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/specialized> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Based on a Research Question" .
 
 <https://lifrlite.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lifrlite.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://lifrlite.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-sa-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://lindh.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lindh.clscor.io/entity/descevent/1> ;
@@ -2387,21 +2387,21 @@ project description speaks of 14000 works, see http://www.ffzg.unizg.hr/klafil/d
     crm:P134_continued <https://lindh.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://lindh.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "poetry" .
 
 <https://lindh.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lindh.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://lindh.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://lindh.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lindh.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://lindh.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://lindh.clscor.io/entity/attrassign/9> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://lindh.clscor.io/entity/descevent/1> ;
@@ -2441,14 +2441,14 @@ Information from proposal""" .
     crm:P134_continued <https://ltital.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ltital.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "drama, plays" .
 
 <https://ltital.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ltital.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ltital.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://makonspoken.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://makonspoken.clscor.io/entity/descevent/1> ;
@@ -2466,21 +2466,21 @@ Information from proposal""" .
     crm:P134_continued <https://makonspoken.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://makonspoken.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "audio, prose, lectures" .
 
 <https://makonspoken.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://makonspoken.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://makonspoken.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/specialized> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Based on a Research Question" .
 
 <https://makonspoken.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://makonspoken.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://makonspoken.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-sa-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://mapcorpsearchable.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://mapcorpsearchable.clscor.io/entity/descevent/1> ;
@@ -2498,7 +2498,7 @@ Information from proposal""" .
     crm:P134_continued <https://mapcorpsearchable.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://mapcorpsearchable.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://metrique-en-ligne.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://metrique-en-ligne.clscor.io/entity/descevent/1> ;
@@ -2527,14 +2527,14 @@ Information from proposal""" .
     crm:P134_continued <https://metrique-en-ligne.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://metrique-en-ligne.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Poetry" .
 
 <https://metrique-en-ligne.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://metrique-en-ligne.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://metrique-en-ligne.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "public domain" .
 
 <https://metrique-en-ligne.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
@@ -2581,14 +2581,14 @@ Information from proposal""" .
     crm:P134_continued <https://mm.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://mm.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/digital_critical_edition> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Digital Critical Edition" .
 
 <https://mm.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://mm.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://mm.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://mqdq.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://mqdq.clscor.io/entity/descevent/1> ;
@@ -2606,21 +2606,21 @@ Information from proposal""" .
     crm:P134_continued <https://mqdq.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://mqdq.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "poetry, prose" .
 
 <https://mqdq.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://mqdq.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://mqdq.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://mqdq.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://mqdq.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://mqdq.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://mqdq.clscor.io/entity/attrassign/9> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://mqdq.clscor.io/entity/descevent/1> ;
@@ -2650,21 +2650,21 @@ Information from proposal""" .
     crm:P134_continued <https://neolat.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://neolat.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Latin and Greek texts" .
 
 <https://neolat.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://neolat.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://neolat.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/digital_critical_edition> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Digital Critical Edition" .
 
 <https://neolat.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://neolat.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://neolat.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://noscemus.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://noscemus.clscor.io/entity/descevent/1> ;
@@ -2696,14 +2696,14 @@ c. 1500 works towards its end in 2022; currently: 1061 on https://transkribus.eu
     crm:P134_continued <https://noscemus.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://noscemus.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "selection of early modern works on science written in Latin" .
 
 <https://noscemus.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://noscemus.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://noscemus.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://opentexts.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://opentexts.clscor.io/entity/descevent/1> ;
@@ -2740,14 +2740,14 @@ depends on source, plain text, PDF, Alto XML, IIIF manifest""" .
     crm:P134_continued <https://opentexts.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://opentexts.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://opentexts.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://opentexts.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://opentexts.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://ota.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ota.clscor.io/entity/descevent/1> ;
@@ -2927,7 +2927,7 @@ most documents in TEI""" .
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama>,
         <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """multigenre:
 novels, plays, poetry""" .
 
@@ -2935,14 +2935,14 @@ novels, plays, poetry""" .
     crm:P134_continued <https://ota.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ota.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://ota.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ota.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ota.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 texts: various licenses
 metadata: Creative Commons Licence CC0""" .
@@ -2963,21 +2963,21 @@ metadata: Creative Commons Licence CC0""" .
     crm:P134_continued <https://pdi.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pdi.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "poetry" .
 
 <https://pdi.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://pdi.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pdi.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://pdi.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://pdi.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pdi.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://pdi.clscor.io/entity/attrassign/9> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://pdi.clscor.io/entity/descevent/1> ;
@@ -3012,14 +3012,14 @@ metadata: Creative Commons Licence CC0""" .
     crm:P134_continued <https://perseus.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://perseus.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/digital_critical_edition> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Digital Critical Edition" .
 
 <https://perseus.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://perseus.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://perseus.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 Homepage: "Our copyright agreements with the publishers of our texts do not permit us to offer full text downloading for all works in Perseus at this time. Texts for which XML downloads are available are indicated as such by a creative commons license and links to download options. You will find these in the center of a text viewing page, below the main focus text. We do not offer other formats for texts at this time.\"""" .
 
@@ -3039,7 +3039,7 @@ Homepage: "Our copyright agreements with the publishers of our texts do not perm
     crm:P134_continued <https://petrarcaplus.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://petrarcaplus.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://pg.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://pg.clscor.io/entity/descevent/1> ;
@@ -3071,21 +3071,21 @@ TXT, HTML (master formats), epub, mobi, sometimes LaTeX, prefer open and editabl
     crm:P134_continued <https://pg.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pg.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "\"literary works and reference items of historical significance\"; also audio books,music, pictures" .
 
 <https://pg.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://pg.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pg.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://pg.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://pg.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pg.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 "Project Gutenberg eBooks may be freely used in the United States because most are not protected by U.S. copyright law. They may not be free of copyright in other countries. Readers outside of the United States must check the copyright terms of their countries before accessing, downloading or redistributing eBooks. We also have a number of copyrighted titles, for which the copyright holder has given permission for unlimited non-commercial worldwide use. The Project Gutenberg website is for human users only. Use of automated tools to access the website may trigger a block of your access.\"""" .
 
@@ -3119,14 +3119,14 @@ TXT, HTML (master formats), epub, mobi, sometimes LaTeX, prefer open and editabl
     crm:P134_continued <https://pgaus.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pgaus.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://pgaus.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://pgaus.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pgaus.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 ebooks on this site are in the public domain in Australia""" .
 
@@ -3160,14 +3160,14 @@ ebooks on this site are in the public domain in Australia""" .
     crm:P134_continued <https://pgger.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pgger.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://pgger.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://pgger.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pgger.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 ebooks in the public domain, for private use, for commercial use - please get in touch for license""" .
 
@@ -3187,21 +3187,21 @@ ebooks in the public domain, for private use, for commercial use - please get in
     crm:P134_continued <https://phi.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://phi.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "classical latin texts" .
 
 <https://phi.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://phi.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://phi.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://phi.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://phi.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://phi.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://poesi-as.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://poesi-as.clscor.io/entity/descevent/1> ;
@@ -3230,14 +3230,14 @@ ebooks in the public domain, for private use, for commercial use - please get in
     crm:P134_continued <https://poesi-as.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://poesi-as.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Poetry" .
 
 <https://poesi-as.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://poesi-as.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://poesi-as.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "public domain" .
 
 <https://poesi-as.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
@@ -3276,21 +3276,21 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://poetessarchive.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://poetessarchive.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "poems" .
 
 <https://poetessarchive.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://poetessarchive.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://poetessarchive.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose" .
 
 <https://poetessarchive.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://poetessarchive.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://poetessarchive.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://polona.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://polona.clscor.io/entity/descevent/1> ;
@@ -3321,21 +3321,21 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://polona.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://polona.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "books, periodicals, maps and atlases, ephemera, photographs, prints and drawings, manuscripts, postcards and musical scores" .
 
 <https://polona.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://polona.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://polona.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://polona.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://polona.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://polona.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 Public, copyright publication (only accessible in library), available with permission""" .
 
@@ -3367,14 +3367,14 @@ Public, copyright publication (only accessible in library), available with permi
     crm:P134_continued <https://projectgutenberg-poetry-corpora.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://projectgutenberg-poetry-corpora.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Verses" .
 
 <https://projectgutenberg-poetry-corpora.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://projectgutenberg-poetry-corpora.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://projectgutenberg-poetry-corpora.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "public domain" .
 
 <https://pulpo.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
@@ -3410,14 +3410,14 @@ Public, copyright publication (only accessible in library), available with permi
     crm:P134_continued <https://pulpo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pulpo.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Verses" .
 
 <https://pulpo.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://pulpo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://pulpo.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "public domain" .
 
 <https://pulpo.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
@@ -3459,21 +3459,21 @@ CorA XML (custom), ANNIS (custom linguistic search and visualization tool)""" .
     crm:P140_assigned_attribute_to <https://rem.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "prose, lyric" .
 
 <https://rem.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://rem.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://rem.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/reference> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Reference corpus" .
 
 <https://rem.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://rem.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://rem.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-sa-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://rem.clscor.io/entity/attrassign/9> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://rem.clscor.io/entity/descevent/1> ;
@@ -3511,20 +3511,20 @@ CorA XML (custom), ANNIS (custom linguistic search and visualization tool)""" .
     crm:P134_continued <https://romdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://romdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://romdracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://romdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://romdracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://romdracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://romdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://romdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-sa-3-0-us> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://rusdracor.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://rusdracor.clscor.io/entity/descevent/1> ;
@@ -3555,20 +3555,20 @@ proposal: 210, homepage: 212""" .
     crm:P134_continued <https://rusdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://rusdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://rusdracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://rusdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://rusdracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://rusdracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://rusdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://rusdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://ruspoet.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ruspoet.clscor.io/entity/descevent/1> ;
@@ -3594,21 +3594,21 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://ruspoet.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ruspoet.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "poems" .
 
 <https://ruspoet.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ruspoet.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ruspoet.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/reference> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Reference Corpus" .
 
 <https://ruspoet.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ruspoet.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ruspoet.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://rvb.clscor.io/entity/attrassign/3> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://rvb.clscor.io/entity/descevent/1> ;
@@ -3620,14 +3620,14 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://rvb.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://rvb.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://rvb.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://rvb.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://rvb.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://scots.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://scots.clscor.io/entity/descevent/1> ;
@@ -3650,14 +3650,14 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://scots.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://scots.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://scots.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://scots.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://scots.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://scots.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://scots.clscor.io/entity/descevent/1> ;
@@ -3693,20 +3693,20 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://shakedracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://shakedracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://shakedracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://shakedracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://shakedracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://shakedracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://shakedracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://shakedracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-nc-3-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://shc.clscor.io/entity/attrassign/2> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://shc.clscor.io/entity/descevent/1> ;
@@ -3733,20 +3733,20 @@ proposal: 1550–1700; homepage: 1550-1660""" .
     crm:P134_continued <https://shc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://shc.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://shc.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://shc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://shc.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://shc.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://shc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://shc.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://shc.clscor.io/entity/attrassign/9> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://shc.clscor.io/entity/descevent/1> ;
@@ -3771,14 +3771,14 @@ proposal: 1550–1700; homepage: 1550-1660""" .
     crm:P134_continued <https://slända.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://slända.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "prose" .
 
 <https://slända.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://slända.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://slända.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://sme.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://sme.clscor.io/entity/descevent/1> ;
@@ -3798,14 +3798,14 @@ https://zlatyfond.sme.sk/chronologia""" .
     crm:P134_continued <https://sme.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://sme.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://sme.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://sme.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://sme.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://snc.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://snc.clscor.io/entity/descevent/1> ;
@@ -3828,7 +3828,7 @@ https://zlatyfond.sme.sk/chronologia""" .
     crm:P134_continued <https://snc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://snc.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://sonetsiglo.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://sonetsiglo.clscor.io/entity/descevent/1> ;
@@ -3861,21 +3861,21 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://sonetsiglo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://sonetsiglo.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "poems, sonnets" .
 
 <https://sonetsiglo.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://sonetsiglo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://sonetsiglo.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://sonetsiglo.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://sonetsiglo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://sonetsiglo.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-nc-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://sonetsiglo.clscor.io/entity/attrassign/9> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://sonetsiglo.clscor.io/entity/descevent/1> ;
@@ -3911,20 +3911,20 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://spandracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://spandracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://spandracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://spandracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://spandracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://spandracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://spandracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://spandracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://spanish-stanzas.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://spanish-stanzas.clscor.io/entity/descevent/1> ;
@@ -3953,14 +3953,14 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://spanish-stanzas.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://spanish-stanzas.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Poetry" .
 
 <https://spanish-stanzas.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://spanish-stanzas.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://spanish-stanzas.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "public domain" .
 
 <https://spanish-stanzas.clscor.io/entity/attrassign/9> a crm:E13_Attribute_Assignment ;
@@ -3980,7 +3980,7 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://stanfordlitlab.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://stanfordlitlab.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://summatheacz.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://summatheacz.clscor.io/entity/descevent/1> ;
@@ -3998,7 +3998,7 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://summatheacz.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://summatheacz.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://summatheo.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://summatheo.clscor.io/entity/descevent/1> ;
@@ -4016,7 +4016,7 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://summatheo.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://summatheo.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://summatheoen.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://summatheoen.clscor.io/entity/descevent/1> ;
@@ -4034,7 +4034,7 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://summatheoen.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://summatheoen.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://swedracor.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://swedracor.clscor.io/entity/descevent/1> ;
@@ -4063,20 +4063,20 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://swedracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://swedracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://swedracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://swedracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://swedracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://swedracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://swedracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://swedracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://tatdracor.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://tatdracor.clscor.io/entity/descevent/1> ;
@@ -4105,20 +4105,20 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://tatdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://tatdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://tatdracor.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://tatdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://tatdracor.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://tatdracor.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://tatdracor.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://tatdracor.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc0-1-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://tbc.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://tbc.clscor.io/entity/descevent/1> ;
@@ -4141,21 +4141,21 @@ Proposal: TEI XML driven""" .
     crm:P134_continued <https://tbc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://tbc.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "fiction (novels, novellas, short stories)" .
 
 <https://tbc.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://tbc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://tbc.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://tbc.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://tbc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://tbc.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://tcp.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://tcp.clscor.io/entity/descevent/1> ;
@@ -4191,14 +4191,14 @@ Homepage lists "Early English Books Online, Eighteenth Century Collections Onlin
     crm:P134_continued <https://tcp.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://tcp.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://tcp.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://tcp.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://tcp.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://tcp.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://tcp.clscor.io/entity/descevent/1> ;
@@ -4231,7 +4231,7 @@ Homepage lists "Early English Books Online, Eighteenth Century Collections Onlin
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama>,
         <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 multigenre/various""" .
 
@@ -4239,14 +4239,14 @@ multigenre/various""" .
     crm:P134_continued <https://textgrid.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://textgrid.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://textgrid.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://textgrid.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://textgrid.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-3-0-de> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://theaclass.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://theaclass.clscor.io/entity/descevent/1> ;
@@ -4277,21 +4277,21 @@ in TEI, but not available""" .
     crm:P134_continued <https://theaclass.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://theaclass.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "\"Tragédies, Comédies, Proverbes, Tragi-comédies, Monologue, Drame, Saynètes, Opéras, Parodie, Pastorales, Parades\"" .
 
 <https://theaclass.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://theaclass.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://theaclass.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/monitor> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
 <https://theaclass.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://theaclass.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://theaclass.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://theaclass.clscor.io/entity/attrassign/8> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://theaclass.clscor.io/entity/descevent/1> ;
@@ -4315,14 +4315,14 @@ in TEI, but not available""" .
     crm:P134_continued <https://tmc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://tmc.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/digital_critical_edition> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Digital Critical Edition" .
 
 <https://tmc.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://tmc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://tmc.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://travelital.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://travelital.clscor.io/entity/descevent/1> ;
@@ -4352,21 +4352,21 @@ in TEI, but not available""" .
     crm:P134_continued <https://travelital.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://travelital.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "\"travel writing\"" .
 
 <https://travelital.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://travelital.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://travelital.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/specialized> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Based on a Research Question" .
 
 <https://travelital.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://travelital.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://travelital.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 Homepage "freely available sources\"""" .
 
@@ -4399,21 +4399,21 @@ Homepage "freely available sources\"""" .
     crm:P134_continued <https://txtlab.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://txtlab.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/epic> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "novels" .
 
 <https://txtlab.clscor.io/entity/attrassign/6> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://txtlab.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://txtlab.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/specialized> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Based on a Research Question" .
 
 <https://txtlab.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://txtlab.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://txtlab.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cc-by-4-0> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://ukb.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ukb.clscor.io/entity/descevent/1> ;
@@ -4444,14 +4444,14 @@ Homepage "freely available sources\"""" .
     crm:P134_continued <https://ukb.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ukb.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://ukb.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://ukb.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://ukb.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type .
+    crm:P177_assigned_property_of_type crm:P2_has_type .
 
 <https://wdc.clscor.io/entity/attrassign/1> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://wdc.clscor.io/entity/descevent/1> ;
@@ -4484,14 +4484,14 @@ image, compressed data, PDF, online text, video, audio, web page""" .
     crm:P134_continued <https://wdc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://wdc.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://wdc.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://wdc.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://wdc.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 Homepage: "As a publicly supported institution, we generally do not own the rights to materials in our collections. You should determine for yourself whether or not an item is protected by copyright or in the public domain\"""" .
 
@@ -4515,7 +4515,7 @@ Homepage: "As a publicly supported institution, we generally do not own the righ
     crm:P141_assigned <https://core.clscor.io/entity/type/literary_genre/drama>,
         <https://core.clscor.io/entity/type/literary_genre/epic>,
         <https://core.clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crmcls:Y4_has_literary_genre ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 multigenre/various""" .
 
@@ -4523,14 +4523,14 @@ multigenre/various""" .
     crm:P134_continued <https://wikisource.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://wikisource.clscor.io/entity/corpus> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/corpus_type/general> ;
-    crm:P177_assigned_property_of_type crmcls:Y6_has_corpus_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "General-Purpose Collection" .
 
 <https://wikisource.clscor.io/entity/attrassign/7> a crm:E13_Attribute_Assignment ;
     crm:P134_continued <https://wikisource.clscor.io/entity/descevent/1> ;
     crm:P140_assigned_attribute_to <https://wikisource.clscor.io/entity/protodoc/1> ;
     crm:P141_assigned <https://core.clscor.io/entity/type/license/gfdl-1-1> ;
-    crm:P177_assigned_property_of_type crmcls:Y5_has_license_type ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note """Vera Maria Charvat:
 information derived from review - GFDL, CC-BY, CC-BY-SA""" .
 
