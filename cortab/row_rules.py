@@ -13,6 +13,7 @@ from helpers.cortab_utils import (  # noqa: F401
     vocabs_lookup,
     remove_nan,
     nan_handler,
+    mkuri,
     uri_ns
 )
 
@@ -43,12 +44,12 @@ from tabulardf import RowGraphConverter
 
 from lodkit import importer
 from vocabs import (
-    appellation_type,
-    corpus_type,
+    appellation,
+    corpus,
     feature,
     format as format_vocab,
     licenses,
-    link_type,
+    link,
     literary_genre,
     method
 )
@@ -57,36 +58,36 @@ from vocabs import (
 TripleGenerator = Generator[_Triple, None, None]
 
 
-uris = uri_ns(
-    # "base_ns",
-    "corpus_uri",
-    "corpus_link_uri",
-    "descevent_uri",
-    "protodoc_uri",
-
-    "descevent_timespan_uri_1",
-    "corpus_timespan_uri_1",
-
-    "corpus_appellation_uri_1",
-    "corpus_appellation_uri_2",
-
-    "attribute_assignment_uri_1",
-    "attribute_assignment_uri_2",
-    "attribute_assignment_uri_3",
-    "attribute_assignment_uri_4",
-    "attribute_assignment_uri_5",
-    "attribute_assignment_uri_6",
-    "attribute_assignment_uri_7",
-    "attribute_assignment_uri_8",
-    "attribute_assignment_uri_9",
-
-    "dimension_uri_1",
-    "dimension_uri_2"
-)
-
-
 def corpustable_row_rule(row_data: Mapping) -> Graph:
     """row_rule for RowGraphConverter."""
+    # URIs
+    corpus_uri = mkuri(row_data["corpusAcronym"])
+    corpus_link_uri = URIRef(row_data["corpusLink"])
+
+    uris = uri_ns(
+        ("descevent_uri", "descevent/1"),
+        "protodoc_uri",
+
+        "descevent_timespan_uri_1",
+        "corpus_timespan_uri_1",
+
+        "corpus_appellation_uri_1",
+        "corpus_appellation_uri_2",
+
+        "attribute_assignment_uri_1",
+        "attribute_assignment_uri_2",
+        "attribute_assignment_uri_3",
+        "attribute_assignment_uri_4",
+        "attribute_assignment_uri_5",
+        "attribute_assignment_uri_6",
+        "attribute_assignment_uri_7",
+        "attribute_assignment_uri_8",
+        "attribute_assignment_uri_9",
+
+        "dimension_uri_1",
+        "dimension_uri_2"
+    )
+
     # triples
     def person_triples() -> TripleGenerator:
         person_names = map(
@@ -104,7 +105,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
 
     def descevent_triples() -> TripleGenerator:
         yield from [
-            (uris.corpus_uri, RDF.type, crmcls["X1_Corpus"]),
+            (corpus_uri, RDF.type, crmcls["X1_Corpus"]),
             (uris.protodoc_uri, RDF.type, crmcls["X11_Prototypical_Document"]),
             # descevent
             *plist(
@@ -133,26 +134,22 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
 
     def corpus_name_triples() -> TripleGenerator:
         yield from [
-            (uris.corpus_uri, crm["P1_is_identified_by"],
-             uris.corpus_appellation_uri_1),
+            (corpus_uri, crm["P1_is_identified_by"], uris.corpus_appellation_uri_1),
             *plist(
                 uris.corpus_appellation_uri_1,
                 (RDF.type, crm["E41_Appellation"]),
-                (crm["P2_has_type"], vocabs_lookup(
-                    appellation_type, "full title")),
+                (crm["P2_has_type"], vocabs_lookup(appellation, "full title")),
                 (RDF.value, Literal(row_data["corpusName"]))
             )
         ]
 
     def corpus_acronym_triples() -> TripleGenerator:
         yield from [
-            (uris.corpus_uri, crm["P1_is_identified_by"],
-             uris.corpus_appellation_uri_2),
+            (corpus_uri, crm["P1_is_identified_by"], uris.corpus_appellation_uri_2),
             *plist(
                 uris.corpus_appellation_uri_2,
                 (RDF.type, crm["E41_Appellation"]),
-                (crm["P2_has_type"], vocabs_lookup(
-                    appellation_type, "acronym")),
+                (crm["P2_has_type"], vocabs_lookup(appellation, "acronym")),
                 (RDF.value, Literal(row_data["corpusAcronym"]))
             )
         ]
@@ -167,13 +164,11 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
 
     def corpus_link_triples() -> TripleGenerator:
         yield from [
-            (uris.corpus_uri, crm["P1_is_identified_by"],
-             uris.corpus_link_uri),
+            (corpus_uri, crm["P1_is_identified_by"], corpus_link_uri),
             *plist(
-                uris.corpus_link_uri,
+                corpus_link_uri,
                 (RDF.type, crm["E42_Identifier"]),
-                (crm["P2_has_type"], vocabs_lookup(
-                    link_type, "project website")),
+                (crm["P2_has_type"], vocabs_lookup(link, "project website")),
                 (RDF.value,
                  (Literal(f"Link to the {row_data['corpusName']} website.")))
             )
@@ -224,7 +219,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 uris.attribute_assignment_uri_2,
                 (RDF.type, crm["E13_Attribute_Assignment"]),
                 (crm["P134_continued"], uris.descevent_uri),
-                (crm["P140_assigned_attribute_to"], uris.corpus_uri),
+                (crm["P140_assigned_attribute_to"], corpus_uri),
                 (crm["P141_assigned"], uris.dimension_uri_1)
             ),
             *plist(
@@ -253,7 +248,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 uris.attribute_assignment_uri_8,
                 (RDF.type, crm["E13_Attribute_Assignment"]),
                 (crm["P134_continued"], uris.descevent_uri),
-                (crm["P140_assigned_attribute_to"], uris.corpus_uri),
+                (crm["P140_assigned_attribute_to"], corpus_uri),
                 (crm["P141_assigned"], uris.dimension_uri_2)
             ),
             *plist(
@@ -281,7 +276,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 uris.attribute_assignment_uri_3,
                 (RDF.type, crm["E13_Attribute_Assignment"]),
                 (crm["P134_continued"], uris.descevent_uri),
-                (crm["P140_assigned_attribute_to"], uris.corpus_uri),
+                (crm["P140_assigned_attribute_to"], corpus_uri),
                 (crm["P177_assigned_property_of_type"], crm["P4_has_time-span"]),
                 (crm["P141_assigned"], uris.corpus_timespan_uri_1)
             ),
@@ -375,13 +370,12 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
             uris.attribute_assignment_uri_6,
             (RDF.type, crm["E13_Attribute_Assignment"]),
             (crm["P134_continued"], uris.descevent_uri),
-            (crm["P140_assigned_attribute_to"], uris.corpus_uri),
+            (crm["P140_assigned_attribute_to"], corpus_uri),
             (
                 crm["P177_assigned_property_of_type"],
                 crm["P2_has_type"]
             ),
-            (crm["P141_assigned"], vocabs_lookup(
-                corpus_type, corpus_type_value))
+            (crm["P141_assigned"], vocabs_lookup(corpus, corpus_type_value))
         )
 
         comment = row_data["corpusType_comments"]
@@ -483,12 +477,15 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
 
 
 def additional_link_row_rule(row_data):
-    """Additional madness."""
+    """Additional link row."""
+    corpus_uri = mkuri(row_data["corpusAcronym"])
+
     link_uri = URIRef(row_data["links"])
+    descevent_uri = mkuri("descevent/1")
 
     def link_triple():
         return (
-            uris.corpus_uri,
+            corpus_uri,
             crm["P1_is_identified_by"],
             link_uri
         )
@@ -498,13 +495,13 @@ def additional_link_row_rule(row_data):
         yield from plist(
             link_uri,
             (RDF.type, crm["E42_Identifier"]),
-            (crm["P2_has_type"], vocabs_lookup(link_type, link_type_value))
+            (crm["P2_has_type"], vocabs_lookup(link, link_type_value))
         )
 
     @nan_handler
     def descevent_triples(used=row_data["used_in_descEvent"]):
         return (
-            uris.descevent_uri,
+            descevent_uri,
             crm["P16_used_specific_object"],
             link_uri
         )
