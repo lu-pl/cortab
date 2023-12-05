@@ -6,10 +6,14 @@ import inspect
 import math
 import operator
 
+from types import SimpleNamespace
 from typing import Callable
+from uuid import uuid4
 
 from rdflib import Graph, Literal, URIRef
 from rdflib.namespace import RDFS
+
+
 
 
 def remove_nan(graph: Graph) -> Graph:
@@ -97,3 +101,43 @@ def skip_nan(f):
         return f(subject_field, object_field, store)
 
     return _wrapper
+
+
+def mkuri(
+        hash_value: str | None = None,
+        length: int | None = 10,
+        hash_function: Callable = hashlib.sha256
+) -> URIRef:
+    """Create a CLSCor entity URI.
+
+    If a hash value is give, the path is generated using
+    a hash function, else the path is generated using a uuid4.
+    """
+    _base_uri: str = "https://clscor.io/entity/"
+    _path: str = (
+        str(uuid4()) if hash_value is None
+        else genhash(
+                hash_value,
+                length=length,
+                hash_function=hash_function
+        )
+    )
+
+    return URIRef(f"{_base_uri}{_path[:length]}")
+
+
+def uri_ns(*names: str | tuple[str, str]) -> SimpleNamespace:
+    """Generate a Namespace mapping for names and computed URIs."""
+    def _uris():
+        for name in names:
+            match name:
+                case str():
+                    yield name, mkuri()
+                case tuple():
+                    yield name[0], mkuri(name[1])
+                case _:
+                    raise Exception(
+                        "Args must be of type str | tuple[str, str]."
+                    )
+
+    return SimpleNamespace(**dict(_uris()))
