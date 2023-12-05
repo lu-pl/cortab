@@ -1,26 +1,38 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<https://core.clscor.io/entity/type/literary_genre/drama> a skos:Concept ;
+<https://clscor.io/entity/type/literary_genre/drama> a crm:E55_Type,
+        skos:Concept ;
     rdfs:label "drama" ;
-    skos:inScheme <https://core.clscor.io/entity/type/literary_genre/> ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/literary_genre> ;
+    skos:inScheme <https://clscor.io/entity/type/literary_genre> ;
     skos:prefLabel "drama" .
 
-<https://core.clscor.io/entity/type/literary_genre/epic> a skos:Concept ;
+<https://clscor.io/entity/type/literary_genre/epic> a crm:E55_Type,
+        skos:Concept ;
     rdfs:label "epic" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/literary_genre> ;
     skos:altLabel "prose" ;
-    skos:inScheme <https://core.clscor.io/entity/type/literary_genre/> ;
+    skos:inScheme <https://clscor.io/entity/type/literary_genre> ;
     skos:prefLabel "epic" .
 
-<https://core.clscor.io/entity/type/literary_genre/lyric> a skos:Concept ;
+<https://clscor.io/entity/type/literary_genre/lyric> a crm:E55_Type,
+        skos:Concept ;
     rdfs:label "lyric" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/literary_genre> ;
     skos:altLabel "poetry" ;
-    skos:inScheme <https://core.clscor.io/entity/type/literary_genre/> ;
+    skos:inScheme <https://clscor.io/entity/type/literary_genre> ;
     skos:prefLabel "lyric" .
 
-<https://core.clscor.io/entity/type/literary_genre/> a skos:ConceptScheme ;
-    skos:hasTopConcept <https://core.clscor.io/entity/type/literary_genre/drama>,
-        <https://core.clscor.io/entity/type/literary_genre/epic>,
-        <https://core.clscor.io/entity/type/literary_genre/lyric> .
+<https://clscor.io/entity/type/literary_genre> a crm:E32_Authority_Document,
+        skos:ConceptScheme ;
+    rdfs:label "literary genre types" ;
+    crm:P71_lists <https://clscor.io/entity/type/literary_genre/drama>,
+        <https://clscor.io/entity/type/literary_genre/epic>,
+        <https://clscor.io/entity/type/literary_genre/lyric> ;
+    skos:hasTopConcept <https://clscor.io/entity/type/literary_genre/drama>,
+        <https://clscor.io/entity/type/literary_genre/epic>,
+        <https://clscor.io/entity/type/literary_genre/lyric> .
 
 

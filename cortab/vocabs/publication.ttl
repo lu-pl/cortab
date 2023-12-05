@@ -1,0 +1,45 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://clscor.io/entity/type/publication/article> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "article" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/publication> ;
+    skos:inScheme <https://clscor.io/entity/type/publication> ;
+    skos:prefLabel "article" .
+
+<https://clscor.io/entity/type/publication/book> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "book" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/publication> ;
+    skos:inScheme <https://clscor.io/entity/type/publication> ;
+    skos:prefLabel "book" .
+
+<https://clscor.io/entity/type/publication/conference_proceeding> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "conference proceeding" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/publication> ;
+    skos:inScheme <https://clscor.io/entity/type/publication> ;
+    skos:prefLabel "conference proceeding" .
+
+<https://clscor.io/entity/type/publication/journal> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "journal" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/publication> ;
+    skos:inScheme <https://clscor.io/entity/type/publication> ;
+    skos:prefLabel "journal" .
+
+<https://clscor.io/entity/type/publication> a crm:E32_Authority_Document,
+        skos:ConceptScheme ;
+    rdfs:label "Publication types" ;
+    crm:P71_lists <https://clscor.io/entity/type/publication/article>,
+        <https://clscor.io/entity/type/publication/book>,
+        <https://clscor.io/entity/type/publication/conference_proceeding>,
+        <https://clscor.io/entity/type/publication/journal> ;
+    skos:hasTopConcept <https://clscor.io/entity/type/publication/article>,
+        <https://clscor.io/entity/type/publication/book>,
+        <https://clscor.io/entity/type/publication/conference_proceeding>,
+        <https://clscor.io/entity/type/publication/journal> .
+
+

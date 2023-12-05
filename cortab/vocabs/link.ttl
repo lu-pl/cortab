@@ -1,0 +1,110 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://clscor.io/entity/type/link/api> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "api" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/link> ;
+    skos:inScheme <https://clscor.io/entity/type/link> ;
+    skos:prefLabel "api" .
+
+<https://clscor.io/entity/type/link/data_repository> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "data repository" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/link> ;
+    skos:inScheme <https://clscor.io/entity/type/link> ;
+    skos:prefLabel "data repository" .
+
+<https://clscor.io/entity/type/link/download_page> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "download page" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/link> ;
+    skos:example "Download Page to download data from dracor at https://dracor.org/ger/achat-ein-april-scherz#downloads" ;
+    skos:inScheme <https://clscor.io/entity/type/link> ;
+    skos:prefLabel "download page" .
+
+<https://clscor.io/entity/type/link/exploration_ui> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "exploration ui" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/link> ;
+    skos:inScheme <https://clscor.io/entity/type/link> ;
+    skos:prefLabel "exploration ui" .
+
+<https://clscor.io/entity/type/link/index> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "index" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/link> ;
+    skos:inScheme <https://clscor.io/entity/type/link> ;
+    skos:prefLabel "index" .
+
+<https://clscor.io/entity/type/link/info_website> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "info website" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/link> ;
+    skos:inScheme <https://clscor.io/entity/type/link> ;
+    skos:prefLabel "info website" .
+
+<https://clscor.io/entity/type/link/project_website> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "project website" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/link> ;
+    skos:inScheme <https://clscor.io/entity/type/link> ;
+    skos:prefLabel "project website" .
+
+<https://clscor.io/entity/type/link/raw_data_link> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "raw data link" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/link> ;
+    skos:example "Download Page to download data from dracor at https://raw.githubusercontent.com/dracor-org/gerdracor/main/tei/achat-ein-april-scherz.xml" ;
+    skos:inScheme <https://clscor.io/entity/type/link> ;
+    skos:prefLabel "raw data link" .
+
+<https://clscor.io/entity/type/link/register> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "register" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/link> ;
+    skos:inScheme <https://clscor.io/entity/type/link> ;
+    skos:prefLabel "register" .
+
+<https://clscor.io/entity/type/link/review> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "review" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/link> ;
+    skos:inScheme <https://clscor.io/entity/type/link> ;
+    skos:prefLabel "review" .
+
+<https://clscor.io/entity/type/link/search_page> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "search page" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/link> ;
+    skos:inScheme <https://clscor.io/entity/type/link> ;
+    skos:prefLabel "search page" .
+
+<https://clscor.io/entity/type/link> a crm:E32_Authority_Document,
+        skos:ConceptScheme ;
+    rdfs:label "Link types" ;
+    crm:P71_lists <https://clscor.io/entity/type/link/api>,
+        <https://clscor.io/entity/type/link/data_repository>,
+        <https://clscor.io/entity/type/link/download_page>,
+        <https://clscor.io/entity/type/link/exploration_ui>,
+        <https://clscor.io/entity/type/link/index>,
+        <https://clscor.io/entity/type/link/info_website>,
+        <https://clscor.io/entity/type/link/project_website>,
+        <https://clscor.io/entity/type/link/raw_data_link>,
+        <https://clscor.io/entity/type/link/register>,
+        <https://clscor.io/entity/type/link/review>,
+        <https://clscor.io/entity/type/link/search_page> ;
+    skos:hasTopConcept <https://clscor.io/entity/type/link/api>,
+        <https://clscor.io/entity/type/link/data_repository>,
+        <https://clscor.io/entity/type/link/download_page>,
+        <https://clscor.io/entity/type/link/exploration_ui>,
+        <https://clscor.io/entity/type/link/index>,
+        <https://clscor.io/entity/type/link/info_website>,
+        <https://clscor.io/entity/type/link/project_website>,
+        <https://clscor.io/entity/type/link/raw_data_link>,
+        <https://clscor.io/entity/type/link/register>,
+        <https://clscor.io/entity/type/link/review>,
+        <https://clscor.io/entity/type/link/search_page> .
+
+

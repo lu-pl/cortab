@@ -1,0 +1,94 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://clscor.io/entity/type/appellation/acronym> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "acronym" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/appellation> ;
+    skos:definition "Abbreviated denomination of the corpus or a corpus document (e.g. a work or a manifestation)." ;
+    skos:inScheme <https://clscor.io/entity/type/appellation> ;
+    skos:prefLabel "acronym" .
+
+<https://clscor.io/entity/type/appellation/alternate_title> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "alternate title" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/appellation> ;
+    skos:definition "Alternate title for the corpus or a corpus document (e.g. a work or a manifestation)." ;
+    skos:inScheme <https://clscor.io/entity/type/appellation> ;
+    skos:prefLabel "alternate title" .
+
+<https://clscor.io/entity/type/appellation/artificial_acronym> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "artificial acronym" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/appellation> ;
+    skos:definition "Artificial abbreviated denomination of the corpus (introduced for corpora where no acronym is provided)." ;
+    skos:inScheme <https://clscor.io/entity/type/appellation> ;
+    skos:prefLabel "artificial acronym" .
+
+<https://clscor.io/entity/type/appellation/forename> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "first name" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/appellation> ;
+    skos:altLabel "given name" ;
+    skos:definition "Forename/given name/first name of a person (Wikidata definition: \"name typically used to differentiate people from the same family clan or other social group who have a common last name\")." ;
+    skos:exactMatch "<https://www.wikidata.org/entity/Q202444>" ;
+    skos:inScheme <https://clscor.io/entity/type/appellation> ;
+    skos:prefLabel "forename" .
+
+<https://clscor.io/entity/type/appellation/full_title> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "full title" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/appellation> ;
+    skos:definition "Full title of the corpus or a corpus document (e.g. a work or a manifestation)." ;
+    skos:inScheme <https://clscor.io/entity/type/appellation> ;
+    skos:prefLabel "full title" .
+
+<https://clscor.io/entity/type/appellation/pen_name> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "pseudonym" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/appellation> ;
+    skos:definition "Pen name/pseudonym for a person/an author (Wikidata definition: \"pseudonym adopted by an author (or a group of authors) and printed on the title page in place of their real name\")" ;
+    skos:exactMatch "<https://www.wikidata.org/entity/Q127843>" ;
+    skos:inScheme <https://clscor.io/entity/type/appellation> ;
+    skos:prefLabel "pen name" .
+
+<https://clscor.io/entity/type/appellation/surname> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "last name" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/appellation> ;
+    skos:altLabel "family name" ;
+    skos:definition "Surename/last name/family name of a person (Wikidata definition: \"part of a naming scheme for individuals used in many cultures worldwide\")" ;
+    skos:exactMatch "<https://www.wikidata.org/entity/Q101352>" ;
+    skos:inScheme <https://clscor.io/entity/type/appellation> ;
+    skos:prefLabel "surname" .
+
+<https://clscor.io/entity/type/appellation/translated_full_title> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "translated full title" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/appellation> ;
+    skos:definition "Translated full title of the corpus or a corpus document (e.g. a work or a manifestation)." ;
+    skos:inScheme <https://clscor.io/entity/type/appellation> ;
+    skos:prefLabel "translated full title" .
+
+<https://clscor.io/entity/type/appellation> a crm:E32_Authority_Document,
+        skos:ConceptScheme ;
+    rdfs:label "Appellation types" ;
+    crm:P71_lists <https://clscor.io/entity/type/appellation/acronym>,
+        <https://clscor.io/entity/type/appellation/alternate_title>,
+        <https://clscor.io/entity/type/appellation/artificial_acronym>,
+        <https://clscor.io/entity/type/appellation/forename>,
+        <https://clscor.io/entity/type/appellation/full_title>,
+        <https://clscor.io/entity/type/appellation/pen_name>,
+        <https://clscor.io/entity/type/appellation/surname>,
+        <https://clscor.io/entity/type/appellation/translated_full_title> ;
+    skos:hasTopConcept <https://clscor.io/entity/type/appellation/acronym>,
+        <https://clscor.io/entity/type/appellation/alternate_title>,
+        <https://clscor.io/entity/type/appellation/artificial_acronym>,
+        <https://clscor.io/entity/type/appellation/forename>,
+        <https://clscor.io/entity/type/appellation/full_title>,
+        <https://clscor.io/entity/type/appellation/pen_name>,
+        <https://clscor.io/entity/type/appellation/surname>,
+        <https://clscor.io/entity/type/appellation/translated_full_title> .
+
+

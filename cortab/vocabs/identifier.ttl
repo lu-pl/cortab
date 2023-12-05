@@ -1,0 +1,79 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://clscor.io/entity/type/identifier/bibl_ref> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Bibliographic Reference" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/identifier> ;
+    skos:inScheme <https://clscor.io/entity/type/identifier> ;
+    skos:prefLabel "bibl ref" .
+
+<https://clscor.io/entity/type/identifier/gnd> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "gnd" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/identifier> ;
+    skos:inScheme <https://clscor.io/entity/type/identifier> ;
+    skos:prefLabel "gnd" .
+
+<https://clscor.io/entity/type/identifier/google_books_id> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Google Books ID" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/identifier> ;
+    skos:altLabel "'Google Books identifier'@en,'gbooks'@en" ;
+    skos:definition "Wikidata description: identifier for a book edition in Google Books" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Property:P675> ;
+    skos:example "'P675'" ;
+    skos:inScheme <https://clscor.io/entity/type/identifier> ;
+    skos:prefLabel "'Google Books ID'@en" .
+
+<https://clscor.io/entity/type/identifier/textgrid> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "textgrid" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/identifier> ;
+    skos:inScheme <https://clscor.io/entity/type/identifier> ;
+    skos:prefLabel "textgrid" .
+
+<https://clscor.io/entity/type/identifier/url> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Uniform Resource Locator" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/identifier> ;
+    skos:inScheme <https://clscor.io/entity/type/identifier> ;
+    skos:prefLabel "url" .
+
+<https://clscor.io/entity/type/identifier/viaf> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "viaf" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/identifier> ;
+    skos:inScheme <https://clscor.io/entity/type/identifier> ;
+    skos:prefLabel "viaf" .
+
+<https://clscor.io/entity/type/identifier/wikidata> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Wikidata ID" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/identifier> ;
+    skos:altLabel "QID'@en,'Wikidata Q identifier'@en,'Wikidata Q-Number'@en" ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q43649390> ;
+    skos:example "'Q34628'" ;
+    skos:inScheme <https://clscor.io/entity/type/identifier> ;
+    skos:prefLabel "'Wikidata ID'@en" .
+
+<https://clscor.io/entity/type/identifier> a crm:E32_Authority_Document,
+        skos:ConceptScheme ;
+    rdfs:label "Identifier types" ;
+    crm:P71_lists <https://clscor.io/entity/type/identifier/bibl_ref>,
+        <https://clscor.io/entity/type/identifier/gnd>,
+        <https://clscor.io/entity/type/identifier/google_books_id>,
+        <https://clscor.io/entity/type/identifier/textgrid>,
+        <https://clscor.io/entity/type/identifier/url>,
+        <https://clscor.io/entity/type/identifier/viaf>,
+        <https://clscor.io/entity/type/identifier/wikidata> ;
+    skos:hasTopConcept <https://clscor.io/entity/type/identifier/bibl_ref>,
+        <https://clscor.io/entity/type/identifier/gnd>,
+        <https://clscor.io/entity/type/identifier/google_books_id>,
+        <https://clscor.io/entity/type/identifier/textgrid>,
+        <https://clscor.io/entity/type/identifier/url>,
+        <https://clscor.io/entity/type/identifier/viaf>,
+        <https://clscor.io/entity/type/identifier/wikidata> .
+
+
