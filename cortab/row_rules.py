@@ -64,7 +64,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
     corpus_link_uri = URIRef(row_data["corpusLink"])
 
     uris = uri_ns(
-        ("descevent_uri", "descevent/1"),
+        "descevent_uri",
         "protodoc_uri",
 
         ("descevent_timespan_uri_1", "desc_timespan/1"),
