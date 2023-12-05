@@ -25,7 +25,6 @@ from table_partitions import (
 )
 
 from clisn import (
-    clscore,
     crm,
     crmcls,
     corpus_base,
@@ -96,7 +95,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
         )
 
         for person_name in person_names:
-            person_uri = clscore[f"person/{genhash(person_name)}"]
+            person_uri = mkuri(f"person/{person_name}")
             yield from (
                 (person_uri, RDF.type, crm["E39_Actor"]),
                 (person_uri, RDFS.label, Literal(person_name)),
@@ -186,7 +185,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                 _lang_iso = langcodes.find(language_value).to_tag()
                 _lang_uri = iso_language_ns[_lang_iso]
             except LookupError:
-                _lang_uri = clscore[f"language/{genhash(language_value)}"]
+                _lang_uri = mkuri(f"language/{language_value}")
 
             lang_uri = URIRef(_lang_uri)
 
@@ -229,7 +228,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                     crm["P90_has_value"],
                     Literal(int(text_count), datatype=XSD.integer)
                 ),
-                (crm["P91_has_unit"], clscore["type/feature/document"])
+                (crm["P91_has_unit"], mkuri("type/feature/document"))
             )
         ]
 
@@ -258,7 +257,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
                     crm["P90_has_value"],
                     Literal(int(word_count), datatype=XSD.integer)
                 ),
-                (crm["P91_has_unit"], clscore["type/feature/word"])
+                (crm["P91_has_unit"], mkuri("type/feature/word"))
             )
         ]
 
