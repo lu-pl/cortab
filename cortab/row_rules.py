@@ -535,8 +535,8 @@ graph = Graph()
 CLSInfraNamespaceManager(graph)
 
 corpustable_converter = RowGraphConverter(
-    dataframe=corpus_table,
-    # dataframe=disco_partition,
+    # dataframe=corpus_table,
+    dataframe=disco_partition,
     row_rule=corpustable_row_rule,
     graph=graph
 )
@@ -545,8 +545,8 @@ corpustable_converter = RowGraphConverter(
 corpustable_graph = remove_nan(corpustable_converter.to_graph())
 
 additional_link_converter = RowGraphConverter(
-    dataframe=additional_link_table,
-    # dataframe=disco_additional_link_table,
+    # dataframe=additional_link_table,
+    dataframe=disco_additional_link_table,
     row_rule=additional_link_row_rule,
     graph=graph
 )
