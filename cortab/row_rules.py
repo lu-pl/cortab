@@ -68,7 +68,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
         ("descevent_uri", "descevent/1"),
         "protodoc_uri",
 
-        "descevent_timespan_uri_1",
+        ("descevent_timespan_uri_1", "desc_timespan/1"),
         "corpus_timespan_uri_1",
 
         "corpus_appellation_uri_1",
