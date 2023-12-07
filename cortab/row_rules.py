@@ -65,7 +65,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
 
     uris = uri_ns(
         "descevent_uri",
-        "protodoc_uri",
+        ("protodoc_uri", f"{row_data['corpusAcronym']} X11"),
 
         ("descevent_timespan_uri_1", "desc_timespan/1"),
         "corpus_timespan_uri_1",
@@ -105,6 +105,10 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
     def descevent_triples() -> TripleGenerator:
         yield from [
             (corpus_uri, RDF.type, crmcls["X1_Corpus"]),
+
+            # X1 -> P148 -> X11
+            (corpus_uri, crm.P148_has_component, uris.protodoc_uri),
+
             (uris.protodoc_uri, RDF.type, crmcls["X11_Prototypical_Document"]),
             # descevent
             *plist(
