@@ -64,10 +64,11 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
     corpus_link_uri = URIRef(row_data["corpusLink"])
 
     uris = uri_ns(
-        "descevent_uri",
+        ("descevent_uri", f"{row_data['corpusLink']}"),
         ("protodoc_uri", f"{row_data['corpusAcronym']} [X11]"),
 
-        ("descevent_timespan_uri_1", "desc_timespan/1"),
+        # ("descevent_timespan_uri_1", "desc_timespan/1"),
+        "descevent_timespan_uri_1",
         "corpus_timespan_uri_1",
 
         "corpus_appellation_uri_1",
@@ -484,7 +485,7 @@ def additional_link_row_rule(row_data):
     corpus_uri = mkuri(row_data["corpusAcronym"])
 
     link_uri = URIRef(row_data["links"])
-    descevent_uri = mkuri("descevent/1")
+    descevent_uri = mkuri(row_data["links"])
 
     def link_triple():
         return (
@@ -503,11 +504,16 @@ def additional_link_row_rule(row_data):
 
     @nan_handler
     def descevent_triples(used=row_data["used_in_descEvent"]):
-        return (
-            descevent_uri,
-            crm["P16_used_specific_object"],
-            link_uri
-        )
+        if used == "yes":
+            triples = (
+                descevent_uri,
+                crm["P16_used_specific_object"],
+                link_uri
+            )
+        else:
+            triples = ()
+
+        return triples
 
     @nan_handler
     def link_comment_triples(link_comment=row_data["link_comment"]):
