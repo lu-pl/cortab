@@ -494,13 +494,22 @@ def additional_link_row_rule(row_data):
             link_uri
         )
 
-    @nan_handler
+    # @nan_handler
     def link_type_triple(link_type_value=row_data["link_type_vocab"]):
-        yield from plist(
+        yield (
             link_uri,
-            (RDF.type, crm["E42_Identifier"]),
-            (crm["P2_has_type"], vocabs_lookup(link, link_type_value))
+            RDF.type,
+            crm["E42_Identifier"]
         )
+
+        try:
+            math.isnan(link_type_value)
+        except TypeError:
+            yield (
+                link_uri,
+                crm["P2_has_type"],
+                vocabs_lookup(link, link_type_value)
+            )
 
     @nan_handler
     def descevent_triples(used=row_data["used_in_descEvent"]):
