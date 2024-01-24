@@ -562,13 +562,14 @@ corpustable_converter = RowGraphConverter(
 
 # corpustable_graph = corpustable_converter.to_graph()
 corpustable_graph = remove_nan(corpustable_converter.to_graph())
+print(corpustable_graph.serialize())
 
-additional_link_converter = RowGraphConverter(
-    dataframe=additional_link_table,
-    # dataframe=disco_additional_link_table,
-    row_rule=additional_link_row_rule,
-    graph=graph
-)
+# additional_link_converter = RowGraphConverter(
+#     dataframe=additional_link_table,
+#     # dataframe=disco_additional_link_table,
+#     row_rule=additional_link_row_rule,
+#     graph=graph
+# )
 
-additional_link_graph = additional_link_converter.to_graph()
-print(additional_link_graph.serialize())
+# additional_link_graph = additional_link_converter.to_graph()
+# print(additional_link_graph.serialize())
