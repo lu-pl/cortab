@@ -4,85 +4,81 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://clscor.io/entity/015337fa-b> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://clscor.io/entity/dbf6a939-d> ;
+<https://clscor.io/entity/13ad1210-3> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://clscor.io/entity/2aa50d9a56> ;
+    crm:P140_assigned_attribute_to <https://clscor.io/entity/d4df36904c> ;
+    crm:P141_assigned <https://clscor.io/entity/755c0232-1> ;
+    crm:P3_has_note """Vera Maria Charvat:
+proposal: ca. 4000, homepage: 4303""" .
+
+<https://clscor.io/entity/3244b0f1-2> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://clscor.io/entity/2aa50d9a56> ;
+    crm:P140_assigned_attribute_to <https://clscor.io/entity/d4df36904c> ;
+    crm:P141_assigned <https://clscor.io/entity/ef7a0c1b-7> ;
+    crm:P177_assigned_property_of_type crm:P4_has_time-span .
+
+<https://clscor.io/entity/471415bc-d> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://clscor.io/entity/2aa50d9a56> ;
+    crm:P140_assigned_attribute_to <https://clscor.io/entity/371d95566c> ;
+    crm:P141_assigned <https://clscor.io/entity/type/literary_genre/lyric> ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
+    crm:P3_has_note "poems, sonnets" .
+
+<https://clscor.io/entity/50b79d5b-8> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://clscor.io/entity/2aa50d9a56> ;
+    crm:P140_assigned_attribute_to <https://clscor.io/entity/371d95566c> ;
+    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/es> ;
+    crm:P177_assigned_property_of_type crm:P72_has_Language .
+
+<https://clscor.io/entity/55c8e733-2> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://clscor.io/entity/2aa50d9a56> ;
+    crm:P140_assigned_attribute_to <https://clscor.io/entity/371d95566c> ;
+    crm:P141_assigned <https://clscor.io/entity/type/license/cne> ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
+    crm:P3_has_note "CC-BY licence" .
+
+<https://clscor.io/entity/7d6eebc3-c> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://clscor.io/entity/2aa50d9a56> ;
     crm:P140_assigned_attribute_to <https://clscor.io/entity/d4df36904c> ;
     crm:P141_assigned <https://clscor.io/entity/type/corpus/monitor> ;
     crm:P177_assigned_property_of_type crm:P2_has_type ;
     crm:P3_has_note "Monitor Corpus" .
 
-<https://clscor.io/entity/02175250-e> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://clscor.io/entity/dbf6a939-d> ;
-    crm:P140_assigned_attribute_to <https://clscor.io/entity/95c114d919> ;
-    crm:P141_assigned <https://clscor.io/entity/type/license/cne> ;
-    crm:P177_assigned_property_of_type crm:P2_has_type ;
-    crm:P3_has_note "CC-BY licence" .
-
-<https://clscor.io/entity/4c47ea5f-7> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://clscor.io/entity/dbf6a939-d> ;
-    crm:P140_assigned_attribute_to <https://clscor.io/entity/95c114d919> ;
-    crm:P141_assigned <https://vocabs.acdh.oeaw.ac.at/iso6391/es> ;
-    crm:P177_assigned_property_of_type crm:P72_has_Language .
-
-<https://clscor.io/entity/50319b520a> crm:P16_used_specific_object <http://prf1.org/disco/>,
-        <https://github.com/pruizf/disco>,
-        <https://prf1.org/disco/about.html> .
-
-<https://clscor.io/entity/7e691464-b> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://clscor.io/entity/dbf6a939-d> ;
-    crm:P140_assigned_attribute_to <https://clscor.io/entity/95c114d919> ;
+<https://clscor.io/entity/debd10c2-8> a crm:E13_Attribute_Assignment ;
+    crm:P134_continued <https://clscor.io/entity/2aa50d9a56> ;
+    crm:P140_assigned_attribute_to <https://clscor.io/entity/371d95566c> ;
     crm:P141_assigned <https://clscor.io/entity/type/format/tei> ;
     crm:P177_assigned_property_of_type crmcls:Y2_has_format ;
     crm:P3_has_note """Vera Maria Charvat:
 Proposal: TEI XML driven""" .
 
-<https://clscor.io/entity/b03e050c-d> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://clscor.io/entity/dbf6a939-d> ;
-    crm:P140_assigned_attribute_to <https://clscor.io/entity/d4df36904c> ;
-    crm:P141_assigned <https://clscor.io/entity/a2ace620-7> ;
-    crm:P177_assigned_property_of_type crm:P4_has_time-span .
-
-<https://clscor.io/entity/c36fc53d-7> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://clscor.io/entity/dbf6a939-d> ;
-    crm:P140_assigned_attribute_to <https://clscor.io/entity/d4df36904c> ;
-    crm:P141_assigned <https://clscor.io/entity/28e6116e-e> ;
-    crm:P3_has_note """Vera Maria Charvat:
-proposal: ca. 4000, homepage: 4303""" .
-
-<https://clscor.io/entity/dff41acf-4> a crm:E13_Attribute_Assignment ;
-    crm:P134_continued <https://clscor.io/entity/dbf6a939-d> ;
-    crm:P140_assigned_attribute_to <https://clscor.io/entity/95c114d919> ;
-    crm:P141_assigned <https://clscor.io/entity/type/literary_genre/lyric> ;
-    crm:P177_assigned_property_of_type crm:P2_has_type ;
-    crm:P3_has_note "poems, sonnets" .
-
 <https://clscor.io/entity/0b2f7007a3> a crm:E39_Actor ;
     rdfs:label "Michal Mrugalski" .
 
-<https://clscor.io/entity/28e6116e-e> a crm:E54_Dimension ;
+<https://clscor.io/entity/755c0232-1> a crm:E54_Dimension ;
     crm:P90_has_value 4303 ;
     crm:P91_has_unit <https://clscor.io/entity/3108a153ee> .
-
-<https://clscor.io/entity/413f6ef1-e> a crm:E41_Appellation ;
-    crm:P2_has_type <https://clscor.io/entity/type/appellation/acronym> ;
-    rdf:value "DISCO" .
 
 <https://clscor.io/entity/9358da595a> a crm:E39_Actor ;
     rdfs:label "Susanne Zhanial" .
 
-<https://clscor.io/entity/a2ace620-7> a crm:E52_Time-Span ;
-    rdfs:label "1401–1900" .
-
 <https://clscor.io/entity/af70e9b34c> a crm:E39_Actor ;
     rdfs:label "Vera Maria Charvat" .
 
-<https://clscor.io/entity/bcef51b939> a crm:E52_Time-Span ;
+<https://clscor.io/entity/afd43468-8> a crm:E41_Appellation ;
+    crm:P2_has_type <https://clscor.io/entity/type/appellation/full_title> ;
+    rdf:value "Diachronic Spanish Sonnet Corpus" .
+
+<https://clscor.io/entity/eeeded5a-b> a crm:E52_Time-Span ;
     crm:P81a_end_of_the_begin "2022-04-14"^^xsd:date ;
     crm:P81b_begin_of_the_end "2022-06-15"^^xsd:date .
 
-<https://clscor.io/entity/cfd131c4-3> a crm:E41_Appellation ;
-    crm:P2_has_type <https://clscor.io/entity/type/appellation/full_title> ;
-    rdf:value "Diachronic Spanish Sonnet Corpus" .
+<https://clscor.io/entity/ef7a0c1b-7> a crm:E52_Time-Span ;
+    rdfs:label "1401–1900" .
+
+<https://clscor.io/entity/f78cbb70-a> a crm:E41_Appellation ;
+    crm:P2_has_type <https://clscor.io/entity/type/appellation/acronym> ;
+    rdf:value "DISCO" .
 
 <https://vocabs.acdh.oeaw.ac.at/iso6391/es> a crm:E56_Language ;
     rdfs:label "Spanish" .
@@ -91,25 +87,31 @@ proposal: ca. 4000, homepage: 4303""" .
     crm:P2_has_type <https://clscor.io/entity/type/link/project_website> ;
     rdf:value "Link to the Diachronic Spanish Sonnet Corpus website." .
 
-<https://prf1.org/disco/about.html> crm:P3_has_note "about-section" .
+<https://github.com/pruizf/disco> a crm:E42_Identifier .
+
+<https://prf1.org/disco/about.html> a crm:E42_Identifier ;
+    crm:P3_has_note "about-section" .
 
 <https://clscor.io/entity/d4df36904c> a crmcls:X1_Corpus ;
-    crm:P148_has_component <https://clscor.io/entity/95c114d919> ;
+    crm:P148_has_component <https://clscor.io/entity/371d95566c> ;
     crm:P1_is_identified_by <http://prf1.org/disco/>,
-        <https://clscor.io/entity/413f6ef1-e>,
-        <https://clscor.io/entity/cfd131c4-3>,
+        <https://clscor.io/entity/afd43468-8>,
+        <https://clscor.io/entity/f78cbb70-a>,
         <https://github.com/pruizf/disco>,
         <https://prf1.org/disco/about.html> .
 
-<https://clscor.io/entity/95c114d919> a crmcls:X11_Prototypical_Document .
+<https://clscor.io/entity/371d95566c> a crmcls:X11_Prototypical_Document .
 
-<https://clscor.io/entity/dbf6a939-d> a crmcls:X9_Corpus_Description ;
-    crm:P135_created_type <https://clscor.io/entity/95c114d919> ;
+<https://clscor.io/entity/2aa50d9a56> a crmcls:X9_Corpus_Description ;
+    crm:P135_created_type <https://clscor.io/entity/371d95566c> ;
     crm:P14_carried_out_by <https://clscor.io/entity/0b2f7007a3>,
         <https://clscor.io/entity/9358da595a>,
         <https://clscor.io/entity/af70e9b34c> ;
+    crm:P16_used_specific_object <http://prf1.org/disco/>,
+        <https://github.com/pruizf/disco>,
+        <https://prf1.org/disco/about.html> ;
     crm:P3_has_note """Proposal: "DISCO (Diachronic Spanish Sonnet Corpus, over 4,000 sonnets by more than 1,000 authors, incl. canonical as well as non-canonical authors, 15th to the 19th century)"
 Homepage (about-section): 15th to the 19th century; over 4,000 sonnets by more than 1,000 authors, incl. canonical as well as non-canonical authors; "The raw texts were in most cases extracted from Biblioteca Virtual Miguel de Cervantes (1999), with some 18th-century texts coming from Wikisource.\"""" ;
-    crm:P4_has_time-span <https://clscor.io/entity/bcef51b939> .
+    crm:P4_has_time-span <https://clscor.io/entity/eeeded5a-b> .
 
 
