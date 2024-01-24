@@ -482,14 +482,19 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
 
 def additional_link_row_rule(row_data):
     """Additional link row."""
-    corpus_uri = mkuri(row_data["corpusAcronym"])
+    # corpus_uri = mkuri(row_data["corpusAcronym"])
+    # descevent_uri = mkuri(row_data["links"])
 
     link_uri = URIRef(row_data["links"])
-    descevent_uri = mkuri(row_data["links"])
+
+    uris = uri_ns(
+        ("corpus_uri", f"{row_data['corpusAcronym']}"),
+        ("descevent_uri", f"{row_data['links']}"),
+    )
 
     def link_triple():
         return (
-            corpus_uri,
+            uris.corpus_uri,
             crm["P1_is_identified_by"],
             link_uri
         )
@@ -513,16 +518,11 @@ def additional_link_row_rule(row_data):
 
     @nan_handler
     def descevent_triples(used=row_data["used_in_descEvent"]):
-        if used == "yes":
-            triples = (
-                descevent_uri,
+        return (
+                uris.descevent_uri,
                 crm["P16_used_specific_object"],
                 link_uri
             )
-        else:
-            triples = ()
-
-        return triples
 
     @nan_handler
     def link_comment_triples(link_comment=row_data["link_comment"]):
@@ -554,22 +554,22 @@ graph = Graph()
 CLSInfraNamespaceManager(graph)
 
 corpustable_converter = RowGraphConverter(
-    dataframe=corpus_table,
-    # dataframe=disco_partition,
+    # dataframe=corpus_table,
+    dataframe=disco_partition,
     row_rule=corpustable_row_rule,
     graph=graph
 )
 
 # corpustable_graph = corpustable_converter.to_graph()
 corpustable_graph = remove_nan(corpustable_converter.to_graph())
-print(corpustable_graph.serialize())
+# print(corpustable_graph.serialize())
 
-# additional_link_converter = RowGraphConverter(
-#     dataframe=additional_link_table,
-#     # dataframe=disco_additional_link_table,
-#     row_rule=additional_link_row_rule,
-#     graph=graph
-# )
+additional_link_converter = RowGraphConverter(
+    # dataframe=additional_link_table,
+    dataframe=disco_additional_link_table,
+    row_rule=additional_link_row_rule,
+    graph=graph
+)
 
-# additional_link_graph = additional_link_converter.to_graph()
-# print(additional_link_graph.serialize())
+additional_link_graph = additional_link_converter.to_graph()
+print(additional_link_graph.serialize())
