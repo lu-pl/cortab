@@ -64,7 +64,7 @@ def corpustable_row_rule(row_data: Mapping) -> Graph:
     corpus_link_uri = URIRef(row_data["corpusLink"])
 
     uris = uri_ns(
-        ("descevent_uri", f"{row_data['corpusLink']}"),
+        ("descevent_uri", f"{row_data['corpusAcronym']} [X9]"),
         ("protodoc_uri", f"{row_data['corpusAcronym']} [X11]"),
 
         # ("descevent_timespan_uri_1", "desc_timespan/1"),
@@ -489,7 +489,8 @@ def additional_link_row_rule(row_data):
 
     uris = uri_ns(
         ("corpus_uri", f"{row_data['corpusAcronym']}"),
-        ("descevent_uri", f"{row_data['links']}"),
+        # ("descevent_uri", f"{row_data['links']}"),
+        ("descevent_uri", f"{row_data['corpusAcronym']} [X9]"),
     )
 
     def link_triple():
@@ -554,8 +555,8 @@ graph = Graph()
 CLSInfraNamespaceManager(graph)
 
 corpustable_converter = RowGraphConverter(
-    # dataframe=corpus_table,
-    dataframe=disco_partition,
+    dataframe=corpus_table,
+    # dataframe=disco_partition,
     row_rule=corpustable_row_rule,
     graph=graph
 )
@@ -565,8 +566,8 @@ corpustable_graph = remove_nan(corpustable_converter.to_graph())
 # print(corpustable_graph.serialize())
 
 additional_link_converter = RowGraphConverter(
-    # dataframe=additional_link_table,
-    dataframe=disco_additional_link_table,
+    dataframe=additional_link_table,
+    # dataframe=disco_additional_link_table,
     row_rule=additional_link_row_rule,
     graph=graph
 )
