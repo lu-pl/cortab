@@ -60,7 +60,7 @@ TripleGenerator = Generator[_Triple, None, None]
 def corpustable_row_rule(row_data: Mapping) -> Graph:
     """row_rule for RowGraphConverter."""
     # URIs
-    corpus_uri = mkuri(row_data["corpusAcronym"])
+    corpus_uri = mkuri(f"{row_data['corpusAcronym']} [X1]")
     corpus_link_uri = URIRef(row_data["corpusLink"])
 
     uris = uri_ns(
